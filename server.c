@@ -35,6 +35,7 @@ int main(int argc, char **argv) {
 	int determined_is_http, read_headers;
 	struct HttpRequest req;
 	struct Header *header;
+	struct ResolvCtx ctx;
 
 	                /* ipv4     TCP */
 	server_fd = socket(AF_INET, SOCK_STREAM, 0);
@@ -87,9 +88,10 @@ int main(int argc, char **argv) {
 			header = header->next;
 		};
 
-		printf("received: %.*s\n", (int)buff_len, buff);
-
-		write(client_fd, response, strlen(response));
+		ctx.chain = init;
+		ctx.index = 0;
+		ctx.req = req;
+		exec_chain(ctx);
 
 		close(client_fd);
 	};
@@ -115,6 +117,7 @@ int handle_request(char **buff, int client_fd, size_t *buff_len, size_t *buff_ca
 
 		if(*determined_is_http) {
 			if(!*read_headers) {
+				printf("request: \n----------\n%s---------\n", *buff);
 				if(str_contains(*buff, "\r\n\r\n")) {
 					if(!fill_out_headers(*buff, &req->headers)) {
 						/* something with headers is fvcked up */

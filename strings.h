@@ -10,14 +10,14 @@ int str_index_of(char *str, char *substr);
 
 int str_starts_with(char *str, char *start) {
 	for(; *str && *str == *start; ++str, ++start);
-	return *str && ! *start;
+	return ! *start;
 };
 
 int str_n_starts_with(char *str, char *start, unsigned int n) {
 	unsigned int i;
 
 	for(i = 0; str[i] && str[i] == start[i] && i < n; ++i);
-	return str[i] && ! start[i];
+	return ! start[i];
 };
 
 int str_contains(char *str, char *substr) {
