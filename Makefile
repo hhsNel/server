@@ -1,7 +1,7 @@
 SRC = server.c
 OBJ = ${SRC:.c=.o}
 CC = gcc
-CFLAGS = -Wall -Wextra -Werror -Wshadow
+CFLAGS = -Wall -Wextra -Werror -Wshadow -Wno-missing-field-initializers -Wno-unused-parameter
 LDFLAGS =
 TARGET = server
 

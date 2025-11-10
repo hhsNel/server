@@ -2,9 +2,14 @@
 #define HTTP_H
 
 #include "strings.h"
+#include "buffpart.h"
 #include "req.h"
+#include "headers.h"
 
 int fill_out_http_req_line(char *buff, size_t buff_len, struct HttpRequest *req);
+int fill_out_headers(char *buff, struct Headers *h);
+
+static char *fill_out_header(char *begin, struct Headers *h);
 
 int fill_out_http_req_line(char *buff, size_t buff_len, struct HttpRequest *req) {
 	char *it;
@@ -67,16 +72,40 @@ int fill_out_http_req_line(char *buff, size_t buff_len, struct HttpRequest *req)
 	req->http_maj = it[5];
 	req->http_min = it[7];
 
-
-
-
-
-	printf("HTTP Request found!\nMETHOD: %d\nPATH: %.*s\nVER: %c.%c\n", req->method, (int)req->path.length, req->buff+req->path.offset, req->http_maj, req->http_min);
-
-
-
-
 	return 1;
+}
+
+int fill_out_headers(char *buff, struct Headers *h) {
+	char *headers_str;
+
+	headers_str = buff + str_index_of(buff, "\r\n") + 2;
+
+	while(headers_str[0] != '\r' || headers_str[1] != '\n') {
+		headers_str = fill_out_header(headers_str, h);
+		if(!headers_str) return 0;
+	}
+	return 1;
+}
+
+static char *fill_out_header(char *begin, struct Headers *h) {
+	struct BuffPart name, value;
+	char *it;
+
+	name.offset = begin - h->buff;
+	it = strchr(begin, ':');
+	if(! it) {
+		return NULL;
+	}
+	name.length = it - begin;
+	begin = it + 1;
+	for(; isblank(*begin); ++begin);
+
+	value.offset = begin - h->buff;
+	value.length = str_index_of(begin, "\r\n");
+
+	set_header(h, name, value);
+
+	return begin + value.length + 2;
 }
 
 #endif

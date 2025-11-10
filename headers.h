@@ -27,7 +27,7 @@ static void free_header(struct Header *h);
 int headers_contain(struct Headers *h, char *name) {
 	struct Header *i;
 
-	i = d->head;
+	i = h->head;
 	do {
 		if(bp_equ_str(h->buff, i->name, name)) return 1;
 		i = i->next;
@@ -38,7 +38,7 @@ int headers_contain(struct Headers *h, char *name) {
 struct Header *get_header(struct Headers *h, char *name) {
 	struct Header *i;
 
-	i = d->head;
+	i = h->head;
 	do {
 		if(bp_equ_str(h->buff, i->name, name)) return i;
 		i = i->next;
@@ -61,10 +61,10 @@ void free_headers(struct Headers *h) {
 }
 
 void set_header(struct Headers *h, struct BuffPart name, struct BuffPart value) {
-	struct Header *i, prev;
+	struct Header *i;
 
-	i = d->head;
-	do {
+	i = h->head;
+	while(i) {
 		if(bp_equ_bp(h->buff, i->name, name)) {
 			i->value = value;
 			return;
@@ -76,7 +76,10 @@ void set_header(struct Headers *h, struct BuffPart name, struct BuffPart value) 
 			return;
 		}
 		i = i->next;
-	} while(i);
+	};
+	h->head = malloc(sizeof(struct Header));
+	h->head->name = name;
+	h->head->value = value;
 }
 
 #endif

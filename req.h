@@ -2,6 +2,7 @@
 #define REQ_H
 
 #include "buffpart.h"
+#include "headers.h"
 
 enum HttpMethod {
 	GET,
@@ -21,6 +22,8 @@ struct HttpRequest {
 	struct BuffPart path;
 	char http_maj;
 	char http_min;
+	struct Headers headers;
+	int client_fd;
 };
 
 #endif
