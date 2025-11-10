@@ -78,7 +78,7 @@ int main(int argc, char **argv) {
 
 		if(handle_request(&buff, client_fd, &buff_len, &buff_cap, &determined_is_http, &read_headers, &req) || !determined_is_http || !read_headers) {
 			perror("handle request returned 1 or failed");
-			continue;
+			goto cleanup;
 		}
 
 		printf("HTTP Request found!\n\tMETHOD: %d\n\tPATH: %.*s\n\tVER: %c.%c\n", req.method, (int)req.path.length, req.buff+req.path.offset, req.http_maj, req.http_min);
@@ -93,6 +93,8 @@ int main(int argc, char **argv) {
 		ctx.req = req;
 		exec_chain(ctx);
 
+		cleanup:
+		free_headers(&req.headers);
 		close(client_fd);
 	};
 };

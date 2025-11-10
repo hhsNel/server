@@ -14,14 +14,14 @@ ResolvFunc index_page[] = {
 };
 
 ResolvFunc favicon[] = {
-	{ serve_headers_png,       {} },
-	{ serve_file,              {.str="images/favicon.png"} },
+	{ serve_headers_jpg,       {} },
+	{ serve_file,              {.str="images/favicon.jpg"} },
 	{ NULL, {} },
 };
 
 ResolvFunc exec_neofetch[] = {
 	{ serve_headers_plaintext, {} },
-	{ serve_exec_shell,        {.str="neofetch"} },
+	{ serve_exec_shell,        {.str="neofetch --stdout"} },
 	{ NULL, {} },
 };
 

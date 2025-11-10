@@ -54,7 +54,7 @@ int fill_out_http_req_line(char *buff, size_t buff_len, struct HttpRequest *req)
 	} else if(str_starts_with(buff, "TRACE")) {
 		req->method = TRACE;
 		it = buff + 5;
-	} else if(str_starts_with(buff, "PATCH")) {
+	} else {
 		req->method = PATCH;
 		it = buff + 5;
 	}

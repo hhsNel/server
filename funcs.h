@@ -49,11 +49,13 @@ void serve_file(struct arg arg, struct ResolvCtx *ctx) {
 
 	f = fopen(arg.str, "rb");
 	if(!f) {
+		fprintf(stderr, "file: %s\n", arg.str);
 		perror("fopen failed @ serve_file");
 		return;
 	}
 
 	if(fstat(fileno(f), &st) < 0) {
+		fprintf(stderr, "file: %s\n", arg.str);
 		perror("fstat failed @ serve_file");
 		goto cleanup;
 	}
@@ -64,6 +66,7 @@ void serve_file(struct arg arg, struct ResolvCtx *ctx) {
 
 		re = fread(buff, 1, size, f);
 		if(re <= 0) {
+			fprintf(stderr, "file: %s\n", arg.str);
 			perror("fread error @ serve_file");
 			break;
 		}
@@ -73,6 +76,7 @@ void serve_file(struct arg arg, struct ResolvCtx *ctx) {
 			wr = write(ctx->req.client_fd, ptr, re);
 			if(wr <= 0) {
 				if (errno == EINTR) continue;
+				fprintf(stderr, "file: %s\n", arg.str);
 				perror("write to client failed @ serve_file");
 				goto cleanup;
 			}
@@ -96,6 +100,7 @@ void serve_exec_shell(struct arg arg, struct ResolvCtx *ctx) {
 
 	f = popen(arg.str, "r");
 	if (!f) {
+		fprintf(stderr, "commang: %s\n", arg.str);
 		perror("popen failed @ serve_exec_shell");
 		return;
 	}
