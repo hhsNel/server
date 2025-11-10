@@ -113,6 +113,7 @@ void serve_exec_shell(struct arg arg, struct ResolvCtx *ctx) {
 			wr = write(ctx->req.client_fd, p, rd);
 			if (wr <= 0) {
 				if (errno == EINTR) continue;
+				fprintf(stderr, "commang: %s\n", arg.str);
 				perror("write to client failed @ serve_file");
 				pclose(f);
 				return;
@@ -123,10 +124,12 @@ void serve_exec_shell(struct arg arg, struct ResolvCtx *ctx) {
 	}
 
 	if (ferror(f)) {
+		fprintf(stderr, "commang: %s\n", arg.str);
 		perror("fread error from command output @ serve_file");
 	}
 
 	if (pclose(f) == -1) {
+		fprintf(stderr, "commang: %s\n", arg.str);
 		perror("pclose failed @ serve_file");
 	}
 }
