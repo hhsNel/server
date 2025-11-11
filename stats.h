@@ -8,33 +8,68 @@
 #include <stdio.h>
 #include <signal.h>
 
+#include "buffpart.h"
 #include "req.h"
 
 #define STATS_START_CONNECTION(req) stats_start_connection(req)
 #define STATS_END_CONNECTION(req) stats_end_connection(req)
+#define STATS_UPDATE_BUFF(buff) stats_update_buff(buff)
 #define STATS_INIT() stats_init()
 #define STATS_WRITE() stats_write()
 
+#define TIME_SIZE 20 + 8 /* time string should fit in 20 chars, +8 for safety */
+
+struct perpath_stats {
+	struct BuffPart path;
+	unsigned int connections;
+	unsigned long long int path_ns;
+	struct perpath_stats *next;
+};
+
 struct stats {
+	char *buff;
 	unsigned int connections;
 	unsigned long long int service_ns;
+	struct perpath_stats *head;
 };
 static struct stats stats;
 static unsigned long long int start_ns;
+static time_t server_start_time;
+char start_time[TIME_SIZE];
+
+struct perpath_stats *get_perpath(struct BuffPart path);
 
 void stats_start_connection(struct HttpRequest *req);
 void stats_end_connection(struct HttpRequest *req);
+void stats_update_buff(char *buff);
 void stats_init();
 void stats_write();
 
 static unsigned long long int ns_now();
 static void exit_write_stats(int signo);
 
-static unsigned long long int ns_now() {
-	struct timespec ts;
+struct perpath_stats *get_perpath(struct BuffPart path) {
+	struct perpath_stats *i;
 
-	clock_gettime(CLOCK_MONOTONIC, &ts);
-	return (unsigned long long int)ts.tv_sec * 1000000000ULL + ts.tv_nsec;
+	i = stats.head;
+	while(i) {
+		if(bp_equ_bp(stats.buff, i->path, path)) {
+			return i;
+		}
+		i = i->next;
+	}
+
+	i = malloc(sizeof(struct perpath_stats));
+	if(! i) {
+		perror("could not malloc perpath_stats");
+		return NULL;
+	}
+	i->next = stats.head;
+	i->path = path;
+	i->connections = 0;
+	i->path_ns = 0;
+	stats.head = i;
+	return i;
 }
 
 void stats_start_connection(struct HttpRequest *req) {
@@ -42,20 +77,31 @@ void stats_start_connection(struct HttpRequest *req) {
 }
 
 void stats_end_connection(struct HttpRequest *req) {
-	stats.service_ns += ns_now() - start_ns;
+	struct perpath_stats *perpath;
+	unsigned long long int now;
+
+	now = ns_now();
+
+	stats.service_ns += now - start_ns;
 	++stats.connections;
+
+	if((perpath = get_perpath(req->path))) {
+		perpath->path_ns += now - start_ns;
+		++perpath->connections;
+	}
 }
 
-static void exit_write_stats(int signo) {
-	stats_write();
-	exit(0);
+void stats_update_buff(char *buff) {
+	stats.buff = buff;
 }
 
 void stats_init() {
 	struct sigaction sa;
+	struct tm tm_info;
 
 	stats.connections = 0;
 	stats.service_ns = 0;
+	stats.head = NULL;
 
 	memset(&sa, 0, sizeof(struct sigaction));
 	sa.sa_handler = exit_write_stats;
@@ -64,13 +110,21 @@ void stats_init() {
 	sigaction(SIGINT,  &sa, NULL);
 	sigaction(SIGTERM, &sa, NULL);
 
-	printf("Stats initialized\n");
+	server_start_time = time(NULL);
+	localtime_r(&server_start_time, &tm_info);
+	strftime(start_time, sizeof(start_time), "%m_%d_%y-%I_%M_%S%p", &tm_info);
+
+	printf("Stats initialized for time %s\n", start_time);
 }
 
 void stats_write() {
 	FILE *file;
+	char filename[strlen(STATS_FILE) + TIME_SIZE];
+	struct perpath_stats *i;
 
-	file = fopen(STATS_FILE, "w");
+	snprintf(filename, sizeof(filename), STATS_FILE, start_time);
+
+	file = fopen(filename, "w");
 	if(! file) {
 		perror("fopen failed @ stats_write");
 		return;
@@ -85,15 +139,44 @@ void stats_write() {
 			stats.service_ns,
 			stats.connections ? stats.service_ns / stats.connections : 0,
 			stats.connections ? (double)stats.service_ns / (double)stats.connections / 1e6F : 0.0F);
+
+	i = stats.head;
+	while(i) {
+		fprintf(file,
+				"\tin path: %.*s\n"
+				"\t\tconnections: %u\n"
+				"\t\tpath time: %llu\n"
+				"\t\taverage path time per connection: %llu\n"
+				"\t\taverage path time per connection [ms]: %F\n",
+				(int)i->path.length, stats.buff+i->path.offset,
+				i->connections,
+				i->path_ns,
+				i->connections ? i->path_ns / i->connections : 0,
+				i->connections ? (double)i->path_ns / (double)i->connections / 1e6F : 0.0F);
+		i = i->next;
+	}
 	
 	fclose(file);
-	printf("Stats written to %s\n", STATS_FILE);
+	printf("Stats written to %s\n", filename);
+}
+
+static unsigned long long int ns_now() {
+	struct timespec ts;
+
+	clock_gettime(CLOCK_MONOTONIC, &ts);
+	return (unsigned long long int)ts.tv_sec * 1000000000ULL + ts.tv_nsec;
+}
+
+static void exit_write_stats(int signo) {
+	stats_write();
+	exit(0);
 }
 
 #else
 
 #define STATS_SAVE_CONNECTION(req)
 #define STATS_END_CONNECTION(req)
+#define STATS_UPDATE_BUFF(buff)
 #define STATS_INIT()
 #define STATS_WRITE()
 

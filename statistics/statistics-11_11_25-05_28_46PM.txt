@@ -1,0 +1,14 @@
+total connections: 22
+service time: 3747018049
+average service time per connection: 170319002
+average service time per connection [ms]: 170.3190
+	in path: /my-specs
+		connections: 18
+		path time: 3745845642
+		average path time per connection: 208102535
+		average path time per connection [ms]: 208.102536
+	in path: /
+		connections: 4
+		path time: 1172407
+		average path time per connection: 293101
+		average path time per connection [ms]: 0.293102

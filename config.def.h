@@ -6,7 +6,7 @@
 #define MAX_HTTP_HEADERS_SIZE 16*1024
 
 #define STATS 1 /* whether to save statistics or not */
-#define STATS_FILE "statistics/statistics.txt"
+#define STATS_FILE "statistics/statistics-%s.txt"
 
 unsigned int port = 8080;
 unsigned int backlog = 4;

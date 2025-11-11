@@ -58,6 +58,8 @@ int main(int argc, char **argv) {
 		exit(1);
 	}
 	buff_len = buff_cap = BUFF_GRAN;
+	req.headers.buff = req.buff = buff;
+	stats_update_buff(buff);
 
 	if(bind(server_fd, (struct sockaddr *)&addr, sizeof(addr)) < 0) {
 		perror("bind failed");
@@ -165,6 +167,7 @@ int handle_request(char **buff, int client_fd, size_t *buff_len, size_t *buff_ca
 				exit(1);
 			}
 			req->headers.buff = req->buff = *buff;
+			stats_update_buff(*buff);
 		}
 	}
 
