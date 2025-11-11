@@ -14,6 +14,7 @@
 #include "funcs.h"
 #include "strings.h"
 #include "req.h"
+#include "stats.h"
 #include "http.h"
 
 int handle_request(char **buff, int client_fd, size_t *buff_len, size_t *buff_cap, int *determined_is_http, int *read_headers, struct HttpRequest *req);
@@ -21,6 +22,7 @@ int handle_request(char **buff, int client_fd, size_t *buff_len, size_t *buff_ca
 int main(int argc, char **argv) {
 	int server_fd;
 	struct timeval tv;
+	int opt;
 	struct sockaddr_in addr;
 	int client_fd;
 	struct sockaddr_in client_addr;
@@ -40,6 +42,8 @@ int main(int argc, char **argv) {
 	}
 	tv.tv_sec = SLOW_LORIS_TIMEOUT;
 	tv.tv_usec = 0;
+	opt = 1;
+	setsockopt(server_fd, SOL_SOCKET, SO_REUSEADDR, &opt, sizeof(opt));
 
 	memset(&addr, 0, sizeof(struct sockaddr_in));
 	addr.sin_family = AF_INET;
@@ -67,6 +71,8 @@ int main(int argc, char **argv) {
 
 	printf("Should be listening on ipv4 TCP port %d\n", port);
 
+	STATS_INIT();
+
 	while(1) {
 		client_fd = accept(server_fd, (struct sockaddr *)&client_addr, &client_len);
 		if(client_fd < 0) {
@@ -78,6 +84,8 @@ int main(int argc, char **argv) {
 		buff_len = 0;
 		make_headers(&req.headers, buff);
 		req.client_fd = client_fd;
+
+		STATS_START_CONNECTION(&req);
 
 		if(handle_request(&buff, client_fd, &buff_len, &buff_cap, &determined_is_http, &read_headers, &req) || !determined_is_http || !read_headers) {
 			perror("handle request returned 1 or failed");
@@ -95,6 +103,8 @@ int main(int argc, char **argv) {
 		ctx.index = 0;
 		ctx.req = req;
 		exec_chain(ctx);
+
+		STATS_END_CONNECTION(&req);
 
 		cleanup:
 		free_headers(&req.headers);

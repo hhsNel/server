@@ -1,0 +1,4 @@
+total connections: 4
+service time: 864934
+average service time per connection: 216233
+average service time per connection [ms]: 0.2162
