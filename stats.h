@@ -20,7 +20,7 @@
 #define TIME_SIZE 20 + 8 /* time string should fit in 20 chars, +8 for safety */
 
 struct perpath_stats {
-	struct BuffPart path;
+	char *path;
 	unsigned int connections;
 	unsigned long long int path_ns;
 	struct perpath_stats *next;
@@ -53,7 +53,7 @@ struct perpath_stats *get_perpath(struct BuffPart path) {
 
 	i = stats.head;
 	while(i) {
-		if(bp_equ_bp(stats.buff, i->path, path)) {
+		if(bp_equ_str(stats.buff, path, i->path)) {
 			return i;
 		}
 		i = i->next;
@@ -65,7 +65,9 @@ struct perpath_stats *get_perpath(struct BuffPart path) {
 		return NULL;
 	}
 	i->next = stats.head;
-	i->path = path;
+	i->path = malloc(path.length + 1);
+	strncpy(i->path, stats.buff+path.offset, path.length);
+	i->path[path.length] = '\0';
 	i->connections = 0;
 	i->path_ns = 0;
 	stats.head = i;
@@ -88,6 +90,10 @@ void stats_end_connection(struct HttpRequest *req) {
 	if((perpath = get_perpath(req->path))) {
 		perpath->path_ns += now - start_ns;
 		++perpath->connections;
+	}
+
+	if(stats.connections % STATS_WRITE_PERIOD == 0) {
+		stats_write();
 	}
 }
 
@@ -134,7 +140,7 @@ void stats_write() {
 			"total connections: %u\n"
 			"service time: %llu\n"
 			"average service time per connection: %llu\n"
-			"average service time per connection [ms]: %.4F\n",
+			"average service time per connection [ms]: %F\n",
 			stats.connections,
 			stats.service_ns,
 			stats.connections ? stats.service_ns / stats.connections : 0,
@@ -143,12 +149,12 @@ void stats_write() {
 	i = stats.head;
 	while(i) {
 		fprintf(file,
-				"\tin path: %.*s\n"
+				"\tin path: %s\n"
 				"\t\tconnections: %u\n"
 				"\t\tpath time: %llu\n"
 				"\t\taverage path time per connection: %llu\n"
 				"\t\taverage path time per connection [ms]: %F\n",
-				(int)i->path.length, stats.buff+i->path.offset,
+				i->path,
 				i->connections,
 				i->path_ns,
 				i->connections ? i->path_ns / i->connections : 0,

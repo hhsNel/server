@@ -7,6 +7,7 @@
 
 #define STATS 1 /* whether to save statistics or not */
 #define STATS_FILE "statistics/statistics-%s.txt"
+#define STATS_WRITE_PERIOD 4 /* flush stats to file every 4 requests */
 
 unsigned int port = 8080;
 unsigned int backlog = 4;

@@ -9,7 +9,7 @@ int bp_equ_str(char *buff, struct BuffPart bp, char *str);
 int bp_equ_bp(char *buff, struct BuffPart bp1, struct BuffPart bp2);
 
 int bp_equ_str(char *buff, struct BuffPart bp, char *str) {
-	return !strncmp(buff + bp.offset, str, bp.length);
+	return bp.length == strlen(str) && !strncmp(buff + bp.offset, str, bp.length);
 }
 
 int bp_equ_bp(char *buff, struct BuffPart bp1, struct BuffPart bp2) {
