@@ -1,3 +1,4 @@
+#define SLOW_LORIS_TIMEOUT 4 /* 4 secs without sending? you have been terminated */
 #define FILE_SERVE_BUFF_SIZE 1024
 #define BUFF_GRAN 1024
 #define READ_MAX 256

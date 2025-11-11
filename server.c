@@ -18,14 +18,9 @@
 
 int handle_request(char **buff, int client_fd, size_t *buff_len, size_t *buff_cap, int *determined_is_http, int *read_headers, struct HttpRequest *req);
 
-const char response[] =
-	"HTTP/1.1 200 OK\r\n"
-	"Content-Type: text/html\r\n"
-	"\r\n"
-	"<h1>Lemme Cook!</h1>\r\n";
-
 int main(int argc, char **argv) {
 	int server_fd;
+	struct timeval tv;
 	struct sockaddr_in addr;
 	int client_fd;
 	struct sockaddr_in client_addr;
@@ -39,6 +34,13 @@ int main(int argc, char **argv) {
 
 	                /* ipv4     TCP */
 	server_fd = socket(AF_INET, SOCK_STREAM, 0);
+	if(server_fd < 0) {
+		perror("socket failed");
+		exit(1);
+	}
+	tv.tv_sec = SLOW_LORIS_TIMEOUT;
+	tv.tv_usec = 0;
+
 	memset(&addr, 0, sizeof(struct sockaddr_in));
 	addr.sin_family = AF_INET;
 	addr.sin_port = htons(port);
@@ -71,6 +73,7 @@ int main(int argc, char **argv) {
 			perror("accept failed");
 			continue;
 		}
+		setsockopt(client_fd, SOL_SOCKET, SO_RCVTIMEO, &tv, sizeof(tv));
 		determined_is_http = read_headers = 0;
 		buff_len = 0;
 		make_headers(&req.headers, buff);
@@ -119,16 +122,16 @@ int handle_request(char **buff, int client_fd, size_t *buff_len, size_t *buff_ca
 
 		if(*determined_is_http) {
 			if(!*read_headers) {
-				printf("request: \n----------\n%s---------\n", *buff);
+				if(*buff_len + READ_MAX > MAX_HTTP_HEADERS_SIZE) {
+					/* 431 request header fields too massive */
+					return 1;
+				}
 				if(str_contains(*buff, "\r\n\r\n")) {
 					if(!fill_out_headers(*buff, &req->headers)) {
 						/* something with headers is fvcked up */
 						return 1;
 					}
 					*read_headers = 1;
-				} else if(*buff_len + READ_MAX > MAX_HTTP_HEADERS_SIZE) {
-					/* 431 request header fields too massive */
-					return 1;
 				}
 			}
 			if(*read_headers) {
@@ -146,6 +149,11 @@ int handle_request(char **buff, int client_fd, size_t *buff_len, size_t *buff_ca
 		if(*buff_len + READ_MAX > *buff_cap) {
 			*buff_cap += BUFF_GRAN;
 			*buff = realloc(*buff, *buff_cap);
+			if(! *buff) {
+				perror("realloc failed");
+				fprintf(stderr, "size: %lu\n", *buff_cap);
+				exit(1);
+			}
 			req->headers.buff = req->buff = *buff;
 		}
 	}

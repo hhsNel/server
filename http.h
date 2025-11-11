@@ -66,7 +66,7 @@ int fill_out_http_req_line(char *buff, size_t buff_len, struct HttpRequest *req)
 	for(; isblank(*it); ++it);
 
 	if(!str_starts_with(it, "HTTP/") || buff +  buff_len < it + 7) {
-		/* that's not http! */
+		/* that's not http! or there's not enough space for http version */
 		return 0;
 	}
 	req->http_maj = it[5];
@@ -102,6 +102,9 @@ static char *fill_out_header(char *begin, struct Headers *h) {
 
 	value.offset = begin - h->buff;
 	value.length = str_index_of(begin, "\r\n");
+	if(value.length == (size_t)-1) {
+		return NULL;
+	}
 
 	set_header(h, name, value);
 

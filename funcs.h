@@ -3,6 +3,9 @@
 
 #include <stdio.h>
 #include <sys/stat.h>
+#include <sys/sendfile.h>
+#include <fcntl.h>
+#include <unistd.h>
 
 #include "funcdecl.h"
 #include "req.h"
@@ -40,55 +43,37 @@ MK_SERVE_HEADERS(serve_headers_jpg, "image/jpeg")
 MK_SERVE_HEADERS(serve_headers_custom, arg.str)
 
 void serve_file(struct arg arg, struct ResolvCtx *ctx) {
-	FILE *f;
-	char buff[FILE_SERVE_BUFF_SIZE];
+	int file;
 	struct stat st;
-	size_t re;
-	unsigned int remaining, wr, size;
-	char *ptr;
+	off_t offset;
+	ssize_t sent;
 
-	f = fopen(arg.str, "rb");
-	if(!f) {
+	file = open(arg.str, O_RDONLY);
+	if(!file) {
 		fprintf(stderr, "file: %s\n", arg.str);
-		perror("fopen failed @ serve_file");
+		perror("open failed @ serve_file");
 		return;
 	}
 
-	if(fstat(fileno(f), &st) < 0) {
+	if(fstat(file, &st) < 0) {
 		fprintf(stderr, "file: %s\n", arg.str);
 		perror("fstat failed @ serve_file");
 		goto cleanup;
 	}
 
-	remaining = st.st_size;
-	while(remaining > 0) {
-		size = remaining < FILE_SERVE_BUFF_SIZE ? remaining : FILE_SERVE_BUFF_SIZE;
+	offset = 0;
 
-		re = fread(buff, 1, size, f);
-		if(re <= 0) {
-			fprintf(stderr, "file: %s\n", arg.str);
-			perror("fread error @ serve_file");
-			break;
+	while(offset < st.st_size) {
+		sent = sendfile(ctx->req.client_fd, file, &offset, st.st_size - offset);
+		if(sent <= 0) {
+			if(errno == EINTR) continue;
+			perror("sendfile failed @ serve_file");
+			goto cleanup;
 		}
-
-		ptr = buff;
-		while(re > 0) {
-			wr = write(ctx->req.client_fd, ptr, re);
-			if(wr <= 0) {
-				if (errno == EINTR) continue;
-				fprintf(stderr, "file: %s\n", arg.str);
-				perror("write to client failed @ serve_file");
-				goto cleanup;
-			}
-			ptr += wr;
-			re -= wr;
-		}
-
-		remaining -= ptr - buff;
 	}
 
 	cleanup:
-	fclose(f);
+	close(file);
 }
 
 void serve_exec_shell(struct arg arg, struct ResolvCtx *ctx) {
