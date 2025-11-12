@@ -39,10 +39,10 @@ struct Header *get_header(struct Headers *h, char *name) {
 	struct Header *i;
 
 	i = h->head;
-	do {
+	while(i) {
 		if(bp_equ_str(h->buff, i->name, name)) return i;
 		i = i->next;
-	} while(i);
+	}
 	return NULL;
 }
 
