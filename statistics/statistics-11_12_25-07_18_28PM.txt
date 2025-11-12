@@ -1,0 +1,9 @@
+total connections: 1
+service time: 711765
+average service time per connection: 711765
+average service time per connection [ms]: 0.711765
+	in path: /
+		connections: 1
+		path time: 711765
+		average path time per connection: 711765
+		average path time per connection [ms]: 0.711765

@@ -18,6 +18,7 @@ enum HttpMethod {
 
 struct HttpRequest {
 	char *buff;
+	size_t buff_len;
 	enum HttpMethod method;
 	struct BuffPart path;
 	char http_maj;

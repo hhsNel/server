@@ -16,8 +16,6 @@
 #define STATS_INIT() stats_init()
 #define STATS_WRITE() stats_write()
 
-#define TIME_SIZE 20 + 8 /* time string should fit in 20 chars, +8 for safety */
-
 struct perpath_stats {
 	char *path;
 	unsigned int connections;
@@ -33,9 +31,7 @@ struct stats {
 };
 static struct stats stats;
 static unsigned long long int start_ns;
-static time_t server_start_time;
-char start_time[TIME_SIZE];
-char stats_filename[sizeof(STATS_FILE) + TIME_SIZE - 1];
+static char stats_filename[sizeof(STATS_FILE) + TIME_SIZE - 1];
 
 struct perpath_stats *get_perpath(struct BuffPart path);
 
@@ -46,7 +42,6 @@ void stats_init();
 void stats_write();
 
 static unsigned long long int ns_now();
-static void exit_write_stats(int signo);
 
 struct perpath_stats *get_perpath(struct BuffPart path) {
 	struct perpath_stats *i;
@@ -102,26 +97,17 @@ void stats_update_buff(char *buff) {
 }
 
 void stats_init() {
-	struct sigaction sa;
-	struct tm tm_info;
-
 	stats.connections = 0;
 	stats.service_ns = 0;
 	stats.head = NULL;
 
-	memset(&sa, 0, sizeof(struct sigaction));
-	sa.sa_handler = exit_write_stats;
-	sa.sa_flags = 0;
-	sigemptyset(&sa.sa_mask);
-	sigaction(SIGINT,  &sa, NULL);
-	sigaction(SIGTERM, &sa, NULL);
+	if(atexit(stats_write)) {
+		fprintf(stderr, "Could not atexit stats_write @ stats_init\n");
+	}
 
-	server_start_time = time(NULL);
-	localtime_r(&server_start_time, &tm_info);
-	strftime(start_time, sizeof(start_time), "%m_%d_%y-%I_%M_%S%p", &tm_info);
 	snprintf(stats_filename, sizeof(stats_filename), STATS_FILE, start_time);
 
-	printf("Stats initialized for time %s, stats_filename: %s\n", start_time, stats_filename);
+	printf("Stats initialized for time %s, filename: %s\n", start_time, stats_filename);
 }
 
 void stats_write() {
@@ -170,13 +156,6 @@ static unsigned long long int ns_now() {
 	clock_gettime(CLOCK_MONOTONIC, &ts);
 	return (unsigned long long int)ts.tv_sec * 1000000000ULL + ts.tv_nsec;
 }
-
-static void exit_write_stats(int signo) {
-	stats_write();
-	exit(0);
-}
-
-#undef TIME_SIZE
 
 #else
 

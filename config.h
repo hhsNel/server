@@ -9,6 +9,11 @@
 #define STATS_FILE "statistics/statistics-%s.txt"
 #define STATS_WRITE_PERIOD 4 /* flush stats to file every 4 requests */
 
+#define LOGS 1 /* whether to save detailed logs or not */
+#define LOGS_FILE "logs/logs-%s.txt"
+#define LOGS_WRITE_PERIOD 1 /* flush all logs every request IF they were changed */
+#define XFF_LOG_ARR_GRAN 16
+
 unsigned int port = 8080;
 unsigned int backlog = 4;
 

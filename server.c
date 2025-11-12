@@ -11,13 +11,20 @@
 
 #include "config.h"
 
+#define TIME_SIZE 20 + 8 /* time string should fit in 20 chars, +8 for safety */
+time_t server_start_time;
+char start_time[TIME_SIZE];
+
 #include "funcs.h"
 #include "strings.h"
 #include "req.h"
 #include "stats.h"
+#include "logging.h"
 #include "http.h"
 
 int handle_request(char **buff, int client_fd, size_t *buff_len, size_t *buff_cap, int *determined_is_http, int *read_headers, struct HttpRequest *req);
+void exit_handler(int signo);
+void init_exit_handler();
 
 int main(int argc, char **argv) {
 	int server_fd;
@@ -33,6 +40,7 @@ int main(int argc, char **argv) {
 	struct HttpRequest req;
 	struct Header *header;
 	struct ResolvCtx ctx;
+	struct tm tm_info;
 
 	                /* ipv4     TCP */
 	server_fd = socket(AF_INET, SOCK_STREAM, 0);
@@ -57,7 +65,8 @@ int main(int argc, char **argv) {
 		perror("malloc failed");
 		exit(1);
 	}
-	buff_len = buff_cap = BUFF_GRAN;
+	buff_cap = BUFF_GRAN;
+	buff_len = req.buff_len = 0;
 	req.headers.buff = req.buff = buff;
 	stats_update_buff(buff);
 
@@ -73,7 +82,15 @@ int main(int argc, char **argv) {
 
 	printf("Should be listening on ipv4 TCP port %d\n", port);
 
+	server_start_time = time(NULL);
+	localtime_r(&server_start_time, &tm_info);
+	strftime(start_time, sizeof(start_time), "%m_%d_%y-%I_%M_%S%p", &tm_info);
+
+
+	init_exit_handler();
+
 	STATS_INIT();
+	LOGS_INIT();
 
 	while(1) {
 		client_fd = accept(server_fd, (struct sockaddr *)&client_addr, &client_len);
@@ -84,11 +101,12 @@ int main(int argc, char **argv) {
 		setsockopt(client_fd, SOL_SOCKET, SO_RCVTIMEO, &tv, sizeof(tv));
 		setsockopt(client_fd, SOL_SOCKET, SO_SNDTIMEO, &tv, sizeof(tv));
 		determined_is_http = read_headers = 0;
-		buff_len = 0;
+		req.buff_len = buff_len = 0;
 		make_headers(&req.headers, buff);
 		req.client_fd = client_fd;
 
 		STATS_START_CONNECTION(&req);
+		LOGS_START_CONNECTION(&req);
 
 		if(handle_request(&buff, client_fd, &buff_len, &buff_cap, &determined_is_http, &read_headers, &req) || !determined_is_http || !read_headers) {
 			perror("handle request returned 1 or failed");
@@ -108,6 +126,7 @@ int main(int argc, char **argv) {
 		exec_chain(ctx);
 
 		STATS_END_CONNECTION(&req);
+		LOGS_END_CONNECTION(&req);
 
 		cleanup:
 		free_headers(&req.headers);
@@ -120,6 +139,7 @@ int handle_request(char **buff, int client_fd, size_t *buff_len, size_t *buff_ca
 
 	while((bytes_read = read(client_fd, *buff + *buff_len, READ_MAX-1)) > 0) {
 		*buff_len += bytes_read;
+		req->buff_len = *buff_len;
 		(*buff)[*buff_len] = '\0';
 
 
@@ -178,5 +198,20 @@ int handle_request(char **buff, int client_fd, size_t *buff_len, size_t *buff_ca
 	}
 
 	return 0;
+}
+
+void exit_handler(int signo) {
+	exit(0);
+}
+
+void init_exit_handler() {
+	struct sigaction sa;
+
+	memset(&sa, 0, sizeof(struct sigaction));
+	sa.sa_handler = exit_handler;
+	sa.sa_flags = 0;
+	sigemptyset(&sa.sa_mask);
+	sigaction(SIGINT,  &sa, NULL);
+	sigaction(SIGTERM, &sa, NULL);
 }
 
