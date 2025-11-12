@@ -172,7 +172,7 @@ void logs_write() {
 	}
 	
 	fclose(file);
-	printf("Stats written to %s\n", logs_filename);
+	printf("Logs written to %s\n", logs_filename);
 }
 
 #else
