@@ -1,0 +1,9 @@
+total connections: 2
+service time: 243957
+average service time per connection: 121978
+average service time per connection [ms]: 0.121979
+	in path: /admin.php
+		connections: 2
+		path time: 243957
+		average path time per connection: 121978
+		average path time per connection [ms]: 0.121979

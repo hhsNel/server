@@ -19,6 +19,7 @@
 
 struct xff_log {
 	char *xff;
+	unsigned int connections;
 	char **dumps;
 	size_t *lengths;
 	unsigned int len, cap;
@@ -33,48 +34,24 @@ struct logs {
 static struct logs logs;
 static char logs_filename[sizeof(LOGS_FILE) + TIME_SIZE - 1];
 
-struct xff_log *get_xff_log(struct Header xff);
-
 void logs_start_connection(struct HttpRequest *req);
 void logs_end_connection(struct HttpRequest *req);
 void logs_update_buff(char *buff);
 void logs_init();
 void logs_write();
 
-struct xff_log *get_xff_log(struct Header xff) {
-	struct xff_log *i;
-
-	i = logs.head;
-	while(i) {
-		if(bp_equ_str(logs.buff, xff.value, i->xff)) {
-			return i;
-		}
-		i = i->next;
-	}
-
-	i = malloc(sizeof(struct xff_log));
-	if(! i) {
-		perror("could not malloc xff_log");
-		return NULL;
-	}
-	i->next = logs.head;
-	i->xff = malloc(xff.value.length + 1);
-	strncpy(i->xff, logs.buff+xff.value.offset, xff.value.length);
-	i->xff[xff.value.length] = '\0';
-	i->lengths = NULL;
-	i->dumps = NULL;
-	i->len = i->cap = 0;
-	logs.head = i;
-	return i;
-}
+static struct xff_log *get_xff_log(struct Header xff);
+static int xff_log_exists(struct Header xff);
+static int is_sus(struct HttpRequest *req);
 
 void logs_start_connection(struct HttpRequest *req) {
 }
 
-/* TODO */
 void logs_end_connection(struct HttpRequest *req) {
 	struct xff_log *xff_log;
 	struct Header *xff_header;
+	char **dumps;
+	size_t *lengths;
 
 	xff_header = get_header(&req->headers, "X-Forwarded-For");
 	if(! xff_header) {
@@ -82,20 +59,25 @@ void logs_end_connection(struct HttpRequest *req) {
 		return;
 	}
 
-	/* increment num_sus / num_normal, handle if normal TODO */
+	if(is_sus(req)) {
+		++logs.num_sus;
+	} else {
+		++logs.num_normal;
+	}
 
-	if((xff_log = get_xff_log(*xff_header))) {
+	if((LOG_DUMP_IF(*req, *xff_header)) && (xff_log = get_xff_log(*xff_header))) {
 		if(xff_log->len == xff_log->cap) {
 			xff_log->cap += XFF_LOG_ARR_GRAN;
-			xff_log->dumps = realloc(xff_log->dumps, sizeof(char *) * xff_log->cap);
-			xff_log->lengths = realloc(xff_log->lengths, sizeof(size_t) * xff_log->cap);
-			if(! xff_log->dumps || ! xff_log->lengths) {
-				fprintf(stderr, "Could not reallocate new dumps/lengths for xff log; len=%u cap=%u xff=\"%s\" @ logs_end_connection, deleting xff log (this bleeds memory TODO FIX)\n", xff_log->len, xff_log->cap, xff_log->xff);
-				xff_log->dumps = NULL;
-				xff_log->lengths = NULL;
-				xff_log->len = xff_log->cap = 0;
+			dumps = realloc(xff_log->dumps, sizeof(char *) * xff_log->cap);
+			lengths = realloc(xff_log->lengths, sizeof(size_t) * xff_log->cap);
+			if(! dumps || ! lengths) {
+				fprintf(stderr, "Could not reallocate new dumps/lengths for xff log; len=%u cap=%u xff=\"%s\" @ logs_end_connection\n", xff_log->len, xff_log->cap, xff_log->xff);
+				if(dumps) free(dumps);
+				if(lengths) free(lengths);
 				return;
 			}
+			xff_log->dumps = dumps;
+			xff_log->lengths = lengths;
 		}
 
 		xff_log->lengths[xff_log->len] = req->buff_len + 1;
@@ -105,11 +87,12 @@ void logs_end_connection(struct HttpRequest *req) {
 			return;
 		}
 		memcpy(xff_log->dumps[xff_log->len], req->buff, xff_log->lengths[xff_log->len]);
-		xff_log->dumps[xff_log->len] [xff_log->lengths[xff_log->len]] = '\0';
+		xff_log->dumps[xff_log->len] [xff_log->lengths[xff_log->len] - 1] = '\0';
 		++xff_log->len;
+		++xff_log->connections;
 	}
 
-	if(logs.num_sus + logs.num_normal % LOGS_WRITE_PERIOD == 0) {
+	if((logs.num_sus + logs.num_normal) % LOGS_WRITE_PERIOD == 0) {
 		logs_write();
 	}
 }
@@ -153,11 +136,13 @@ void logs_write() {
 	while(it) {
 		fprintf(file,
 				"\txff: %s\n"
+				"\tconnections: %u\n"
 				"\tlen: %u\n"
-				"\tcap: %llu\n",
+				"\tcap: %u\n",
 				it->xff,
-				(unsigned int)it->len,
-				(unsigned long long int)it->cap);
+				it->connections,
+				it->len,
+				it->cap);
 		for(i = 0; i < it->len; ++i) {
 			fprintf(file,
 					"\t\tlength[%u]: %llu\n"
@@ -173,6 +158,55 @@ void logs_write() {
 	
 	fclose(file);
 	printf("Logs written to %s\n", logs_filename);
+}
+
+static struct xff_log *get_xff_log(struct Header xff) {
+	struct xff_log *i;
+
+	i = logs.head;
+	while(i) {
+		if(bp_equ_str(logs.buff, xff.value, i->xff)) {
+			return i;
+		}
+		i = i->next;
+	}
+
+	i = malloc(sizeof(struct xff_log));
+	if(! i) {
+		perror("could not malloc xff_log");
+		return NULL;
+	}
+	i->next = logs.head;
+	i->xff = malloc(xff.value.length + 1);
+	strncpy(i->xff, logs.buff+xff.value.offset, xff.value.length);
+	i->xff[xff.value.length] = '\0';
+	i->lengths = NULL;
+	i->dumps = NULL;
+	i->len = i->cap = 0;
+	i->connections = 0;
+	logs.head = i;
+	return i;
+}
+
+static int xff_log_exists(struct Header xff) {
+	struct xff_log *i;
+
+	i = logs.head;
+	while(i) {
+		if(bp_equ_str(logs.buff, xff.value, i->xff)) {
+			return 1;
+		}
+		i = i->next;
+	}
+
+	return 0;
+}
+
+static int is_sus(struct HttpRequest *req) {
+#define SUS_CHECK(STR, ...) if(__VA_ARGS__) {printf(STR "\n"); return 1;};
+	IS_SUS_IF(*req);
+#undef SUS_CHECK
+	return 0;
 }
 
 #else

@@ -13,6 +13,18 @@
 #define LOGS_FILE "logs/logs-%s.txt"
 #define LOGS_WRITE_PERIOD 1 /* flush all logs every request IF they were changed */
 #define XFF_LOG_ARR_GRAN 16
+#define LOG_DUMP_IF(req, xff_header) \
+		xff_log_exists(xff_header) || \
+		is_sus(&(req))
+#define IS_SUS_IF(req) \
+		SUS_CHECK("path contains 'admin'", bp_contains_str((req).buff, (req).path, "admin")) \
+		SUS_CHECK("path contains 'conf'", bp_contains_str((req).buff, (req).path, "conf")) \
+		SUS_CHECK("possible path traversal", bp_contains_str((req).buff, (req).path, "..")) \
+		SUS_CHECK("possible path traversal", bp_contains_str((req).buff, (req).path, "%2e")) \
+		SUS_CHECK("possible path traversal", bp_contains_str((req).buff, (req).path, "%2E")) \
+		SUS_CHECK("shell mentioned in path", bp_contains_str((req).buff, (req).path, "sh")) \
+		SUS_CHECK("path contains 'curl'", bp_contains_str((req).buff, (req).path, "curl")) \
+		SUS_CHECK("path contains 'wget'", bp_contains_str((req).buff, (req).path, "wget"))
 
 unsigned int port = 8080;
 unsigned int backlog = 4;

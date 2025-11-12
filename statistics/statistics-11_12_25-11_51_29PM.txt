@@ -1,0 +1,29 @@
+total connections: 8
+service time: 635852655
+average service time per connection: 79481581
+average service time per connection [ms]: 79.481582
+	in path: /wordpress/wp-admin/setup-config.php
+		connections: 1
+		path time: 307644
+		average path time per connection: 307644
+		average path time per connection [ms]: 0.307644
+	in path: /admin.php
+		connections: 1
+		path time: 129229
+		average path time per connection: 129229
+		average path time per connection [ms]: 0.129229
+	in path: /my-specs
+		connections: 3
+		path time: 634631898
+		average path time per connection: 211543966
+		average path time per connection [ms]: 211.543966
+	in path: /favicon.ico
+		connections: 1
+		path time: 312719
+		average path time per connection: 312719
+		average path time per connection [ms]: 0.312719
+	in path: /
+		connections: 2
+		path time: 471165
+		average path time per connection: 235582
+		average path time per connection [ms]: 0.235583
