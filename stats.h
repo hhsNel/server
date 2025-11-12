@@ -4,7 +4,6 @@
 #if STATS
 
 #include <time.h>
-#include <inttypes.h>
 #include <stdio.h>
 #include <signal.h>
 
@@ -176,6 +175,8 @@ static void exit_write_stats(int signo) {
 	stats_write();
 	exit(0);
 }
+
+#undef TIME_SIZE
 
 #else
 
