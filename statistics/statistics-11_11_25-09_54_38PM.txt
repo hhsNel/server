@@ -1,0 +1,59 @@
+total connections: 76
+service time: 2434159648
+average service time per connection: 32028416
+average service time per connection [ms]: 32.028416
+	in path: /get.php
+		connections: 1
+		path time: 239806
+		average path time per connection: 239806
+		average path time per connection [ms]: 0.239806
+	in path: /download/powershell/
+		connections: 1
+		path time: 415489
+		average path time per connection: 415489
+		average path time per connection [ms]: 0.415489
+	in path: /owa
+		connections: 1
+		path time: 101140
+		average path time per connection: 101140
+		average path time per connection [ms]: 0.101140
+	in path: /boaform/admin/formLogin?username=ec8&psd=ec8
+		connections: 1
+		path time: 348665299
+		average path time per connection: 348665299
+		average path time per connection [ms]: 348.665299
+	in path: /version
+		connections: 1
+		path time: 198290
+		average path time per connection: 198290
+		average path time per connection [ms]: 0.198290
+	in path: /favicon.ico
+		connections: 5
+		path time: 5811625
+		average path time per connection: 1162325
+		average path time per connection [ms]: 1.162325
+	in path: /
+		connections: 17
+		path time: 2066717931
+		average path time per connection: 121571643
+		average path time per connection [ms]: 121.571643
+	in path: /.git/config
+		connections: 1
+		path time: 75203
+		average path time per connection: 75203
+		average path time per connection [ms]: 0.075203
+	in path: /login
+		connections: 1
+		path time: 633395
+		average path time per connection: 633395
+		average path time per connection [ms]: 0.633395
+	in path: /wordpress/wp-admin/setup-config.php
+		connections: 24
+		path time: 5576746
+		average path time per connection: 232364
+		average path time per connection [ms]: 0.232364
+	in path: /wp-admin/setup-config.php
+		connections: 23
+		path time: 5724724
+		average path time per connection: 248901
+		average path time per connection [ms]: 0.248901

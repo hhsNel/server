@@ -82,6 +82,7 @@ int main(int argc, char **argv) {
 			continue;
 		}
 		setsockopt(client_fd, SOL_SOCKET, SO_RCVTIMEO, &tv, sizeof(tv));
+		setsockopt(client_fd, SOL_SOCKET, SO_SNDTIMEO, &tv, sizeof(tv));
 		determined_is_http = read_headers = 0;
 		buff_len = 0;
 		make_headers(&req.headers, buff);
@@ -97,7 +98,7 @@ int main(int argc, char **argv) {
 		printf("HTTP Request found!\n\tMETHOD: %d\n\tPATH: %.*s\n\tVER: %c.%c\n", req.method, (int)req.path.length, req.buff+req.path.offset, req.http_maj, req.http_min);
 		header = req.headers.head;
 		while(header) {
-			printf("Header read:\n\tName:\t\t%.*s\n\tValue:\t\t%.*s\n", (int)header->name.length, buff+header->name.offset, (int)header->value.length, buff+header->value.offset);
+			printf("\tHeader read:\n\t\tName:\t\t%.*s\n\t\tValue:\t\t%.*s\n", (int)header->name.length, buff+header->name.offset, (int)header->value.length, buff+header->value.offset);
 			header = header->next;
 		};
 

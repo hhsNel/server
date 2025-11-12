@@ -1,0 +1,49 @@
+total connections: 48
+service time: 15471049
+average service time per connection: 322313
+average service time per connection [ms]: 0.322314
+	in path: /.git/config
+		connections: 1
+		path time: 65245
+		average path time per connection: 65245
+		average path time per connection [ms]: 0.065245
+	in path: /robots.txt
+		connections: 2
+		path time: 496313
+		average path time per connection: 248156
+		average path time per connection [ms]: 0.248157
+	in path: /fullchain.pem
+		connections: 4
+		path time: 835636
+		average path time per connection: 208909
+		average path time per connection [ms]: 0.208909
+	in path: /privkey.pem
+		connections: 4
+		path time: 680614
+		average path time per connection: 170153
+		average path time per connection [ms]: 0.170154
+	in path: /favicon.ico
+		connections: 8
+		path time: 5475938
+		average path time per connection: 684492
+		average path time per connection [ms]: 0.684492
+	in path: /
+		connections: 16
+		path time: 5434630
+		average path time per connection: 339664
+		average path time per connection [ms]: 0.339664
+	in path: /?fbp=1829132574542361&sub2=kz5&sub3=kz5&sub4=KZRA4D3&sub5=10071&utm_medium=paid&utm_source=fb&utm_id=120240331754320188&utm_content=120240331775750188&utm_term=120240331773220188&utm_campaign=120240331754320188&_t=1762844586347&_piuid=77ed18b0-becc-11f0-96e0-fdea27e6b0bc&_pwaid=ETXh&_splitid=-1&isRedirect=1&preBrowser=Yandex&_fbcliddel=1&_rType=chrome
+		connections: 1
+		path time: 141613
+		average path time per connection: 141613
+		average path time per connection [ms]: 0.141613
+	in path: /wordpress/wp-admin/setup-config.php
+		connections: 6
+		path time: 1343015
+		average path time per connection: 223835
+		average path time per connection [ms]: 0.223836
+	in path: /wp-admin/setup-config.php
+		connections: 6
+		path time: 998045
+		average path time per connection: 166340
+		average path time per connection [ms]: 0.166341

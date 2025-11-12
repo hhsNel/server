@@ -36,6 +36,7 @@ static struct stats stats;
 static unsigned long long int start_ns;
 static time_t server_start_time;
 char start_time[TIME_SIZE];
+char stats_filename[sizeof(STATS_FILE) + TIME_SIZE - 1];
 
 struct perpath_stats *get_perpath(struct BuffPart path);
 
@@ -119,18 +120,16 @@ void stats_init() {
 	server_start_time = time(NULL);
 	localtime_r(&server_start_time, &tm_info);
 	strftime(start_time, sizeof(start_time), "%m_%d_%y-%I_%M_%S%p", &tm_info);
+	snprintf(stats_filename, sizeof(stats_filename), STATS_FILE, start_time);
 
-	printf("Stats initialized for time %s\n", start_time);
+	printf("Stats initialized for time %s, stats_filename: %s\n", start_time, stats_filename);
 }
 
 void stats_write() {
 	FILE *file;
-	char filename[strlen(STATS_FILE) + TIME_SIZE];
 	struct perpath_stats *i;
 
-	snprintf(filename, sizeof(filename), STATS_FILE, start_time);
-
-	file = fopen(filename, "w");
+	file = fopen(stats_filename, "w");
 	if(! file) {
 		perror("fopen failed @ stats_write");
 		return;
@@ -163,7 +162,7 @@ void stats_write() {
 	}
 	
 	fclose(file);
-	printf("Stats written to %s\n", filename);
+	printf("Stats written to %s\n", stats_filename);
 }
 
 static unsigned long long int ns_now() {
