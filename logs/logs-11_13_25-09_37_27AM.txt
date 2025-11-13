@@ -1,0 +1,2 @@
+number of normal connections: 0
+number of suspicious connections: 0

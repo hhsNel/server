@@ -7,6 +7,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 
+#include "buffpart.h"
 #include "funcdecl.h"
 #include "req.h"
 #include "resolvfunc.h"
@@ -30,7 +31,7 @@ void if_path_begins(struct arg arg, struct ResolvCtx *ctx) {
 }
 
 void if_is_path(struct arg arg, struct ResolvCtx *ctx) {
-	if(! strncmp(ctx->req.buff+ctx->req.path.offset, arg.str, ctx->req.path.length)) {
+	if(bp_equ_str(ctx->req.buff, ctx->req.path, arg.str)) {
 		ctx->chain = arg.jump;
 		ctx->index = 0;
 	}

@@ -1,0 +1,29 @@
+total connections: 6
+service time: 3304196
+average service time per connection: 550699
+average service time per connection [ms]: 0.550699
+	in path: /
+		connections: 1
+		path time: 487722
+		average path time per connection: 487722
+		average path time per connection [ms]: 0.487722
+	in path: /form-response?number=16
+		connections: 1
+		path time: 344630
+		average path time per connection: 344630
+		average path time per connection [ms]: 0.344630
+	in path: /form-response?number=1
+		connections: 1
+		path time: 813236
+		average path time per connection: 813236
+		average path time per connection [ms]: 0.813236
+	in path: /my-form
+		connections: 2
+		path time: 681892
+		average path time per connection: 340946
+		average path time per connection [ms]: 0.340946
+	in path: /form-response?number=
+		connections: 1
+		path time: 976716
+		average path time per connection: 976716
+		average path time per connection [ms]: 0.976716
