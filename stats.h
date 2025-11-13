@@ -3,9 +3,7 @@
 
 #if STATS
 
-#include <time.h>
 #include <stdio.h>
-#include <signal.h>
 
 #include "buffpart.h"
 #include "req.h"
@@ -159,7 +157,7 @@ static unsigned long long int ns_now() {
 
 #else
 
-#define STATS_SAVE_CONNECTION(req)
+#define STATS_START_CONNECTION(req)
 #define STATS_END_CONNECTION(req)
 #define STATS_UPDATE_BUFF(buff)
 #define STATS_INIT()

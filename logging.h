@@ -3,9 +3,7 @@
 
 #if LOGS
 
-#include <time.h>
 #include <stdio.h>
-#include <signal.h>
 
 #include "headers.h"
 #include "buffpart.h"
@@ -211,7 +209,7 @@ static int is_sus(struct HttpRequest *req) {
 
 #else
 
-#define LOGS_SAVE_CONNECTION(req)
+#define LOGS_START_CONNECTION(req)
 #define LOGS_END_CONNECTION(req)
 #define LOGS_UPDATE_BUFF(buff)
 #define LOGS_INIT()

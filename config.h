@@ -26,7 +26,10 @@
 		SUS_CHECK("path contains 'curl'", bp_contains_str((req).buff, (req).path, "curl")) \
 		SUS_CHECK("path contains 'wget'", bp_contains_str((req).buff, (req).path, "wget"))
 
+#define USE_UNIX_SOCKET 0
+#define UNIX_SOCK_PATH "serv.sock"
 unsigned int port = 8080;
+
 unsigned int backlog = 4;
 
 ResolvFunc index_page[] = {

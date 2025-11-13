@@ -1,0 +1,149 @@
+total connections: 160
+service time: 12053790422
+average service time per connection: 75336190
+average service time per connection [ms]: 75.336190
+	in path: //media/wp-includes/wlwmanifest.xml
+		connections: 1
+		path time: 80446
+		average path time per connection: 80446
+		average path time per connection [ms]: 0.080446
+	in path: //2018/wp-includes/wlwmanifest.xml
+		connections: 1
+		path time: 87163
+		average path time per connection: 87163
+		average path time per connection [ms]: 0.087163
+	in path: //sito/wp-includes/wlwmanifest.xml
+		connections: 2
+		path time: 224204
+		average path time per connection: 112102
+		average path time per connection [ms]: 0.112102
+	in path: //cms/wp-includes/wlwmanifest.xml
+		connections: 2
+		path time: 164675
+		average path time per connection: 82337
+		average path time per connection [ms]: 0.082337
+	in path: //site/wp-includes/wlwmanifest.xml
+		connections: 2
+		path time: 152554
+		average path time per connection: 76277
+		average path time per connection [ms]: 0.076277
+	in path: //wp2/wp-includes/wlwmanifest.xml
+		connections: 2
+		path time: 150020
+		average path time per connection: 75010
+		average path time per connection [ms]: 0.075010
+	in path: //test/wp-includes/wlwmanifest.xml
+		connections: 2
+		path time: 182774
+		average path time per connection: 91387
+		average path time per connection [ms]: 0.091387
+	in path: //wp1/wp-includes/wlwmanifest.xml
+		connections: 2
+		path time: 432684
+		average path time per connection: 216342
+		average path time per connection [ms]: 0.216342
+	in path: //shop/wp-includes/wlwmanifest.xml
+		connections: 2
+		path time: 239759
+		average path time per connection: 119879
+		average path time per connection [ms]: 0.119879
+	in path: //2019/wp-includes/wlwmanifest.xml
+		connections: 2
+		path time: 176569
+		average path time per connection: 88284
+		average path time per connection [ms]: 0.088285
+	in path: //2020/wp-includes/wlwmanifest.xml
+		connections: 1
+		path time: 86552
+		average path time per connection: 86552
+		average path time per connection [ms]: 0.086552
+	in path: //news/wp-includes/wlwmanifest.xml
+		connections: 2
+		path time: 170395
+		average path time per connection: 85197
+		average path time per connection [ms]: 0.085197
+	in path: //wp/wp-includes/wlwmanifest.xml
+		connections: 2
+		path time: 470809
+		average path time per connection: 235404
+		average path time per connection [ms]: 0.235404
+	in path: //website/wp-includes/wlwmanifest.xml
+		connections: 2
+		path time: 200980
+		average path time per connection: 100490
+		average path time per connection [ms]: 0.100490
+	in path: //wordpress/wp-includes/wlwmanifest.xml
+		connections: 2
+		path time: 259622
+		average path time per connection: 129811
+		average path time per connection [ms]: 0.129811
+	in path: //web/wp-includes/wlwmanifest.xml
+		connections: 2
+		path time: 146287
+		average path time per connection: 73143
+		average path time per connection [ms]: 0.073144
+	in path: //blog/wp-includes/wlwmanifest.xml
+		connections: 2
+		path time: 133522
+		average path time per connection: 66761
+		average path time per connection [ms]: 0.066761
+	in path: //xmlrpc.php?rsd
+		connections: 2
+		path time: 175037
+		average path time per connection: 87518
+		average path time per connection [ms]: 0.087518
+	in path: //wp-includes/wlwmanifest.xml
+		connections: 2
+		path time: 239672
+		average path time per connection: 119836
+		average path time per connection [ms]: 0.119836
+	in path: /apple-touch-icon.png
+		connections: 3
+		path time: 272263
+		average path time per connection: 90754
+		average path time per connection [ms]: 0.090754
+	in path: /apple-touch-icon-precomposed.png
+		connections: 3
+		path time: 354548
+		average path time per connection: 118182
+		average path time per connection [ms]: 0.118183
+	in path: /my-specs
+		connections: 55
+		path time: 12031913894
+		average path time per connection: 218762070
+		average path time per connection [ms]: 218.762071
+	in path: /form-response?number=16
+		connections: 2
+		path time: 601192
+		average path time per connection: 300596
+		average path time per connection [ms]: 0.300596
+	in path: /my-form
+		connections: 3
+		path time: 1048394
+		average path time per connection: 349464
+		average path time per connection [ms]: 0.349465
+	in path: /robots.txt
+		connections: 1
+		path time: 104601
+		average path time per connection: 104601
+		average path time per connection [ms]: 0.104601
+	in path: /wordpress/wp-admin/setup-config.php
+		connections: 12
+		path time: 4282593
+		average path time per connection: 356882
+		average path time per connection [ms]: 0.356883
+	in path: /wp-admin/setup-config.php
+		connections: 11
+		path time: 2200455
+		average path time per connection: 200041
+		average path time per connection [ms]: 0.200041
+	in path: /favicon.ico
+		connections: 14
+		path time: 3261454
+		average path time per connection: 232961
+		average path time per connection [ms]: 0.232961
+	in path: /
+		connections: 21
+		path time: 5977304
+		average path time per connection: 284633
+		average path time per connection [ms]: 0.284634

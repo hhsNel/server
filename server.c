@@ -5,11 +5,18 @@
 #include <arpa/inet.h>
 #include <errno.h>
 #include <ctype.h>
+#include <time.h>
+#include <signal.h>
 
 #include "resolvfunc.h"
 #include "funcdecl.h"
 
 #include "config.h"
+
+#if USE_UNIX_SOCKET
+#include <sys/socket.h>
+#include <sys/un.h>
+#endif
 
 #define TIME_SIZE 20 + 8 /* time string should fit in 20 chars, +8 for safety */
 time_t server_start_time;
@@ -22,15 +29,20 @@ char start_time[TIME_SIZE];
 #include "logging.h"
 #include "http.h"
 
-int handle_request(char **buff, int client_fd, size_t *buff_len, size_t *buff_cap, int *determined_is_http, int *read_headers, struct HttpRequest *req);
-void exit_handler(int signo);
-void init_exit_handler();
+static int handle_request(char **buff, int client_fd, size_t *buff_len, size_t *buff_cap, int *determined_is_http, int *read_headers, struct HttpRequest *req);
+static void exit_handler(int signo);
+static void init_exit_handler();
+
+static int server_fd;
 
 int main(int argc, char **argv) {
-	int server_fd;
 	struct timeval tv;
 	int opt;
+#if USE_UNIX_SOCKET
+	struct sockaddr_un addr;
+#else
 	struct sockaddr_in addr;
+#endif
 	int client_fd;
 	struct sockaddr_in client_addr;
 	socklen_t client_len;
@@ -42,8 +54,13 @@ int main(int argc, char **argv) {
 	struct ResolvCtx ctx;
 	struct tm tm_info;
 
+#if USE_UNIX_SOCKET
+	                /* unix     TCP */
+	server_fd = socket(AF_UNIX, SOCK_STREAM, 0);
+#else
 	                /* ipv4     TCP */
 	server_fd = socket(AF_INET, SOCK_STREAM, 0);
+#endif
 	if(server_fd < 0) {
 		perror("socket failed");
 		exit(1);
@@ -53,10 +70,16 @@ int main(int argc, char **argv) {
 	opt = 1;
 	setsockopt(server_fd, SOL_SOCKET, SO_REUSEADDR, &opt, sizeof(opt));
 
+#if USE_UNIX_SOCKET
+	memset(&addr, 0, sizeof(struct sockaddr_un));
+	addr.sun_family = AF_UNIX;
+	strcpy(addr.sun_path, UNIX_SOCK_PATH);
+#else
 	memset(&addr, 0, sizeof(struct sockaddr_in));
 	addr.sin_family = AF_INET;
 	addr.sin_port = htons(port);
 	addr.sin_addr.s_addr = INADDR_ANY;
+#endif
 
 	client_len = sizeof(client_addr);
 
@@ -68,8 +91,8 @@ int main(int argc, char **argv) {
 	buff_cap = BUFF_GRAN;
 	buff_len = req.buff_len = 0;
 	req.headers.buff = req.buff = buff;
-	stats_update_buff(buff);
-	logs_update_buff(buff);
+	STATS_UPDATE_BUFF(buff);
+	LOGS_UPDATE_BUFF(buff);
 
 	if(bind(server_fd, (struct sockaddr *)&addr, sizeof(addr)) < 0) {
 		perror("bind failed");
@@ -81,7 +104,11 @@ int main(int argc, char **argv) {
 		exit(1);
 	}
 
+#if USE_UNIX_SOCKET
+	printf("Should be listening on unix socket %s\n", UNIX_SOCK_PATH);
+#else
 	printf("Should be listening on ipv4 TCP port %d\n", port);
+#endif
 
 	server_start_time = time(NULL);
 	localtime_r(&server_start_time, &tm_info);
@@ -189,8 +216,8 @@ int handle_request(char **buff, int client_fd, size_t *buff_len, size_t *buff_ca
 				exit(1);
 			}
 			req->headers.buff = req->buff = *buff;
-			stats_update_buff(*buff);
-			logs_update_buff(*buff);
+			STATS_UPDATE_BUFF(*buff);
+			LOGS_UPDATE_BUFF(*buff);
 		}
 	}
 
@@ -203,6 +230,13 @@ int handle_request(char **buff, int client_fd, size_t *buff_len, size_t *buff_ca
 }
 
 void exit_handler(int signo) {
+#if USE_UNIX_SOCKET
+	if (server_fd != -1) {
+		close(server_fd);
+	}
+	unlink(UNIX_SOCK_PATH);
+#else
+#endif
 	exit(0);
 }
 
