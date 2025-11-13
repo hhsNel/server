@@ -10,10 +10,14 @@ void serve_headers_html(struct arg, struct ResolvCtx *ctx);
 void serve_headers_plaintext(struct arg, struct ResolvCtx *ctx);
 void serve_headers_png(struct arg, struct ResolvCtx *ctx);
 void serve_headers_jpg(struct arg, struct ResolvCtx *ctx);
+void serve_headers_css(struct arg, struct ResolvCtx *ctx);
 void serve_headers_custom(struct arg, struct ResolvCtx *ctx);
 void serve_file(struct arg, struct ResolvCtx *ctx);
 void serve_exec_shell(struct arg, struct ResolvCtx *ctx);
 /* void pass_all_to_local_port(struct arg, struct ResolvCtx *ctx); */
+void serve_plaintext(struct arg, struct ResolvCtx *ctx);
+void serve_header_value(struct arg, struct ResolvCtx *ctx);
+void serve_cookie_value(struct arg, struct ResolvCtx *ctx);
 
 
 #endif

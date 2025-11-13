@@ -41,6 +41,7 @@ MK_SERVE_HEADERS(serve_headers_html, "text/html")
 MK_SERVE_HEADERS(serve_headers_plaintext, "text/plain")
 MK_SERVE_HEADERS(serve_headers_png, "image/png")
 MK_SERVE_HEADERS(serve_headers_jpg, "image/jpeg")
+MK_SERVE_HEADERS(serve_headers_css, "text/css")
 MK_SERVE_HEADERS(serve_headers_custom, arg.str)
 
 void serve_file(struct arg arg, struct ResolvCtx *ctx) {
@@ -122,6 +123,45 @@ void serve_exec_shell(struct arg arg, struct ResolvCtx *ctx) {
 
 /* TODO */
 /* void pass_all_to_local_port(struct arg arg, struct ResolvCtx *ctx); */
+
+void serve_plaintext(struct arg arg, struct ResolvCtx *ctx) {
+	unsigned int i;
+	int written;
+
+	i = 0;
+	while((written = write(ctx->req.client_fd, arg.str + i, strlen(arg.str) - i))) {
+		if(written <= 0 && errno != EINTR) {
+			break;
+		}
+
+		i += written;
+	}
+	if(written < 0) {
+		perror("couldn't write @ serve_plaintext");
+		return;
+	}
+}
+
+void serve_header_value(struct arg arg, struct ResolvCtx *ctx) {
+	struct Header *header;
+
+	if(headers_contain(&ctx->req.headers, arg.str)) {
+		header = get_header(&ctx->req.headers, arg.str);
+
+		write(ctx->req.client_fd, ctx->req.buff + header->value.offset, header->value.length);
+	}
+}
+
+void serve_cookie_value(struct arg arg, struct ResolvCtx *ctx) {
+	struct Cookie *cookie;
+
+	if(! cookies_contain(&ctx->req.cookies, arg.str)) {
+		return;
+	}
+
+	cookie = get_cookie(&ctx->req.cookies, arg.str);
+	write(ctx->req.client_fd, ctx->req.buff + cookie->value.offset, cookie->value.length);
+}
 
 #endif
 

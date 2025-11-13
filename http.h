@@ -1,15 +1,20 @@
 #ifndef HTTP_H
 #define HTTP_H
 
+#include <ctype.h>
+
 #include "strings.h"
 #include "buffpart.h"
 #include "req.h"
 #include "headers.h"
+#include "cookies.h"
 
 int fill_out_http_req_line(char *buff, size_t buff_len, struct HttpRequest *req);
 int fill_out_headers(char *buff, struct Headers *h);
+int fill_out_cookies(char *buff, struct Header cookie_header, struct Cookies *c);
 
 static char *fill_out_header(char *begin, struct Headers *h);
+static char *fill_out_cookie(char *begin, struct Cookies *c, size_t bytes_left);
 
 int fill_out_http_req_line(char *buff, size_t buff_len, struct HttpRequest *req) {
 	char *it;
@@ -109,6 +114,74 @@ static char *fill_out_header(char *begin, struct Headers *h) {
 	set_header(h, name, value);
 
 	return begin + value.length + 2;
+}
+
+int fill_out_cookies(char *buff, struct Header cookie_header, struct Cookies *c) {
+	char *it = buff + cookie_header.value.offset;
+	char *end = it + cookie_header.value.length;
+
+	while (it < end) {
+		it = fill_out_cookie(it, c, end - it);
+		if (!it) {
+			return 0;
+		}
+	}
+	return 1;
+}
+
+static char *fill_out_cookie(char *start, struct Cookies *c, size_t bytes_left) {
+	char *it;
+	char *end;
+	struct BuffPart name;
+	struct BuffPart value;
+
+	it = start;
+	end = start + bytes_left;
+
+	while (it < end && isblank(*it)) {
+		++it;
+	}
+	if (it >= end) {
+		return NULL;
+	}
+	name.offset = it - c->buff;
+
+	while (it < end && *it != '=' && *it != ';') ++it;
+	if (it >= end || *it != '=') {
+		return NULL;
+	}
+	name.length = it - c->buff - name.offset;
+
+	++it;
+
+	while (it < end && isblank(*it)) ++it;
+
+	value.offset = it - c->buff;
+
+	if (it < end && *it == '"') {
+		++it;
+		++value.offset;
+
+		while (it < end && *it != '"') {
+			if (*it == '\\' && it + 1 < end) {
+				++it;
+			}
+			++it;
+		}
+		value.length = it - c->buff - value.offset;
+
+		if (it < end && *it == '"') ++it;
+	} else {
+		while (it < end && *it != ';') ++it;
+		value.length = it - c->buff - value.offset;
+	}
+
+	set_cookie(c, name, value);
+
+	while (it < end && (*it == ' ' || *it == '\t')) ++it;
+	if (it < end && *it == ';') ++it;
+
+	return (it <= end) ? it : NULL;
 }
 
 #endif

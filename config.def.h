@@ -73,14 +73,39 @@ ResolvFunc form[] = {
 	{ NULL, {} },
 };
 
+ResolvFunc friends[] = {
+	{ serve_headers_html,      {} },
+	{ serve_file,              {.str="files/friends.html"} },
+	{ NULL, {} },
+};
+
+ResolvFunc spo[] = {
+	{ serve_headers_html,      {} },
+	{ serve_file,              {.str="files/spo.html"} },
+	{ NULL, {} },
+};
+
+ResolvFunc styling[] = {
+	{ serve_headers_css,       {} },
+	{ serve_plaintext,         {.str="body {\n\tbackground-color: #"} },
+	{ serve_cookie_value,         {.str="clr-background"} },
+	{ serve_plaintext,         {.str=";\n\tcolor: #"} },
+	{ serve_cookie_value,         {.str="clr-foreground"} },
+	{ serve_plaintext,         {.str=";\n}"} },
+	{ NULL, {} },
+};
+
 ResolvFunc init[] = { /* "entry point" */
 	{ if_is_path,              {.jump=index_page,.str="/"} },
 	{ if_is_path,              {.jump=favicon,.str="/favicon.ico"} },
+	{ if_is_path,              {.jump=styling,.str="/styling.css"} },
 	{ if_is_path,              {.jump=exec_neofetch,.str="/my-specs"} },
 	/* { if_is_path,              {.jump=pass_to_other_server,.str="/other-website"} }, */
 	{ if_is_path,              {.jump=form,.str="/my-form"} },
 	{ if_is_path,              {.jump=guessed_my_favorite_number,.str="/form-response?number=16"} },
 	{ if_path_begins,          {.jump=incorrect,.str="/form-response?number="} },
+	{ if_is_path,              {.jump=friends,.str="/friends"} },
+	{ if_is_path,              {.jump=spo,.str="/spo"} },
 	{ NULL, {} },
 };
 

@@ -131,6 +131,7 @@ int main(int argc, char **argv) {
 		determined_is_http = read_headers = 0;
 		req.buff_len = buff_len = 0;
 		make_headers(&req.headers, buff);
+		make_cookies(&req.cookies, buff);
 		req.client_fd = client_fd;
 
 		STATS_START_CONNECTION(&req);
@@ -139,6 +140,15 @@ int main(int argc, char **argv) {
 		if(handle_request(&buff, client_fd, &buff_len, &buff_cap, &determined_is_http, &read_headers, &req) || !determined_is_http || !read_headers) {
 			perror("handle request returned 1 or failed");
 			goto cleanup;
+		}
+		header = req.headers.head;
+		while(header) {
+			if(bp_equ_str(buff, header->name, "Cookie")) {
+				if(! fill_out_cookies(buff, *header, &req.cookies)) {
+					fprintf(stderr, "Could not parse cookies from header:\n\t%.*s\n", (int)header->value.length, buff+header->value.offset);
+				}
+			}
+			header = header->next;
 		}
 
 		printf("HTTP Request found!\n\tMETHOD: %d\n\tPATH: %.*s\n\tVER: %c.%c\n", req.method, (int)req.path.length, req.buff+req.path.offset, req.http_maj, req.http_min);
@@ -158,6 +168,7 @@ int main(int argc, char **argv) {
 
 		cleanup:
 		free_headers(&req.headers);
+		free_cookies(&req.cookies);
 		close(client_fd);
 	};
 };

@@ -1,0 +1,24 @@
+total connections: 5
+service time: 2508646
+average service time per connection: 501729
+average service time per connection [ms]: 0.501729
+	in path: /spo
+		connections: 1
+		path time: 151782
+		average path time per connection: 151782
+		average path time per connection [ms]: 0.151782
+	in path: /friends
+		connections: 1
+		path time: 432141
+		average path time per connection: 432141
+		average path time per connection [ms]: 0.432141
+	in path: /favicon.ico
+		connections: 1
+		path time: 268539
+		average path time per connection: 268539
+		average path time per connection [ms]: 0.268539
+	in path: /
+		connections: 2
+		path time: 1656184
+		average path time per connection: 828092
+		average path time per connection [ms]: 0.828092
