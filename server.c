@@ -51,6 +51,8 @@ int main(int argc, char **argv) {
 	int determined_is_http, read_headers;
 	struct HttpRequest req;
 	struct Header *header;
+	struct Cookie *cookie;
+	struct QueryParam *qp;
 	struct ResolvCtx ctx;
 	struct tm tm_info;
 
@@ -132,6 +134,7 @@ int main(int argc, char **argv) {
 		req.buff_len = buff_len = 0;
 		make_headers(&req.headers, buff);
 		make_cookies(&req.cookies, buff);
+		make_query_params(&req.query, buff);
 		req.client_fd = client_fd;
 
 		STATS_START_CONNECTION(&req);
@@ -157,6 +160,16 @@ int main(int argc, char **argv) {
 			printf("\tHeader read:\n\t\tName:\t\t%.*s\n\t\tValue:\t\t%.*s\n", (int)header->name.length, buff+header->name.offset, (int)header->value.length, buff+header->value.offset);
 			header = header->next;
 		};
+		cookie = req.cookies.head;
+		while(cookie) {
+			printf("\tCookie read:\n\t\tName:\t\t%.*s\n\t\tValue:\t\t%.*s\n", (int)cookie->name.length, buff+cookie->name.offset, (int)cookie->value.length, buff+cookie->value.offset);
+			cookie = cookie->next;
+		}
+		qp = req.query.head;
+		while(qp) {
+			printf("\tQuery Param read:\n\t\tName:\t\t%s\n\t\tValue:\t\t%s\n", qp->name, qp->value);
+			qp = qp->next;
+		}
 
 		ctx.chain = init;
 		ctx.index = 0;
@@ -169,6 +182,7 @@ int main(int argc, char **argv) {
 		cleanup:
 		free_headers(&req.headers);
 		free_cookies(&req.cookies);
+		free_query_params(&req.query);
 		close(client_fd);
 	};
 };
@@ -204,6 +218,11 @@ int handle_request(char **buff, int client_fd, size_t *buff_len, size_t *buff_ca
 						return 1;
 					}
 					*read_headers = 1;
+
+					if(!parse_query_string(req)) {
+						fprintf(stderr, "could not parse the query");
+						return 1;
+					}
 				}
 			}
 			if(*read_headers) {

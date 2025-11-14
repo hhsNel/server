@@ -15,6 +15,8 @@
 
 #define HEADERS_1 "HTTP/1.1 200 OK\r\nContent-Type: "
 #define HEADERS_2 "\r\n\r\n"
+#define RES_LINE_1 "HTTP/1.1 "
+#define RES_LINE_2 "\r\n"
 
 #define MK_SERVE_HEADERS(NAME, MIMETYPE) \
 	void NAME(struct arg arg, struct ResolvCtx *ctx) { \
@@ -32,6 +34,22 @@ void if_path_begins(struct arg arg, struct ResolvCtx *ctx) {
 
 void if_is_path(struct arg arg, struct ResolvCtx *ctx) {
 	if(bp_equ_str(ctx->req.buff, ctx->req.path, arg.str)) {
+		ctx->chain = arg.jump;
+		ctx->index = 0;
+	}
+}
+
+void if_is_path_no_query(struct arg arg, struct ResolvCtx *ctx) {
+	struct BuffPart path_no_query;
+	char *query_start;
+
+	path_no_query.offset = ctx->req.path.offset;
+	path_no_query.length = ctx->req.path.length;
+	query_start = memchr(ctx->req.buff + path_no_query.offset, '?', path_no_query.length);
+	if(query_start) {
+		path_no_query.length = query_start - ctx->req.buff - path_no_query.offset;
+	}
+	if(bp_equ_str(ctx->req.buff, path_no_query, arg.str)) {
 		ctx->chain = arg.jump;
 		ctx->index = 0;
 	}
@@ -161,6 +179,23 @@ void serve_cookie_value(struct arg arg, struct ResolvCtx *ctx) {
 
 	cookie = get_cookie(&ctx->req.cookies, arg.str);
 	write(ctx->req.client_fd, ctx->req.buff + cookie->value.offset, cookie->value.length);
+}
+
+void serve_http_status(struct arg arg, struct ResolvCtx *ctx) { \
+	write(ctx->req.client_fd, RES_LINE_1, strlen(RES_LINE_1)); \
+	write(ctx->req.client_fd, arg.str, strlen(arg.str)); \
+	write(ctx->req.client_fd, RES_LINE_2, strlen(RES_LINE_2)); \
+}
+
+void serve_query_param(struct arg arg, struct ResolvCtx *ctx) {
+	struct QueryParam *qp;
+
+	if(! query_params_contain(&ctx->req.query, arg.str)) {
+		return;
+	}
+
+	qp = get_query_param(&ctx->req.query, arg.str);
+	write(ctx->req.client_fd, qp->value, strlen(qp->value));
 }
 
 #endif

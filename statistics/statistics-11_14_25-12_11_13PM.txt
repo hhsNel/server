@@ -1,0 +1,24 @@
+total connections: 5
+service time: 1844283
+average service time per connection: 368856
+average service time per connection [ms]: 0.368857
+	in path: /set-cookie?name=clr-foreground&value=ffffff
+		connections: 1
+		path time: 201420
+		average path time per connection: 201420
+		average path time per connection [ms]: 0.201420
+	in path: /
+		connections: 1
+		path time: 292575
+		average path time per connection: 292575
+		average path time per connection [ms]: 0.292575
+	in path: /set-cookie-graphical
+		connections: 2
+		path time: 1042535
+		average path time per connection: 521267
+		average path time per connection [ms]: 0.521267
+	in path: /?query=asdf&param=working
+		connections: 1
+		path time: 307753
+		average path time per connection: 307753
+		average path time per connection [ms]: 0.307753

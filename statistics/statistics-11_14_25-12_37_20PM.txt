@@ -1,0 +1,84 @@
+total connections: 73
+service time: 27064932
+average service time per connection: 370752
+average service time per connection [ms]: 0.370752
+	in path: /form-response?number=16
+		connections: 2
+		path time: 652500
+		average path time per connection: 326250
+		average path time per connection [ms]: 0.326250
+	in path: /wordpress/wp-admin/setup-config.php
+		connections: 1
+		path time: 151167
+		average path time per connection: 151167
+		average path time per connection [ms]: 0.151167
+	in path: /form-response?number=1
+		connections: 1
+		path time: 1324485
+		average path time per connection: 1324485
+		average path time per connection [ms]: 1.324485
+	in path: /spo
+		connections: 1
+		path time: 221381
+		average path time per connection: 221381
+		average path time per connection [ms]: 0.221381
+	in path: /friends
+		connections: 1
+		path time: 234477
+		average path time per connection: 234477
+		average path time per connection [ms]: 0.234477
+	in path: /favicon.ico
+		connections: 1
+		path time: 253357
+		average path time per connection: 253357
+		average path time per connection [ms]: 0.253357
+	in path: /my-form
+		connections: 4
+		path time: 1051140
+		average path time per connection: 262785
+		average path time per connection [ms]: 0.262785
+	in path: /wp-admin/setup-config.php
+		connections: 2
+		path time: 736423
+		average path time per connection: 368211
+		average path time per connection [ms]: 0.368212
+	in path: /set-cookie?name=clr-foreground&value=559400
+		connections: 1
+		path time: 314779
+		average path time per connection: 314779
+		average path time per connection [ms]: 0.314779
+	in path: /set-cookie?name=clr-foreground&value=008f00
+		connections: 1
+		path time: 246938
+		average path time per connection: 246938
+		average path time per connection [ms]: 0.246938
+	in path: /set-cookie?name=clr-foreground&value=009f00
+		connections: 1
+		path time: 778418
+		average path time per connection: 778418
+		average path time per connection [ms]: 0.778418
+	in path: /set-cookie?name=clr-background&value=000000
+		connections: 1
+		path time: 271067
+		average path time per connection: 271067
+		average path time per connection [ms]: 0.271067
+	in path: /styling.css
+		connections: 30
+		path time: 12579498
+		average path time per connection: 419316
+		average path time per connection [ms]: 0.419317
+	in path: /
+		connections: 14
+		path time: 4662067
+		average path time per connection: 333004
+		average path time per connection [ms]: 0.333005
+	in path: /set-cookie?name=col-background&value=000000
+		connections: 1
+		path time: 257176
+		average path time per connection: 257176
+		average path time per connection [ms]: 0.257176
+	in path: /set-cookie-graphical
+		connections: 11
+		path time: 3330059
+		average path time per connection: 302732
+		average path time per connection [ms]: 0.302733

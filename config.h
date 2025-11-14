@@ -88,24 +88,48 @@ ResolvFunc spo[] = {
 ResolvFunc styling[] = {
 	{ serve_headers_css,       {} },
 	{ serve_plaintext,         {.str="body {\n\tbackground-color: #"} },
-	{ serve_cookie_value,         {.str="clr-background"} },
+	{ serve_cookie_value,      {.str="clr-background"} },
 	{ serve_plaintext,         {.str=";\n\tcolor: #"} },
-	{ serve_cookie_value,         {.str="clr-foreground"} },
-	{ serve_plaintext,         {.str=";\n}"} },
+	{ serve_cookie_value,      {.str="clr-foreground"} },
+	{ serve_plaintext,         {.str=";\n}\n"} },
+	{ serve_plaintext,         {.str="a:link {\n\tcolor: #"} },
+	{ serve_cookie_value,      {.str="clr-unvisited"} },
+	{ serve_plaintext,         {.str=";\n}\n"} },
+	{ serve_plaintext,         {.str="a:visited {\n\tcolor: #"} },
+	{ serve_cookie_value,      {.str="clr-visited"} },
+	{ serve_plaintext,         {.str=";\n}\n"} },
+	{ NULL, {} },
+};
+
+ResolvFunc set_cookie_graphical[] = {
+	{ serve_headers_html,      {} },
+	{ serve_file,              {.str="files/set-cookie-graphical.html"} },
+	{ NULL, {} },
+};
+
+ResolvFunc set_cookie_back[] = {
+	{ serve_http_status,       {.str="301 Moved Permanently"} },
+	{ serve_plaintext,         {.str="Set-Cookie: "} },
+	{ serve_query_param,       {.str="name"} },
+	{ serve_plaintext,         {.str="="} },
+	{ serve_query_param,       {.str="value"} },
+	{ serve_plaintext,         {.str="\r\nLocation: /\r\n\r\n"} },
 	{ NULL, {} },
 };
 
 ResolvFunc init[] = { /* "entry point" */
-	{ if_is_path,              {.jump=index_page,.str="/"} },
-	{ if_is_path,              {.jump=favicon,.str="/favicon.ico"} },
-	{ if_is_path,              {.jump=styling,.str="/styling.css"} },
-	{ if_is_path,              {.jump=exec_neofetch,.str="/my-specs"} },
-	/* { if_is_path,              {.jump=pass_to_other_server,.str="/other-website"} }, */
-	{ if_is_path,              {.jump=form,.str="/my-form"} },
-	{ if_is_path,              {.jump=guessed_my_favorite_number,.str="/form-response?number=16"} },
+	{ if_is_path_no_query,     {.jump=index_page,.str="/"} },
+	{ if_is_path_no_query,     {.jump=favicon,.str="/favicon.ico"} },
+	{ if_is_path_no_query,     {.jump=styling,.str="/styling.css"} },
+	{ if_is_path_no_query,     {.jump=exec_neofetch,.str="/my-specs"} },
+	/* { if_is_path,           {.jump=pass_to_other_server,.str="/other-website"} }, */
+	{ if_is_path_no_query,     {.jump=form,.str="/my-form"} },
+	{ if_is_path,     {.jump=guessed_my_favorite_number,.str="/form-response?number=16"} },
 	{ if_path_begins,          {.jump=incorrect,.str="/form-response?number="} },
-	{ if_is_path,              {.jump=friends,.str="/friends"} },
-	{ if_is_path,              {.jump=spo,.str="/spo"} },
+	{ if_is_path_no_query,     {.jump=friends,.str="/friends"} },
+	{ if_is_path_no_query,     {.jump=spo,.str="/spo"} },
+	{ if_is_path_no_query,     {.jump=set_cookie_graphical,.str="/set-cookie-graphical"} },
+	{ if_is_path_no_query,     {.jump=set_cookie_back,.str="/set-cookie"} },
 	{ NULL, {} },
 };
 

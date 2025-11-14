@@ -1,0 +1,44 @@
+total connections: 13
+service time: 3973072
+average service time per connection: 305620
+average service time per connection [ms]: 0.305621
+	in path: /styling.css
+		connections: 1
+		path time: 485563
+		average path time per connection: 485563
+		average path time per connection [ms]: 0.485563
+	in path: /set-cookie?name=clr-foreground&value=00ff00
+		connections: 1
+		path time: 285124
+		average path time per connection: 285124
+		average path time per connection [ms]: 0.285124
+	in path: /set-cookie?name=clr-background&value=000000
+		connections: 1
+		path time: 319252
+		average path time per connection: 319252
+		average path time per connection [ms]: 0.319252
+	in path: /set-cookie?name=clr-background&value=%23000000
+		connections: 1
+		path time: 261546
+		average path time per connection: 261546
+		average path time per connection [ms]: 0.261546
+	in path: /set-cookie-graphical
+		connections: 3
+		path time: 700352
+		average path time per connection: 233450
+		average path time per connection [ms]: 0.233451
+	in path: /favicon.ico
+		connections: 1
+		path time: 305352
+		average path time per connection: 305352
+		average path time per connection [ms]: 0.305352
+	in path: /
+		connections: 4
+		path time: 1236736
+		average path time per connection: 309184
+		average path time per connection [ms]: 0.309184
+	in path: /set-cookie?name=clr-foreground&value=ffffff
+		connections: 1
+		path time: 379147
+		average path time per connection: 379147
+		average path time per connection [ms]: 0.379147

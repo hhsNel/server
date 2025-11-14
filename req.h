@@ -4,6 +4,7 @@
 #include "buffpart.h"
 #include "headers.h"
 #include "cookies.h"
+#include "query.h"
 
 enum HttpMethod {
 	GET,
@@ -26,6 +27,7 @@ struct HttpRequest {
 	char http_min;
 	struct Headers headers;
 	struct Cookies cookies;
+	struct QueryParams query;
 	int client_fd;
 };
 

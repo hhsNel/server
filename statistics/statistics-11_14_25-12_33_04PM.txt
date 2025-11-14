@@ -1,0 +1,19 @@
+total connections: 7
+service time: 5753026
+average service time per connection: 821860
+average service time per connection [ms]: 0.821861
+	in path: /set-cookie-graphical
+		connections: 1
+		path time: 218464
+		average path time per connection: 218464
+		average path time per connection [ms]: 0.218464
+	in path: /styling.css
+		connections: 4
+		path time: 4941158
+		average path time per connection: 1235289
+		average path time per connection [ms]: 1.235289
+	in path: /
+		connections: 2
+		path time: 593404
+		average path time per connection: 296702
+		average path time per connection [ms]: 0.296702

@@ -1,0 +1,29 @@
+total connections: 27
+service time: 11255041
+average service time per connection: 416853
+average service time per connection [ms]: 0.416853
+	in path: /set-cookie?name=clr-visited&value=ff7f00
+		connections: 1
+		path time: 356025
+		average path time per connection: 356025
+		average path time per connection [ms]: 0.356025
+	in path: /set-cookie?name=clr-unvisited&value=ff00ff
+		connections: 1
+		path time: 296442
+		average path time per connection: 296442
+		average path time per connection [ms]: 0.296442
+	in path: /set-cookie-graphical
+		connections: 3
+		path time: 909019
+		average path time per connection: 303006
+		average path time per connection [ms]: 0.303006
+	in path: /styling.css
+		connections: 17
+		path time: 7826676
+		average path time per connection: 460392
+		average path time per connection [ms]: 0.460393
+	in path: /
+		connections: 5
+		path time: 1866879
+		average path time per connection: 373375
+		average path time per connection [ms]: 0.373376

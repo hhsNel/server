@@ -1,0 +1,9 @@
+total connections: 3
+service time: 1065892
+average service time per connection: 355297
+average service time per connection [ms]: 0.355297
+	in path: /styling.css
+		connections: 3
+		path time: 1065892
+		average path time per connection: 355297
+		average path time per connection [ms]: 0.355297

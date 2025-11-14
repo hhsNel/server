@@ -1,0 +1,9 @@
+total connections: 1
+service time: 232500
+average service time per connection: 232500
+average service time per connection [ms]: 0.232500
+	in path: /form-response?number=16
+		connections: 1
+		path time: 232500
+		average path time per connection: 232500
+		average path time per connection [ms]: 0.232500

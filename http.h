@@ -12,9 +12,11 @@
 int fill_out_http_req_line(char *buff, size_t buff_len, struct HttpRequest *req);
 int fill_out_headers(char *buff, struct Headers *h);
 int fill_out_cookies(char *buff, struct Header cookie_header, struct Cookies *c);
+int parse_query_string(struct HttpRequest *req);
 
 static char *fill_out_header(char *begin, struct Headers *h);
 static char *fill_out_cookie(char *begin, struct Cookies *c, size_t bytes_left);
+static struct BuffPart bp_from_ptrs(char *buff, char *start, char *end);
 
 int fill_out_http_req_line(char *buff, size_t buff_len, struct HttpRequest *req) {
 	char *it;
@@ -182,6 +184,55 @@ static char *fill_out_cookie(char *start, struct Cookies *c, size_t bytes_left) 
 	if (it < end && *it == ';') ++it;
 
 	return (it <= end) ? it : NULL;
+}
+
+int parse_query_string(struct HttpRequest *req) {
+	char *buff = req->buff;
+	char *qmark, *it, *end;
+	struct BuffPart name, value;
+	char *eq, *amp;
+
+	qmark = strchr(buff + req->path.offset, '?');
+	if (!qmark) {
+		return 1;
+	}
+
+	it  = qmark + 1;
+	end = req->buff + req->path.offset + req->path.length;
+
+	while (it < end) {
+		eq = memchr(it, '=', end - it);
+		if (!eq) {
+			break;
+		}
+
+		name = bp_from_ptrs(buff, it, eq);
+
+		it = eq + 1;
+		amp = memchr(it, '&', end - it);
+		if (!amp) {
+			amp = end;
+		}
+
+		value = bp_from_ptrs(buff, it, amp);
+
+		set_query_param(&req->query, name, value);
+
+		if(amp < end) {
+			it = amp + 1;
+		} else {
+			it = amp;
+		}
+	}
+	return 1;
+}
+
+static struct BuffPart bp_from_ptrs(char *buff, char *start, char *end) {
+	struct BuffPart bp;
+	
+	bp.offset = start - buff;
+	bp.length = end - start;
+	return bp;
 }
 
 #endif

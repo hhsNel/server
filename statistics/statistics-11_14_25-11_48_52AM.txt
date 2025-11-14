@@ -1,0 +1,14 @@
+total connections: 4
+service time: 1268277
+average service time per connection: 317069
+average service time per connection [ms]: 0.317069
+	in path: /?query=asdf&param=working
+		connections: 3
+		path time: 886109
+		average path time per connection: 295369
+		average path time per connection [ms]: 0.295370
+	in path: /
+		connections: 1
+		path time: 382168
+		average path time per connection: 382168
+		average path time per connection [ms]: 0.382168
