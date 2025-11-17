@@ -1,0 +1,10 @@
+HTTP/1.1 301 Moved Permanently
+Set-Cookie: clr-background=000000
+Set-Cookie: clr-foreground=559400
+Set-Cookie: clr-unvisited=ff00ff
+Set-Cookie: clr-visited=ff7f00
+Set-Cookie: clr-inputbg=000000
+Set-Cookie: clr-inputfg=559400
+Location: /
+
+
