@@ -12,6 +12,8 @@ void serve_headers_plaintext(struct arg, struct ResolvCtx *ctx);
 void serve_headers_png(struct arg, struct ResolvCtx *ctx);
 void serve_headers_jpg(struct arg, struct ResolvCtx *ctx);
 void serve_headers_css(struct arg, struct ResolvCtx *ctx);
+void serve_headers_mpeg(struct arg, struct ResolvCtx *ctx);
+void serve_headers_ogg(struct arg, struct ResolvCtx *ctx);
 void serve_headers_custom(struct arg, struct ResolvCtx *ctx);
 void serve_file(struct arg, struct ResolvCtx *ctx);
 void serve_exec_shell(struct arg, struct ResolvCtx *ctx);

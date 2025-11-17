@@ -60,6 +60,8 @@ MK_SERVE_HEADERS(serve_headers_plaintext, "text/plain")
 MK_SERVE_HEADERS(serve_headers_png, "image/png")
 MK_SERVE_HEADERS(serve_headers_jpg, "image/jpeg")
 MK_SERVE_HEADERS(serve_headers_css, "text/css")
+MK_SERVE_HEADERS(serve_headers_mpeg, "audio/mpeg")
+MK_SERVE_HEADERS(serve_headers_ogg, "audio/ogg")
 MK_SERVE_HEADERS(serve_headers_custom, arg.str)
 
 void serve_file(struct arg arg, struct ResolvCtx *ctx) {

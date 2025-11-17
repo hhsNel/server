@@ -1,0 +1,44 @@
+total connections: 49
+service time: 26085581
+average service time per connection: 532358
+average service time per connection [ms]: 0.532359
+	in path: /proclamation-of-the-new-order.ogg
+		connections: 1
+		path time: 311182
+		average path time per connection: 311182
+		average path time per connection [ms]: 0.311182
+	in path: /set-cookie-graphical
+		connections: 1
+		path time: 275506
+		average path time per connection: 275506
+		average path time per connection [ms]: 0.275506
+	in path: /my-form
+		connections: 1
+		path time: 218020
+		average path time per connection: 218020
+		average path time per connection [ms]: 0.218020
+	in path: /favicon.ico
+		connections: 3
+		path time: 1005190
+		average path time per connection: 335063
+		average path time per connection [ms]: 0.335063
+	in path: /
+		connections: 7
+		path time: 2706867
+		average path time per connection: 386695
+		average path time per connection [ms]: 0.386695
+	in path: /proclamation-of-the-new-order.mp3
+		connections: 6
+		path time: 2257426
+		average path time per connection: 376237
+		average path time per connection [ms]: 0.376238
+	in path: /styling.css
+		connections: 25
+		path time: 17868909
+		average path time per connection: 714756
+		average path time per connection [ms]: 0.714756
+	in path: /characters
+		connections: 5
+		path time: 1442481
+		average path time per connection: 288496
+		average path time per connection [ms]: 0.288496

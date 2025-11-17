@@ -1,0 +1,24 @@
+total connections: 7
+service time: 2668921
+average service time per connection: 381274
+average service time per connection [ms]: 0.381274
+	in path: /proclamation-of-the-new-order.ogg
+		connections: 1
+		path time: 268677
+		average path time per connection: 268677
+		average path time per connection [ms]: 0.268677
+	in path: /proclamation-of-the-new-order.mp3
+		connections: 3
+		path time: 1067486
+		average path time per connection: 355828
+		average path time per connection [ms]: 0.355829
+	in path: /styling.css
+		connections: 2
+		path time: 965192
+		average path time per connection: 482596
+		average path time per connection [ms]: 0.482596
+	in path: /characters
+		connections: 1
+		path time: 367566
+		average path time per connection: 367566
+		average path time per connection [ms]: 0.367566

@@ -1,0 +1,54 @@
+total connections: 47
+service time: 19417439
+average service time per connection: 413137
+average service time per connection [ms]: 0.413137
+	in path: /wordpress/wp-admin/setup-config.php
+		connections: 2
+		path time: 289561
+		average path time per connection: 144780
+		average path time per connection [ms]: 0.144781
+	in path: /wp-admin/setup-config.php
+		connections: 2
+		path time: 467586
+		average path time per connection: 233793
+		average path time per connection [ms]: 0.233793
+	in path: /api/.env
+		connections: 1
+		path time: 57438
+		average path time per connection: 57438
+		average path time per connection [ms]: 0.057438
+	in path: /.env
+		connections: 1
+		path time: 78728
+		average path time per connection: 78728
+		average path time per connection [ms]: 0.078728
+	in path: /owa/auth/logon.aspx
+		connections: 1
+		path time: 73355
+		average path time per connection: 73355
+		average path time per connection [ms]: 0.073355
+	in path: /favicon.ico
+		connections: 3
+		path time: 2029421
+		average path time per connection: 676473
+		average path time per connection [ms]: 0.676474
+	in path: /proclamation-of-the-new-order.mp3
+		connections: 4
+		path time: 2992028
+		average path time per connection: 748007
+		average path time per connection [ms]: 0.748007
+	in path: /characters
+		connections: 6
+		path time: 1537693
+		average path time per connection: 256282
+		average path time per connection [ms]: 0.256282
+	in path: /styling.css
+		connections: 22
+		path time: 10494992
+		average path time per connection: 477045
+		average path time per connection [ms]: 0.477045
+	in path: /
+		connections: 5
+		path time: 1396637
+		average path time per connection: 279327
+		average path time per connection [ms]: 0.279327

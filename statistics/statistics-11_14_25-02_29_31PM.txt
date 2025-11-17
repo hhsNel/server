@@ -1,0 +1,44 @@
+total connections: 75
+service time: 30077541
+average service time per connection: 401033
+average service time per connection [ms]: 0.401034
+	in path: /wp-admin/setup-config.php
+		connections: 1
+		path time: 382027
+		average path time per connection: 382027
+		average path time per connection [ms]: 0.382027
+	in path: /set-cookie?name=clr-background&value=ff00ff
+		connections: 1
+		path time: 336817
+		average path time per connection: 336817
+		average path time per connection [ms]: 0.336817
+	in path: /set-cookie-graphical
+		connections: 3
+		path time: 1219765
+		average path time per connection: 406588
+		average path time per connection [ms]: 0.406588
+	in path: /favicon.ico
+		connections: 1
+		path time: 1947127
+		average path time per connection: 1947127
+		average path time per connection [ms]: 1.947127
+	in path: /styling.css
+		connections: 23
+		path time: 11269935
+		average path time per connection: 489997
+		average path time per connection [ms]: 0.489997
+	in path: /
+		connections: 8
+		path time: 3709190
+		average path time per connection: 463648
+		average path time per connection [ms]: 0.463649
+	in path: /%12
+		connections: 30
+		path time: 8056106
+		average path time per connection: 268536
+		average path time per connection [ms]: 0.268537
+	in path: /default-cookies
+		connections: 8
+		path time: 3156574
+		average path time per connection: 394571
+		average path time per connection [ms]: 0.394572

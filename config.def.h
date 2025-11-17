@@ -98,6 +98,11 @@ ResolvFunc styling[] = {
 	{ serve_plaintext,         {.str="a:visited {\n\tcolor: #"} },
 	{ serve_cookie_value,      {.str="clr-visited"} },
 	{ serve_plaintext,         {.str=";\n}\n"} },
+	{ serve_plaintext,         {.str="input {\n\tbackground-color: #"} },
+	{ serve_cookie_value,      {.str="clr-inputbg"} },
+	{ serve_plaintext,         {.str=";\n\tcolor: #"} },
+	{ serve_cookie_value,      {.str="clr-inputfg"} },
+	{ serve_plaintext,         {.str=";\n}\n"} },
 	{ NULL, {} },
 };
 
@@ -117,6 +122,41 @@ ResolvFunc set_cookie_back[] = {
 	{ NULL, {} },
 };
 
+ResolvFunc set_cookie_default[] = {
+	{ serve_file,              {.str="files/set-cookie-default.http"} },
+	{ NULL, {} },
+};
+
+ResolvFunc characters[] = {
+	{ serve_headers_html,      {} },
+	{ serve_file,              {.str="files/characters.html"} },
+	{ NULL, {} },
+};
+
+ResolvFunc proclamation_of_the_new_order_mp3[] = {
+	{ serve_headers_mpeg,      {} },
+	{ serve_file,              {.str="files/proclamation-of-the-new-order.mp3"} },
+	{ NULL, {} },
+};
+
+ResolvFunc proclamation_of_the_new_order_ogg[] = {
+	{ serve_headers_ogg,      {} },
+	{ serve_file,              {.str="files/proclamation-of-the-new-order.ogg"} },
+	{ NULL, {} },
+};
+
+ResolvFunc proclamation_of_the_new_order_mp3_full[] = {
+	{ serve_headers_mpeg,      {} },
+	{ serve_file,              {.str="files/proclamation-of-the-new-order-full.mp3"} },
+	{ NULL, {} },
+};
+
+ResolvFunc proclamation_of_the_new_order_ogg_full[] = {
+	{ serve_headers_ogg,      {} },
+	{ serve_file,              {.str="files/proclamation-of-the-new-order-full.ogg"} },
+	{ NULL, {} },
+};
+
 ResolvFunc init[] = { /* "entry point" */
 	{ if_is_path_no_query,     {.jump=index_page,.str="/"} },
 	{ if_is_path_no_query,     {.jump=favicon,.str="/favicon.ico"} },
@@ -130,6 +170,12 @@ ResolvFunc init[] = { /* "entry point" */
 	{ if_is_path_no_query,     {.jump=spo,.str="/spo"} },
 	{ if_is_path_no_query,     {.jump=set_cookie_graphical,.str="/set-cookie-graphical"} },
 	{ if_is_path_no_query,     {.jump=set_cookie_back,.str="/set-cookie"} },
+	{ if_is_path_no_query,     {.jump=set_cookie_default,.str="/default-cookies"} },
+	{ if_is_path_no_query,     {.jump=characters,.str="/characters"} },
+	{ if_is_path_no_query,     {.jump=proclamation_of_the_new_order_mp3,.str="/proclamation-of-the-new-order.mp3"} },
+	{ if_is_path_no_query,     {.jump=proclamation_of_the_new_order_ogg,.str="/proclamation-of-the-new-order.ogg"} },
+	{ if_is_path_no_query,     {.jump=proclamation_of_the_new_order_mp3_full,.str="/proclamation-of-the-new-order-full.mp3"} },
+	{ if_is_path_no_query,     {.jump=proclamation_of_the_new_order_ogg_full,.str="/proclamation-of-the-new-order-full.ogg"} },
 	{ NULL, {} },
 };
 

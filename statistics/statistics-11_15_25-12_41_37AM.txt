@@ -1,0 +1,14 @@
+total connections: 2
+service time: 1372498
+average service time per connection: 686249
+average service time per connection [ms]: 0.686249
+	in path: /favicon.ico
+		connections: 1
+		path time: 974996
+		average path time per connection: 974996
+		average path time per connection [ms]: 0.974996
+	in path: /proclamation-of-the-new-order.mp3
+		connections: 1
+		path time: 397502
+		average path time per connection: 397502
+		average path time per connection [ms]: 0.397502

@@ -1,0 +1,199 @@
+total connections: 148
+service time: 77668839
+average service time per connection: 524789
+average service time per connection [ms]: 0.524789
+	in path: /.git/config
+		connections: 1
+		path time: 89136
+		average path time per connection: 89136
+		average path time per connection [ms]: 0.089136
+	in path: /xmlrpc.php
+		connections: 1
+		path time: 184363
+		average path time per connection: 184363
+		average path time per connection [ms]: 0.184363
+	in path: /.env
+		connections: 3
+		path time: 511326
+		average path time per connection: 170442
+		average path time per connection [ms]: 0.170442
+	in path: /env/.env
+		connections: 3
+		path time: 561145
+		average path time per connection: 187048
+		average path time per connection [ms]: 0.187048
+	in path: /api/.env
+		connections: 3
+		path time: 381029
+		average path time per connection: 127009
+		average path time per connection [ms]: 0.127010
+	in path: /set-cookie-graphical
+		connections: 1
+		path time: 3874413
+		average path time per connection: 3874413
+		average path time per connection [ms]: 3.874413
+	in path: /default-cookies
+		connections: 1
+		path time: 3717429
+		average path time per connection: 3717429
+		average path time per connection [ms]: 3.717429
+	in path: /+CSCOE+/transfer.js
+		connections: 1
+		path time: 68979
+		average path time per connection: 68979
+		average path time per connection [ms]: 0.068979
+	in path: /+CSCOL+/a1.jar
+		connections: 1
+		path time: 86768
+		average path time per connection: 86768
+		average path time per connection [ms]: 0.086768
+	in path: /+CSCOE+/logon_forms.js
+		connections: 1
+		path time: 99544
+		average path time per connection: 99544
+		average path time per connection [ms]: 0.099544
+	in path: /+CSCOL+/Java.jar
+		connections: 1
+		path time: 157818
+		average path time per connection: 157818
+		average path time per connection [ms]: 0.157818
+	in path: //sito/wp-includes/wlwmanifest.xml
+		connections: 1
+		path time: 100540
+		average path time per connection: 100540
+		average path time per connection [ms]: 0.100540
+	in path: //cms/wp-includes/wlwmanifest.xml
+		connections: 1
+		path time: 94937
+		average path time per connection: 94937
+		average path time per connection [ms]: 0.094937
+	in path: //site/wp-includes/wlwmanifest.xml
+		connections: 1
+		path time: 79913
+		average path time per connection: 79913
+		average path time per connection [ms]: 0.079913
+	in path: //wp2/wp-includes/wlwmanifest.xml
+		connections: 1
+		path time: 208632
+		average path time per connection: 208632
+		average path time per connection [ms]: 0.208632
+	in path: //media/wp-includes/wlwmanifest.xml
+		connections: 1
+		path time: 98736
+		average path time per connection: 98736
+		average path time per connection [ms]: 0.098736
+	in path: //test/wp-includes/wlwmanifest.xml
+		connections: 1
+		path time: 75735
+		average path time per connection: 75735
+		average path time per connection [ms]: 0.075735
+	in path: //wp1/wp-includes/wlwmanifest.xml
+		connections: 1
+		path time: 71515
+		average path time per connection: 71515
+		average path time per connection [ms]: 0.071515
+	in path: //shop/wp-includes/wlwmanifest.xml
+		connections: 1
+		path time: 72595
+		average path time per connection: 72595
+		average path time per connection [ms]: 0.072595
+	in path: //2019/wp-includes/wlwmanifest.xml
+		connections: 1
+		path time: 100268
+		average path time per connection: 100268
+		average path time per connection [ms]: 0.100268
+	in path: //2018/wp-includes/wlwmanifest.xml
+		connections: 1
+		path time: 80432
+		average path time per connection: 80432
+		average path time per connection [ms]: 0.080432
+	in path: //news/wp-includes/wlwmanifest.xml
+		connections: 1
+		path time: 82189
+		average path time per connection: 82189
+		average path time per connection [ms]: 0.082189
+	in path: //wp/wp-includes/wlwmanifest.xml
+		connections: 1
+		path time: 80214
+		average path time per connection: 80214
+		average path time per connection [ms]: 0.080214
+	in path: //website/wp-includes/wlwmanifest.xml
+		connections: 1
+		path time: 95281
+		average path time per connection: 95281
+		average path time per connection [ms]: 0.095281
+	in path: //wordpress/wp-includes/wlwmanifest.xml
+		connections: 1
+		path time: 80280
+		average path time per connection: 80280
+		average path time per connection [ms]: 0.080280
+	in path: //web/wp-includes/wlwmanifest.xml
+		connections: 1
+		path time: 73007
+		average path time per connection: 73007
+		average path time per connection [ms]: 0.073007
+	in path: //blog/wp-includes/wlwmanifest.xml
+		connections: 1
+		path time: 99599
+		average path time per connection: 99599
+		average path time per connection [ms]: 0.099599
+	in path: //xmlrpc.php?rsd
+		connections: 1
+		path time: 86768
+		average path time per connection: 86768
+		average path time per connection [ms]: 0.086768
+	in path: //wp-includes/wlwmanifest.xml
+		connections: 1
+		path time: 159754
+		average path time per connection: 159754
+		average path time per connection [ms]: 0.159754
+	in path: /wp-admin/setup-config.php
+		connections: 26
+		path time: 7303867
+		average path time per connection: 280917
+		average path time per connection [ms]: 0.280918
+	in path: /wordpress/wp-admin/setup-config.php
+		connections: 26
+		path time: 6995683
+		average path time per connection: 269064
+		average path time per connection [ms]: 0.269065
+	in path: /proclamation-of-the-new-order.ogg
+		connections: 1
+		path time: 1444102
+		average path time per connection: 1444102
+		average path time per connection [ms]: 1.444102
+	in path: /
+		connections: 10
+		path time: 3791665
+		average path time per connection: 379166
+		average path time per connection [ms]: 0.379167
+	in path: /styling.css
+		connections: 25
+		path time: 11472168
+		average path time per connection: 458886
+		average path time per connection [ms]: 0.458887
+	in path: /characters
+		connections: 6
+		path time: 1773387
+		average path time per connection: 295564
+		average path time per connection [ms]: 0.295565
+	in path: /proclamation-of-the-new-order-full.ogg
+		connections: 2
+		path time: 819787
+		average path time per connection: 409893
+		average path time per connection [ms]: 0.409894
+	in path: /favicon.ico
+		connections: 3
+		path time: 1028884
+		average path time per connection: 342961
+		average path time per connection [ms]: 0.342961
+	in path: /proclamation-of-the-new-order-full.mp3
+		connections: 8
+		path time: 28929365
+		average path time per connection: 3616170
+		average path time per connection [ms]: 3.616171
+	in path: /proclamation-of-the-new-order.mp3
+		connections: 6
+		path time: 2637586
+		average path time per connection: 439597
+		average path time per connection [ms]: 0.439598

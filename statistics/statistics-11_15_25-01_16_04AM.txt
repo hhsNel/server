@@ -1,0 +1,34 @@
+total connections: 35
+service time: 16146771
+average service time per connection: 461336
+average service time per connection [ms]: 0.461336
+	in path: /default-cookies
+		connections: 1
+		path time: 211505
+		average path time per connection: 211505
+		average path time per connection [ms]: 0.211505
+	in path: /proclamation-of-the-new-order.mp3
+		connections: 5
+		path time: 2059648
+		average path time per connection: 411929
+		average path time per connection [ms]: 0.411930
+	in path: /characters
+		connections: 4
+		path time: 1155144
+		average path time per connection: 288786
+		average path time per connection [ms]: 0.288786
+	in path: /favicon.ico
+		connections: 3
+		path time: 1628619
+		average path time per connection: 542873
+		average path time per connection [ms]: 0.542873
+	in path: /styling.css
+		connections: 16
+		path time: 8204942
+		average path time per connection: 512808
+		average path time per connection [ms]: 0.512809
+	in path: /
+		connections: 6
+		path time: 2886913
+		average path time per connection: 481152
+		average path time per connection [ms]: 0.481152
