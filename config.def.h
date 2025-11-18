@@ -157,6 +157,8 @@ ResolvFunc proclamation_of_the_new_order_ogg_full[] = {
 	{ NULL, {} },
 };
 
+#include "files/just-monika/config.h"
+
 ResolvFunc init[] = { /* "entry point" */
 	{ if_is_path_no_query,     {.jump=index_page,.str="/"} },
 	{ if_is_path_no_query,     {.jump=favicon,.str="/favicon.ico"} },
@@ -176,6 +178,7 @@ ResolvFunc init[] = { /* "entry point" */
 	{ if_is_path_no_query,     {.jump=proclamation_of_the_new_order_ogg,.str="/proclamation-of-the-new-order.ogg"} },
 	{ if_is_path_no_query,     {.jump=proclamation_of_the_new_order_mp3_full,.str="/proclamation-of-the-new-order-full.mp3"} },
 	{ if_is_path_no_query,     {.jump=proclamation_of_the_new_order_ogg_full,.str="/proclamation-of-the-new-order-full.ogg"} },
+	{ if_path_begins,          {.jump=just_monika,.str="/just-monika"} },
 	{ NULL, {} },
 };
 

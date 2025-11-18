@@ -23,6 +23,7 @@ void serve_header_value(struct arg, struct ResolvCtx *ctx);
 void serve_cookie_value(struct arg, struct ResolvCtx *ctx);
 void serve_http_status(struct arg, struct ResolvCtx *ctx);
 void serve_query_param(struct arg, struct ResolvCtx *ctx);
+void serve_file_content_length(struct arg, struct ResolvCtx *ctx);
 
 #endif
 

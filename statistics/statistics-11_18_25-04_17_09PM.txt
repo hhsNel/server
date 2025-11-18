@@ -1,0 +1,54 @@
+total connections: 48
+service time: 62098858
+average service time per connection: 1293726
+average service time per connection [ms]: 1.293726
+	in path: /just-monika/music/your-reality
+		connections: 1
+		path time: 16718551
+		average path time per connection: 16718551
+		average path time per connection [ms]: 16.718551
+	in path: /favicon.ico
+		connections: 1
+		path time: 338576
+		average path time per connection: 338576
+		average path time per connection [ms]: 0.338576
+	in path: /just-monika/music/daijoubu
+		connections: 2
+		path time: 1538343
+		average path time per connection: 769171
+		average path time per connection [ms]: 0.769172
+	in path: /music/daijoubu
+		connections: 10
+		path time: 2188203
+		average path time per connection: 218820
+		average path time per connection [ms]: 0.218820
+	in path: /proclamation-of-the-new-order-full.mp3
+		connections: 2
+		path time: 25920332
+		average path time per connection: 12960166
+		average path time per connection [ms]: 12.960166
+	in path: /proclamation-of-the-new-order.mp3
+		connections: 2
+		path time: 1227783
+		average path time per connection: 613891
+		average path time per connection [ms]: 0.613892
+	in path: /characters
+		connections: 2
+		path time: 557226
+		average path time per connection: 278613
+		average path time per connection [ms]: 0.278613
+	in path: /
+		connections: 3
+		path time: 859425
+		average path time per connection: 286475
+		average path time per connection [ms]: 0.286475
+	in path: /styling.css
+		connections: 20
+		path time: 10704044
+		average path time per connection: 535202
+		average path time per connection [ms]: 0.535202
+	in path: /just-monika
+		connections: 5
+		path time: 2046375
+		average path time per connection: 409275
+		average path time per connection [ms]: 0.409275

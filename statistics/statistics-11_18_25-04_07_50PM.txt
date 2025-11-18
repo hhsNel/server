@@ -1,0 +1,114 @@
+total connections: 99
+service time: 197579156
+average service time per connection: 1995749
+average service time per connection [ms]: 1.995749
+	in path: /just-monika/music/your-reality
+		connections: 1
+		path time: 41928315
+		average path time per connection: 41928315
+		average path time per connection [ms]: 41.928315
+	in path: /just-monika/music/sayo-nara
+		connections: 1
+		path time: 7201860
+		average path time per connection: 7201860
+		average path time per connection [ms]: 7.201860
+	in path: /just-monika/music/poem-panic
+		connections: 1
+		path time: 4560193
+		average path time per connection: 4560193
+		average path time per connection [ms]: 4.560193
+	in path: /just-monika/music/play-with-me
+		connections: 1
+		path time: 5144244
+		average path time per connection: 5144244
+		average path time per connection [ms]: 5.144244
+	in path: /just-monika/music/ok-everyone
+		connections: 1
+		path time: 4394213
+		average path time per connection: 4394213
+		average path time per connection [ms]: 4.394213
+	in path: /just-monika/music/ohayu-sayori
+		connections: 1
+		path time: 7726868
+		average path time per connection: 7726868
+		average path time per connection [ms]: 7.726868
+	in path: /just-monika/music/my-feelings
+		connections: 1
+		path time: 7020807
+		average path time per connection: 7020807
+		average path time per connection [ms]: 7.020807
+	in path: /favicon.ico
+		connections: 1
+		path time: 332923
+		average path time per connection: 332923
+		average path time per connection [ms]: 0.332923
+	in path: /just-monika/music/my-confession
+		connections: 1
+		path time: 5763402
+		average path time per connection: 5763402
+		average path time per connection [ms]: 5.763402
+	in path: /just-monika/music/just-monika
+		connections: 1
+		path time: 20643893
+		average path time per connection: 20643893
+		average path time per connection [ms]: 20.643893
+	in path: /just-monika/music/i-still-love-you
+		connections: 1
+		path time: 3172775
+		average path time per connection: 3172775
+		average path time per connection [ms]: 3.172775
+	in path: /just-monika/music/dreams-of-love-and-literature
+		connections: 1
+		path time: 5832879
+		average path time per connection: 5832879
+		average path time per connection [ms]: 5.832879
+	in path: /just-monika/music/doki-doki-literature-club
+		connections: 2
+		path time: 20552592
+		average path time per connection: 10276296
+		average path time per connection [ms]: 10.276296
+	in path: /just-monika/music/daijoubu
+		connections: 2
+		path time: 6748947
+		average path time per connection: 3374473
+		average path time per connection [ms]: 3.374474
+	in path: /just-monika/daijoubu
+		connections: 10
+		path time: 2540690
+		average path time per connection: 254069
+		average path time per connection [ms]: 0.254069
+	in path: /just-monika
+		connections: 40
+		path time: 12075240
+		average path time per connection: 301881
+		average path time per connection [ms]: 0.301881
+	in path: /proclamation-of-the-new-order-full.mp3
+		connections: 2
+		path time: 18853684
+		average path time per connection: 9426842
+		average path time per connection [ms]: 9.426842
+	in path: /proclamation-of-the-new-order.mp3
+		connections: 2
+		path time: 2561754
+		average path time per connection: 1280877
+		average path time per connection [ms]: 1.280877
+	in path: /characters
+		connections: 2
+		path time: 4527395
+		average path time per connection: 2263697
+		average path time per connection [ms]: 2.263698
+	in path: /
+		connections: 2
+		path time: 629411
+		average path time per connection: 314705
+		average path time per connection [ms]: 0.314706
+	in path: /styling.css
+		connections: 19
+		path time: 13147268
+		average path time per connection: 691961
+		average path time per connection [ms]: 0.691961
+	in path: /just-monika/
+		connections: 6
+		path time: 2219803
+		average path time per connection: 369967
+		average path time per connection [ms]: 0.369967

@@ -1,0 +1,14 @@
+total connections: 3
+service time: 1167350
+average service time per connection: 389116
+average service time per connection [ms]: 0.389117
+	in path: /styling.css
+		connections: 2
+		path time: 746371
+		average path time per connection: 373185
+		average path time per connection [ms]: 0.373186
+	in path: /just-monika/
+		connections: 1
+		path time: 420979
+		average path time per connection: 420979
+		average path time per connection [ms]: 0.420979

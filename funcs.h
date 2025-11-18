@@ -17,6 +17,7 @@
 #define HEADERS_2 "\r\n\r\n"
 #define RES_LINE_1 "HTTP/1.1 "
 #define RES_LINE_2 "\r\n"
+#define CONTENT_LENGTH_HEADER "Content-Length: "
 
 #define MK_SERVE_HEADERS(NAME, MIMETYPE) \
 	void NAME(struct arg arg, struct ResolvCtx *ctx) { \
@@ -198,6 +199,42 @@ void serve_query_param(struct arg arg, struct ResolvCtx *ctx) {
 
 	qp = get_query_param(&ctx->req.query, arg.str);
 	write(ctx->req.client_fd, qp->value, strlen(qp->value));
+}
+
+void serve_file_content_length(struct arg arg, struct ResolvCtx *ctx) {
+	int file;
+	struct stat st;
+	char num[32];
+	unsigned long int len;
+
+	file = open(arg.str, O_RDONLY);
+	if(!file) {
+		fprintf(stderr, "file: %s\n", arg.str);
+		perror("open failed @ serve_file_content_length");
+		return;
+	}
+
+	if(fstat(file, &st) < 0) {
+		fprintf(stderr, "file: %s\n", arg.str);
+		perror("fstat failed @ serve_file_content_length");
+		goto cleanup;
+	}
+
+	write(ctx->req.client_fd, CONTENT_LENGTH_HEADER, strlen(CONTENT_LENGTH_HEADER));
+	len = snprintf(num, sizeof(num), "%llu", (unsigned long long int)st.st_size);
+	if(len <= 0 || len >= sizeof(num)) {
+		fprintf(stderr, "could not write %llu into %lu bytes @ serve_file_content_length\n", (unsigned long long int)st.st_size, (unsigned long int)sizeof(num));
+		goto cleanup;
+	}
+	if((unsigned long int)write(ctx->req.client_fd, num, len) != len) {
+		fprintf(stderr, "file: %s\n", arg.str);
+		perror("write failed @ serve_file_content_length");
+		goto cleanup;
+	}
+	write(ctx->req.client_fd, "\r\n", 2);
+
+	cleanup:
+	close(file);
 }
 
 #endif

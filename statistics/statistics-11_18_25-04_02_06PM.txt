@@ -1,0 +1,9 @@
+total connections: 1
+service time: 2043832
+average service time per connection: 2043832
+average service time per connection [ms]: 2.043832
+	in path: /just-monika/music/your-reality
+		connections: 1
+		path time: 2043832
+		average path time per connection: 2043832
+		average path time per connection [ms]: 2.043832

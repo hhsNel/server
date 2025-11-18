@@ -1,0 +1,14 @@
+total connections: 2
+service time: 28600857
+average service time per connection: 14300428
+average service time per connection [ms]: 14.300429
+	in path: /favicon.ico
+		connections: 1
+		path time: 4751374
+		average path time per connection: 4751374
+		average path time per connection [ms]: 4.751374
+	in path: /just-monika/music/your-reality
+		connections: 1
+		path time: 23849483
+		average path time per connection: 23849483
+		average path time per connection [ms]: 23.849483

@@ -1,0 +1,19 @@
+total connections: 4
+service time: 730619
+average service time per connection: 182654
+average service time per connection [ms]: 0.182655
+	in path: /just-monika/audio/your-reality.ogg
+		connections: 1
+		path time: 90155
+		average path time per connection: 90155
+		average path time per connection [ms]: 0.090155
+	in path: /just-monika/music/your-reality.ogg
+		connections: 2
+		path time: 164321
+		average path time per connection: 82160
+		average path time per connection [ms]: 0.082160
+	in path: /
+		connections: 1
+		path time: 476143
+		average path time per connection: 476143
+		average path time per connection [ms]: 0.476143

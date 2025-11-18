@@ -1,0 +1,29 @@
+total connections: 6
+service time: 4431552
+average service time per connection: 738592
+average service time per connection [ms]: 0.738592
+	in path: /just-monika/music/your-reality
+		connections: 1
+		path time: 278050
+		average path time per connection: 278050
+		average path time per connection [ms]: 0.278050
+	in path: /just-monika/your-reality
+		connections: 1
+		path time: 68651
+		average path time per connection: 68651
+		average path time per connection [ms]: 0.068651
+	in path: /just-monika
+		connections: 1
+		path time: 37398
+		average path time per connection: 37398
+		average path time per connection [ms]: 0.037398
+	in path: /styling.css
+		connections: 2
+		path time: 2444070
+		average path time per connection: 1222035
+		average path time per connection [ms]: 1.222035
+	in path: /
+		connections: 1
+		path time: 1603383
+		average path time per connection: 1603383
+		average path time per connection [ms]: 1.603383
