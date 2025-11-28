@@ -1,0 +1,19 @@
+total connections: 257
+service time: 102797546
+average service time per connection: 399990
+average service time per connection [ms]: 0.399990
+	in path: /favicon.ico
+		connections: 13
+		path time: 4521343
+		average path time per connection: 347795
+		average path time per connection [ms]: 0.347796
+	in path: /styling.css
+		connections: 162
+		path time: 68213529
+		average path time per connection: 421071
+		average path time per connection [ms]: 0.421071
+	in path: /
+		connections: 82
+		path time: 30062674
+		average path time per connection: 366617
+		average path time per connection [ms]: 0.366618

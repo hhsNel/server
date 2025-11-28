@@ -1,0 +1,24 @@
+total connections: 6
+service time: 11742285
+average service time per connection: 1957047
+average service time per connection [ms]: 1.957048
+	in path: /gud/Revive%20the%20Meek.png
+		connections: 2
+		path time: 1602215
+		average path time per connection: 801107
+		average path time per connection [ms]: 0.801107
+	in path: /gud/Evolving%20Landscape.png
+		connections: 1
+		path time: 568890
+		average path time per connection: 568890
+		average path time per connection [ms]: 0.568890
+	in path: /wp-admin/setup-config.php
+		connections: 1
+		path time: 211012
+		average path time per connection: 211012
+		average path time per connection [ms]: 0.211012
+	in path: /gud
+		connections: 2
+		path time: 9360168
+		average path time per connection: 4680084
+		average path time per connection [ms]: 4.680084

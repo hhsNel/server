@@ -1,0 +1,9 @@
+total connections: 1
+service time: 895071
+average service time per connection: 895071
+average service time per connection [ms]: 0.895071
+	in path: /gud/Ruthless%20Pillaging.png
+		connections: 1
+		path time: 895071
+		average path time per connection: 895071
+		average path time per connection [ms]: 0.895071

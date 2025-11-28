@@ -30,7 +30,7 @@
 #define UNIX_SOCK_PATH "serv.sock"
 unsigned int port = 8080;
 
-unsigned int backlog = 4;
+unsigned int backlog = 1024;
 
 ResolvFunc index_page[] = {
 	{ serve_headers_html,      {} },
@@ -159,6 +159,20 @@ ResolvFunc proclamation_of_the_new_order_ogg_full[] = {
 
 #include "files/just-monika/config.h"
 
+ResolvFunc list_cards[] = {
+	{ serve_headers_html,      {} },
+	{ serve_file,              {.str="files/gud/card-list-beginning.html"} },
+	{ serve_directory_listing, {.str="files/gud/cards",.strbegin="<ul>",.strmid="<li><a href=\"/gud/list/%1$s\">%1$s</a></li>",.strend="</ul>"} },
+	{ serve_plaintext,         {.str="</body></html>"} },
+	{ NULL, {} },
+};
+
+ResolvFunc show_card[] = {
+	{ serve_headers_png,       {} },
+	{ serve_directory_content, {.str="files/gud/cards",.i=10} }, /* strlen("/gud/list/") = 5 */
+	{ NULL, {} },
+};
+
 ResolvFunc init[] = { /* "entry point" */
 	{ if_is_path_no_query,     {.jump=index_page,.str="/"} },
 	{ if_is_path_no_query,     {.jump=favicon,.str="/favicon.ico"} },
@@ -179,6 +193,8 @@ ResolvFunc init[] = { /* "entry point" */
 	{ if_is_path_no_query,     {.jump=proclamation_of_the_new_order_mp3_full,.str="/proclamation-of-the-new-order-full.mp3"} },
 	{ if_is_path_no_query,     {.jump=proclamation_of_the_new_order_ogg_full,.str="/proclamation-of-the-new-order-full.ogg"} },
 	{ if_path_begins,          {.jump=just_monika,.str="/just-monika"} },
+	{ if_is_path,              {.jump=list_cards,.str="/gud/list"} },
+	{ if_path_begins,          {.jump=show_card,.str="/gud/list/"} },
 	{ NULL, {} },
 };
 

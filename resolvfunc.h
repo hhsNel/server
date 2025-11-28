@@ -10,6 +10,7 @@ struct arg {
 	int i;
 	char *str;
 	struct ResolvFunc *jump;
+	char *strbegin, *strmid, *strend;
 };
 
 typedef struct ResolvFunc {

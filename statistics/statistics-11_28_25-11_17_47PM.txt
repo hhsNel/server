@@ -1,0 +1,199 @@
+total connections: 200
+service time: 409278617
+average service time per connection: 2046393
+average service time per connection [ms]: 2.046393
+	in path: /gud/list/Expanses%20of%20Nyx.png
+		connections: 1
+		path time: 5559374
+		average path time per connection: 5559374
+		average path time per connection [ms]: 5.559374
+	in path: /gud/list/Otherworldly%20Landscape.png
+		connections: 1
+		path time: 700585
+		average path time per connection: 700585
+		average path time per connection [ms]: 0.700585
+	in path: /gud/list/Stolen%20Knowledge.png
+		connections: 1
+		path time: 1139775
+		average path time per connection: 1139775
+		average path time per connection [ms]: 1.139775
+	in path: /gud/list/Conciousness%20Theft.png
+		connections: 1
+		path time: 859668
+		average path time per connection: 859668
+		average path time per connection [ms]: 0.859668
+	in path: /gud/list/Suppression%20Array.png
+		connections: 1
+		path time: 1124321
+		average path time per connection: 1124321
+		average path time per connection [ms]: 1.124321
+	in path: /gud/list/Hell.png
+		connections: 1
+		path time: 1389296
+		average path time per connection: 1389296
+		average path time per connection [ms]: 1.389296
+	in path: /set-cookie?name=clr-foreground&value=000000
+		connections: 1
+		path time: 487556
+		average path time per connection: 487556
+		average path time per connection [ms]: 0.487556
+	in path: /set-cookie?name=clr-inputbg&value=777777
+		connections: 1
+		path time: 395239
+		average path time per connection: 395239
+		average path time per connection [ms]: 0.395239
+	in path: /set-cookie?name=clr-background&value=FFFFFF
+		connections: 1
+		path time: 375626
+		average path time per connection: 375626
+		average path time per connection [ms]: 0.375626
+	in path: /set-cookie?name=clr-background%09&value=000000
+		connections: 1
+		path time: 901264
+		average path time per connection: 901264
+		average path time per connection [ms]: 0.901264
+	in path: /spo
+		connections: 1
+		path time: 3964628
+		average path time per connection: 3964628
+		average path time per connection [ms]: 3.964628
+	in path: /friends
+		connections: 1
+		path time: 296239
+		average path time per connection: 296239
+		average path time per connection [ms]: 0.296239
+	in path: /set-cookie-graphical
+		connections: 5
+		path time: 8427625
+		average path time per connection: 1685525
+		average path time per connection [ms]: 1.685525
+	in path: /my-specs
+		connections: 1
+		path time: 182226288
+		average path time per connection: 182226288
+		average path time per connection [ms]: 182.226288
+	in path: /form-response?number=six
+		connections: 1
+		path time: 322231
+		average path time per connection: 322231
+		average path time per connection [ms]: 0.322231
+	in path: /form-response?number=
+		connections: 1
+		path time: 227595
+		average path time per connection: 227595
+		average path time per connection [ms]: 0.227595
+	in path: /form-response?number=1
+		connections: 1
+		path time: 327678
+		average path time per connection: 327678
+		average path time per connection [ms]: 0.327678
+	in path: /form-response?number=420
+		connections: 1
+		path time: 239059
+		average path time per connection: 239059
+		average path time per connection [ms]: 0.239059
+	in path: /form-response?number=69
+		connections: 1
+		path time: 4098214
+		average path time per connection: 4098214
+		average path time per connection [ms]: 4.098214
+	in path: /my-form
+		connections: 3
+		path time: 1468404
+		average path time per connection: 489468
+		average path time per connection [ms]: 0.489468
+	in path: /gud
+		connections: 2
+		path time: 413106
+		average path time per connection: 206553
+		average path time per connection [ms]: 0.206553
+	in path: /gud/list/The_maelstrom.png
+		connections: 1
+		path time: 461469
+		average path time per connection: 461469
+		average path time per connection [ms]: 0.461469
+	in path: /gud/list/The%20maelstrom.png
+		connections: 1
+		path time: 746889
+		average path time per connection: 746889
+		average path time per connection [ms]: 0.746889
+	in path: /gud/list/Revive%20the%20Meek.png
+		connections: 1
+		path time: 2040301
+		average path time per connection: 2040301
+		average path time per connection [ms]: 2.040301
+	in path: /gud/list/Segovian%20Behemoth.png
+		connections: 1
+		path time: 569129
+		average path time per connection: 569129
+		average path time per connection [ms]: 0.569129
+	in path: /gud/list/Grim%20Terramancer.png
+		connections: 9
+		path time: 6254573
+		average path time per connection: 694952
+		average path time per connection [ms]: 0.694953
+	in path: /gud/list/Ultimate%20Answer.png
+		connections: 13
+		path time: 7885898
+		average path time per connection: 606607
+		average path time per connection [ms]: 0.606608
+	in path: /gud/list/Tolaria,%20Cradle%20of%20Knowledge.png
+		connections: 1
+		path time: 1499157
+		average path time per connection: 1499157
+		average path time per connection [ms]: 1.499157
+	in path: /gud/list/Unexplainable%20Edge.png
+		connections: 1
+		path time: 547965
+		average path time per connection: 547965
+		average path time per connection [ms]: 0.547965
+	in path: /gud/list/The%20Maelstrom.png
+		connections: 2
+		path time: 1203215
+		average path time per connection: 601607
+		average path time per connection [ms]: 0.601607
+	in path: /robots.txt
+		connections: 1
+		path time: 90661
+		average path time per connection: 90661
+		average path time per connection [ms]: 0.090661
+	in path: /.env
+		connections: 1
+		path time: 312679
+		average path time per connection: 312679
+		average path time per connection [ms]: 0.312679
+	in path: /favicon.ico
+		connections: 7
+		path time: 1928610
+		average path time per connection: 275515
+		average path time per connection [ms]: 0.275516
+	in path: /gud/list/Foggy%20Cliffs.png
+		connections: 1
+		path time: 2206852
+		average path time per connection: 2206852
+		average path time per connection [ms]: 2.206852
+	in path: /default-cookies
+		connections: 2
+		path time: 4240666
+		average path time per connection: 2120333
+		average path time per connection [ms]: 2.120333
+	in path: /
+		connections: 21
+		path time: 12233621
+		average path time per connection: 582553
+		average path time per connection [ms]: 0.582553
+	in path: /styling.css
+		connections: 80
+		path time: 44913849
+		average path time per connection: 561423
+		average path time per connection [ms]: 0.561423
+	in path: /gud/list
+		connections: 21
+		path time: 98369809
+		average path time per connection: 4684276
+		average path time per connection [ms]: 4.684277
+	in path: /gud/list/Mind%20Reading%20Lesson.png
+		connections: 8
+		path time: 8829503
+		average path time per connection: 1103687
+		average path time per connection [ms]: 1.103688

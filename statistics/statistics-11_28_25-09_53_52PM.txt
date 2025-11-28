@@ -1,0 +1,9 @@
+total connections: 1
+service time: 219378
+average service time per connection: 219378
+average service time per connection [ms]: 0.219378
+	in path: /gud
+		connections: 1
+		path time: 219378
+		average path time per connection: 219378
+		average path time per connection [ms]: 0.219378

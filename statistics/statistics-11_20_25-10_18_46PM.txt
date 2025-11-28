@@ -1,0 +1,49 @@
+total connections: 28
+service time: 33287955
+average service time per connection: 1188855
+average service time per connection [ms]: 1.188856
+	in path: /just-monika
+		connections: 1
+		path time: 278749
+		average path time per connection: 278749
+		average path time per connection [ms]: 0.278749
+	in path: /proclamation-of-the-new-order-full.mp3
+		connections: 1
+		path time: 11020296
+		average path time per connection: 11020296
+		average path time per connection [ms]: 11.020296
+	in path: /proclamation-of-the-new-order.mp3
+		connections: 1
+		path time: 2097689
+		average path time per connection: 2097689
+		average path time per connection [ms]: 2.097689
+	in path: /characters
+		connections: 1
+		path time: 3939377
+		average path time per connection: 3939377
+		average path time per connection [ms]: 3.939377
+	in path: /default-cookies
+		connections: 1
+		path time: 3795037
+		average path time per connection: 3795037
+		average path time per connection [ms]: 3.795037
+	in path: /favicon.ico
+		connections: 2
+		path time: 470564
+		average path time per connection: 235282
+		average path time per connection [ms]: 0.235282
+	in path: /wordpress/wp-admin/setup-config.php
+		connections: 1
+		path time: 161935
+		average path time per connection: 161935
+		average path time per connection [ms]: 0.161935
+	in path: /styling.css
+		connections: 14
+		path time: 9933502
+		average path time per connection: 709535
+		average path time per connection [ms]: 0.709536
+	in path: /
+		connections: 6
+		path time: 1590806
+		average path time per connection: 265134
+		average path time per connection [ms]: 0.265134

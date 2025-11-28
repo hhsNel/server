@@ -31,6 +31,7 @@ char start_time[TIME_SIZE];
 
 static int handle_request(char **buff, int client_fd, size_t *buff_len, size_t *buff_cap, int *determined_is_http, int *read_headers, struct HttpRequest *req);
 static void exit_handler(int signo);
+void sigpipe_handler(int signo);
 static void init_exit_handler();
 
 static int server_fd;
@@ -267,7 +268,12 @@ void exit_handler(int signo) {
 	unlink(UNIX_SOCK_PATH);
 #else
 #endif
+	printf("Encountered signal: %d (will exit)\n", signo);
 	exit(0);
+}
+
+void sigpipe_handler(int signo) {
+	printf("received SIGPIPE\n");
 }
 
 void init_exit_handler() {
@@ -279,5 +285,11 @@ void init_exit_handler() {
 	sigemptyset(&sa.sa_mask);
 	sigaction(SIGINT,  &sa, NULL);
 	sigaction(SIGTERM, &sa, NULL);
+
+	memset(&sa, 0, sizeof(struct sigaction));
+	sa.sa_handler = sigpipe_handler;
+	sa.sa_flags = 0;
+	sigemptyset(&sa.sa_mask);
+	sigaction(SIGPIPE, &sa, NULL);
 }
 

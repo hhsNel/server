@@ -1,0 +1,29 @@
+total connections: 11
+service time: 12340755
+average service time per connection: 1121886
+average service time per connection [ms]: 1.121887
+	in path: /gud/Evolving%20Landscape.png
+		connections: 1
+		path time: 80206
+		average path time per connection: 80206
+		average path time per connection [ms]: 0.080206
+	in path: /gud/list/Mind%20Reading%20Lesson.png
+		connections: 6
+		path time: 3459633
+		average path time per connection: 576605
+		average path time per connection [ms]: 0.576605
+	in path: /styling.css
+		connections: 2
+		path time: 2131626
+		average path time per connection: 1065813
+		average path time per connection [ms]: 1.065813
+	in path: /gud/list
+		connections: 1
+		path time: 6516250
+		average path time per connection: 6516250
+		average path time per connection [ms]: 6.516250
+	in path: /gud
+		connections: 1
+		path time: 153040
+		average path time per connection: 153040
+		average path time per connection [ms]: 0.153040

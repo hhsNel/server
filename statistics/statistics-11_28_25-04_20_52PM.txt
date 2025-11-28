@@ -1,0 +1,2979 @@
+total connections: 1356
+service time: 5371886253
+average service time per connection: 3961568
+average service time per connection [ms]: 3.961568
+	in path: /aab8
+		connections: 1
+		path time: 76907
+		average path time per connection: 76907
+		average path time per connection [ms]: 0.076907
+	in path: /aaa9
+		connections: 1
+		path time: 84593
+		average path time per connection: 84593
+		average path time per connection [ms]: 0.084593
+	in path: /set-cookie?name=ZAP&value=%3Cimg%20src=%22random.gif%22%20onerror=alert(5397)%3E
+		connections: 1
+		path time: 913639
+		average path time per connection: 913639
+		average path time per connection [ms]: 0.913639
+	in path: /set-cookie?name=ZAP&value=javascript:alert(5397)
+		connections: 1
+		path time: 175747
+		average path time per connection: 175747
+		average path time per connection [ms]: 0.175747
+	in path: /set-cookie?name=ZAP&value=%3Cscript%3Ealert(5397)%3C/script%3E
+		connections: 1
+		path time: 243061
+		average path time per connection: 243061
+		average path time per connection [ms]: 0.243061
+	in path: /set-cookie?name=&value=%3Fname%3Dabc%23%3Cimg+src%3D%22random.gif%22+onerror%3Dalert%285397%29%3E
+		connections: 1
+		path time: 663073
+		average path time per connection: 663073
+		average path time per connection [ms]: 0.663073
+	in path: /set-cookie?name=%3Cimg%20src=%22random.gif%22%20onerror=alert(5397)%3E&value=ZAP
+		connections: 1
+		path time: 277343
+		average path time per connection: 277343
+		average path time per connection [ms]: 0.277343
+	in path: /set-cookie?name=javascript:alert(5397)&value=ZAP
+		connections: 1
+		path time: 148972
+		average path time per connection: 148972
+		average path time per connection [ms]: 0.148972
+	in path: /form-response?number=%3Cimg%20src=%22random.gif%22%20onerror=alert(5397)%3E
+		connections: 1
+		path time: 201063
+		average path time per connection: 201063
+		average path time per connection [ms]: 0.201063
+	in path: /set-cookie-graphical?name=abc
+		connections: 2
+		path time: 442997
+		average path time per connection: 221498
+		average path time per connection [ms]: 0.221498
+	in path: /set-cookie?name=%3Cscript%3Ealert(5397)%3C/script%3E&value=ZAP
+		connections: 1
+		path time: 630491
+		average path time per connection: 630491
+		average path time per connection [ms]: 0.630491
+	in path: /set-cookie?name=&value=%23javascript%3Aalert%285397%29
+		connections: 1
+		path time: 628313
+		average path time per connection: 628313
+		average path time per connection [ms]: 0.628313
+	in path: /form-response?number=javascript:alert(5397)
+		connections: 1
+		path time: 265244
+		average path time per connection: 265244
+		average path time per connection [ms]: 0.265244
+	in path: /just-monika/music/dreams-of-love-and-literature?name=abc
+		connections: 1
+		path time: 11743459
+		average path time per connection: 11743459
+		average path time per connection [ms]: 11.743459
+	in path: /just-monika/music/my-confession?name=abc
+		connections: 1
+		path time: 9763841
+		average path time per connection: 9763841
+		average path time per connection [ms]: 9.763841
+	in path: /set-cookie?name=ZAP&value=ZAP?name=abc
+		connections: 1
+		path time: 311468
+		average path time per connection: 311468
+		average path time per connection [ms]: 0.311468
+	in path: /proclamation-of-the-new-order.ogg?name=abc
+		connections: 1
+		path time: 735725
+		average path time per connection: 735725
+		average path time per connection [ms]: 0.735725
+	in path: /my-form?name=abc
+		connections: 1
+		path time: 242653
+		average path time per connection: 242653
+		average path time per connection [ms]: 0.242653
+	in path: /favicon.ico?name=abc
+		connections: 1
+		path time: 248721
+		average path time per connection: 248721
+		average path time per connection [ms]: 0.248721
+	in path: /form-response?number=%3Cscript%3Ealert(5397)%3C/script%3E
+		connections: 1
+		path time: 221865
+		average path time per connection: 221865
+		average path time per connection [ms]: 0.221865
+	in path: /just-monika/music/i-still-love-you?name=abc
+		connections: 1
+		path time: 6634661
+		average path time per connection: 6634661
+		average path time per connection [ms]: 6.634661
+	in path: /proclamation-of-the-new-order-full.ogg?name=abc
+		connections: 1
+		path time: 1087759
+		average path time per connection: 1087759
+		average path time per connection [ms]: 1.087759
+	in path: /just-monika/music/poem-panic?name=abc
+		connections: 1
+		path time: 6624421
+		average path time per connection: 6624421
+		average path time per connection [ms]: 6.624421
+	in path: /just-monika/music/ok-everyone?name=abc
+		connections: 1
+		path time: 7079067
+		average path time per connection: 7079067
+		average path time per connection [ms]: 7.079067
+	in path: /friends?name=abc
+		connections: 1
+		path time: 570772
+		average path time per connection: 570772
+		average path time per connection [ms]: 0.570772
+	in path: /set-cookie?name=%23jaVasCript%3A%2F*-%2F*%60%2F*%5C%60%2F*%27%2F*%22%2F**%2F%28%2F*+*%2FoNcliCk%3Dalert%285397%29+%29%2F%2F%250D%250A%250d%250a%2F%2F%3C%2FstYle%2F%3C%2FtitLe%2F%3C%2FteXtarEa%2F%3C%2FscRipt%2F--%21%3E%5Cx3csVg%2F%3CsVg%2FoNloAd%3Dalert%285397%29%2F%2F%3E%5Cx3e&value=%23jaVasCript%3A%2F*-%2F*%60%2F*%5C%60%2F*%27%2F*%22%2F**%2F%28%2F*+*%2FoNcliCk%3Dalert%285397%29+%29%2F%2F%250D%250A%250d%250a%2F%2F%3C%2FstYle%2F%3C%2FtitLe%2F%3C%2FteXtarEa%2F%3C%2FscRipt%2F--%21%3E%5Cx3csVg%2F%3CsVg%2FoNloAd%3Dalert%285397%29%2F%2F%3E%5Cx3e
+		connections: 1
+		path time: 344057
+		average path time per connection: 344057
+		average path time per connection [ms]: 0.344057
+	in path: /wayback?name=abc
+		connections: 1
+		path time: 571928
+		average path time per connection: 571928
+		average path time per connection [ms]: 0.571928
+	in path: /styling.css?name=abc
+		connections: 1
+		path time: 291357
+		average path time per connection: 291357
+		average path time per connection [ms]: 0.291357
+	in path: /default-cookies?name=abc
+		connections: 1
+		path time: 495247
+		average path time per connection: 495247
+		average path time per connection [ms]: 0.495247
+	in path: /spo?name=abc
+		connections: 1
+		path time: 421366
+		average path time per connection: 421366
+		average path time per connection [ms]: 0.421366
+	in path: /my-specs?name=abc
+		connections: 1
+		path time: 207370763
+		average path time per connection: 207370763
+		average path time per connection [ms]: 207.370763
+	in path: /?name=abc
+		connections: 2
+		path time: 446876
+		average path time per connection: 223438
+		average path time per connection [ms]: 0.223438
+	in path: /proclamation-of-the-new-order-full.mp3?name=abc
+		connections: 1
+		path time: 2514923
+		average path time per connection: 2514923
+		average path time per connection [ms]: 2.514923
+	in path: /just-monika/music/your-reality?name=abc
+		connections: 1
+		path time: 7292371
+		average path time per connection: 7292371
+		average path time per connection [ms]: 7.292371
+	in path: /just-monika/music?name=abc
+		connections: 1
+		path time: 243011
+		average path time per connection: 243011
+		average path time per connection [ms]: 0.243011
+	in path: /just-monika?name=abc
+		connections: 1
+		path time: 485187
+		average path time per connection: 485187
+		average path time per connection [ms]: 0.485187
+	in path: /ormos?name=abc
+		connections: 1
+		path time: 149061
+		average path time per connection: 149061
+		average path time per connection [ms]: 0.149061
+	in path: /robots.txt?name=abc
+		connections: 1
+		path time: 149273
+		average path time per connection: 149273
+		average path time per connection [ms]: 0.149273
+	in path: /just-monika/music/daijoubu?name=abc
+		connections: 1
+		path time: 10360487
+		average path time per connection: 10360487
+		average path time per connection [ms]: 10.360487
+	in path: /just-monika/music/ohayu-sayori?name=abc
+		connections: 1
+		path time: 9647653
+		average path time per connection: 9647653
+		average path time per connection [ms]: 9.647653
+	in path: /proclamation-of-the-new-order.mp3?name=abc
+		connections: 1
+		path time: 248110
+		average path time per connection: 248110
+		average path time per connection [ms]: 0.248110
+	in path: /characters?name=abc
+		connections: 1
+		path time: 210707
+		average path time per connection: 210707
+		average path time per connection [ms]: 0.210707
+	in path: /just-monika/music/play-with-me?name=abc
+		connections: 1
+		path time: 5350337
+		average path time per connection: 5350337
+		average path time per connection [ms]: 5.350337
+	in path: /form-response?number=1?name=abc
+		connections: 1
+		path time: 239932
+		average path time per connection: 239932
+		average path time per connection [ms]: 0.239932
+	in path: /sitemap.xml?name=abc
+		connections: 1
+		path time: 117004
+		average path time per connection: 117004
+		average path time per connection [ms]: 0.117004
+	in path: /just-monika/music/sayo-nara?name=abc
+		connections: 1
+		path time: 5495019
+		average path time per connection: 5495019
+		average path time per connection [ms]: 5.495019
+	in path: /just-monika/music/doki-doki-literature-club?name=abc
+		connections: 1
+		path time: 7256310
+		average path time per connection: 7256310
+		average path time per connection [ms]: 7.256310
+	in path: /just-monika/music/my-feelings?name=abc
+		connections: 1
+		path time: 5310503
+		average path time per connection: 5310503
+		average path time per connection [ms]: 5.310503
+	in path: /just-monika/music/just-monika?name=abc
+		connections: 1
+		path time: 7426832
+		average path time per connection: 7426832
+		average path time per connection [ms]: 7.426832
+	in path: /set-cookie?name=ZAP&value=o1fppogfkeiu7ev5qg3qe4qx19zyji0bdr6x1plys6muh4hhmavj7lg4om1b
+		connections: 1
+		path time: 912406
+		average path time per connection: 912406
+		average path time per connection [ms]: 0.912406
+	in path: /set-cookie?name=ZAP&value=case+randomblob%281000000000%29+when+not+null+then+1+else+1+end+
+		connections: 1
+		path time: 229576
+		average path time per connection: 229576
+		average path time per connection [ms]: 0.229576
+	in path: /set-cookie?name=ZAP&value=case+randomblob%28100000000%29+when+not+null+then+1+else+1+end+
+		connections: 1
+		path time: 242482
+		average path time per connection: 242482
+		average path time per connection [ms]: 0.242482
+	in path: /set-cookie?name=ZAP&value=case+randomblob%2810000000%29+when+not+null+then+1+else+1+end+
+		connections: 1
+		path time: 260129
+		average path time per connection: 260129
+		average path time per connection [ms]: 0.260129
+	in path: /set-cookie?name=ZAP&value=mvdeuwxs8v1vztcxmi60ykteop9fmv10qurp0irjgmnaaotazlt7x88vd
+		connections: 1
+		path time: 239900
+		average path time per connection: 239900
+		average path time per connection [ms]: 0.239900
+	in path: /set-cookie?name=ZAP&value=case+randomblob%281000000%29+when+not+null+then+1+else+1+end+
+		connections: 1
+		path time: 376764
+		average path time per connection: 376764
+		average path time per connection [ms]: 0.376764
+	in path: /set-cookie?name=ZAP&value=case+randomblob%28100000%29+when+not+null+then+1+else+1+end+
+		connections: 1
+		path time: 289383
+		average path time per connection: 289383
+		average path time per connection [ms]: 0.289383
+	in path: /set-cookie?name=5qoj24wkuxbesjpdknvmnzu2k1tmd9tj81prlqs9bgnjbbihxkosmzuufg7i&value=ZAP
+		connections: 1
+		path time: 341400
+		average path time per connection: 341400
+		average path time per connection [ms]: 0.341400
+	in path: /set-cookie?name=case+randomblob%281000000000%29+when+not+null+then+1+else+1+end+&value=ZAP
+		connections: 1
+		path time: 237789
+		average path time per connection: 237789
+		average path time per connection [ms]: 0.237789
+	in path: /set-cookie?name=jmad43vu9b05w08nx922xgmdhuf101npkiepah7mrt898xl0nz5p6mqwifq&value=ZAP
+		connections: 1
+		path time: 316011
+		average path time per connection: 316011
+		average path time per connection [ms]: 0.316011
+	in path: /set-cookie?name=case+randomblob%28100000000%29+when+not+null+then+1+else+1+end+&value=ZAP
+		connections: 1
+		path time: 338054
+		average path time per connection: 338054
+		average path time per connection [ms]: 0.338054
+	in path: /set-cookie?name=case+randomblob%2810000000%29+when+not+null+then+1+else+1+end+&value=ZAP
+		connections: 1
+		path time: 328346
+		average path time per connection: 328346
+		average path time per connection [ms]: 0.328346
+	in path: /set-cookie?name=nt03nyvv8hyp1w8g71r8oitryjctqvl2843uqum1ose25e85qsxkf8i6z&value=ZAP
+		connections: 1
+		path time: 346053
+		average path time per connection: 346053
+		average path time per connection [ms]: 0.346053
+	in path: /form-response?number=c2wd6x63ggl8ic7buot89srch9ur1i5tfeqms67jxyia6vov6sre2szx6ont
+		connections: 1
+		path time: 257502
+		average path time per connection: 257502
+		average path time per connection [ms]: 0.257502
+	in path: /set-cookie?name=case+randomblob%281000000%29+when+not+null+then+1+else+1+end+&value=ZAP
+		connections: 1
+		path time: 579319
+		average path time per connection: 579319
+		average path time per connection [ms]: 0.579319
+	in path: /form-response?number=case+randomblob%281000000000%29+when+not+null+then+1+else+1+end+
+		connections: 1
+		path time: 230650
+		average path time per connection: 230650
+		average path time per connection [ms]: 0.230650
+	in path: /form-response?number=l4rt4mk1xqtrelzz8dakceo9nkak4qpu0d0tw568nsfhpzb7z9j7uydfjcp
+		connections: 1
+		path time: 169905
+		average path time per connection: 169905
+		average path time per connection [ms]: 0.169905
+	in path: /form-response?number=case+randomblob%28100000000%29+when+not+null+then+1+else+1+end+
+		connections: 1
+		path time: 184052
+		average path time per connection: 184052
+		average path time per connection [ms]: 0.184052
+	in path: /set-cookie?name=case+randomblob%28100000%29+when+not+null+then+1+else+1+end+&value=ZAP
+		connections: 1
+		path time: 369115
+		average path time per connection: 369115
+		average path time per connection [ms]: 0.369115
+	in path: /form-response?number=case+randomblob%2810000000%29+when+not+null+then+1+else+1+end+
+		connections: 1
+		path time: 196291
+		average path time per connection: 196291
+		average path time per connection [ms]: 0.196291
+	in path: /form-response?number=case+randomblob%281000000%29+when+not+null+then+1+else+1+end+
+		connections: 1
+		path time: 155179
+		average path time per connection: 155179
+		average path time per connection [ms]: 0.155179
+	in path: /form-response?number=case+randomblob%28100000%29+when+not+null+then+1+else+1+end+
+		connections: 1
+		path time: 510180
+		average path time per connection: 510180
+		average path time per connection [ms]: 0.510180
+	in path: /set-cookie?name=ZAP&value=ZAP+%2F+case+when+cast%28pg_sleep%2815.0%29+as+varchar%29+%3E+%27%27+then+0+else+1+end+
+		connections: 1
+		path time: 301544
+		average path time per connection: 301544
+		average path time per connection [ms]: 0.301544
+	in path: /set-cookie?name=ZAP&value=%22case+when+cast%28pg_sleep%2815.0%29+as+varchar%29+%3E+%27%27+then+0+else+1+end+--+
+		connections: 1
+		path time: 288998
+		average path time per connection: 288998
+		average path time per connection [ms]: 0.288998
+	in path: /set-cookie?name=ZAP&value=%27case+when+cast%28pg_sleep%2815.0%29+as+varchar%29+%3E+%27%27+then+0+else+1+end+--+
+		connections: 1
+		path time: 543033
+		average path time per connection: 543033
+		average path time per connection [ms]: 0.543033
+	in path: /set-cookie?name=ZAP&value=case+when+cast%28pg_sleep%2815.0%29+as+varchar%29+%3E+%27%27+then+0+else+1+end+--+
+		connections: 1
+		path time: 292370
+		average path time per connection: 292370
+		average path time per connection [ms]: 0.292370
+	in path: /set-cookie?name=ZAP&value=case+when+cast%28pg_sleep%2815.0%29+as+varchar%29+%3E+%27%27+then+0+else+1+end
+		connections: 1
+		path time: 322190
+		average path time per connection: 322190
+		average path time per connection [ms]: 0.322190
+	in path: /set-cookie?name=ZAP+%2F+case+when+cast%28pg_sleep%2815.0%29+as+varchar%29+%3E+%27%27+then+0+else+1+end+&value=ZAP
+		connections: 1
+		path time: 342604
+		average path time per connection: 342604
+		average path time per connection [ms]: 0.342604
+	in path: /set-cookie?name=%22case+when+cast%28pg_sleep%2815.0%29+as+varchar%29+%3E+%27%27+then+0+else+1+end+--+&value=ZAP
+		connections: 1
+		path time: 285665
+		average path time per connection: 285665
+		average path time per connection [ms]: 0.285665
+	in path: /form-response?number=1+%2F+case+when+cast%28pg_sleep%2815.0%29+as+varchar%29+%3E+%27%27+then+0+else+1+end+
+		connections: 1
+		path time: 209577
+		average path time per connection: 209577
+		average path time per connection [ms]: 0.209577
+	in path: /set-cookie?name=%27case+when+cast%28pg_sleep%2815.0%29+as+varchar%29+%3E+%27%27+then+0+else+1+end+--+&value=ZAP
+		connections: 1
+		path time: 359917
+		average path time per connection: 359917
+		average path time per connection [ms]: 0.359917
+	in path: /form-response?number=%22case+when+cast%28pg_sleep%2815.0%29+as+varchar%29+%3E+%27%27+then+0+else+1+end+--+
+		connections: 1
+		path time: 395328
+		average path time per connection: 395328
+		average path time per connection [ms]: 0.395328
+	in path: /set-cookie?name=case+when+cast%28pg_sleep%2815.0%29+as+varchar%29+%3E+%27%27+then+0+else+1+end+--+&value=ZAP
+		connections: 1
+		path time: 838583
+		average path time per connection: 838583
+		average path time per connection [ms]: 0.838583
+	in path: /set-cookie?name=case+when+cast%28pg_sleep%2815.0%29+as+varchar%29+%3E+%27%27+then+0+else+1+end&value=ZAP
+		connections: 1
+		path time: 263432
+		average path time per connection: 263432
+		average path time per connection [ms]: 0.263432
+	in path: /form-response?number=%27case+when+cast%28pg_sleep%2815.0%29+as+varchar%29+%3E+%27%27+then+0+else+1+end+--+
+		connections: 1
+		path time: 146892
+		average path time per connection: 146892
+		average path time per connection [ms]: 0.146892
+	in path: /form-response?number=case+when+cast%28pg_sleep%2815.0%29+as+varchar%29+%3E+%27%27+then+0+else+1+end+--+
+		connections: 1
+		path time: 224318
+		average path time per connection: 224318
+		average path time per connection [ms]: 0.224318
+	in path: /form-response?number=case+when+cast%28pg_sleep%2815.0%29+as+varchar%29+%3E+%27%27+then+0+else+1+end
+		connections: 1
+		path time: 181918
+		average path time per connection: 181918
+		average path time per connection [ms]: 0.181918
+	in path: /set-cookie?name=ZAP&value=ZAP+and+exists+%28SELECT++UTL_INADDR.get_host_name%28%2710.0.0.1%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.2%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.3%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.4%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.5%27%29+from+dual%29+--+
+		connections: 1
+		path time: 334088
+		average path time per connection: 334088
+		average path time per connection [ms]: 0.334088
+	in path: /set-cookie?name=ZAP&value=ZAP%22+%2F+%28SELECT++UTL_INADDR.get_host_name%28%2710.0.0.1%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.2%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.3%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.4%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.5%27%29+from+dual%29+%2F+%22
+		connections: 1
+		path time: 360308
+		average path time per connection: 360308
+		average path time per connection [ms]: 0.360308
+	in path: /set-cookie?name=ZAP&value=ZAP%27+%2F+%28SELECT++UTL_INADDR.get_host_name%28%2710.0.0.1%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.2%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.3%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.4%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.5%27%29+from+dual%29+%2F+%27
+		connections: 1
+		path time: 315801
+		average path time per connection: 315801
+		average path time per connection [ms]: 0.315801
+	in path: /set-cookie?name=ZAP&value=ZAP+%2F+%28SELECT++UTL_INADDR.get_host_name%28%2710.0.0.1%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.2%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.3%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.4%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.5%27%29+from+dual%29+
+		connections: 1
+		path time: 302542
+		average path time per connection: 302542
+		average path time per connection [ms]: 0.302542
+	in path: /set-cookie?name=ZAP&value=%28SELECT++UTL_INADDR.get_host_name%28%2710.0.0.1%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.2%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.3%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.4%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.5%27%29+from+dual%29
+		connections: 1
+		path time: 305513
+		average path time per connection: 305513
+		average path time per connection [ms]: 0.305513
+	in path: /set-cookie?name=ZAP+and+exists+%28SELECT++UTL_INADDR.get_host_name%28%2710.0.0.1%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.2%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.3%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.4%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.5%27%29+from+dual%29+--+&value=ZAP
+		connections: 1
+		path time: 654077
+		average path time per connection: 654077
+		average path time per connection [ms]: 0.654077
+	in path: /set-cookie?name=ZAP%22+%2F+%28SELECT++UTL_INADDR.get_host_name%28%2710.0.0.1%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.2%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.3%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.4%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.5%27%29+from+dual%29+%2F+%22&value=ZAP
+		connections: 1
+		path time: 370183
+		average path time per connection: 370183
+		average path time per connection [ms]: 0.370183
+	in path: /set-cookie?name=ZAP%27+%2F+%28SELECT++UTL_INADDR.get_host_name%28%2710.0.0.1%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.2%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.3%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.4%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.5%27%29+from+dual%29+%2F+%27&value=ZAP
+		connections: 1
+		path time: 305444
+		average path time per connection: 305444
+		average path time per connection [ms]: 0.305444
+	in path: /form-response?number=1+and+exists+%28SELECT++UTL_INADDR.get_host_name%28%2710.0.0.1%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.2%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.3%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.4%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.5%27%29+from+dual%29+--+
+		connections: 1
+		path time: 210826
+		average path time per connection: 210826
+		average path time per connection [ms]: 0.210826
+	in path: /set-cookie?name=ZAP+%2F+%28SELECT++UTL_INADDR.get_host_name%28%2710.0.0.1%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.2%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.3%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.4%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.5%27%29+from+dual%29+&value=ZAP
+		connections: 1
+		path time: 341702
+		average path time per connection: 341702
+		average path time per connection [ms]: 0.341702
+	in path: /form-response?number=1%22+%2F+%28SELECT++UTL_INADDR.get_host_name%28%2710.0.0.1%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.2%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.3%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.4%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.5%27%29+from+dual%29+%2F+%22
+		connections: 1
+		path time: 227166
+		average path time per connection: 227166
+		average path time per connection [ms]: 0.227166
+	in path: /set-cookie?name=%28SELECT++UTL_INADDR.get_host_name%28%2710.0.0.1%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.2%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.3%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.4%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.5%27%29+from+dual%29&value=ZAP
+		connections: 1
+		path time: 325641
+		average path time per connection: 325641
+		average path time per connection [ms]: 0.325641
+	in path: /form-response?number=1%27+%2F+%28SELECT++UTL_INADDR.get_host_name%28%2710.0.0.1%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.2%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.3%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.4%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.5%27%29+from+dual%29+%2F+%27
+		connections: 1
+		path time: 224396
+		average path time per connection: 224396
+		average path time per connection [ms]: 0.224396
+	in path: /form-response?number=1+%2F+%28SELECT++UTL_INADDR.get_host_name%28%2710.0.0.1%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.2%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.3%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.4%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.5%27%29+from+dual%29+
+		connections: 1
+		path time: 203233
+		average path time per connection: 203233
+		average path time per connection [ms]: 0.203233
+	in path: /form-response?number=%28SELECT++UTL_INADDR.get_host_name%28%2710.0.0.1%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.2%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.3%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.4%27%29+from+dual+union+SELECT++UTL_INADDR.get_host_name%28%2710.0.0.5%27%29+from+dual%29
+		connections: 1
+		path time: 239349
+		average path time per connection: 239349
+		average path time per connection [ms]: 0.239349
+	in path: /set-cookie?name=ZAP&value=ZAP%27+and+exists+%28+select+%22java.lang.Thread.sleep%22%2815000%29+from+INFORMATION_SCHEMA.SYSTEM_COLUMNS+where+TABLE_NAME+%3D+%27SYSTEM_COLUMNS%27+and+COLUMN_NAME+%3D+%27TABLE_NAME%27%29+--+
+		connections: 1
+		path time: 379357
+		average path time per connection: 379357
+		average path time per connection [ms]: 0.379357
+	in path: /set-cookie?name=ZAP&value=ZAP+and+exists+%28+select+%22java.lang.Thread.sleep%22%2815000%29+from+INFORMATION_SCHEMA.SYSTEM_COLUMNS+where+TABLE_NAME+%3D+%27SYSTEM_COLUMNS%27+and+COLUMN_NAME+%3D+%27TABLE_NAME%27%29+--+
+		connections: 1
+		path time: 252095
+		average path time per connection: 252095
+		average path time per connection [ms]: 0.252095
+	in path: /set-cookie?name=ZAP&value=ZAP%22+%2F+%22java.lang.Thread.sleep%22%2815000%29+%2F+%22
+		connections: 1
+		path time: 245616
+		average path time per connection: 245616
+		average path time per connection [ms]: 0.245616
+	in path: /set-cookie?name=ZAP&value=ZAP%27+%2F+%22java.lang.Thread.sleep%22%2815000%29+%2F+%27
+		connections: 1
+		path time: 316901
+		average path time per connection: 316901
+		average path time per connection [ms]: 0.316901
+	in path: /set-cookie?name=ZAP&value=ZAP+%2F+%22java.lang.Thread.sleep%22%2815000%29+
+		connections: 1
+		path time: 246806
+		average path time per connection: 246806
+		average path time per connection [ms]: 0.246806
+	in path: /set-cookie?name=ZAP&value=%22java.lang.Thread.sleep%22%2815000%29
+		connections: 1
+		path time: 305084
+		average path time per connection: 305084
+		average path time per connection [ms]: 0.305084
+	in path: /set-cookie?name=ZAP&value=%29%3B+select+%22java.lang.Thread.sleep%22%2815000%29+from+INFORMATION_SCHEMA.SYSTEM_COLUMNS+where+TABLE_NAME+%3D+%27SYSTEM_COLUMNS%27+and+COLUMN_NAME+%3D+%27TABLE_NAME%27+--+
+		connections: 1
+		path time: 311794
+		average path time per connection: 311794
+		average path time per connection [ms]: 0.311794
+	in path: /set-cookie?name=ZAP&value=%22%3B+select+%22java.lang.Thread.sleep%22%2815000%29+from+INFORMATION_SCHEMA.SYSTEM_COLUMNS+where+TABLE_NAME+%3D+%27SYSTEM_COLUMNS%27+and+COLUMN_NAME+%3D+%27TABLE_NAME%27+--+
+		connections: 1
+		path time: 289869
+		average path time per connection: 289869
+		average path time per connection [ms]: 0.289869
+	in path: /set-cookie?name=ZAP&value=%27%3B+select+%22java.lang.Thread.sleep%22%2815000%29+from+INFORMATION_SCHEMA.SYSTEM_COLUMNS+where+TABLE_NAME+%3D+%27SYSTEM_COLUMNS%27+and+COLUMN_NAME+%3D+%27TABLE_NAME%27+--+
+		connections: 1
+		path time: 243830
+		average path time per connection: 243830
+		average path time per connection [ms]: 0.243830
+	in path: /set-cookie?name=ZAP&value=%3B+select+%22java.lang.Thread.sleep%22%2815000%29+from+INFORMATION_SCHEMA.SYSTEM_COLUMNS+where+TABLE_NAME+%3D+%27SYSTEM_COLUMNS%27+and+COLUMN_NAME+%3D+%27TABLE_NAME%27+--+
+		connections: 1
+		path time: 305172
+		average path time per connection: 305172
+		average path time per connection [ms]: 0.305172
+	in path: /set-cookie?name=ZAP%27+and+exists+%28+select+%22java.lang.Thread.sleep%22%2815000%29+from+INFORMATION_SCHEMA.SYSTEM_COLUMNS+where+TABLE_NAME+%3D+%27SYSTEM_COLUMNS%27+and+COLUMN_NAME+%3D+%27TABLE_NAME%27%29+--+&value=ZAP
+		connections: 1
+		path time: 323225
+		average path time per connection: 323225
+		average path time per connection [ms]: 0.323225
+	in path: /set-cookie?name=ZAP+and+exists+%28+select+%22java.lang.Thread.sleep%22%2815000%29+from+INFORMATION_SCHEMA.SYSTEM_COLUMNS+where+TABLE_NAME+%3D+%27SYSTEM_COLUMNS%27+and+COLUMN_NAME+%3D+%27TABLE_NAME%27%29+--+&value=ZAP
+		connections: 1
+		path time: 417089
+		average path time per connection: 417089
+		average path time per connection [ms]: 0.417089
+	in path: /form-response?number=1%27+and+exists+%28+select+%22java.lang.Thread.sleep%22%2815000%29+from+INFORMATION_SCHEMA.SYSTEM_COLUMNS+where+TABLE_NAME+%3D+%27SYSTEM_COLUMNS%27+and+COLUMN_NAME+%3D+%27TABLE_NAME%27%29+--+
+		connections: 1
+		path time: 252269
+		average path time per connection: 252269
+		average path time per connection [ms]: 0.252269
+	in path: /set-cookie?name=ZAP%22+%2F+%22java.lang.Thread.sleep%22%2815000%29+%2F+%22&value=ZAP
+		connections: 1
+		path time: 1713339
+		average path time per connection: 1713339
+		average path time per connection [ms]: 1.713339
+	in path: /form-response?number=1+and+exists+%28+select+%22java.lang.Thread.sleep%22%2815000%29+from+INFORMATION_SCHEMA.SYSTEM_COLUMNS+where+TABLE_NAME+%3D+%27SYSTEM_COLUMNS%27+and+COLUMN_NAME+%3D+%27TABLE_NAME%27%29+--+
+		connections: 1
+		path time: 252002
+		average path time per connection: 252002
+		average path time per connection [ms]: 0.252002
+	in path: /set-cookie?name=ZAP%27+%2F+%22java.lang.Thread.sleep%22%2815000%29+%2F+%27&value=ZAP
+		connections: 1
+		path time: 305516
+		average path time per connection: 305516
+		average path time per connection [ms]: 0.305516
+	in path: /form-response?number=1%22+%2F+%22java.lang.Thread.sleep%22%2815000%29+%2F+%22
+		connections: 1
+		path time: 184590
+		average path time per connection: 184590
+		average path time per connection [ms]: 0.184590
+	in path: /set-cookie?name=ZAP+%2F+%22java.lang.Thread.sleep%22%2815000%29+&value=ZAP
+		connections: 1
+		path time: 933579
+		average path time per connection: 933579
+		average path time per connection [ms]: 0.933579
+	in path: /form-response?number=1%27+%2F+%22java.lang.Thread.sleep%22%2815000%29+%2F+%27
+		connections: 1
+		path time: 202661
+		average path time per connection: 202661
+		average path time per connection [ms]: 0.202661
+	in path: /set-cookie?name=%22java.lang.Thread.sleep%22%2815000%29&value=ZAP
+		connections: 1
+		path time: 234198
+		average path time per connection: 234198
+		average path time per connection [ms]: 0.234198
+	in path: /form-response?number=1+%2F+%22java.lang.Thread.sleep%22%2815000%29+
+		connections: 1
+		path time: 281760
+		average path time per connection: 281760
+		average path time per connection [ms]: 0.281760
+	in path: /set-cookie?name=%29%3B+select+%22java.lang.Thread.sleep%22%2815000%29+from+INFORMATION_SCHEMA.SYSTEM_COLUMNS+where+TABLE_NAME+%3D+%27SYSTEM_COLUMNS%27+and+COLUMN_NAME+%3D+%27TABLE_NAME%27+--+&value=ZAP
+		connections: 1
+		path time: 411914
+		average path time per connection: 411914
+		average path time per connection [ms]: 0.411914
+	in path: /form-response?number=%22java.lang.Thread.sleep%22%2815000%29
+		connections: 1
+		path time: 275514
+		average path time per connection: 275514
+		average path time per connection [ms]: 0.275514
+	in path: /set-cookie?name=%22%3B+select+%22java.lang.Thread.sleep%22%2815000%29+from+INFORMATION_SCHEMA.SYSTEM_COLUMNS+where+TABLE_NAME+%3D+%27SYSTEM_COLUMNS%27+and+COLUMN_NAME+%3D+%27TABLE_NAME%27+--+&value=ZAP
+		connections: 1
+		path time: 387052
+		average path time per connection: 387052
+		average path time per connection [ms]: 0.387052
+	in path: /form-response?number=%29%3B+select+%22java.lang.Thread.sleep%22%2815000%29+from+INFORMATION_SCHEMA.SYSTEM_COLUMNS+where+TABLE_NAME+%3D+%27SYSTEM_COLUMNS%27+and+COLUMN_NAME+%3D+%27TABLE_NAME%27+--+
+		connections: 1
+		path time: 252526
+		average path time per connection: 252526
+		average path time per connection [ms]: 0.252526
+	in path: /set-cookie?name=%27%3B+select+%22java.lang.Thread.sleep%22%2815000%29+from+INFORMATION_SCHEMA.SYSTEM_COLUMNS+where+TABLE_NAME+%3D+%27SYSTEM_COLUMNS%27+and+COLUMN_NAME+%3D+%27TABLE_NAME%27+--+&value=ZAP
+		connections: 1
+		path time: 445637
+		average path time per connection: 445637
+		average path time per connection [ms]: 0.445637
+	in path: /form-response?number=%22%3B+select+%22java.lang.Thread.sleep%22%2815000%29+from+INFORMATION_SCHEMA.SYSTEM_COLUMNS+where+TABLE_NAME+%3D+%27SYSTEM_COLUMNS%27+and+COLUMN_NAME+%3D+%27TABLE_NAME%27+--+
+		connections: 1
+		path time: 275048
+		average path time per connection: 275048
+		average path time per connection [ms]: 0.275048
+	in path: /set-cookie?name=%3B+select+%22java.lang.Thread.sleep%22%2815000%29+from+INFORMATION_SCHEMA.SYSTEM_COLUMNS+where+TABLE_NAME+%3D+%27SYSTEM_COLUMNS%27+and+COLUMN_NAME+%3D+%27TABLE_NAME%27+--+&value=ZAP
+		connections: 1
+		path time: 221453
+		average path time per connection: 221453
+		average path time per connection [ms]: 0.221453
+	in path: /form-response?number=%27%3B+select+%22java.lang.Thread.sleep%22%2815000%29+from+INFORMATION_SCHEMA.SYSTEM_COLUMNS+where+TABLE_NAME+%3D+%27SYSTEM_COLUMNS%27+and+COLUMN_NAME+%3D+%27TABLE_NAME%27+--+
+		connections: 1
+		path time: 271437
+		average path time per connection: 271437
+		average path time per connection [ms]: 0.271437
+	in path: /form-response?number=%3B+select+%22java.lang.Thread.sleep%22%2815000%29+from+INFORMATION_SCHEMA.SYSTEM_COLUMNS+where+TABLE_NAME+%3D+%27SYSTEM_COLUMNS%27+and+COLUMN_NAME+%3D+%27TABLE_NAME%27+--+
+		connections: 1
+		path time: 221264
+		average path time per connection: 221264
+		average path time per connection [ms]: 0.221264
+	in path: /set-cookie?name=ZAP&value=ZAP+or+0+in+%28select+sleep%2815%29+%29+--+
+		connections: 1
+		path time: 613128
+		average path time per connection: 613128
+		average path time per connection [ms]: 0.613128
+	in path: /set-cookie?name=ZAP&value=ZAP%22+where+0+in+%28select+sleep%2815%29+%29+--+
+		connections: 1
+		path time: 810605
+		average path time per connection: 810605
+		average path time per connection [ms]: 0.810605
+	in path: /set-cookie?name=ZAP&value=ZAP%27+where+0+in+%28select+sleep%2815%29+%29+--+
+		connections: 1
+		path time: 919066
+		average path time per connection: 919066
+		average path time per connection [ms]: 0.919066
+	in path: /set-cookie?name=ZAP&value=ZAP+where+0+in+%28select+sleep%2815%29+%29+--+
+		connections: 1
+		path time: 282233
+		average path time per connection: 282233
+		average path time per connection [ms]: 0.282233
+	in path: /set-cookie?name=ZAP&value=ZAP%22+and+0+in+%28select+sleep%2815%29+%29+--+
+		connections: 1
+		path time: 330706
+		average path time per connection: 330706
+		average path time per connection [ms]: 0.330706
+	in path: /set-cookie?name=ZAP&value=ZAP%27+and+0+in+%28select+sleep%2815%29+%29+--+
+		connections: 1
+		path time: 335813
+		average path time per connection: 335813
+		average path time per connection [ms]: 0.335813
+	in path: /set-cookie?name=ZAP&value=ZAP+and+0+in+%28select+sleep%2815%29+%29+--+
+		connections: 1
+		path time: 307433
+		average path time per connection: 307433
+		average path time per connection [ms]: 0.307433
+	in path: /set-cookie?name=ZAP&value=ZAP%22+%2F+sleep%2815%29+%2F+%22
+		connections: 1
+		path time: 212055
+		average path time per connection: 212055
+		average path time per connection [ms]: 0.212055
+	in path: /set-cookie?name=ZAP&value=ZAP%27+%2F+sleep%2815%29+%2F+%27
+		connections: 1
+		path time: 328462
+		average path time per connection: 328462
+		average path time per connection [ms]: 0.328462
+	in path: /set-cookie?name=ZAP&value=ZAP+%2F+sleep%2815%29+
+		connections: 1
+		path time: 341331
+		average path time per connection: 341331
+		average path time per connection [ms]: 0.341331
+	in path: /set-cookie?name=ZAP+or+0+in+%28select+sleep%2815%29+%29+--+&value=ZAP
+		connections: 1
+		path time: 276268
+		average path time per connection: 276268
+		average path time per connection [ms]: 0.276268
+	in path: /set-cookie?name=ZAP%22+where+0+in+%28select+sleep%2815%29+%29+--+&value=ZAP
+		connections: 1
+		path time: 289496
+		average path time per connection: 289496
+		average path time per connection [ms]: 0.289496
+	in path: /form-response?number=1+or+0+in+%28select+sleep%2815%29+%29+--+
+		connections: 1
+		path time: 222829
+		average path time per connection: 222829
+		average path time per connection [ms]: 0.222829
+	in path: /set-cookie?name=ZAP%27+where+0+in+%28select+sleep%2815%29+%29+--+&value=ZAP
+		connections: 1
+		path time: 248814
+		average path time per connection: 248814
+		average path time per connection [ms]: 0.248814
+	in path: /form-response?number=1%22+where+0+in+%28select+sleep%2815%29+%29+--+
+		connections: 1
+		path time: 184032
+		average path time per connection: 184032
+		average path time per connection [ms]: 0.184032
+	in path: /form-response?number=1%27+where+0+in+%28select+sleep%2815%29+%29+--+
+		connections: 1
+		path time: 405194
+		average path time per connection: 405194
+		average path time per connection [ms]: 0.405194
+	in path: /set-cookie?name=ZAP+where+0+in+%28select+sleep%2815%29+%29+--+&value=ZAP
+		connections: 1
+		path time: 603648
+		average path time per connection: 603648
+		average path time per connection [ms]: 0.603648
+	in path: /form-response?number=1+where+0+in+%28select+sleep%2815%29+%29+--+
+		connections: 1
+		path time: 194152
+		average path time per connection: 194152
+		average path time per connection [ms]: 0.194152
+	in path: /set-cookie?name=ZAP%22+and+0+in+%28select+sleep%2815%29+%29+--+&value=ZAP
+		connections: 1
+		path time: 631237
+		average path time per connection: 631237
+		average path time per connection [ms]: 0.631237
+	in path: /set-cookie?name=ZAP%27+and+0+in+%28select+sleep%2815%29+%29+--+&value=ZAP
+		connections: 1
+		path time: 250197
+		average path time per connection: 250197
+		average path time per connection [ms]: 0.250197
+	in path: /form-response?number=1%22+and+0+in+%28select+sleep%2815%29+%29+--+
+		connections: 1
+		path time: 328179
+		average path time per connection: 328179
+		average path time per connection [ms]: 0.328179
+	in path: /set-cookie?name=ZAP+and+0+in+%28select+sleep%2815%29+%29+--+&value=ZAP
+		connections: 1
+		path time: 316036
+		average path time per connection: 316036
+		average path time per connection [ms]: 0.316036
+	in path: /form-response?number=1%27+and+0+in+%28select+sleep%2815%29+%29+--+
+		connections: 1
+		path time: 211528
+		average path time per connection: 211528
+		average path time per connection [ms]: 0.211528
+	in path: /set-cookie?name=ZAP%22+%2F+sleep%2815%29+%2F+%22&value=ZAP
+		connections: 1
+		path time: 227886
+		average path time per connection: 227886
+		average path time per connection [ms]: 0.227886
+	in path: /form-response?number=1+and+0+in+%28select+sleep%2815%29+%29+--+
+		connections: 1
+		path time: 203255
+		average path time per connection: 203255
+		average path time per connection [ms]: 0.203255
+	in path: /set-cookie?name=ZAP%27+%2F+sleep%2815%29+%2F+%27&value=ZAP
+		connections: 1
+		path time: 477860
+		average path time per connection: 477860
+		average path time per connection [ms]: 0.477860
+	in path: /form-response?number=1%22+%2F+sleep%2815%29+%2F+%22
+		connections: 1
+		path time: 642433
+		average path time per connection: 642433
+		average path time per connection [ms]: 0.642433
+	in path: /set-cookie?name=ZAP+%2F+sleep%2815%29+&value=ZAP
+		connections: 1
+		path time: 193288
+		average path time per connection: 193288
+		average path time per connection [ms]: 0.193288
+	in path: /form-response?number=1%27+%2F+sleep%2815%29+%2F+%27
+		connections: 1
+		path time: 237566
+		average path time per connection: 237566
+		average path time per connection [ms]: 0.237566
+	in path: /form-response?number=1+%2F+sleep%2815%29+
+		connections: 1
+		path time: 208518
+		average path time per connection: 208518
+		average path time per connection [ms]: 0.208518
+	in path: /set-cookie?name=ZAP&value=ZAP%27%29+UNION+ALL+select+NULL+--+
+		connections: 1
+		path time: 765343
+		average path time per connection: 765343
+		average path time per connection [ms]: 0.765343
+	in path: /set-cookie?name=ZAP&value=ZAP%29+UNION+ALL+select+NULL+--+
+		connections: 1
+		path time: 335746
+		average path time per connection: 335746
+		average path time per connection [ms]: 0.335746
+	in path: /set-cookie?name=ZAP&value=ZAP%22+UNION+ALL+select+NULL+--+
+		connections: 1
+		path time: 650413
+		average path time per connection: 650413
+		average path time per connection [ms]: 0.650413
+	in path: /set-cookie?name=ZAP&value=ZAP%27+UNION+ALL+select+NULL+--+
+		connections: 1
+		path time: 278007
+		average path time per connection: 278007
+		average path time per connection [ms]: 0.278007
+	in path: /set-cookie?name=ZAP&value=ZAP+UNION+ALL+select+NULL+--+
+		connections: 1
+		path time: 325972
+		average path time per connection: 325972
+		average path time per connection [ms]: 0.325972
+	in path: /set-cookie?name=ZAP&value=ZAP%27+OR+%271%27%3D%271%27+--+
+		connections: 2
+		path time: 445122
+		average path time per connection: 222561
+		average path time per connection [ms]: 0.222561
+	in path: /set-cookie?name=ZAP&value=ZAP%27+AND+%271%27%3D%272%27+--+
+		connections: 2
+		path time: 530587
+		average path time per connection: 265293
+		average path time per connection [ms]: 0.265294
+	in path: /set-cookie?name=ZAP&value=ZAP%27+AND+%271%27%3D%271%27+--+
+		connections: 1
+		path time: 338954
+		average path time per connection: 338954
+		average path time per connection [ms]: 0.338954
+	in path: /set-cookie?name=ZAP&value=ZAP+OR+1%3D1+--+
+		connections: 2
+		path time: 549847
+		average path time per connection: 274923
+		average path time per connection [ms]: 0.274923
+	in path: /set-cookie?name=ZAP&value=ZAP+AND+1%3D2+--+
+		connections: 2
+		path time: 570373
+		average path time per connection: 285186
+		average path time per connection [ms]: 0.285187
+	in path: /set-cookie?name=ZAP&value=ZAP+AND+1%3D1+--+
+		connections: 1
+		path time: 242520
+		average path time per connection: 242520
+		average path time per connection [ms]: 0.242520
+	in path: /set-cookie?name=ZAP&value=ZAP%27%28
+		connections: 1
+		path time: 427405
+		average path time per connection: 427405
+		average path time per connection [ms]: 0.427405
+	in path: /set-cookie?name=ZAP&value=%27%28
+		connections: 1
+		path time: 398263
+		average path time per connection: 398263
+		average path time per connection [ms]: 0.398263
+	in path: /set-cookie?name=ZAP&value=ZAP%3B
+		connections: 1
+		path time: 454840
+		average path time per connection: 454840
+		average path time per connection [ms]: 0.454840
+	in path: /set-cookie?name=ZAP&value=%3B
+		connections: 1
+		path time: 308563
+		average path time per connection: 308563
+		average path time per connection [ms]: 0.308563
+	in path: /set-cookie?name=ZAP&value=ZAP%22
+		connections: 1
+		path time: 267148
+		average path time per connection: 267148
+		average path time per connection [ms]: 0.267148
+	in path: /set-cookie?name=ZAP&value=%22
+		connections: 1
+		path time: 186691
+		average path time per connection: 186691
+		average path time per connection [ms]: 0.186691
+	in path: /set-cookie?name=ZAP&value=ZAP%27
+		connections: 1
+		path time: 239025
+		average path time per connection: 239025
+		average path time per connection [ms]: 0.239025
+	in path: /set-cookie?name=ZAP&value=%27
+		connections: 1
+		path time: 187144
+		average path time per connection: 187144
+		average path time per connection [ms]: 0.187144
+	in path: /form-response?number=1%27%29+UNION+ALL+select+NULL+--+
+		connections: 1
+		path time: 254736
+		average path time per connection: 254736
+		average path time per connection [ms]: 0.254736
+	in path: /set-cookie?name=ZAP%27%29+UNION+ALL+select+NULL+--+&value=ZAP
+		connections: 1
+		path time: 262174
+		average path time per connection: 262174
+		average path time per connection [ms]: 0.262174
+	in path: /form-response?number=1%29+UNION+ALL+select+NULL+--+
+		connections: 1
+		path time: 221100
+		average path time per connection: 221100
+		average path time per connection [ms]: 0.221100
+	in path: /set-cookie?name=ZAP%29+UNION+ALL+select+NULL+--+&value=ZAP
+		connections: 1
+		path time: 624306
+		average path time per connection: 624306
+		average path time per connection [ms]: 0.624306
+	in path: /form-response?number=1%22+UNION+ALL+select+NULL+--+
+		connections: 1
+		path time: 189901
+		average path time per connection: 189901
+		average path time per connection [ms]: 0.189901
+	in path: /set-cookie?name=ZAP%22+UNION+ALL+select+NULL+--+&value=ZAP
+		connections: 1
+		path time: 279969
+		average path time per connection: 279969
+		average path time per connection [ms]: 0.279969
+	in path: /form-response?number=1%27+UNION+ALL+select+NULL+--+
+		connections: 1
+		path time: 377149
+		average path time per connection: 377149
+		average path time per connection [ms]: 0.377149
+	in path: /set-cookie?name=ZAP%27+UNION+ALL+select+NULL+--+&value=ZAP
+		connections: 1
+		path time: 370424
+		average path time per connection: 370424
+		average path time per connection [ms]: 0.370424
+	in path: /form-response?number=1+UNION+ALL+select+NULL+--+
+		connections: 1
+		path time: 170335
+		average path time per connection: 170335
+		average path time per connection [ms]: 0.170335
+	in path: /set-cookie?name=ZAP+UNION+ALL+select+NULL+--+&value=ZAP
+		connections: 1
+		path time: 284131
+		average path time per connection: 284131
+		average path time per connection [ms]: 0.284131
+	in path: /form-response?number=1%27+OR+%271%27%3D%271%27+--+
+		connections: 2
+		path time: 389186
+		average path time per connection: 194593
+		average path time per connection [ms]: 0.194593
+	in path: /set-cookie?name=ZAP%27+OR+%271%27%3D%271%27+--+&value=ZAP
+		connections: 2
+		path time: 800516
+		average path time per connection: 400258
+		average path time per connection [ms]: 0.400258
+	in path: /form-response?number=1%27+AND+%271%27%3D%272%27+--+
+		connections: 2
+		path time: 436424
+		average path time per connection: 218212
+		average path time per connection [ms]: 0.218212
+	in path: /set-cookie?name=ZAP%27+AND+%271%27%3D%272%27+--+&value=ZAP
+		connections: 2
+		path time: 810117
+		average path time per connection: 405058
+		average path time per connection [ms]: 0.405058
+	in path: /form-response?number=1%27+AND+%271%27%3D%271%27+--+
+		connections: 1
+		path time: 237392
+		average path time per connection: 237392
+		average path time per connection [ms]: 0.237392
+	in path: /set-cookie?name=ZAP%27+AND+%271%27%3D%271%27+--+&value=ZAP
+		connections: 1
+		path time: 330285
+		average path time per connection: 330285
+		average path time per connection [ms]: 0.330285
+	in path: /form-response?number=1+OR+1%3D1+--+
+		connections: 2
+		path time: 819588
+		average path time per connection: 409794
+		average path time per connection [ms]: 0.409794
+	in path: /set-cookie?name=ZAP+OR+1%3D1+--+&value=ZAP
+		connections: 2
+		path time: 905767
+		average path time per connection: 452883
+		average path time per connection [ms]: 0.452883
+	in path: /form-response?number=1+AND+1%3D2+--+
+		connections: 2
+		path time: 549789
+		average path time per connection: 274894
+		average path time per connection [ms]: 0.274894
+	in path: /set-cookie?name=ZAP+AND+1%3D2+--+&value=ZAP
+		connections: 2
+		path time: 467809
+		average path time per connection: 233904
+		average path time per connection [ms]: 0.233904
+	in path: /form-response?number=1+AND+1%3D1+--+
+		connections: 1
+		path time: 191571
+		average path time per connection: 191571
+		average path time per connection [ms]: 0.191571
+	in path: /set-cookie?name=ZAP+AND+1%3D1+--+&value=ZAP
+		connections: 1
+		path time: 274579
+		average path time per connection: 274579
+		average path time per connection [ms]: 0.274579
+	in path: /form-response?number=4%2F2
+		connections: 1
+		path time: 207545
+		average path time per connection: 207545
+		average path time per connection [ms]: 0.207545
+	in path: /form-response?number=2%2F2
+		connections: 1
+		path time: 193826
+		average path time per connection: 193826
+		average path time per connection [ms]: 0.193826
+	in path: /set-cookie?name=ZAP%27%28&value=ZAP
+		connections: 1
+		path time: 322808
+		average path time per connection: 322808
+		average path time per connection [ms]: 0.322808
+	in path: /form-response?number=4-2
+		connections: 1
+		path time: 305987
+		average path time per connection: 305987
+		average path time per connection [ms]: 0.305987
+	in path: /set-cookie?name=%27%28&value=ZAP
+		connections: 1
+		path time: 286797
+		average path time per connection: 286797
+		average path time per connection [ms]: 0.286797
+	in path: /form-response?number=3-2
+		connections: 1
+		path time: 196746
+		average path time per connection: 196746
+		average path time per connection [ms]: 0.196746
+	in path: /set-cookie?name=ZAP%3B&value=ZAP
+		connections: 1
+		path time: 297674
+		average path time per connection: 297674
+		average path time per connection [ms]: 0.297674
+	in path: /set-cookie?name=%3B&value=ZAP
+		connections: 1
+		path time: 357330
+		average path time per connection: 357330
+		average path time per connection [ms]: 0.357330
+	in path: /form-response?number=1%27%28
+		connections: 1
+		path time: 204830
+		average path time per connection: 204830
+		average path time per connection [ms]: 0.204830
+	in path: /set-cookie?name=ZAP%22&value=ZAP
+		connections: 1
+		path time: 177357
+		average path time per connection: 177357
+		average path time per connection [ms]: 0.177357
+	in path: /form-response?number=%27%28
+		connections: 1
+		path time: 237653
+		average path time per connection: 237653
+		average path time per connection [ms]: 0.237653
+	in path: /set-cookie?name=%22&value=ZAP
+		connections: 1
+		path time: 308583
+		average path time per connection: 308583
+		average path time per connection [ms]: 0.308583
+	in path: /form-response?number=1%3B
+		connections: 1
+		path time: 201050
+		average path time per connection: 201050
+		average path time per connection [ms]: 0.201050
+	in path: /set-cookie?name=ZAP%27&value=ZAP
+		connections: 1
+		path time: 279277
+		average path time per connection: 279277
+		average path time per connection [ms]: 0.279277
+	in path: /form-response?number=%3B
+		connections: 1
+		path time: 192086
+		average path time per connection: 192086
+		average path time per connection [ms]: 0.192086
+	in path: /set-cookie?name=%27&value=ZAP
+		connections: 1
+		path time: 266836
+		average path time per connection: 266836
+		average path time per connection [ms]: 0.266836
+	in path: /form-response?number=1%22
+		connections: 1
+		path time: 214286
+		average path time per connection: 214286
+		average path time per connection [ms]: 0.214286
+	in path: /form-response?number=%22
+		connections: 1
+		path time: 394477
+		average path time per connection: 394477
+		average path time per connection [ms]: 0.394477
+	in path: /form-response?number=1%27
+		connections: 1
+		path time: 193569
+		average path time per connection: 193569
+		average path time per connection [ms]: 0.193569
+	in path: /form-response?number=%27
+		connections: 1
+		path time: 186196
+		average path time per connection: 186196
+		average path time per connection [ms]: 0.186196
+	in path: /set-cookie?name=ZAP&value=zApPX2sS
+		connections: 1
+		path time: 246459
+		average path time per connection: 246459
+		average path time per connection [ms]: 0.246459
+	in path: /set-cookie?name=zApPX1sS&value=ZAP
+		connections: 1
+		path time: 514756
+		average path time per connection: 514756
+		average path time per connection [ms]: 0.514756
+	in path: /form-response?number=zApPX0sS
+		connections: 1
+		path time: 175042
+		average path time per connection: 175042
+		average path time per connection [ms]: 0.175042
+	in path: /set-cookie?name=ZAP&value=%27%22%3Cimg+src%3Dx+onerror%3Dprompt%28%29%3E
+		connections: 1
+		path time: 261276
+		average path time per connection: 261276
+		average path time per connection [ms]: 0.261276
+	in path: /set-cookie?name=ZAP&value=%27%22%00%3CscrIpt%3Ealert%281%29%3B%3C%2FscRipt%3E
+		connections: 1
+		path time: 264762
+		average path time per connection: 264762
+		average path time per connection [ms]: 0.264762
+	in path: /set-cookie?name=ZAP&value=%27%22%3CscrIpt%3Ealert%281%29%3B%3C%2FscRipt%3E
+		connections: 1
+		path time: 300036
+		average path time per connection: 300036
+		average path time per connection [ms]: 0.300036
+	in path: /set-cookie?name=ZAP&value=ZAP0W45pz4p
+		connections: 1
+		path time: 256939
+		average path time per connection: 256939
+		average path time per connection [ms]: 0.256939
+	in path: /set-cookie?name=ZAP&value=0W45pz4p
+		connections: 1
+		path time: 317768
+		average path time per connection: 317768
+		average path time per connection [ms]: 0.317768
+	in path: /set-cookie?name=%27%22%3Cimg+src%3Dx+onerror%3Dprompt%28%29%3E&value=ZAP
+		connections: 1
+		path time: 297423
+		average path time per connection: 297423
+		average path time per connection [ms]: 0.297423
+	in path: /set-cookie?name=%27%22%00%3CscrIpt%3Ealert%281%29%3B%3C%2FscRipt%3E&value=ZAP
+		connections: 1
+		path time: 198818
+		average path time per connection: 198818
+		average path time per connection [ms]: 0.198818
+	in path: /set-cookie?name=%27%22%3CscrIpt%3Ealert%281%29%3B%3C%2FscRipt%3E&value=ZAP
+		connections: 1
+		path time: 272303
+		average path time per connection: 272303
+		average path time per connection [ms]: 0.272303
+	in path: /set-cookie?name=ZAP0W45pz4p&value=ZAP
+		connections: 1
+		path time: 410808
+		average path time per connection: 410808
+		average path time per connection [ms]: 0.410808
+	in path: /form-response?number=%27%22%3Cimg+src%3Dx+onerror%3Dprompt%28%29%3E
+		connections: 1
+		path time: 178850
+		average path time per connection: 178850
+		average path time per connection [ms]: 0.178850
+	in path: /form-response?number=%27%22%00%3CscrIpt%3Ealert%281%29%3B%3C%2FscRipt%3E
+		connections: 1
+		path time: 179172
+		average path time per connection: 179172
+		average path time per connection [ms]: 0.179172
+	in path: /set-cookie?name=0W45pz4p&value=ZAP
+		connections: 1
+		path time: 206220
+		average path time per connection: 206220
+		average path time per connection [ms]: 0.206220
+	in path: /form-response?number=%27%22%3CscrIpt%3Ealert%281%29%3B%3C%2FscRipt%3E
+		connections: 1
+		path time: 206193
+		average path time per connection: 206193
+		average path time per connection [ms]: 0.206193
+	in path: /form-response?number=10W45pz4p
+		connections: 1
+		path time: 183651
+		average path time per connection: 183651
+		average path time per connection [ms]: 0.183651
+	in path: /form-response?number=0W45pz4p
+		connections: 1
+		path time: 192470
+		average path time per connection: 192470
+		average path time per connection [ms]: 0.192470
+	in path: /set-cookie?name=ZAP&value=%22%3E%3C%21--%23EXEC+cmd%3D%22dir+%5C%22--%3E%3C
+		connections: 1
+		path time: 284703
+		average path time per connection: 284703
+		average path time per connection [ms]: 0.284703
+	in path: /set-cookie?name=ZAP&value=%3C%21--%23EXEC+cmd%3D%22dir+%5C%22--%3E
+		connections: 1
+		path time: 421749
+		average path time per connection: 421749
+		average path time per connection [ms]: 0.421749
+	in path: /set-cookie?name=ZAP&value=%22%3E%3C%21--%23EXEC+cmd%3D%22ls+%2F%22--%3E%3C
+		connections: 1
+		path time: 233890
+		average path time per connection: 233890
+		average path time per connection [ms]: 0.233890
+	in path: /set-cookie?name=ZAP&value=%3C%21--%23EXEC+cmd%3D%22ls+%2F%22--%3E
+		connections: 1
+		path time: 168971
+		average path time per connection: 168971
+		average path time per connection [ms]: 0.168971
+	in path: /set-cookie?name=%22%3E%3C%21--%23EXEC+cmd%3D%22dir+%5C%22--%3E%3C&value=ZAP
+		connections: 1
+		path time: 253079
+		average path time per connection: 253079
+		average path time per connection [ms]: 0.253079
+	in path: /set-cookie?name=%3C%21--%23EXEC+cmd%3D%22dir+%5C%22--%3E&value=ZAP
+		connections: 1
+		path time: 305397
+		average path time per connection: 305397
+		average path time per connection [ms]: 0.305397
+	in path: /form-response?number=%22%3E%3C%21--%23EXEC+cmd%3D%22dir+%5C%22--%3E%3C
+		connections: 1
+		path time: 206229
+		average path time per connection: 206229
+		average path time per connection [ms]: 0.206229
+	in path: /set-cookie?name=%22%3E%3C%21--%23EXEC+cmd%3D%22ls+%2F%22--%3E%3C&value=ZAP
+		connections: 1
+		path time: 297868
+		average path time per connection: 297868
+		average path time per connection [ms]: 0.297868
+	in path: /form-response?number=%3C%21--%23EXEC+cmd%3D%22dir+%5C%22--%3E
+		connections: 1
+		path time: 176629
+		average path time per connection: 176629
+		average path time per connection [ms]: 0.176629
+	in path: /set-cookie?name=%3C%21--%23EXEC+cmd%3D%22ls+%2F%22--%3E&value=ZAP
+		connections: 1
+		path time: 263089
+		average path time per connection: 263089
+		average path time per connection [ms]: 0.263089
+	in path: /form-response?number=%22%3E%3C%21--%23EXEC+cmd%3D%22ls+%2F%22--%3E%3C
+		connections: 1
+		path time: 216069
+		average path time per connection: 216069
+		average path time per connection [ms]: 0.216069
+	in path: /form-response?number=%3C%21--%23EXEC+cmd%3D%22ls+%2F%22--%3E
+		connections: 1
+		path time: 288251
+		average path time per connection: 288251
+		average path time per connection [ms]: 0.288251
+	in path: /set-cookie?name=ZAP&value=%2F%2F2044415637890878575.owasp.org
+		connections: 1
+		path time: 304930
+		average path time per connection: 304930
+		average path time per connection [ms]: 0.304930
+	in path: /set-cookie?name=ZAP&value=https%3A%2F%2F%5C2044415637890878575.owasp.org
+		connections: 1
+		path time: 278483
+		average path time per connection: 278483
+		average path time per connection [ms]: 0.278483
+	in path: /set-cookie?name=ZAP&value=http%3A%2F%2F%5C2044415637890878575.owasp.org
+		connections: 1
+		path time: 283961
+		average path time per connection: 283961
+		average path time per connection [ms]: 0.283961
+	in path: /set-cookie?name=ZAP&value=URL%3D%27http%3A%2F%2F2044415637890878575.owasp.org%27
+		connections: 1
+		path time: 292650
+		average path time per connection: 292650
+		average path time per connection [ms]: 0.292650
+	in path: /set-cookie?name=ZAP&value=5%3BURL%3D%27https%3A%2F%2F2044415637890878575.owasp.org%27
+		connections: 1
+		path time: 302348
+		average path time per connection: 302348
+		average path time per connection [ms]: 0.302348
+	in path: /set-cookie?name=ZAP&value=https%3A%2F%2F2044415637890878575%252eowasp%252eorg
+		connections: 1
+		path time: 223138
+		average path time per connection: 223138
+		average path time per connection [ms]: 0.223138
+	in path: /set-cookie?name=ZAP&value=https%3A%2F%2F2044415637890878575.owasp.org
+		connections: 1
+		path time: 281277
+		average path time per connection: 281277
+		average path time per connection [ms]: 0.281277
+	in path: /set-cookie?name=ZAP&value=http%3A%2F%2F2044415637890878575.owasp.org
+		connections: 1
+		path time: 251175
+		average path time per connection: 251175
+		average path time per connection [ms]: 0.251175
+	in path: /set-cookie?name=ZAP&value=2044415637890878575.owasp.org
+		connections: 1
+		path time: 304975
+		average path time per connection: 304975
+		average path time per connection [ms]: 0.304975
+	in path: /set-cookie?name=%2F%2F2044415637890878575.owasp.org&value=ZAP
+		connections: 1
+		path time: 295340
+		average path time per connection: 295340
+		average path time per connection [ms]: 0.295340
+	in path: /set-cookie?name=https%3A%2F%2F%5C2044415637890878575.owasp.org&value=ZAP
+		connections: 1
+		path time: 360964
+		average path time per connection: 360964
+		average path time per connection [ms]: 0.360964
+	in path: /set-cookie?name=http%3A%2F%2F%5C2044415637890878575.owasp.org&value=ZAP
+		connections: 1
+		path time: 369098
+		average path time per connection: 369098
+		average path time per connection [ms]: 0.369098
+	in path: /set-cookie?name=URL%3D%27http%3A%2F%2F2044415637890878575.owasp.org%27&value=ZAP
+		connections: 1
+		path time: 227203
+		average path time per connection: 227203
+		average path time per connection [ms]: 0.227203
+	in path: /form-response?number=%2F%2F2044415637890878575.owasp.org
+		connections: 1
+		path time: 176884
+		average path time per connection: 176884
+		average path time per connection [ms]: 0.176884
+	in path: /set-cookie?name=5%3BURL%3D%27https%3A%2F%2F2044415637890878575.owasp.org%27&value=ZAP
+		connections: 1
+		path time: 290311
+		average path time per connection: 290311
+		average path time per connection [ms]: 0.290311
+	in path: /form-response?number=https%3A%2F%2F%5C2044415637890878575.owasp.org
+		connections: 1
+		path time: 210045
+		average path time per connection: 210045
+		average path time per connection [ms]: 0.210045
+	in path: /set-cookie?name=https%3A%2F%2F2044415637890878575%252eowasp%252eorg&value=ZAP
+		connections: 1
+		path time: 333867
+		average path time per connection: 333867
+		average path time per connection [ms]: 0.333867
+	in path: /form-response?number=http%3A%2F%2F%5C2044415637890878575.owasp.org
+		connections: 1
+		path time: 185456
+		average path time per connection: 185456
+		average path time per connection [ms]: 0.185456
+	in path: /set-cookie?name=https%3A%2F%2F2044415637890878575.owasp.org&value=ZAP
+		connections: 1
+		path time: 492864
+		average path time per connection: 492864
+		average path time per connection [ms]: 0.492864
+	in path: /form-response?number=URL%3D%27http%3A%2F%2F2044415637890878575.owasp.org%27
+		connections: 1
+		path time: 171845
+		average path time per connection: 171845
+		average path time per connection [ms]: 0.171845
+	in path: /set-cookie?name=http%3A%2F%2F2044415637890878575.owasp.org&value=ZAP
+		connections: 1
+		path time: 809517
+		average path time per connection: 809517
+		average path time per connection [ms]: 0.809517
+	in path: /form-response?number=5%3BURL%3D%27https%3A%2F%2F2044415637890878575.owasp.org%27
+		connections: 1
+		path time: 216888
+		average path time per connection: 216888
+		average path time per connection [ms]: 0.216888
+	in path: /set-cookie?name=2044415637890878575.owasp.org&value=ZAP
+		connections: 1
+		path time: 369492
+		average path time per connection: 369492
+		average path time per connection [ms]: 0.369492
+	in path: /form-response?number=https%3A%2F%2F2044415637890878575%252eowasp%252eorg
+		connections: 1
+		path time: 433016
+		average path time per connection: 433016
+		average path time per connection [ms]: 0.433016
+	in path: /form-response?number=https%3A%2F%2F2044415637890878575.owasp.org
+		connections: 1
+		path time: 214451
+		average path time per connection: 214451
+		average path time per connection [ms]: 0.214451
+	in path: /form-response?number=http%3A%2F%2F2044415637890878575.owasp.org
+		connections: 1
+		path time: 221470
+		average path time per connection: 221470
+		average path time per connection [ms]: 0.221470
+	in path: /form-response?number=2044415637890878575.owasp.org
+		connections: 1
+		path time: 231829
+		average path time per connection: 231829
+		average path time per connection [ms]: 0.231829
+	in path: /just-monika/music/3062936062077970999
+		connections: 1
+		path time: 144607
+		average path time per connection: 144607
+		average path time per connection [ms]: 0.144607
+	in path: /just-monika/515172164391491121
+		connections: 1
+		path time: 329999
+		average path time per connection: 329999
+		average path time per connection [ms]: 0.329999
+	in path: /5670623096155377609
+		connections: 1
+		path time: 77862
+		average path time per connection: 77862
+		average path time per connection [ms]: 0.077862
+	in path: /spo?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 830983
+		average path time per connection: 207745
+		average path time per connection [ms]: 0.207746
+	in path: /proclamation-of-the-new-order-full.ogg?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 2818361
+		average path time per connection: 704590
+		average path time per connection [ms]: 0.704590
+	in path: /robots.txt?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 457832
+		average path time per connection: 114458
+		average path time per connection [ms]: 0.114458
+	in path: /styling.css?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 1743844
+		average path time per connection: 435961
+		average path time per connection [ms]: 0.435961
+	in path: /sitemap.xml?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 898064
+		average path time per connection: 224516
+		average path time per connection [ms]: 0.224516
+	in path: /wayback?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 698448
+		average path time per connection: 174612
+		average path time per connection [ms]: 0.174612
+	in path: /proclamation-of-the-new-order.ogg?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 1054512
+		average path time per connection: 263628
+		average path time per connection [ms]: 0.263628
+	in path: /set-cookie?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 988903
+		average path time per connection: 247225
+		average path time per connection [ms]: 0.247226
+	in path: /set-cookie-graphical?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 1122937
+		average path time per connection: 280734
+		average path time per connection [ms]: 0.280734
+	in path: /proclamation-of-the-new-order.mp3?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 1821330
+		average path time per connection: 455332
+		average path time per connection [ms]: 0.455332
+	in path: /proclamation-of-the-new-order-full.mp3?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 212911701
+		average path time per connection: 53227925
+		average path time per connection [ms]: 53.227925
+	in path: /ormos?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 1069529
+		average path time per connection: 267382
+		average path time per connection [ms]: 0.267382
+	in path: /just-monika/music/your-reality?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 37074716
+		average path time per connection: 9268679
+		average path time per connection [ms]: 9.268679
+	in path: /my-form?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 869694
+		average path time per connection: 217423
+		average path time per connection [ms]: 0.217423
+	in path: /my-specs?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 920726082
+		average path time per connection: 230181520
+		average path time per connection [ms]: 230.181521
+	in path: /just-monika/music/sayo-nara?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 23370454
+		average path time per connection: 5842613
+		average path time per connection [ms]: 5.842613
+	in path: /just-monika/music/poem-panic?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 34047632
+		average path time per connection: 8511908
+		average path time per connection [ms]: 8.511908
+	in path: /just-monika/music/play-with-me?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 35264320
+		average path time per connection: 8816080
+		average path time per connection [ms]: 8.816080
+	in path: /just-monika/music/ok-everyone?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 3
+		path time: 27707198
+		average path time per connection: 9235732
+		average path time per connection [ms]: 9.235733
+	in path: /just-monika/music/my-feelings?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 17309398
+		average path time per connection: 4327349
+		average path time per connection [ms]: 4.327350
+	in path: /just-monika/music/my-confession?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 37493921
+		average path time per connection: 9373480
+		average path time per connection [ms]: 9.373480
+	in path: /just-monika/music/just-monika?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 39153808
+		average path time per connection: 9788452
+		average path time per connection [ms]: 9.788452
+	in path: /just-monika/music/ohayu-sayori?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 31539621
+		average path time per connection: 7884905
+		average path time per connection [ms]: 7.884905
+	in path: /just-monika/music/i-still-love-you?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 31604673
+		average path time per connection: 7901168
+		average path time per connection [ms]: 7.901168
+	in path: /just-monika/music/doki-doki-literature-club?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 21038329
+		average path time per connection: 5259582
+		average path time per connection [ms]: 5.259582
+	in path: /just-monika/music/daijoubu?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 31909049
+		average path time per connection: 7977262
+		average path time per connection [ms]: 7.977262
+	in path: /just-monika/music/dreams-of-love-and-literature?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 43116035
+		average path time per connection: 10779008
+		average path time per connection [ms]: 10.779009
+	in path: /just-monika/music?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 964459
+		average path time per connection: 241114
+		average path time per connection [ms]: 0.241115
+	in path: /form-response?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 454370
+		average path time per connection: 113592
+		average path time per connection [ms]: 0.113592
+	in path: /friends?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 751740
+		average path time per connection: 187935
+		average path time per connection [ms]: 0.187935
+	in path: /default-cookies?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 1037577
+		average path time per connection: 259394
+		average path time per connection [ms]: 0.259394
+	in path: /favicon.ico?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 2105110
+		average path time per connection: 526277
+		average path time per connection [ms]: 0.526277
+	in path: /characters?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 2034465
+		average path time per connection: 508616
+		average path time per connection [ms]: 0.508616
+	in path: /?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 8
+		path time: 2111620
+		average path time per connection: 263952
+		average path time per connection [ms]: 0.263952
+	in path: /just-monika?-d+allow_url_include%3d1+-d+auto_prepend_file%3dphp://input
+		connections: 4
+		path time: 1996183
+		average path time per connection: 499045
+		average path time per connection [ms]: 0.499046
+	in path: /just-monika?-s
+		connections: 2
+		path time: 883156
+		average path time per connection: 441578
+		average path time per connection [ms]: 0.441578
+	in path: /styling.css?-s
+		connections: 2
+		path time: 594594
+		average path time per connection: 297297
+		average path time per connection [ms]: 0.297297
+	in path: /spo?-s
+		connections: 2
+		path time: 388620
+		average path time per connection: 194310
+		average path time per connection [ms]: 0.194310
+	in path: /set-cookie-graphical?-s
+		connections: 2
+		path time: 541206
+		average path time per connection: 270603
+		average path time per connection [ms]: 0.270603
+	in path: /my-specs?-s
+		connections: 2
+		path time: 452169626
+		average path time per connection: 226084813
+		average path time per connection [ms]: 226.084813
+	in path: /my-form?-s
+		connections: 2
+		path time: 604342
+		average path time per connection: 302171
+		average path time per connection [ms]: 0.302171
+	in path: /WEB-INF/classes/1/28/0.class
+		connections: 2
+		path time: 187785
+		average path time per connection: 93892
+		average path time per connection [ms]: 0.093893
+	in path: /WEB-INF/applicationContext.xml
+		connections: 2
+		path time: 184987
+		average path time per connection: 92493
+		average path time per connection [ms]: 0.092494
+	in path: /friends?-s
+		connections: 2
+		path time: 860635
+		average path time per connection: 430317
+		average path time per connection [ms]: 0.430318
+	in path: /characters?-s
+		connections: 2
+		path time: 456846
+		average path time per connection: 228423
+		average path time per connection [ms]: 0.228423
+	in path: /?-s
+		connections: 4
+		path time: 1058712
+		average path time per connection: 264678
+		average path time per connection [ms]: 0.264678
+	in path: /WEB-INF/web.xml
+		connections: 2
+		path time: 204221
+		average path time per connection: 102110
+		average path time per connection [ms]: 0.102111
+	in path: /form-response?-s
+		connections: 129
+		path time: 40006400
+		average path time per connection: 310127
+		average path time per connection [ms]: 0.310127
+	in path: /set-cookie?name=ZAP&value=www.google.com%3A80%2Fsearch%3Fq%3DZAP
+		connections: 2
+		path time: 1334851
+		average path time per connection: 667425
+		average path time per connection [ms]: 0.667426
+	in path: /set-cookie?name=ZAP&value=www.google.com%2Fsearch%3Fq%3DZAP
+		connections: 2
+		path time: 727358
+		average path time per connection: 363679
+		average path time per connection [ms]: 0.363679
+	in path: /set-cookie?name=ZAP&value=www.google.com
+		connections: 2
+		path time: 1175951
+		average path time per connection: 587975
+		average path time per connection [ms]: 0.587975
+	in path: /set-cookie?name=ZAP&value=www.google.com%3A80%2F
+		connections: 2
+		path time: 1126363
+		average path time per connection: 563181
+		average path time per connection [ms]: 0.563182
+	in path: /set-cookie?name=ZAP&value=www.google.com%2F
+		connections: 2
+		path time: 591636
+		average path time per connection: 295818
+		average path time per connection [ms]: 0.295818
+	in path: /set-cookie?name=ZAP&value=http%3A%2F%2Fwww.google.com%3A80%2Fsearch%3Fq%3DZAP
+		connections: 2
+		path time: 755206
+		average path time per connection: 377603
+		average path time per connection [ms]: 0.377603
+	in path: /set-cookie?name=ZAP&value=http%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3DZAP
+		connections: 2
+		path time: 480548
+		average path time per connection: 240274
+		average path time per connection [ms]: 0.240274
+	in path: /set-cookie?name=ZAP&value=http%3A%2F%2Fwww.google.com
+		connections: 2
+		path time: 597196
+		average path time per connection: 298598
+		average path time per connection [ms]: 0.298598
+	in path: /set-cookie?name=ZAP&value=http%3A%2F%2Fwww.google.com%3A80%2F
+		connections: 2
+		path time: 540187
+		average path time per connection: 270093
+		average path time per connection [ms]: 0.270093
+	in path: /set-cookie?name=ZAP&value=http%3A%2F%2Fwww.google.com%2F
+		connections: 2
+		path time: 609712
+		average path time per connection: 304856
+		average path time per connection [ms]: 0.304856
+	in path: /set-cookie?name=www.google.com%3A80%2Fsearch%3Fq%3DZAP&value=ZAP
+		connections: 2
+		path time: 482473
+		average path time per connection: 241236
+		average path time per connection [ms]: 0.241236
+	in path: /set-cookie?name=www.google.com%2Fsearch%3Fq%3DZAP&value=ZAP
+		connections: 2
+		path time: 579929
+		average path time per connection: 289964
+		average path time per connection [ms]: 0.289965
+	in path: /form-response?number=www.google.com%3A80%2Fsearch%3Fq%3DZAP
+		connections: 2
+		path time: 606278
+		average path time per connection: 303139
+		average path time per connection [ms]: 0.303139
+	in path: /set-cookie?name=www.google.com&value=ZAP
+		connections: 2
+		path time: 749499
+		average path time per connection: 374749
+		average path time per connection [ms]: 0.374750
+	in path: /form-response?number=www.google.com%2Fsearch%3Fq%3DZAP
+		connections: 2
+		path time: 567355
+		average path time per connection: 283677
+		average path time per connection [ms]: 0.283678
+	in path: /set-cookie?name=www.google.com%3A80%2F&value=ZAP
+		connections: 2
+		path time: 1026262
+		average path time per connection: 513131
+		average path time per connection [ms]: 0.513131
+	in path: /form-response?number=www.google.com
+		connections: 2
+		path time: 430372
+		average path time per connection: 215186
+		average path time per connection [ms]: 0.215186
+	in path: /set-cookie?name=www.google.com%2F&value=ZAP
+		connections: 2
+		path time: 535360
+		average path time per connection: 267680
+		average path time per connection [ms]: 0.267680
+	in path: /form-response?number=www.google.com%3A80%2F
+		connections: 2
+		path time: 650735
+		average path time per connection: 325367
+		average path time per connection [ms]: 0.325367
+	in path: /set-cookie?name=http%3A%2F%2Fwww.google.com%3A80%2Fsearch%3Fq%3DZAP&value=ZAP
+		connections: 2
+		path time: 959451
+		average path time per connection: 479725
+		average path time per connection [ms]: 0.479726
+	in path: /set-cookie?name=http%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3DZAP&value=ZAP
+		connections: 2
+		path time: 525828
+		average path time per connection: 262914
+		average path time per connection [ms]: 0.262914
+	in path: /form-response?number=www.google.com%2F
+		connections: 2
+		path time: 718960
+		average path time per connection: 359480
+		average path time per connection [ms]: 0.359480
+	in path: /set-cookie?name=http%3A%2F%2Fwww.google.com&value=ZAP
+		connections: 2
+		path time: 520316
+		average path time per connection: 260158
+		average path time per connection [ms]: 0.260158
+	in path: /form-response?number=http%3A%2F%2Fwww.google.com%3A80%2Fsearch%3Fq%3DZAP
+		connections: 2
+		path time: 397856
+		average path time per connection: 198928
+		average path time per connection [ms]: 0.198928
+	in path: /set-cookie?name=http%3A%2F%2Fwww.google.com%3A80%2F&value=ZAP
+		connections: 2
+		path time: 1230687
+		average path time per connection: 615343
+		average path time per connection [ms]: 0.615344
+	in path: /form-response?number=http%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3DZAP
+		connections: 2
+		path time: 764797
+		average path time per connection: 382398
+		average path time per connection [ms]: 0.382398
+	in path: /set-cookie?name=http%3A%2F%2Fwww.google.com%2F&value=ZAP
+		connections: 2
+		path time: 467658
+		average path time per connection: 233829
+		average path time per connection [ms]: 0.233829
+	in path: /form-response?number=http%3A%2F%2Fwww.google.com
+		connections: 2
+		path time: 555243
+		average path time per connection: 277621
+		average path time per connection [ms]: 0.277622
+	in path: /form-response?number=http%3A%2F%2Fwww.google.com%3A80%2F
+		connections: 2
+		path time: 589556
+		average path time per connection: 294778
+		average path time per connection [ms]: 0.294778
+	in path: /form-response?number=http%3A%2F%2Fwww.google.com%2F
+		connections: 2
+		path time: 324525
+		average path time per connection: 162262
+		average path time per connection [ms]: 0.162263
+	in path: /set-cookie?name=ZAP&value=thishouldnotexistandhopefullyitwillnot
+		connections: 2
+		path time: 1434625
+		average path time per connection: 717312
+		average path time per connection [ms]: 0.717313
+	in path: /set-cookie?name=ZAP&value=%5CWEB-INF%5Cweb.xml
+		connections: 2
+		path time: 801054
+		average path time per connection: 400527
+		average path time per connection [ms]: 0.400527
+	in path: /set-cookie?name=ZAP&value=%2FWEB-INF%2Fweb.xml
+		connections: 2
+		path time: 1542582
+		average path time per connection: 771291
+		average path time per connection [ms]: 0.771291
+	in path: /set-cookie?name=ZAP&value=WEB-INF%5Cweb.xml
+		connections: 2
+		path time: 757542
+		average path time per connection: 378771
+		average path time per connection [ms]: 0.378771
+	in path: /set-cookie?name=ZAP&value=WEB-INF%2Fweb.xml
+		connections: 2
+		path time: 1438372
+		average path time per connection: 719186
+		average path time per connection [ms]: 0.719186
+	in path: /set-cookie?name=ZAP&value=c%3A%5C
+		connections: 2
+		path time: 928700
+		average path time per connection: 464350
+		average path time per connection [ms]: 0.464350
+	in path: /set-cookie?name=ZAP&value=c%3A%2F
+		connections: 2
+		path time: 1139404
+		average path time per connection: 569702
+		average path time per connection [ms]: 0.569702
+	in path: /set-cookie?name=ZAP&value=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F
+		connections: 2
+		path time: 627300
+		average path time per connection: 313650
+		average path time per connection [ms]: 0.313650
+	in path: /set-cookie?name=ZAP&value=%2F
+		connections: 2
+		path time: 526089
+		average path time per connection: 263044
+		average path time per connection [ms]: 0.263045
+	in path: /set-cookie?name=ZAP&value=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd
+		connections: 2
+		path time: 555421
+		average path time per connection: 277710
+		average path time per connection [ms]: 0.277711
+	in path: /set-cookie?name=ZAP&value=%2Fetc%2Fpasswd
+		connections: 2
+		path time: 916346
+		average path time per connection: 458173
+		average path time per connection [ms]: 0.458173
+	in path: /set-cookie?name=ZAP&value=..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5CWindows%5Csystem.ini
+		connections: 2
+		path time: 1033985
+		average path time per connection: 516992
+		average path time per connection [ms]: 0.516992
+	in path: /set-cookie?name=ZAP&value=c%3A%5CWindows%5Csystem.ini
+		connections: 2
+		path time: 1261023
+		average path time per connection: 630511
+		average path time per connection [ms]: 0.630512
+	in path: /set-cookie?name=ZAP&value=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FWindows%2Fsystem.ini
+		connections: 2
+		path time: 543375
+		average path time per connection: 271687
+		average path time per connection [ms]: 0.271688
+	in path: /set-cookie?name=ZAP&value=c%3A%2FWindows%2Fsystem.ini
+		connections: 2
+		path time: 1144420
+		average path time per connection: 572210
+		average path time per connection [ms]: 0.572210
+	in path: /set-cookie?name=thishouldnotexistandhopefullyitwillnot&value=ZAP
+		connections: 2
+		path time: 560184
+		average path time per connection: 280092
+		average path time per connection [ms]: 0.280092
+	in path: /set-cookie?name=%5CWEB-INF%5Cweb.xml&value=ZAP
+		connections: 2
+		path time: 853374
+		average path time per connection: 426687
+		average path time per connection [ms]: 0.426687
+	in path: /set-cookie?name=%2FWEB-INF%2Fweb.xml&value=ZAP
+		connections: 2
+		path time: 1166758
+		average path time per connection: 583379
+		average path time per connection [ms]: 0.583379
+	in path: /set-cookie?name=WEB-INF%5Cweb.xml&value=ZAP
+		connections: 2
+		path time: 1003451
+		average path time per connection: 501725
+		average path time per connection [ms]: 0.501726
+	in path: /set-cookie?name=WEB-INF%2Fweb.xml&value=ZAP
+		connections: 2
+		path time: 1038298
+		average path time per connection: 519149
+		average path time per connection [ms]: 0.519149
+	in path: /set-cookie?name=c%3A%5C&value=ZAP
+		connections: 2
+		path time: 502895
+		average path time per connection: 251447
+		average path time per connection [ms]: 0.251447
+	in path: /set-cookie?name=c%3A%2F&value=ZAP
+		connections: 2
+		path time: 1458508
+		average path time per connection: 729254
+		average path time per connection [ms]: 0.729254
+	in path: /set-cookie?name=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F&value=ZAP
+		connections: 2
+		path time: 661267
+		average path time per connection: 330633
+		average path time per connection [ms]: 0.330634
+	in path: /form-response?number=thishouldnotexistandhopefullyitwillnot
+		connections: 2
+		path time: 498925
+		average path time per connection: 249462
+		average path time per connection [ms]: 0.249463
+	in path: /form-response?number=%5CWEB-INF%5Cweb.xml
+		connections: 2
+		path time: 402276
+		average path time per connection: 201138
+		average path time per connection [ms]: 0.201138
+	in path: /set-cookie?name=%2F&value=ZAP
+		connections: 2
+		path time: 463169
+		average path time per connection: 231584
+		average path time per connection [ms]: 0.231584
+	in path: /form-response?number=%2FWEB-INF%2Fweb.xml
+		connections: 2
+		path time: 1115249
+		average path time per connection: 557624
+		average path time per connection [ms]: 0.557624
+	in path: /form-response?number=WEB-INF%5Cweb.xml
+		connections: 2
+		path time: 754501
+		average path time per connection: 377250
+		average path time per connection [ms]: 0.377250
+	in path: /set-cookie?name=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd&value=ZAP
+		connections: 2
+		path time: 980999
+		average path time per connection: 490499
+		average path time per connection [ms]: 0.490499
+	in path: /form-response?number=WEB-INF%2Fweb.xml
+		connections: 2
+		path time: 439865
+		average path time per connection: 219932
+		average path time per connection [ms]: 0.219933
+	in path: /form-response?number=c%3A%5C
+		connections: 2
+		path time: 387884
+		average path time per connection: 193942
+		average path time per connection [ms]: 0.193942
+	in path: /set-cookie?name=%2Fetc%2Fpasswd&value=ZAP
+		connections: 2
+		path time: 471294
+		average path time per connection: 235647
+		average path time per connection [ms]: 0.235647
+	in path: /form-response?number=c%3A%2F
+		connections: 2
+		path time: 817155
+		average path time per connection: 408577
+		average path time per connection [ms]: 0.408577
+	in path: /form-response?number=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F
+		connections: 2
+		path time: 415345
+		average path time per connection: 207672
+		average path time per connection [ms]: 0.207673
+	in path: /set-cookie?name=..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5CWindows%5Csystem.ini&value=ZAP
+		connections: 2
+		path time: 1547766
+		average path time per connection: 773883
+		average path time per connection [ms]: 0.773883
+	in path: /form-response?number=%2F
+		connections: 2
+		path time: 550478
+		average path time per connection: 275239
+		average path time per connection [ms]: 0.275239
+	in path: /form-response?number=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd
+		connections: 2
+		path time: 704352
+		average path time per connection: 352176
+		average path time per connection [ms]: 0.352176
+	in path: /set-cookie?name=c%3A%5CWindows%5Csystem.ini&value=ZAP
+		connections: 2
+		path time: 520310
+		average path time per connection: 260155
+		average path time per connection [ms]: 0.260155
+	in path: /form-response?number=%2Fetc%2Fpasswd
+		connections: 2
+		path time: 357201
+		average path time per connection: 178600
+		average path time per connection [ms]: 0.178600
+	in path: /form-response?number=..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5CWindows%5Csystem.ini
+		connections: 2
+		path time: 350286
+		average path time per connection: 175143
+		average path time per connection [ms]: 0.175143
+	in path: /form-response?number=c%3A%5CWindows%5Csystem.ini
+		connections: 2
+		path time: 342592
+		average path time per connection: 171296
+		average path time per connection [ms]: 0.171296
+	in path: /set-cookie?name=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FWindows%2Fsystem.ini&value=ZAP
+		connections: 2
+		path time: 517100
+		average path time per connection: 258550
+		average path time per connection [ms]: 0.258550
+	in path: /form-response?number=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FWindows%2Fsystem.ini
+		connections: 2
+		path time: 448451
+		average path time per connection: 224225
+		average path time per connection [ms]: 0.224225
+	in path: /set-cookie?name=c%3A%2FWindows%2Fsystem.ini&value=ZAP
+		connections: 2
+		path time: 485301
+		average path time per connection: 242650
+		average path time per connection [ms]: 0.242650
+	in path: /form-response?number=c%3A%2FWindows%2Fsystem.ini
+		connections: 2
+		path time: 321382
+		average path time per connection: 160691
+		average path time per connection [ms]: 0.160691
+	in path: /just-monika/music
+		connections: 7
+		path time: 1715592
+		average path time per connection: 245084
+		average path time per connection [ms]: 0.245085
+	in path: /just-monika/music/741992760888386562
+		connections: 1
+		path time: 150219
+		average path time per connection: 150219
+		average path time per connection [ms]: 0.150219
+	in path: /just-monika/1248538429127576840
+		connections: 1
+		path time: 177970
+		average path time per connection: 177970
+		average path time per connection [ms]: 0.177970
+	in path: /2308339348058385536
+		connections: 1
+		path time: 88996
+		average path time per connection: 88996
+		average path time per connection [ms]: 0.088996
+	in path: /just-monika/music/poem-panic
+		connections: 5
+		path time: 41078126
+		average path time per connection: 8215625
+		average path time per connection [ms]: 8.215625
+	in path: /just-monika/music/play-with-me
+		connections: 4
+		path time: 50953021
+		average path time per connection: 12738255
+		average path time per connection [ms]: 12.738255
+	in path: /just-monika/music/just-monika
+		connections: 4
+		path time: 51853648
+		average path time per connection: 12963412
+		average path time per connection [ms]: 12.963412
+	in path: /just-monika/music/my-feelings
+		connections: 4
+		path time: 29399705
+		average path time per connection: 7349926
+		average path time per connection [ms]: 7.349926
+	in path: /just-monika/music/i-still-love-you
+		connections: 5
+		path time: 59105792
+		average path time per connection: 11821158
+		average path time per connection [ms]: 11.821158
+	in path: /just-monika/music/ok-everyone
+		connections: 5
+		path time: 47481364
+		average path time per connection: 9496272
+		average path time per connection [ms]: 9.496273
+	in path: /just-monika/music/your-reality
+		connections: 5
+		path time: 57284480
+		average path time per connection: 11456896
+		average path time per connection [ms]: 11.456896
+	in path: /just-monika/music/my-confession
+		connections: 4
+		path time: 47270106
+		average path time per connection: 11817526
+		average path time per connection [ms]: 11.817526
+	in path: /just-monika/music/dreams-of-love-and-literature
+		connections: 5
+		path time: 71307955
+		average path time per connection: 14261591
+		average path time per connection [ms]: 14.261591
+	in path: /just-monika/music/ohayu-sayori
+		connections: 5
+		path time: 55056141
+		average path time per connection: 11011228
+		average path time per connection [ms]: 11.011228
+	in path: /just-monika/music/sayo-nara
+		connections: 4
+		path time: 248266281
+		average path time per connection: 62066570
+		average path time per connection [ms]: 62.066570
+	in path: /just-monika/music/doki-doki-literature-club
+		connections: 4
+		path time: 29466678
+		average path time per connection: 7366669
+		average path time per connection [ms]: 7.366670
+	in path: /just-monika/music/daijoubu
+		connections: 4
+		path time: 43309430
+		average path time per connection: 10827357
+		average path time per connection [ms]: 10.827357
+	in path: /wayback
+		connections: 4
+		path time: 1604175
+		average path time per connection: 401043
+		average path time per connection [ms]: 0.401044
+	in path: /proclamation-of-the-new-order-full.ogg
+		connections: 6
+		path time: 3401274
+		average path time per connection: 566879
+		average path time per connection [ms]: 0.566879
+	in path: /just-monika
+		connections: 4
+		path time: 1627200
+		average path time per connection: 406800
+		average path time per connection [ms]: 0.406800
+	in path: /ormos
+		connections: 4
+		path time: 708430
+		average path time per connection: 177107
+		average path time per connection [ms]: 0.177108
+	in path: /proclamation-of-the-new-order.mp3
+		connections: 6
+		path time: 5776439
+		average path time per connection: 962739
+		average path time per connection [ms]: 0.962740
+	in path: /proclamation-of-the-new-order-full.mp3
+		connections: 5
+		path time: 11392989
+		average path time per connection: 2278597
+		average path time per connection [ms]: 2.278598
+	in path: /proclamation-of-the-new-order.ogg
+		connections: 5
+		path time: 7751824
+		average path time per connection: 1550364
+		average path time per connection [ms]: 1.550365
+	in path: /set-cookie?name=ZAP&value=ZAP
+		connections: 16
+		path time: 7736846
+		average path time per connection: 483552
+		average path time per connection [ms]: 0.483553
+	in path: /form-response?number=1
+		connections: 10
+		path time: 2225808
+		average path time per connection: 222580
+		average path time per connection [ms]: 0.222581
+	in path: /set-cookie-graphical
+		connections: 5
+		path time: 1178950
+		average path time per connection: 235790
+		average path time per connection [ms]: 0.235790
+	in path: /spo
+		connections: 4
+		path time: 1413146
+		average path time per connection: 353286
+		average path time per connection [ms]: 0.353287
+	in path: /default-cookies
+		connections: 5
+		path time: 1259546
+		average path time per connection: 251909
+		average path time per connection [ms]: 0.251909
+	in path: /friends
+		connections: 5
+		path time: 1934400
+		average path time per connection: 386880
+		average path time per connection [ms]: 0.386880
+	in path: /characters
+		connections: 4
+		path time: 797218
+		average path time per connection: 199304
+		average path time per connection [ms]: 0.199304
+	in path: /my-form
+		connections: 4
+		path time: 1255170
+		average path time per connection: 313792
+		average path time per connection [ms]: 0.313792
+	in path: /robots.txt
+		connections: 5
+		path time: 2202066
+		average path time per connection: 440413
+		average path time per connection [ms]: 0.440413
+	in path: /sitemap.xml
+		connections: 4
+		path time: 1167641
+		average path time per connection: 291910
+		average path time per connection [ms]: 0.291910
+	in path: /friends?ab=cd&ef
+		connections: 3
+		path time: 423351
+		average path time per connection: 141117
+		average path time per connection [ms]: 0.141117
+	in path: /?aa
+		connections: 1
+		path time: 172669
+		average path time per connection: 172669
+		average path time per connection [ms]: 0.172669
+	in path: /siln.php
+		connections: 1
+		path time: 86332
+		average path time per connection: 86332
+		average path time per connection [ms]: 0.086332
+	in path: /kairolin.php
+		connections: 1
+		path time: 39534
+		average path time per connection: 39534
+		average path time per connection [ms]: 0.039534
+	in path: /thxt.php
+		connections: 1
+		path time: 39710
+		average path time per connection: 39710
+		average path time per connection [ms]: 0.039710
+	in path: /ww5.php
+		connections: 1
+		path time: 52888
+		average path time per connection: 52888
+		average path time per connection [ms]: 0.052888
+	in path: /ifm.php
+		connections: 1
+		path time: 52202
+		average path time per connection: 52202
+		average path time per connection [ms]: 0.052202
+	in path: /bge.php
+		connections: 1
+		path time: 46729
+		average path time per connection: 46729
+		average path time per connection [ms]: 0.046729
+	in path: /lock360.php
+		connections: 1
+		path time: 46185
+		average path time per connection: 46185
+		average path time per connection [ms]: 0.046185
+	in path: /wp-includes/block-patterns/index.php
+		connections: 1
+		path time: 49638
+		average path time per connection: 49638
+		average path time per connection [ms]: 0.049638
+	in path: /wp-includes/js/codemirror/index.php
+		connections: 1
+		path time: 65545
+		average path time per connection: 65545
+		average path time per connection [ms]: 0.065545
+	in path: /bless.php
+		connections: 1
+		path time: 155750
+		average path time per connection: 155750
+		average path time per connection [ms]: 0.155750
+	in path: /class.php
+		connections: 1
+		path time: 54706
+		average path time per connection: 54706
+		average path time per connection [ms]: 0.054706
+	in path: /.well-known/log.php
+		connections: 1
+		path time: 40651
+		average path time per connection: 40651
+		average path time per connection [ms]: 0.040651
+	in path: /wp-content/themes/twentytwentytwo/index.php?p=
+		connections: 1
+		path time: 45554
+		average path time per connection: 45554
+		average path time per connection [ms]: 0.045554
+	in path: /wp-content/plugins/admin.php
+		connections: 1
+		path time: 50598
+		average path time per connection: 50598
+		average path time per connection [ms]: 0.050598
+	in path: /wp-content/admin.php
+		connections: 1
+		path time: 209659
+		average path time per connection: 209659
+		average path time per connection [ms]: 0.209659
+	in path: /.well-known/admin.php
+		connections: 1
+		path time: 56391
+		average path time per connection: 56391
+		average path time per connection [ms]: 0.056391
+	in path: /.well-known/gecko-litespeed.php
+		connections: 1
+		path time: 39800
+		average path time per connection: 39800
+		average path time per connection [ms]: 0.039800
+	in path: /wp-includes/fonts/index.php?p=
+		connections: 1
+		path time: 44914
+		average path time per connection: 44914
+		average path time per connection [ms]: 0.044914
+	in path: /wp-content/radio.php
+		connections: 1
+		path time: 81607
+		average path time per connection: 81607
+		average path time per connection [ms]: 0.081607
+	in path: /wp-includes/assets/index.php
+		connections: 1
+		path time: 52689
+		average path time per connection: 52689
+		average path time per connection [ms]: 0.052689
+	in path: /wp-content/upgrade/about.php
+		connections: 1
+		path time: 56429
+		average path time per connection: 56429
+		average path time per connection [ms]: 0.056429
+	in path: /wp-admin/js/index.php
+		connections: 1
+		path time: 39946
+		average path time per connection: 39946
+		average path time per connection [ms]: 0.039946
+	in path: /wp-admin/user/about.php
+		connections: 1
+		path time: 41684
+		average path time per connection: 41684
+		average path time per connection [ms]: 0.041684
+	in path: /wp-admin/setup-config.php
+		connections: 1
+		path time: 40720
+		average path time per connection: 40720
+		average path time per connection [ms]: 0.040720
+	in path: /wp-content/plugins/pwnd/as.php
+		connections: 1
+		path time: 109142
+		average path time per connection: 109142
+		average path time per connection [ms]: 0.109142
+	in path: /css/colors/blue/index.php
+		connections: 1
+		path time: 54028
+		average path time per connection: 54028
+		average path time per connection [ms]: 0.054028
+	in path: /.well-known/acme-challenge/index.php
+		connections: 1
+		path time: 40506
+		average path time per connection: 40506
+		average path time per connection [ms]: 0.040506
+	in path: /admin/function.php
+		connections: 1
+		path time: 40078
+		average path time per connection: 40078
+		average path time per connection [ms]: 0.040078
+	in path: /wp-includes/theme-compat/chosen.php
+		connections: 1
+		path time: 60799
+		average path time per connection: 60799
+		average path time per connection [ms]: 0.060799
+	in path: /about/function.php
+		connections: 1
+		path time: 58848
+		average path time per connection: 58848
+		average path time per connection [ms]: 0.058848
+	in path: /qqq.php
+		connections: 1
+		path time: 51665
+		average path time per connection: 51665
+		average path time per connection [ms]: 0.051665
+	in path: /ww1.php
+		connections: 1
+		path time: 52451
+		average path time per connection: 52451
+		average path time per connection [ms]: 0.052451
+	in path: /wp-includes/style-engine/about.php
+		connections: 1
+		path time: 65117
+		average path time per connection: 65117
+		average path time per connection [ms]: 0.065117
+	in path: /wp-includes/css/dist/preferences/wp-login.php
+		connections: 1
+		path time: 60999
+		average path time per connection: 60999
+		average path time per connection [ms]: 0.060999
+	in path: /uploads/autoload_classmap.php
+		connections: 1
+		path time: 75075
+		average path time per connection: 75075
+		average path time per connection [ms]: 0.075075
+	in path: /index/function.php
+		connections: 1
+		path time: 61492
+		average path time per connection: 61492
+		average path time per connection [ms]: 0.061492
+	in path: /wp-includes/customize/about.php
+		connections: 1
+		path time: 39963
+		average path time per connection: 39963
+		average path time per connection [ms]: 0.039963
+	in path: /wp-includes/Requests/Text/admin.php
+		connections: 1
+		path time: 56394
+		average path time per connection: 56394
+		average path time per connection [ms]: 0.056394
+	in path: /wp-admin/maint/index.php
+		connections: 1
+		path time: 53641
+		average path time per connection: 53641
+		average path time per connection [ms]: 0.053641
+	in path: /filemanager/dialog.php
+		connections: 1
+		path time: 57840
+		average path time per connection: 57840
+		average path time per connection [ms]: 0.057840
+	in path: /wp-content/themes/about.php
+		connections: 1
+		path time: 53061
+		average path time per connection: 53061
+		average path time per connection [ms]: 0.053061
+	in path: /wp-includes/SimplePie/wp-login.php
+		connections: 1
+		path time: 152217
+		average path time per connection: 152217
+		average path time per connection [ms]: 0.152217
+	in path: /wp-admin/includes/xmrlpc.php?p=
+		connections: 1
+		path time: 52111
+		average path time per connection: 52111
+		average path time per connection [ms]: 0.052111
+	in path: /css/index.php
+		connections: 1
+		path time: 43806
+		average path time per connection: 43806
+		average path time per connection [ms]: 0.043806
+	in path: /wp-includes/ID3/about.php
+		connections: 1
+		path time: 50853
+		average path time per connection: 50853
+		average path time per connection [ms]: 0.050853
+	in path: /gmo.php
+		connections: 1
+		path time: 38770
+		average path time per connection: 38770
+		average path time per connection [ms]: 0.038770
+	in path: /wp-admin/about.php
+		connections: 1
+		path time: 54529
+		average path time per connection: 54529
+		average path time per connection [ms]: 0.054529
+	in path: /wp-admin/network/plugins.php
+		connections: 1
+		path time: 141251
+		average path time per connection: 141251
+		average path time per connection [ms]: 0.141251
+	in path: /wp-content/themes/seotheme/mar.php
+		connections: 1
+		path time: 54940
+		average path time per connection: 54940
+		average path time per connection [ms]: 0.054940
+	in path: /wp-includes/certificates/plugins.php
+		connections: 1
+		path time: 39960
+		average path time per connection: 39960
+		average path time per connection [ms]: 0.039960
+	in path: /.well-known/index.php
+		connections: 1
+		path time: 39001
+		average path time per connection: 39001
+		average path time per connection [ms]: 0.039001
+	in path: /wp-trackback.php
+		connections: 1
+		path time: 40600
+		average path time per connection: 40600
+		average path time per connection [ms]: 0.040600
+	in path: /ws.php
+		connections: 1
+		path time: 39392
+		average path time per connection: 39392
+		average path time per connection [ms]: 0.039392
+	in path: /byp.php
+		connections: 1
+		path time: 50029
+		average path time per connection: 50029
+		average path time per connection [ms]: 0.050029
+	in path: /link.php
+		connections: 1
+		path time: 58719
+		average path time per connection: 58719
+		average path time per connection [ms]: 0.058719
+	in path: /article.php
+		connections: 1
+		path time: 40461
+		average path time per connection: 40461
+		average path time per connection [ms]: 0.040461
+	in path: /wp-admin/maint/admin.php
+		connections: 1
+		path time: 54251
+		average path time per connection: 54251
+		average path time per connection [ms]: 0.054251
+	in path: /sx.php
+		connections: 1
+		path time: 38381
+		average path time per connection: 38381
+		average path time per connection [ms]: 0.038381
+	in path: /wp-content/plugins/index.php
+		connections: 1
+		path time: 53652
+		average path time per connection: 53652
+		average path time per connection [ms]: 0.053652
+	in path: /mail.php
+		connections: 1
+		path time: 53546
+		average path time per connection: 53546
+		average path time per connection [ms]: 0.053546
+	in path: /plugins/Cache/footer.php
+		connections: 1
+		path time: 40251
+		average path time per connection: 40251
+		average path time per connection [ms]: 0.040251
+	in path: /item.php
+		connections: 1
+		path time: 149084
+		average path time per connection: 149084
+		average path time per connection [ms]: 0.149084
+	in path: /js/fm.php
+		connections: 1
+		path time: 53723
+		average path time per connection: 53723
+		average path time per connection [ms]: 0.053723
+	in path: /manager.php?p=
+		connections: 1
+		path time: 60415
+		average path time per connection: 60415
+		average path time per connection [ms]: 0.060415
+	in path: /wp-admin/css/wp-conflg.php?p=
+		connections: 1
+		path time: 121246
+		average path time per connection: 121246
+		average path time per connection [ms]: 0.121246
+	in path: /wp-admin/wp-conflg.php?p=
+		connections: 1
+		path time: 60967
+		average path time per connection: 60967
+		average path time per connection [ms]: 0.060967
+	in path: /wp-admin/js/wp-conflg.php?p=
+		connections: 1
+		path time: 67854
+		average path time per connection: 67854
+		average path time per connection [ms]: 0.067854
+	in path: /themes/twentytwentytwo/index.php
+		connections: 1
+		path time: 47314
+		average path time per connection: 47314
+		average path time per connection [ms]: 0.047314
+	in path: /buy.php
+		connections: 1
+		path time: 44429
+		average path time per connection: 44429
+		average path time per connection [ms]: 0.044429
+	in path: /alfa.php
+		connections: 2
+		path time: 96706
+		average path time per connection: 48353
+		average path time per connection [ms]: 0.048353
+	in path: /about.php
+		connections: 1
+		path time: 52245
+		average path time per connection: 52245
+		average path time per connection [ms]: 0.052245
+	in path: /fm.php?p=
+		connections: 1
+		path time: 79465
+		average path time per connection: 79465
+		average path time per connection [ms]: 0.079465
+	in path: /default.php
+		connections: 1
+		path time: 462921
+		average path time per connection: 462921
+		average path time per connection [ms]: 0.462921
+	in path: /inputs.php
+		connections: 1
+		path time: 63571
+		average path time per connection: 63571
+		average path time per connection [ms]: 0.063571
+	in path: /autoload_classmap.php?p=
+		connections: 1
+		path time: 67218
+		average path time per connection: 67218
+		average path time per connection [ms]: 0.067218
+	in path: /moon.php?p=
+		connections: 1
+		path time: 62807
+		average path time per connection: 62807
+		average path time per connection [ms]: 0.062807
+	in path: /moon.php
+		connections: 1
+		path time: 61332
+		average path time per connection: 61332
+		average path time per connection [ms]: 0.061332
+	in path: /dropdown.php
+		connections: 1
+		path time: 45764
+		average path time per connection: 45764
+		average path time per connection [ms]: 0.045764
+	in path: /abcd.php
+		connections: 1
+		path time: 46768
+		average path time per connection: 46768
+		average path time per connection [ms]: 0.046768
+	in path: /classwithtostring.php
+		connections: 1
+		path time: 44393
+		average path time per connection: 44393
+		average path time per connection [ms]: 0.044393
+	in path: /wp-admin/maint/maint.php
+		connections: 1
+		path time: 57111
+		average path time per connection: 57111
+		average path time per connection [ms]: 0.057111
+	in path: /admin.php
+		connections: 1
+		path time: 43995
+		average path time per connection: 43995
+		average path time per connection [ms]: 0.043995
+	in path: /1.php
+		connections: 2
+		path time: 84654
+		average path time per connection: 42327
+		average path time per connection [ms]: 0.042327
+	in path: /wp-content/index.php
+		connections: 1
+		path time: 61511
+		average path time per connection: 61511
+		average path time per connection [ms]: 0.061511
+	in path: /222.php
+		connections: 1
+		path time: 51846
+		average path time per connection: 51846
+		average path time per connection [ms]: 0.051846
+	in path: /0x.php
+		connections: 2
+		path time: 285309
+		average path time per connection: 142654
+		average path time per connection [ms]: 0.142654
+	in path: /wp-content/function.php
+		connections: 1
+		path time: 40146
+		average path time per connection: 40146
+		average path time per connection [ms]: 0.040146
+	in path: /wp-content/product.php
+		connections: 1
+		path time: 40373
+		average path time per connection: 40373
+		average path time per connection [ms]: 0.040373
+	in path: /ioxi-o.php
+		connections: 1
+		path time: 58375
+		average path time per connection: 58375
+		average path time per connection [ms]: 0.058375
+	in path: /404.php
+		connections: 2
+		path time: 119856
+		average path time per connection: 59928
+		average path time per connection [ms]: 0.059928
+	in path: /w.php
+		connections: 1
+		path time: 57153
+		average path time per connection: 57153
+		average path time per connection [ms]: 0.057153
+	in path: /atomlib.php
+		connections: 1
+		path time: 39773
+		average path time per connection: 39773
+		average path time per connection [ms]: 0.039773
+	in path: /co.php
+		connections: 1
+		path time: 44597
+		average path time per connection: 44597
+		average path time per connection [ms]: 0.044597
+	in path: /termps.php
+		connections: 1
+		path time: 55869
+		average path time per connection: 55869
+		average path time per connection [ms]: 0.055869
+	in path: /wp-includes/images/wp-login.php
+		connections: 1
+		path time: 129279
+		average path time per connection: 129279
+		average path time per connection [ms]: 0.129279
+	in path: /bs1.php
+		connections: 1
+		path time: 52192
+		average path time per connection: 52192
+		average path time per connection [ms]: 0.052192
+	in path: /fw.php
+		connections: 1
+		path time: 39764
+		average path time per connection: 39764
+		average path time per connection [ms]: 0.039764
+	in path: /cong.php
+		connections: 2
+		path time: 98561
+		average path time per connection: 49280
+		average path time per connection [ms]: 0.049280
+	in path: /yellow.php
+		connections: 1
+		path time: 39454
+		average path time per connection: 39454
+		average path time per connection [ms]: 0.039454
+	in path: /css.php
+		connections: 2
+		path time: 101614
+		average path time per connection: 50807
+		average path time per connection [ms]: 0.050807
+	in path: /13k.php
+		connections: 1
+		path time: 52988
+		average path time per connection: 52988
+		average path time per connection [ms]: 0.052988
+	in path: /simple.php
+		connections: 1
+		path time: 51902
+		average path time per connection: 51902
+		average path time per connection [ms]: 0.051902
+	in path: /lv.php
+		connections: 1
+		path time: 44066
+		average path time per connection: 44066
+		average path time per connection [ms]: 0.044066
+	in path: /install.php
+		connections: 1
+		path time: 43817
+		average path time per connection: 43817
+		average path time per connection [ms]: 0.043817
+	in path: /click.php
+		connections: 1
+		path time: 44101
+		average path time per connection: 44101
+		average path time per connection [ms]: 0.044101
+	in path: /wp-admin/network/wp-conflg.php?p=
+		connections: 1
+		path time: 94754
+		average path time per connection: 94754
+		average path time per connection [ms]: 0.094754
+	in path: /wp-admin/maint/about.php
+		connections: 1
+		path time: 48806
+		average path time per connection: 48806
+		average path time per connection [ms]: 0.048806
+	in path: /ALFA_DATA/index.php
+		connections: 1
+		path time: 44953
+		average path time per connection: 44953
+		average path time per connection [ms]: 0.044953
+	in path: /wp-content/themes/astra/inc/ki1k.php
+		connections: 1
+		path time: 40662
+		average path time per connection: 40662
+		average path time per connection [ms]: 0.040662
+	in path: /themes.php
+		connections: 1
+		path time: 59940
+		average path time per connection: 59940
+		average path time per connection [ms]: 0.059940
+	in path: /post.php
+		connections: 1
+		path time: 40145
+		average path time per connection: 40145
+		average path time per connection [ms]: 0.040145
+	in path: /m.php
+		connections: 1
+		path time: 54515
+		average path time per connection: 54515
+		average path time per connection [ms]: 0.054515
+	in path: /max.php
+		connections: 1
+		path time: 144909
+		average path time per connection: 144909
+		average path time per connection [ms]: 0.144909
+	in path: /403.php
+		connections: 2
+		path time: 110951
+		average path time per connection: 55475
+		average path time per connection [ms]: 0.055475
+	in path: /wsd.php
+		connections: 1
+		path time: 66103
+		average path time per connection: 66103
+		average path time per connection [ms]: 0.066103
+	in path: /as.php
+		connections: 1
+		path time: 54010
+		average path time per connection: 54010
+		average path time per connection [ms]: 0.054010
+	in path: /ww4.php
+		connections: 1
+		path time: 53243
+		average path time per connection: 53243
+		average path time per connection [ms]: 0.053243
+	in path: /ww3.php
+		connections: 1
+		path time: 46097
+		average path time per connection: 46097
+		average path time per connection [ms]: 0.046097
+	in path: /ww2.php
+		connections: 1
+		path time: 58229
+		average path time per connection: 58229
+		average path time per connection [ms]: 0.058229
+	in path: /cafe.php
+		connections: 1
+		path time: 72361
+		average path time per connection: 72361
+		average path time per connection [ms]: 0.072361
+	in path: /Contrller.php
+		connections: 1
+		path time: 67829
+		average path time per connection: 67829
+		average path time per connection [ms]: 0.067829
+	in path: /w1w.php
+		connections: 1
+		path time: 39018
+		average path time per connection: 39018
+		average path time per connection [ms]: 0.039018
+	in path: /lx.php
+		connections: 1
+		path time: 36845
+		average path time per connection: 36845
+		average path time per connection [ms]: 0.036845
+	in path: /fv.php
+		connections: 1
+		path time: 39012
+		average path time per connection: 39012
+		average path time per connection [ms]: 0.039012
+	in path: /kal.php
+		connections: 1
+		path time: 40629
+		average path time per connection: 40629
+		average path time per connection [ms]: 0.040629
+	in path: /hob.php
+		connections: 1
+		path time: 44117
+		average path time per connection: 44117
+		average path time per connection [ms]: 0.044117
+	in path: /Cok.php
+		connections: 1
+		path time: 40346
+		average path time per connection: 40346
+		average path time per connection [ms]: 0.040346
+	in path: /readme.php
+		connections: 1
+		path time: 51860
+		average path time per connection: 51860
+		average path time per connection [ms]: 0.051860
+	in path: /htaccess.php
+		connections: 1
+		path time: 207081
+		average path time per connection: 207081
+		average path time per connection [ms]: 0.207081
+	in path: /.well-known/acme-challenge/myip.php
+		connections: 1
+		path time: 56248
+		average path time per connection: 56248
+		average path time per connection [ms]: 0.056248
+	in path: /.well-known/zaza.php
+		connections: 1
+		path time: 53613
+		average path time per connection: 53613
+		average path time per connection [ms]: 0.053613
+	in path: /images/g3.php
+		connections: 1
+		path time: 41121
+		average path time per connection: 41121
+		average path time per connection [ms]: 0.041121
+	in path: /jagoan.php
+		connections: 1
+		path time: 46768
+		average path time per connection: 46768
+		average path time per connection [ms]: 0.046768
+	in path: /wp-includes/css/kses.php
+		connections: 1
+		path time: 61158
+		average path time per connection: 61158
+		average path time per connection [ms]: 0.061158
+	in path: /images/m.php
+		connections: 1
+		path time: 66968
+		average path time per connection: 66968
+		average path time per connection [ms]: 0.066968
+	in path: /wikindex.php
+		connections: 1
+		path time: 52156
+		average path time per connection: 52156
+		average path time per connection [ms]: 0.052156
+	in path: /wp-includes/cs.php
+		connections: 1
+		path time: 46513
+		average path time per connection: 46513
+		average path time per connection [ms]: 0.046513
+	in path: /fwe.php
+		connections: 1
+		path time: 55530
+		average path time per connection: 55530
+		average path time per connection [ms]: 0.055530
+	in path: /randkeyword.php
+		connections: 1
+		path time: 45427
+		average path time per connection: 45427
+		average path time per connection [ms]: 0.045427
+	in path: /wp-includes/0.php
+		connections: 1
+		path time: 51863
+		average path time per connection: 51863
+		average path time per connection [ms]: 0.051863
+	in path: /mpvloi.php
+		connections: 1
+		path time: 69877
+		average path time per connection: 69877
+		average path time per connection [ms]: 0.069877
+	in path: /.well-known/acme-challenge/install.php
+		connections: 1
+		path time: 45345
+		average path time per connection: 45345
+		average path time per connection [ms]: 0.045345
+	in path: /admin.php?p=
+		connections: 1
+		path time: 51004
+		average path time per connection: 51004
+		average path time per connection [ms]: 0.051004
+	in path: /wp-admin/css/colors/blue/index.php
+		connections: 1
+		path time: 57390
+		average path time per connection: 57390
+		average path time per connection [ms]: 0.057390
+	in path: /wp-content/plugins/dummyyummy/wp-signup.php
+		connections: 1
+		path time: 46611
+		average path time per connection: 46611
+		average path time per connection [ms]: 0.046611
+	in path: /wp-content/uploads/autoload_classmap.php
+		connections: 1
+		path time: 46599
+		average path time per connection: 46599
+		average path time per connection [ms]: 0.046599
+	in path: /zwso.php
+		connections: 1
+		path time: 41704
+		average path time per connection: 41704
+		average path time per connection [ms]: 0.041704
+	in path: /class-t.api.php
+		connections: 1
+		path time: 46777
+		average path time per connection: 46777
+		average path time per connection [ms]: 0.046777
+	in path: /wp-content/plugins/hellopress/wp_filemanager.php
+		connections: 1
+		path time: 55431
+		average path time per connection: 55431
+		average path time per connection [ms]: 0.055431
+	in path: /my-specs
+		connections: 8
+		path time: 1830640100
+		average path time per connection: 228830012
+		average path time per connection [ms]: 228.830013
+	in path: /login
+		connections: 1
+		path time: 57801
+		average path time per connection: 57801
+		average path time per connection [ms]: 0.057801
+	in path: /favicon.ico
+		connections: 51
+		path time: 23610006
+		average path time per connection: 462941
+		average path time per connection [ms]: 0.462941
+	in path: /styling.css
+		connections: 85
+		path time: 43199922
+		average path time per connection: 508234
+		average path time per connection [ms]: 0.508234
+	in path: /
+		connections: 143
+		path time: 53985945
+		average path time per connection: 377524
+		average path time per connection [ms]: 0.377524

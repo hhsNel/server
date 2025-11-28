@@ -1,0 +1,1229 @@
+total connections: 1400
+service time: 1969393224
+average service time per connection: 1406709
+average service time per connection [ms]: 1.406709
+	in path: /proclamation-of-the-new-order-full.ogg
+		connections: 1
+		path time: 8499034
+		average path time per connection: 8499034
+		average path time per connection [ms]: 8.499034
+	in path: /version
+		connections: 1
+		path time: 71916
+		average path time per connection: 71916
+		average path time per connection [ms]: 0.071916
+	in path: /enhancecp
+		connections: 1
+		path time: 181212
+		average path time per connection: 181212
+		average path time per connection [ms]: 0.181212
+	in path: /.git/HEAD
+		connections: 1
+		path time: 88439
+		average path time per connection: 88439
+		average path time per connection [ms]: 0.088439
+	in path: /.streamlit/secrets.toml
+		connections: 1
+		path time: 251832
+		average path time per connection: 251832
+		average path time per connection [ms]: 0.251832
+	in path: /api/shared/config/config.env
+		connections: 1
+		path time: 90568
+		average path time per connection: 90568
+		average path time per connection [ms]: 0.090568
+	in path: /_profiler/phpinfo
+		connections: 2
+		path time: 352520
+		average path time per connection: 176260
+		average path time per connection [ms]: 0.176260
+	in path: /test.php
+		connections: 2
+		path time: 455411
+		average path time per connection: 227705
+		average path time per connection [ms]: 0.227706
+	in path: /php_info.php
+		connections: 2
+		path time: 162072
+		average path time per connection: 81036
+		average path time per connection [ms]: 0.081036
+	in path: /phpinfo
+		connections: 2
+		path time: 157680
+		average path time per connection: 78840
+		average path time per connection [ms]: 0.078840
+	in path: /info.php
+		connections: 2
+		path time: 624852
+		average path time per connection: 312426
+		average path time per connection [ms]: 0.312426
+	in path: /phpinfo.php
+		connections: 2
+		path time: 145095
+		average path time per connection: 72547
+		average path time per connection [ms]: 0.072548
+	in path: /js/twint_ch.js
+		connections: 1
+		path time: 144175
+		average path time per connection: 144175
+		average path time per connection [ms]: 0.144175
+	in path: /css/support_parent.css
+		connections: 1
+		path time: 105101
+		average path time per connection: 105101
+		average path time per connection [ms]: 0.105101
+	in path: /js/lkk_ch.js
+		connections: 1
+		path time: 109597
+		average path time per connection: 109597
+		average path time per connection [ms]: 0.109597
+	in path: /+CSCOE+/logon.html
+		connections: 1
+		path time: 82352
+		average path time per connection: 82352
+		average path time per connection [ms]: 0.082352
+	in path: /login?redir=
+		connections: 1
+		path time: 103432
+		average path time per connection: 103432
+		average path time per connection [ms]: 0.103432
+	in path: /remote/login
+		connections: 1
+		path time: 86214
+		average path time per connection: 86214
+		average path time per connection [ms]: 0.086214
+	in path: /aws.config.js
+		connections: 1
+		path time: 47869
+		average path time per connection: 47869
+		average path time per connection [ms]: 0.047869
+	in path: /aws-config.js
+		connections: 1
+		path time: 51930
+		average path time per connection: 51930
+		average path time per connection [ms]: 0.051930
+	in path: /config.js
+		connections: 1
+		path time: 47560
+		average path time per connection: 47560
+		average path time per connection [ms]: 0.047560
+	in path: /.gitlab-ci.yml
+		connections: 1
+		path time: 48109
+		average path time per connection: 48109
+		average path time per connection [ms]: 0.048109
+	in path: /wp-config.php
+		connections: 1
+		path time: 300730
+		average path time per connection: 300730
+		average path time per connection [ms]: 0.300730
+	in path: /.git/logs/HEAD
+		connections: 1
+		path time: 53040
+		average path time per connection: 53040
+		average path time per connection [ms]: 0.053040
+	in path: /backend/.env
+		connections: 1
+		path time: 62618
+		average path time per connection: 62618
+		average path time per connection [ms]: 0.062618
+	in path: /laravel/.env
+		connections: 2
+		path time: 128974
+		average path time per connection: 64487
+		average path time per connection [ms]: 0.064487
+	in path: /administrator/.env
+		connections: 2
+		path time: 136511
+		average path time per connection: 68255
+		average path time per connection [ms]: 0.068255
+	in path: /v2/.env
+		connections: 2
+		path time: 130832
+		average path time per connection: 65416
+		average path time per connection [ms]: 0.065416
+	in path: /v1/.env
+		connections: 2
+		path time: 248892
+		average path time per connection: 124446
+		average path time per connection [ms]: 0.124446
+	in path: /tools/.env
+		connections: 2
+		path time: 146106
+		average path time per connection: 73053
+		average path time per connection [ms]: 0.073053
+	in path: /en/.env
+		connections: 2
+		path time: 142063
+		average path time per connection: 71031
+		average path time per connection [ms]: 0.071031
+	in path: /public/.env
+		connections: 2
+		path time: 613409
+		average path time per connection: 306704
+		average path time per connection [ms]: 0.306704
+	in path: /web/.env
+		connections: 2
+		path time: 117985
+		average path time per connection: 58992
+		average path time per connection [ms]: 0.058993
+	in path: /admin/.env
+		connections: 3
+		path time: 210840
+		average path time per connection: 70280
+		average path time per connection [ms]: 0.070280
+	in path: /site/.env
+		connections: 2
+		path time: 139043
+		average path time per connection: 69521
+		average path time per connection [ms]: 0.069521
+	in path: /exapi/.env
+		connections: 2
+		path time: 276356
+		average path time per connection: 138178
+		average path time per connection [ms]: 0.138178
+	in path: /psnlink/.env
+		connections: 2
+		path time: 170784
+		average path time per connection: 85392
+		average path time per connection [ms]: 0.085392
+	in path: /saas/.env
+		connections: 2
+		path time: 229441
+		average path time per connection: 114720
+		average path time per connection [ms]: 0.114721
+	in path: /sitemaps/.env
+		connections: 2
+		path time: 139280
+		average path time per connection: 69640
+		average path time per connection [ms]: 0.069640
+	in path: /uploads/.env
+		connections: 2
+		path time: 113857
+		average path time per connection: 56928
+		average path time per connection [ms]: 0.056928
+	in path: /apps/.env
+		connections: 2
+		path time: 176285
+		average path time per connection: 88142
+		average path time per connection [ms]: 0.088142
+	in path: /app/.env
+		connections: 2
+		path time: 130671
+		average path time per connection: 65335
+		average path time per connection [ms]: 0.065336
+	in path: /assets/.env
+		connections: 2
+		path time: 290001
+		average path time per connection: 145000
+		average path time per connection [ms]: 0.145001
+	in path: /database/.env
+		connections: 2
+		path time: 143771
+		average path time per connection: 71885
+		average path time per connection [ms]: 0.071886
+	in path: /core/Datavase/.env
+		connections: 2
+		path time: 140953
+		average path time per connection: 70476
+		average path time per connection [ms]: 0.070476
+	in path: /core/app/.env
+		connections: 2
+		path time: 140207
+		average path time per connection: 70103
+		average path time per connection [ms]: 0.070103
+	in path: /core/.env
+		connections: 3
+		path time: 252311
+		average path time per connection: 84103
+		average path time per connection [ms]: 0.084104
+	in path: /cron/.env
+		connections: 2
+		path time: 116442
+		average path time per connection: 58221
+		average path time per connection [ms]: 0.058221
+	in path: /cronlab/.env
+		connections: 2
+		path time: 354565
+		average path time per connection: 177282
+		average path time per connection [ms]: 0.177283
+	in path: /lab/.env
+		connections: 2
+		path time: 135277
+		average path time per connection: 67638
+		average path time per connection [ms]: 0.067639
+	in path: /lib/.env
+		connections: 2
+		path time: 126552
+		average path time per connection: 63276
+		average path time per connection [ms]: 0.063276
+	in path: /vendor/.env
+		connections: 2
+		path time: 126369
+		average path time per connection: 63184
+		average path time per connection [ms]: 0.063185
+	in path: /.env.remote
+		connections: 2
+		path time: 133207
+		average path time per connection: 66603
+		average path time per connection [ms]: 0.066603
+	in path: /admin/config.php
+		connections: 1
+		path time: 74371
+		average path time per connection: 74371
+		average path time per connection [ms]: 0.074371
+	in path: /shop/wp-admin/install.php?step=1&language=en_GB
+		connections: 1
+		path time: 256676
+		average path time per connection: 256676
+		average path time per connection [ms]: 0.256676
+	in path: /shop/wp-admin/setup-config.php?step=1&language=en_GB
+		connections: 1
+		path time: 218039
+		average path time per connection: 218039
+		average path time per connection [ms]: 0.218039
+	in path: /test/wp-admin/install.php?step=1&language=en_GB
+		connections: 1
+		path time: 94439
+		average path time per connection: 94439
+		average path time per connection [ms]: 0.094439
+	in path: /test/wp-admin/setup-config.php?step=1&language=en_GB
+		connections: 1
+		path time: 179681
+		average path time per connection: 179681
+		average path time per connection [ms]: 0.179681
+	in path: /blog/wp-admin/install.php?step=1&language=en_GB
+		connections: 1
+		path time: 90443
+		average path time per connection: 90443
+		average path time per connection [ms]: 0.090443
+	in path: /blog/wp-admin/setup-config.php?step=1&language=en_GB
+		connections: 1
+		path time: 1199173
+		average path time per connection: 1199173
+		average path time per connection [ms]: 1.199173
+	in path: /old/wp-admin/install.php?step=1&language=en_GB
+		connections: 1
+		path time: 127584
+		average path time per connection: 127584
+		average path time per connection [ms]: 0.127584
+	in path: /old/wp-admin/setup-config.php?step=1&language=en_GB
+		connections: 1
+		path time: 93852
+		average path time per connection: 93852
+		average path time per connection [ms]: 0.093852
+	in path: /new/wp-admin/install.php?step=1&language=en_GB
+		connections: 1
+		path time: 104355
+		average path time per connection: 104355
+		average path time per connection [ms]: 0.104355
+	in path: /new/wp-admin/setup-config.php?step=1&language=en_GB
+		connections: 1
+		path time: 174517
+		average path time per connection: 174517
+		average path time per connection [ms]: 0.174517
+	in path: /wp/wp-admin/install.php?step=1&language=en_GB
+		connections: 1
+		path time: 152720
+		average path time per connection: 152720
+		average path time per connection [ms]: 0.152720
+	in path: /wp/wp-admin/setup-config.php?step=1&language=en_GB
+		connections: 1
+		path time: 70360
+		average path time per connection: 70360
+		average path time per connection [ms]: 0.070360
+	in path: /wordpress/wp-admin/install.php?step=1&language=en_GB
+		connections: 1
+		path time: 171829
+		average path time per connection: 171829
+		average path time per connection [ms]: 0.171829
+	in path: /wordpress/wp-admin/setup-config.php?step=1&language=en_GB
+		connections: 1
+		path time: 90783
+		average path time per connection: 90783
+		average path time per connection [ms]: 0.090783
+	in path: /wp-admin/install.php?step=1&language=en_GB
+		connections: 1
+		path time: 124702
+		average path time per connection: 124702
+		average path time per connection [ms]: 0.124702
+	in path: /wp-admin/setup-config.php?step=1&language=en_GB
+		connections: 1
+		path time: 243556
+		average path time per connection: 243556
+		average path time per connection [ms]: 0.243556
+	in path: /default-cookies?buster=6644568854
+		connections: 1
+		path time: 265162
+		average path time per connection: 265162
+		average path time per connection [ms]: 0.265162
+	in path: /set-cookie?name=clr-foreground&value=559400
+		connections: 1
+		path time: 330495
+		average path time per connection: 330495
+		average path time per connection [ms]: 0.330495
+	in path: /set-cookie?name=clr-background&value=000000
+		connections: 1
+		path time: 294241
+		average path time per connection: 294241
+		average path time per connection [ms]: 0.294241
+	in path: /apple-touch-icon.png
+		connections: 2
+		path time: 239961
+		average path time per connection: 119980
+		average path time per connection [ms]: 0.119981
+	in path: /form-response?number=11
+		connections: 1
+		path time: 3994000
+		average path time per connection: 3994000
+		average path time per connection [ms]: 3.994000
+	in path: /form-response?number=16
+		connections: 1
+		path time: 4064267
+		average path time per connection: 4064267
+		average path time per connection [ms]: 4.064267
+	in path: /media../.git/config
+		connections: 1
+		path time: 68568
+		average path time per connection: 68568
+		average path time per connection [ms]: 0.068568
+	in path: /app/.git/config
+		connections: 1
+		path time: 54291
+		average path time per connection: 54291
+		average path time per connection [ms]: 0.054291
+	in path: /.env.prod
+		connections: 1
+		path time: 46820
+		average path time per connection: 46820
+		average path time per connection [ms]: 0.046820
+	in path: /docker-compose.prod.yml
+		connections: 1
+		path time: 94963
+		average path time per connection: 94963
+		average path time per connection [ms]: 0.094963
+	in path: /dev/.git/config
+		connections: 1
+		path time: 51525
+		average path time per connection: 51525
+		average path time per connection [ms]: 0.051525
+	in path: /.env.staging.local
+		connections: 1
+		path time: 62531
+		average path time per connection: 62531
+		average path time per connection [ms]: 0.062531
+	in path: /.env.qa
+		connections: 1
+		path time: 48566
+		average path time per connection: 48566
+		average path time per connection [ms]: 0.048566
+	in path: /.env.dev.local
+		connections: 1
+		path time: 104895
+		average path time per connection: 104895
+		average path time per connection [ms]: 0.104895
+	in path: /api/.git/config
+		connections: 1
+		path time: 317243
+		average path time per connection: 317243
+		average path time per connection [ms]: 0.317243
+	in path: /data/.git/config
+		connections: 1
+		path time: 57740
+		average path time per connection: 57740
+		average path time per connection [ms]: 0.057740
+	in path: /.env.testing
+		connections: 1
+		path time: 263705
+		average path time per connection: 263705
+		average path time per connection [ms]: 0.263705
+	in path: /settings/.env
+		connections: 1
+		path time: 47499
+		average path time per connection: 47499
+		average path time per connection [ms]: 0.047499
+	in path: /.env.dist
+		connections: 1
+		path time: 169408
+		average path time per connection: 169408
+		average path time per connection [ms]: 0.169408
+	in path: /config.json
+		connections: 3
+		path time: 515682
+		average path time per connection: 171894
+		average path time per connection [ms]: 0.171894
+	in path: /server/.git/config
+		connections: 1
+		path time: 357907
+		average path time per connection: 357907
+		average path time per connection [ms]: 0.357907
+	in path: /core/.git/config
+		connections: 1
+		path time: 162818
+		average path time per connection: 162818
+		average path time per connection [ms]: 0.162818
+	in path: /cms/.git/config
+		connections: 1
+		path time: 376368
+		average path time per connection: 376368
+		average path time per connection [ms]: 0.376368
+	in path: /prod/.env
+		connections: 1
+		path time: 314712
+		average path time per connection: 314712
+		average path time per connection [ms]: 0.314712
+	in path: /.env.preprod
+		connections: 1
+		path time: 66450
+		average path time per connection: 66450
+		average path time per connection [ms]: 0.066450
+	in path: /.env.dev
+		connections: 1
+		path time: 368776
+		average path time per connection: 368776
+		average path time per connection [ms]: 0.368776
+	in path: /static../.git/config
+		connections: 1
+		path time: 49000
+		average path time per connection: 49000
+		average path time per connection [ms]: 0.049000
+	in path: /.env.stage
+		connections: 1
+		path time: 47175
+		average path time per connection: 47175
+		average path time per connection [ms]: 0.047175
+	in path: /.aws/credentials
+		connections: 1
+		path time: 78677
+		average path time per connection: 78677
+		average path time per connection [ms]: 0.078677
+	in path: /build/.env
+		connections: 1
+		path time: 48135
+		average path time per connection: 48135
+		average path time per connection [ms]: 0.048135
+	in path: /.env.save
+		connections: 1
+		path time: 376915
+		average path time per connection: 376915
+		average path time per connection [ms]: 0.376915
+	in path: /.env.production.local
+		connections: 1
+		path time: 67763
+		average path time per connection: 67763
+		average path time per connection [ms]: 0.067763
+	in path: /.env.development.local
+		connections: 1
+		path time: 318175
+		average path time per connection: 318175
+		average path time per connection [ms]: 0.318175
+	in path: /.env.config
+		connections: 1
+		path time: 320816
+		average path time per connection: 320816
+		average path time per connection [ms]: 0.320816
+	in path: /www/.git/config
+		connections: 1
+		path time: 340436
+		average path time per connection: 340436
+		average path time per connection [ms]: 0.340436
+	in path: /src/.git/config
+		connections: 1
+		path time: 194782
+		average path time per connection: 194782
+		average path time per connection [ms]: 0.194782
+	in path: /.env_sample
+		connections: 1
+		path time: 67076
+		average path time per connection: 67076
+		average path time per connection [ms]: 0.067076
+	in path: /.env.ci
+		connections: 1
+		path time: 325317
+		average path time per connection: 325317
+		average path time per connection [ms]: 0.325317
+	in path: /.env.backup
+		connections: 1
+		path time: 319443
+		average path time per connection: 319443
+		average path time per connection [ms]: 0.319443
+	in path: /backup/.git/config
+		connections: 1
+		path time: 355265
+		average path time per connection: 355265
+		average path time per connection [ms]: 0.355265
+	in path: /.env.uat
+		connections: 1
+		path time: 66819
+		average path time per connection: 66819
+		average path time per connection [ms]: 0.066819
+	in path: /.env.default
+		connections: 1
+		path time: 267198
+		average path time per connection: 267198
+		average path time per connection [ms]: 0.267198
+	in path: /config/.git/config
+		connections: 1
+		path time: 302269
+		average path time per connection: 302269
+		average path time per connection [ms]: 0.302269
+	in path: /admin/.git/config
+		connections: 1
+		path time: 70453
+		average path time per connection: 70453
+		average path time per connection [ms]: 0.070453
+	in path: /files/.git/config
+		connections: 1
+		path time: 132971
+		average path time per connection: 132971
+		average path time per connection [ms]: 0.132971
+	in path: /assets../.git/config
+		connections: 1
+		path time: 61256
+		average path time per connection: 61256
+		average path time per connection [ms]: 0.061256
+	in path: /configuration/.env
+		connections: 1
+		path time: 99140
+		average path time per connection: 99140
+		average path time per connection [ms]: 0.099140
+	in path: /.envrc
+		connections: 1
+		path time: 67012
+		average path time per connection: 67012
+		average path time per connection [ms]: 0.067012
+	in path: /.env.live
+		connections: 1
+		path time: 110020
+		average path time per connection: 110020
+		average path time per connection [ms]: 0.110020
+	in path: /config/.env
+		connections: 4
+		path time: 240440
+		average path time per connection: 60110
+		average path time per connection [ms]: 0.060110
+	in path: /api/.env
+		connections: 4
+		path time: 445400
+		average path time per connection: 111350
+		average path time per connection [ms]: 0.111350
+	in path: /.env.secret
+		connections: 1
+		path time: 460444
+		average path time per connection: 460444
+		average path time per connection [ms]: 0.460444
+	in path: /.env.production
+		connections: 4
+		path time: 327136
+		average path time per connection: 81784
+		average path time per connection [ms]: 0.081784
+	in path: /.env.prod.local
+		connections: 1
+		path time: 69857
+		average path time per connection: 69857
+		average path time per connection [ms]: 0.069857
+	in path: /media/.git/config
+		connections: 1
+		path time: 53009
+		average path time per connection: 53009
+		average path time per connection [ms]: 0.053009
+	in path: /public/.git/config
+		connections: 1
+		path time: 98746
+		average path time per connection: 98746
+		average path time per connection [ms]: 0.098746
+	in path: /.env.template
+		connections: 1
+		path time: 48675
+		average path time per connection: 48675
+		average path time per connection [ms]: 0.048675
+	in path: /.env.sandbox
+		connections: 1
+		path time: 49086
+		average path time per connection: 49086
+		average path time per connection [ms]: 0.049086
+	in path: /project/.git/config
+		connections: 1
+		path time: 48178
+		average path time per connection: 48178
+		average path time per connection [ms]: 0.048178
+	in path: /.env.testing.local
+		connections: 1
+		path time: 64005
+		average path time per connection: 64005
+		average path time per connection [ms]: 0.064005
+	in path: /.env.test
+		connections: 1
+		path time: 95839
+		average path time per connection: 95839
+		average path time per connection [ms]: 0.095839
+	in path: /.env.local
+		connections: 4
+		path time: 264079
+		average path time per connection: 66019
+		average path time per connection [ms]: 0.066020
+	in path: /.env.bak
+		connections: 2
+		path time: 124134
+		average path time per connection: 62067
+		average path time per connection [ms]: 0.062067
+	in path: /security.txt
+		connections: 1
+		path time: 165106
+		average path time per connection: 165106
+		average path time per connection [ms]: 0.165106
+	in path: /teorema505?t=1
+		connections: 2
+		path time: 175150
+		average path time per connection: 87575
+		average path time per connection [ms]: 0.087575
+	in path: /alive.php
+		connections: 2
+		path time: 172750
+		average path time per connection: 86375
+		average path time per connection [ms]: 0.086375
+	in path: /ab2h
+		connections: 2
+		path time: 148036
+		average path time per connection: 74018
+		average path time per connection [ms]: 0.074018
+	in path: /ab2g
+		connections: 2
+		path time: 159642
+		average path time per connection: 79821
+		average path time per connection [ms]: 0.079821
+	in path: /index.htm
+		connections: 1
+		path time: 199231
+		average path time per connection: 199231
+		average path time per connection [ms]: 0.199231
+	in path: /wp-login.php
+		connections: 3
+		path time: 212809
+		average path time per connection: 70936
+		average path time per connection [ms]: 0.070936
+	in path: /actuator/health
+		connections: 2
+		path time: 530120
+		average path time per connection: 265060
+		average path time per connection [ms]: 0.265060
+	in path: /evox/about
+		connections: 1
+		path time: 158999
+		average path time per connection: 158999
+		average path time per connection [ms]: 0.158999
+	in path: /HNAP1
+		connections: 1
+		path time: 390594
+		average path time per connection: 390594
+		average path time per connection [ms]: 0.390594
+	in path: /sdk
+		connections: 1
+		path time: 232532
+		average path time per connection: 232532
+		average path time per connection [ms]: 0.232532
+	in path: /odinhttpcall1764009144
+		connections: 1
+		path time: 131279
+		average path time per connection: 131279
+		average path time per connection [ms]: 0.131279
+	in path: /wp-includes/fonts/about.php
+		connections: 1
+		path time: 87507
+		average path time per connection: 87507
+		average path time per connection [ms]: 0.087507
+	in path: /wp-admin/network/index.php
+		connections: 1
+		path time: 353668
+		average path time per connection: 353668
+		average path time per connection [ms]: 0.353668
+	in path: /index/function.php
+		connections: 1
+		path time: 115720
+		average path time per connection: 115720
+		average path time per connection [ms]: 0.115720
+	in path: /wp-admin/images/index.php
+		connections: 1
+		path time: 77386
+		average path time per connection: 77386
+		average path time per connection [ms]: 0.077386
+	in path: /wp-content/plugins/index.php
+		connections: 1
+		path time: 93167
+		average path time per connection: 93167
+		average path time per connection [ms]: 0.093167
+	in path: /wp-includes/js/jcrop/Jcrop.php
+		connections: 1
+		path time: 114928
+		average path time per connection: 114928
+		average path time per connection [ms]: 0.114928
+	in path: /sign-in
+		connections: 1
+		path time: 84423
+		average path time per connection: 84423
+		average path time per connection [ms]: 0.084423
+	in path: /.git/config
+		connections: 9
+		path time: 1160594
+		average path time per connection: 128954
+		average path time per connection [ms]: 0.128955
+	in path: /xmlrpc.php
+		connections: 4
+		path time: 745312
+		average path time per connection: 186328
+		average path time per connection [ms]: 0.186328
+	in path: /developmentserver/metadatauploader
+		connections: 3
+		path time: 315107
+		average path time per connection: 105035
+		average path time per connection [ms]: 0.105036
+	in path: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+		connections: 3
+		path time: 210703
+		average path time per connection: 70234
+		average path time per connection [ms]: 0.070234
+	in path: /wiki
+		connections: 3
+		path time: 318340
+		average path time per connection: 106113
+		average path time per connection [ms]: 0.106113
+	in path: /.env
+		connections: 12
+		path time: 1229224
+		average path time per connection: 102435
+		average path time per connection [ms]: 0.102435
+	in path: /login
+		connections: 1
+		path time: 66073
+		average path time per connection: 66073
+		average path time per connection [ms]: 0.066073
+	in path: /autodiscover/autodiscover.json?@zdi/Powershell
+		connections: 2
+		path time: 157404
+		average path time per connection: 78702
+		average path time per connection [ms]: 0.078702
+	in path: /sitecore/shell/sitecore.version.xml
+		connections: 2
+		path time: 229508
+		average path time per connection: 114754
+		average path time per connection [ms]: 0.114754
+	in path: /ReportServer
+		connections: 2
+		path time: 351458
+		average path time per connection: 175729
+		average path time per connection [ms]: 0.175729
+	in path: /sellers.json
+		connections: 1
+		path time: 220485
+		average path time per connection: 220485
+		average path time per connection [ms]: 0.220485
+	in path: /app-ads.txt
+		connections: 1
+		path time: 168081
+		average path time per connection: 168081
+		average path time per connection [ms]: 0.168081
+	in path: /ads.txt
+		connections: 1
+		path time: 159093
+		average path time per connection: 159093
+		average path time per connection [ms]: 0.159093
+	in path: /just-monika/music/your-reality
+		connections: 7
+		path time: 85965018
+		average path time per connection: 12280716
+		average path time per connection [ms]: 12.280717
+	in path: /just-monika
+		connections: 4
+		path time: 5581809
+		average path time per connection: 1395452
+		average path time per connection [ms]: 1.395452
+	in path: /proclamation-of-the-new-order-full.mp3
+		connections: 16
+		path time: 261220741
+		average path time per connection: 16326296
+		average path time per connection [ms]: 16.326296
+	in path: /proclamation-of-the-new-order.mp3
+		connections: 15
+		path time: 10254230
+		average path time per connection: 683615
+		average path time per connection [ms]: 0.683615
+	in path: /styling.css
+		connections: 210
+		path time: 94170296
+		average path time per connection: 448429
+		average path time per connection [ms]: 0.448430
+	in path: /owa/auth/logon.aspx
+		connections: 2
+		path time: 146505
+		average path time per connection: 73252
+		average path time per connection [ms]: 0.073252
+	in path: /robots.txt
+		connections: 26
+		path time: 4293997
+		average path time per connection: 165153
+		average path time per connection [ms]: 0.165154
+	in path: /owa
+		connections: 2
+		path time: 630023
+		average path time per connection: 315011
+		average path time per connection [ms]: 0.315011
+	in path: /wp-logiin.php
+		connections: 2
+		path time: 200787
+		average path time per connection: 100393
+		average path time per connection [ms]: 0.100393
+	in path: /ss.php
+		connections: 2
+		path time: 114257
+		average path time per connection: 57128
+		average path time per connection [ms]: 0.057128
+	in path: /wp-mn.php
+		connections: 2
+		path time: 103587
+		average path time per connection: 51793
+		average path time per connection [ms]: 0.051793
+	in path: /chosen.php
+		connections: 2
+		path time: 85970
+		average path time per connection: 42985
+		average path time per connection [ms]: 0.042985
+	in path: /CLA.php
+		connections: 2
+		path time: 92280
+		average path time per connection: 46140
+		average path time per connection [ms]: 0.046140
+	in path: /abcd.php
+		connections: 2
+		path time: 117792
+		average path time per connection: 58896
+		average path time per connection [ms]: 0.058896
+	in path: /faq.php
+		connections: 2
+		path time: 82914
+		average path time per connection: 41457
+		average path time per connection [ms]: 0.041457
+	in path: /bless.php
+		connections: 2
+		path time: 85063
+		average path time per connection: 42531
+		average path time per connection [ms]: 0.042531
+	in path: /wp-update.php
+		connections: 2
+		path time: 93797
+		average path time per connection: 46898
+		average path time per connection [ms]: 0.046899
+	in path: /about.php
+		connections: 2
+		path time: 94688
+		average path time per connection: 47344
+		average path time per connection [ms]: 0.047344
+	in path: /pepe.php
+		connections: 2
+		path time: 95120
+		average path time per connection: 47560
+		average path time per connection [ms]: 0.047560
+	in path: /file17.php
+		connections: 2
+		path time: 120900
+		average path time per connection: 60450
+		average path time per connection [ms]: 0.060450
+	in path: /xl.php
+		connections: 2
+		path time: 179052
+		average path time per connection: 89526
+		average path time per connection [ms]: 0.089526
+	in path: /astab.php
+		connections: 2
+		path time: 230191
+		average path time per connection: 115095
+		average path time per connection [ms]: 0.115096
+	in path: /num.php
+		connections: 2
+		path time: 82438
+		average path time per connection: 41219
+		average path time per connection [ms]: 0.041219
+	in path: /k.php
+		connections: 2
+		path time: 98329
+		average path time per connection: 49164
+		average path time per connection [ms]: 0.049164
+	in path: /file5.php
+		connections: 2
+		path time: 85636
+		average path time per connection: 42818
+		average path time per connection [ms]: 0.042818
+	in path: /gfile.php
+		connections: 2
+		path time: 334746
+		average path time per connection: 167373
+		average path time per connection [ms]: 0.167373
+	in path: /aa.php
+		connections: 2
+		path time: 115376
+		average path time per connection: 57688
+		average path time per connection [ms]: 0.057688
+	in path: /manager.php
+		connections: 2
+		path time: 89922
+		average path time per connection: 44961
+		average path time per connection [ms]: 0.044961
+	in path: /cool.php
+		connections: 2
+		path time: 204708
+		average path time per connection: 102354
+		average path time per connection [ms]: 0.102354
+	in path: /lc.php
+		connections: 2
+		path time: 91398
+		average path time per connection: 45699
+		average path time per connection [ms]: 0.045699
+	in path: /ot.php
+		connections: 2
+		path time: 75776
+		average path time per connection: 37888
+		average path time per connection [ms]: 0.037888
+	in path: /build.php
+		connections: 2
+		path time: 78615
+		average path time per connection: 39307
+		average path time per connection [ms]: 0.039308
+	in path: /goods.php
+		connections: 2
+		path time: 94926
+		average path time per connection: 47463
+		average path time per connection [ms]: 0.047463
+	in path: /404.php
+		connections: 2
+		path time: 89791
+		average path time per connection: 44895
+		average path time per connection [ms]: 0.044895
+	in path: /we.php
+		connections: 2
+		path time: 130671
+		average path time per connection: 65335
+		average path time per connection [ms]: 0.065336
+	in path: /ol.php
+		connections: 2
+		path time: 178760
+		average path time per connection: 89380
+		average path time per connection [ms]: 0.089380
+	in path: /admin.php
+		connections: 2
+		path time: 105538
+		average path time per connection: 52769
+		average path time per connection [ms]: 0.052769
+	in path: /past.php
+		connections: 2
+		path time: 90274
+		average path time per connection: 45137
+		average path time per connection [ms]: 0.045137
+	in path: /css.php
+		connections: 2
+		path time: 91882
+		average path time per connection: 45941
+		average path time per connection [ms]: 0.045941
+	in path: /atomlib.php
+		connections: 2
+		path time: 115939
+		average path time per connection: 57969
+		average path time per connection [ms]: 0.057970
+	in path: /config.php
+		connections: 2
+		path time: 95588
+		average path time per connection: 47794
+		average path time per connection [ms]: 0.047794
+	in path: /dejavu.php
+		connections: 2
+		path time: 109182
+		average path time per connection: 54591
+		average path time per connection [ms]: 0.054591
+	in path: /ahax.php
+		connections: 2
+		path time: 107448
+		average path time per connection: 53724
+		average path time per connection [ms]: 0.053724
+	in path: /nc4.php
+		connections: 2
+		path time: 81290
+		average path time per connection: 40645
+		average path time per connection [ms]: 0.040645
+	in path: /z.php
+		connections: 2
+		path time: 106881
+		average path time per connection: 53440
+		average path time per connection [ms]: 0.053441
+	in path: /wsa.php
+		connections: 2
+		path time: 84131
+		average path time per connection: 42065
+		average path time per connection [ms]: 0.042065
+	in path: /wp-class.php
+		connections: 2
+		path time: 131873
+		average path time per connection: 65936
+		average path time per connection [ms]: 0.065936
+	in path: /wp-blog.php
+		connections: 2
+		path time: 97433
+		average path time per connection: 48716
+		average path time per connection [ms]: 0.048717
+	in path: /bless2.php
+		connections: 2
+		path time: 99978
+		average path time per connection: 49989
+		average path time per connection [ms]: 0.049989
+	in path: /gmo.php
+		connections: 2
+		path time: 123559
+		average path time per connection: 61779
+		average path time per connection [ms]: 0.061780
+	in path: /file7.php
+		connections: 2
+		path time: 117621
+		average path time per connection: 58810
+		average path time per connection [ms]: 0.058811
+	in path: /bolt.php
+		connections: 2
+		path time: 186699
+		average path time per connection: 93349
+		average path time per connection [ms]: 0.093350
+	in path: /adminer.php
+		connections: 2
+		path time: 114088
+		average path time per connection: 57044
+		average path time per connection [ms]: 0.057044
+	in path: /re.php
+		connections: 2
+		path time: 106667
+		average path time per connection: 53333
+		average path time per connection [ms]: 0.053333
+	in path: /alfa.php
+		connections: 2
+		path time: 96605
+		average path time per connection: 48302
+		average path time per connection [ms]: 0.048302
+	in path: /ffile.php
+		connections: 2
+		path time: 108443
+		average path time per connection: 54221
+		average path time per connection [ms]: 0.054221
+	in path: /file2.php
+		connections: 2
+		path time: 98614
+		average path time per connection: 49307
+		average path time per connection [ms]: 0.049307
+	in path: /fm.php
+		connections: 2
+		path time: 98031
+		average path time per connection: 49015
+		average path time per connection [ms]: 0.049015
+	in path: /file.php
+		connections: 2
+		path time: 95560
+		average path time per connection: 47780
+		average path time per connection [ms]: 0.047780
+	in path: /pp.php
+		connections: 2
+		path time: 117377
+		average path time per connection: 58688
+		average path time per connection [ms]: 0.058688
+	in path: /golden.php
+		connections: 2
+		path time: 123574
+		average path time per connection: 61787
+		average path time per connection [ms]: 0.061787
+	in path: /lv.php
+		connections: 2
+		path time: 93376
+		average path time per connection: 46688
+		average path time per connection [ms]: 0.046688
+	in path: /file4.php
+		connections: 2
+		path time: 78685
+		average path time per connection: 39342
+		average path time per connection [ms]: 0.039343
+	in path: /wp-content/plugins/hellopress/wp_filemanager.php
+		connections: 2
+		path time: 97942
+		average path time per connection: 48971
+		average path time per connection [ms]: 0.048971
+	in path: /.remote-sync.json
+		connections: 1
+		path time: 84759
+		average path time per connection: 84759
+		average path time per connection [ms]: 0.084759
+	in path: /.ftpconfig
+		connections: 1
+		path time: 344492
+		average path time per connection: 344492
+		average path time per connection [ms]: 0.344492
+	in path: /.vscode/sftp.json
+		connections: 1
+		path time: 320160
+		average path time per connection: 320160
+		average path time per connection [ms]: 0.320160
+	in path: /sftp-config.json
+		connections: 1
+		path time: 373865
+		average path time per connection: 373865
+		average path time per connection [ms]: 0.373865
+	in path: /sitemap.xml
+		connections: 5
+		path time: 990578
+		average path time per connection: 198115
+		average path time per connection [ms]: 0.198116
+	in path: /friends
+		connections: 11
+		path time: 12739800
+		average path time per connection: 1158163
+		average path time per connection [ms]: 1.158164
+	in path: /spo
+		connections: 5
+		path time: 12512881
+		average path time per connection: 2502576
+		average path time per connection [ms]: 2.502576
+	in path: /my-specs
+		connections: 6
+		path time: 1101876053
+		average path time per connection: 183646008
+		average path time per connection [ms]: 183.646009
+	in path: /set-cookie-graphical
+		connections: 11
+		path time: 8913918
+		average path time per connection: 810356
+		average path time per connection [ms]: 0.810356
+	in path: /favicon.ico
+		connections: 141
+		path time: 66061106
+		average path time per connection: 468518
+		average path time per connection [ms]: 0.468518
+	in path: /default-cookies
+		connections: 5
+		path time: 9368267
+		average path time per connection: 1873653
+		average path time per connection [ms]: 1.873653
+	in path: /my-form
+		connections: 6
+		path time: 9684638
+		average path time per connection: 1614106
+		average path time per connection [ms]: 1.614106
+	in path: /characters
+		connections: 22
+		path time: 23043158
+		average path time per connection: 1047416
+		average path time per connection [ms]: 1.047416
+	in path: /
+		connections: 323
+		path time: 130035057
+		average path time per connection: 402585
+		average path time per connection [ms]: 0.402585
+	in path: /wp-admin/setup-config.php
+		connections: 104
+		path time: 36000728
+		average path time per connection: 346160
+		average path time per connection [ms]: 0.346161
+	in path: /wordpress/wp-admin/setup-config.php
+		connections: 108
+		path time: 39209792
+		average path time per connection: 363053
+		average path time per connection [ms]: 0.363054

@@ -1,0 +1,14 @@
+total connections: 4
+service time: 96917370615
+average service time per connection: 24229342653
+average service time per connection [ms]: 24229.342654
+	in path: /gud
+		connections: 1
+		path time: 2370093
+		average path time per connection: 2370093
+		average path time per connection [ms]: 2.370093
+	in path: /gud/Evolving%20Landscape.png
+		connections: 3
+		path time: 96915000522
+		average path time per connection: 32305000174
+		average path time per connection [ms]: 32305.000174

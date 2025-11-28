@@ -1,0 +1,34 @@
+total connections: 9
+service time: 10729169
+average service time per connection: 1192129
+average service time per connection [ms]: 1.192130
+	in path: /gud/b.c
+		connections: 2
+		path time: 726056
+		average path time per connection: 363028
+		average path time per connection [ms]: 0.363028
+	in path: /gud/a.txt
+		connections: 2
+		path time: 8265331
+		average path time per connection: 4132665
+		average path time per connection [ms]: 4.132665
+	in path: /gud
+		connections: 1
+		path time: 427692
+		average path time per connection: 427692
+		average path time per connection [ms]: 0.427692
+	in path: //gud
+		connections: 1
+		path time: 149984
+		average path time per connection: 149984
+		average path time per connection [ms]: 0.149984
+	in path: /styling.css
+		connections: 2
+		path time: 532182
+		average path time per connection: 266091
+		average path time per connection [ms]: 0.266091
+	in path: /
+		connections: 1
+		path time: 627924
+		average path time per connection: 627924
+		average path time per connection [ms]: 0.627924

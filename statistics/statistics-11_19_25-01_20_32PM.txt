@@ -1,0 +1,59 @@
+total connections: 32
+service time: 16941553569
+average service time per connection: 529423549
+average service time per connection [ms]: 529.423549
+	in path: /friends
+		connections: 2
+		path time: 7101760
+		average path time per connection: 3550880
+		average path time per connection [ms]: 3.550880
+	in path: /just-monika
+		connections: 1
+		path time: 2704255
+		average path time per connection: 2704255
+		average path time per connection [ms]: 2.704255
+	in path: /proclamation-of-the-new-order-full.mp3
+		connections: 2
+		path time: 14970500786
+		average path time per connection: 7485250393
+		average path time per connection [ms]: 7485.250393
+	in path: /proclamation-of-the-new-order.mp3
+		connections: 1
+		path time: 70579133
+		average path time per connection: 70579133
+		average path time per connection [ms]: 70.579133
+	in path: /characters
+		connections: 1
+		path time: 5814408
+		average path time per connection: 5814408
+		average path time per connection [ms]: 5.814408
+	in path: /my-specs
+		connections: 1
+		path time: 991900376
+		average path time per connection: 991900376
+		average path time per connection [ms]: 991.900376
+	in path: /set-cookie-graphical
+		connections: 1
+		path time: 13513315
+		average path time per connection: 13513315
+		average path time per connection [ms]: 13.513315
+	in path: /default-cookies
+		connections: 1
+		path time: 3804146
+		average path time per connection: 3804146
+		average path time per connection [ms]: 3.804146
+	in path: /favicon.ico
+		connections: 1
+		path time: 8008301
+		average path time per connection: 8008301
+		average path time per connection [ms]: 8.008301
+	in path: /styling.css
+		connections: 17
+		path time: 68395870
+		average path time per connection: 4023286
+		average path time per connection [ms]: 4.023286
+	in path: /
+		connections: 4
+		path time: 799231219
+		average path time per connection: 199807804
+		average path time per connection [ms]: 199.807805

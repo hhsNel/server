@@ -6,6 +6,7 @@
 #include <sys/sendfile.h>
 #include <fcntl.h>
 #include <unistd.h>
+#include <dirent.h>
 
 #include "buffpart.h"
 #include "funcdecl.h"
@@ -18,6 +19,20 @@
 #define RES_LINE_1 "HTTP/1.1 "
 #define RES_LINE_2 "\r\n"
 #define CONTENT_LENGTH_HEADER "Content-Length: "
+
+static void unescape_spaces(char *dst, char *src);
+
+static void unescape_spaces(char *dst, char *src) {
+	while(*src) {
+		if(*src == '%' && src[1] == '2' && src[2] == '0') {
+			*dst++ = ' ';
+			src += 3;
+		} else {
+			*dst++ = *src++;
+		}
+	}
+	*dst = '\0';
+}
 
 #define MK_SERVE_HEADERS(NAME, MIMETYPE) \
 	void NAME(struct arg arg, struct ResolvCtx *ctx) { \
@@ -235,6 +250,161 @@ void serve_file_content_length(struct arg arg, struct ResolvCtx *ctx) {
 
 	cleanup:
 	close(file);
+}
+
+void serve_directory_listing(struct arg arg, struct ResolvCtx *ctx) {
+	DIR *dir;
+	struct dirent *entry;
+	unsigned int i;
+	int written;
+	unsigned int maxlen;
+	char *buff;
+	
+	dir = opendir(arg.str);
+	if(dir == NULL) {
+		fprintf(stderr, "directory: %s\n", arg.str);
+		perror("opendir failed @ serve_directory_listing");
+		return;
+	}
+
+	i = 0;
+	while((written = write(ctx->req.client_fd, arg.strbegin + i, strlen(arg.strbegin) - i))) {
+		if(written <= 0 && errno != EINTR) {
+			break;
+		}
+
+		i += written;
+	}
+	if(written < 0) {
+		perror("couldn't write @ serve_directory_listing");
+		closedir(dir);
+		return;
+	}
+
+	maxlen = 0;
+	while((entry = readdir(dir)) != NULL) {
+		if (strcmp(entry->d_name, ".") == 0 || strcmp(entry->d_name, "..") == 0) {
+			continue;
+		}
+
+		i = snprintf(NULL, 0, arg.strmid, entry->d_name);
+		if(i > maxlen) maxlen = i;
+	}
+
+	buff = malloc(maxlen + 1);
+	rewinddir(dir);
+	while((entry = readdir(dir)) != NULL) {
+		if (strcmp(entry->d_name, ".") == 0 || strcmp(entry->d_name, "..") == 0) {
+			continue;
+		}
+
+		snprintf(buff, strlen(arg.strmid) + maxlen, arg.strmid, entry->d_name);
+		buff[maxlen] = '\0';
+		i = 0;
+		while((written = write(ctx->req.client_fd, buff + i, strlen(buff) - i))) {
+			if(written <= 0 && errno != EINTR) {
+				break;
+			}
+
+			i += written;
+		}
+		if(written < 0) {
+			perror("couldn't write @ serve_directory_listing");
+			goto cleanup;
+		}
+	}
+
+	i = 0;
+	while((written = write(ctx->req.client_fd, arg.strend + i, strlen(arg.strend) - i))) {
+		if(written <= 0 && errno != EINTR) {
+			break;
+		}
+
+		i += written;
+	}
+	if(written < 0) {
+		perror("couldn't write @ serve_directory_listing");
+		goto cleanup;
+	}
+
+	cleanup:
+	closedir(dir);
+	free(buff);
+}
+
+void serve_directory_content(struct arg arg, struct ResolvCtx *ctx) {
+	DIR *dir;
+	struct dirent *entry;
+	int file;
+	struct stat st;
+	off_t offset;
+	ssize_t sent;
+	int dirfd;
+	char *unescaped_file;
+	char *original_file;
+
+	dir = opendir(arg.str);
+	if(dir == NULL) {
+		fprintf(stderr, "directory: %s\n", arg.str);
+		perror("opendir failed @ serve_directory_listing");
+		return;
+	}
+	unescaped_file = malloc(ctx->req.path.length - arg.i + 2);
+	original_file = malloc(ctx->req.path.length - arg.i + 2);
+	if(!unescaped_file || !original_file) {
+		perror("could not allocate space to unescape");
+		goto cleanup;
+	}
+	strncpy(original_file, ctx->req.buff+ctx->req.path.offset+arg.i, ctx->req.path.length-arg.i);
+	unescape_spaces(unescaped_file, original_file);
+	free(original_file);
+
+	while((entry = readdir(dir)) != NULL) {
+		if (strcmp(entry->d_name, ".") == 0 || strcmp(entry->d_name, "..") == 0) {
+			continue;
+		}
+
+		if(! strcmp(unescaped_file, entry->d_name)) {
+			dirfd = open(arg.str, O_RDONLY | O_DIRECTORY);
+			if(dirfd == -1) {
+				fprintf(stderr, "directory: %s\n", arg.str);
+				perror("open failed @ serve_directory_listing");
+				goto cleanup2;
+			}
+
+			file = openat(dirfd, entry->d_name, O_RDONLY);
+			if(!file) {
+				fprintf(stderr, "file: %s\n", arg.str);
+				perror("open failed @ serve_file");
+				goto cleanup2;
+			}
+
+			if(fstat(file, &st) < 0) {
+				fprintf(stderr, "file: %s\n", arg.str);
+				perror("fstat failed @ serve_file");
+				goto cleanup3;
+			}
+
+			offset = 0;
+
+			while(offset < st.st_size) {
+				sent = sendfile(ctx->req.client_fd, file, &offset, st.st_size - offset);
+				if(sent <= 0) {
+					if(errno == EINTR) continue;
+					perror("sendfile failed @ serve_file");
+					goto cleanup2;
+				}
+			}
+
+			cleanup3:
+			close(file);
+		}
+	}
+	cleanup2:
+	free(unescaped_file);
+
+	cleanup:
+	closedir(dir);
 }
 
 #endif

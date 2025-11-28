@@ -1,0 +1,49 @@
+total connections: 25
+service time: 24774938
+average service time per connection: 990997
+average service time per connection [ms]: 0.990998
+	in path: /just-monika
+		connections: 1
+		path time: 577128
+		average path time per connection: 577128
+		average path time per connection [ms]: 0.577128
+	in path: /proclamation-of-the-new-order-full.mp3
+		connections: 1
+		path time: 9919364
+		average path time per connection: 9919364
+		average path time per connection [ms]: 9.919364
+	in path: /proclamation-of-the-new-order.mp3
+		connections: 1
+		path time: 2447614
+		average path time per connection: 2447614
+		average path time per connection [ms]: 2.447614
+	in path: /characters
+		connections: 1
+		path time: 587413
+		average path time per connection: 587413
+		average path time per connection [ms]: 0.587413
+	in path: /styling.css
+		connections: 8
+		path time: 2446521
+		average path time per connection: 305815
+		average path time per connection [ms]: 0.305815
+	in path: /
+		connections: 2
+		path time: 483335
+		average path time per connection: 241667
+		average path time per connection [ms]: 0.241668
+	in path: /b.c
+		connections: 3
+		path time: 1375296
+		average path time per connection: 458432
+		average path time per connection [ms]: 0.458432
+	in path: /a.txt
+		connections: 6
+		path time: 6247011
+		average path time per connection: 1041168
+		average path time per connection [ms]: 1.041168
+	in path: /gud
+		connections: 2
+		path time: 691256
+		average path time per connection: 345628
+		average path time per connection [ms]: 0.345628
