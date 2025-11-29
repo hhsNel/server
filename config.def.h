@@ -162,7 +162,7 @@ ResolvFunc proclamation_of_the_new_order_ogg_full[] = {
 ResolvFunc list_cards[] = {
 	{ serve_headers_html,      {} },
 	{ serve_file,              {.str="files/gud/card-list-beginning.html"} },
-	{ serve_directory_listing, {.str="files/gud/cards",.strbegin="<ul>",.strmid="<li><a href=\"/gud/list/%1$s\">%1$s</a></li>",.strend="</ul>"} },
+	{ serve_directory_listing, {.str="files/gud/cards",.strbegin="<ul>",.strmid="<li><a href=\"/gud/list/%1$s\">%1$s</a>: <img src=\"/gud/list/%1$s\" loading=\"lazy\"></li>",.strend="</ul>\n"} },
 	{ serve_plaintext,         {.str="</body></html>"} },
 	{ NULL, {} },
 };
@@ -170,6 +170,12 @@ ResolvFunc list_cards[] = {
 ResolvFunc show_card[] = {
 	{ serve_headers_png,       {} },
 	{ serve_directory_content, {.str="files/gud/cards",.i=10} }, /* strlen("/gud/list/") = 5 */
+	{ NULL, {} },
+};
+
+ResolvFunc gud_standings[] = {
+	{ serve_headers_html,      {} },
+	{ serve_file,              {.str="files/gud/standings.html"} },
 	{ NULL, {} },
 };
 
@@ -193,8 +199,9 @@ ResolvFunc init[] = { /* "entry point" */
 	{ if_is_path_no_query,     {.jump=proclamation_of_the_new_order_mp3_full,.str="/proclamation-of-the-new-order-full.mp3"} },
 	{ if_is_path_no_query,     {.jump=proclamation_of_the_new_order_ogg_full,.str="/proclamation-of-the-new-order-full.ogg"} },
 	{ if_path_begins,          {.jump=just_monika,.str="/just-monika"} },
-	{ if_is_path,              {.jump=list_cards,.str="/gud/list"} },
+	{ if_is_path_no_query,     {.jump=list_cards,.str="/gud/list"} },
 	{ if_path_begins,          {.jump=show_card,.str="/gud/list/"} },
+	{ if_is_path_no_query,     {.jump=gud_standings,.str="/gud/standings"} },
 	{ NULL, {} },
 };
 

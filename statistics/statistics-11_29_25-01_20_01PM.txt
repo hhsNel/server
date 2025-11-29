@@ -1,0 +1,2714 @@
+total connections: 1694
+service time: 1694741959
+average service time per connection: 1000437
+average service time per connection [ms]: 1.000438
+	in path: /gud/list/Writable.png
+		connections: 2
+		path time: 2366546
+		average path time per connection: 1183273
+		average path time per connection [ms]: 1.183273
+	in path: /gud/list/Gauntlet%20of%20Rejuvination.png
+		connections: 2
+		path time: 1493308
+		average path time per connection: 746654
+		average path time per connection [ms]: 0.746654
+	in path: /gud/list/Search%20for%20the%20Golden%20City.png
+		connections: 2
+		path time: 1576919
+		average path time per connection: 788459
+		average path time per connection [ms]: 0.788459
+	in path: /gud/list/Omen%20of%20the%20Past.png
+		connections: 2
+		path time: 2611867
+		average path time per connection: 1305933
+		average path time per connection [ms]: 1.305934
+	in path: /gud/list/Commune%20with%20the%20Gears.png
+		connections: 2
+		path time: 3013557
+		average path time per connection: 1506778
+		average path time per connection [ms]: 1.506779
+	in path: /gud/list/Involuntary%20Copy.png
+		connections: 2
+		path time: 2217326
+		average path time per connection: 1108663
+		average path time per connection [ms]: 1.108663
+	in path: /gud/list/Reckless%20Search.png
+		connections: 2
+		path time: 2196829
+		average path time per connection: 1098414
+		average path time per connection [ms]: 1.098415
+	in path: /gud/list/Primal%20Hex.png
+		connections: 2
+		path time: 2426434
+		average path time per connection: 1213217
+		average path time per connection [ms]: 1.213217
+	in path: /gud/list/Monochromatic%20Lens.png
+		connections: 2
+		path time: 1787047
+		average path time per connection: 893523
+		average path time per connection [ms]: 0.893524
+	in path: /gud/list/Non-Euclidian%20Pathways.png
+		connections: 2
+		path time: 1290360
+		average path time per connection: 645180
+		average path time per connection [ms]: 0.645180
+	in path: /gud/list/Empowering%20Woods.png
+		connections: 2
+		path time: 2221471
+		average path time per connection: 1110735
+		average path time per connection [ms]: 1.110736
+	in path: /gud/list/Hierarchy%20Subverter.png
+		connections: 2
+		path time: 1424641
+		average path time per connection: 712320
+		average path time per connection [ms]: 0.712321
+	in path: /gud/list/Celestial%20Mastery.png
+		connections: 2
+		path time: 3175041
+		average path time per connection: 1587520
+		average path time per connection [ms]: 1.587520
+	in path: /gud/list/The%20Crimson-Blooded.png
+		connections: 2
+		path time: 1506198
+		average path time per connection: 753099
+		average path time per connection [ms]: 0.753099
+	in path: /gud/list/Spinning%20Roots.png
+		connections: 2
+		path time: 2390310
+		average path time per connection: 1195155
+		average path time per connection [ms]: 1.195155
+	in path: /gud/list/Endless%20Fields.png
+		connections: 2
+		path time: 2274269
+		average path time per connection: 1137134
+		average path time per connection [ms]: 1.137134
+	in path: /gud/list/Snow-Covered%20Plains.png
+		connections: 2
+		path time: 1134640
+		average path time per connection: 567320
+		average path time per connection [ms]: 0.567320
+	in path: /gud/list/Sheoldred's%20Hiveguard.png
+		connections: 2
+		path time: 1196222
+		average path time per connection: 598111
+		average path time per connection [ms]: 0.598111
+	in path: /gud/list/Aminatou,%20Fate%20Shaper.png
+		connections: 2
+		path time: 1151323
+		average path time per connection: 575661
+		average path time per connection [ms]: 0.575662
+	in path: /gud/list/Rage%20of%20a%20Dragon.png
+		connections: 2
+		path time: 1093652
+		average path time per connection: 546826
+		average path time per connection [ms]: 0.546826
+	in path: /gud/list/Repulsion%20Box.png
+		connections: 2
+		path time: 2339116
+		average path time per connection: 1169558
+		average path time per connection [ms]: 1.169558
+	in path: /gud/list/Yawgmoth's%20Ritual.png
+		connections: 2
+		path time: 6218373
+		average path time per connection: 3109186
+		average path time per connection [ms]: 3.109186
+	in path: /gud/list/Sudden%20Verdure.png
+		connections: 2
+		path time: 2625824
+		average path time per connection: 1312912
+		average path time per connection [ms]: 1.312912
+	in path: /gud/list/Healer's%20Camp.png
+		connections: 2
+		path time: 2326183
+		average path time per connection: 1163091
+		average path time per connection [ms]: 1.163091
+	in path: /gud/list/Aven%20of%20Knowledge.png
+		connections: 2
+		path time: 1169286
+		average path time per connection: 584643
+		average path time per connection [ms]: 0.584643
+	in path: /gud/list/Lotus%20Ritual.png
+		connections: 2
+		path time: 2396428
+		average path time per connection: 1198214
+		average path time per connection [ms]: 1.198214
+	in path: /gud/list/Pyromantic%20Vision.png
+		connections: 2
+		path time: 1298110
+		average path time per connection: 649055
+		average path time per connection [ms]: 0.649055
+	in path: /gud/list/Uncharted%20Wastes.png
+		connections: 2
+		path time: 1434954
+		average path time per connection: 717477
+		average path time per connection [ms]: 0.717477
+	in path: /gud/list/Shadowblast.png
+		connections: 2
+		path time: 1106150
+		average path time per connection: 553075
+		average path time per connection [ms]: 0.553075
+	in path: /gud/list/Dethrone.png
+		connections: 2
+		path time: 1136544
+		average path time per connection: 568272
+		average path time per connection [ms]: 0.568272
+	in path: /gud/list/Boon%20of%20the%20Water%20Spirits.png
+		connections: 2
+		path time: 1808952
+		average path time per connection: 904476
+		average path time per connection [ms]: 0.904476
+	in path: /gud/list/Blessings%20Ungiven.png
+		connections: 2
+		path time: 2266676
+		average path time per connection: 1133338
+		average path time per connection [ms]: 1.133338
+	in path: /gud/list/Dark%20Smite.png
+		connections: 2
+		path time: 2462263
+		average path time per connection: 1231131
+		average path time per connection [ms]: 1.231132
+	in path: /gud/list/Ondu,%20Radiant%20Scyclave.png
+		connections: 2
+		path time: 1954735
+		average path time per connection: 977367
+		average path time per connection [ms]: 0.977367
+	in path: /gud/list/Spinning%20Blood.png
+		connections: 2
+		path time: 2612317
+		average path time per connection: 1306158
+		average path time per connection [ms]: 1.306159
+	in path: /gud/list/Seer%20of%20the%20Unknown.png
+		connections: 2
+		path time: 1267357
+		average path time per connection: 633678
+		average path time per connection [ms]: 0.633679
+	in path: /gud/list/Vantirian%20Information%20Halls.png
+		connections: 2
+		path time: 1094051
+		average path time per connection: 547025
+		average path time per connection [ms]: 0.547026
+	in path: /gud/list/Grove%20of%20the%20Frostroots.png
+		connections: 2
+		path time: 1264827
+		average path time per connection: 632413
+		average path time per connection [ms]: 0.632413
+	in path: /gud/list/Uncharted%20Depths.png
+		connections: 2
+		path time: 2538132
+		average path time per connection: 1269066
+		average path time per connection [ms]: 1.269066
+	in path: /gud/list/Cycle%20of%20Seasons.png
+		connections: 2
+		path time: 1904867
+		average path time per connection: 952433
+		average path time per connection [ms]: 0.952434
+	in path: /gud/list/Hollow%20Mine.png
+		connections: 2
+		path time: 2390259
+		average path time per connection: 1195129
+		average path time per connection [ms]: 1.195129
+	in path: /gud/list/Arcum's%20Reactor.png
+		connections: 2
+		path time: 1104350
+		average path time per connection: 552175
+		average path time per connection [ms]: 0.552175
+	in path: /gud/list/Rhino%20Alpha.png
+		connections: 2
+		path time: 1567566
+		average path time per connection: 783783
+		average path time per connection [ms]: 0.783783
+	in path: /gud/list/Nissa%20of%20the%20Gatewatch.png
+		connections: 2
+		path time: 3076131
+		average path time per connection: 1538065
+		average path time per connection [ms]: 1.538066
+	in path: /gud/list/Warping%20Pact.png
+		connections: 2
+		path time: 2869719
+		average path time per connection: 1434859
+		average path time per connection [ms]: 1.434859
+	in path: /gud/list/Continuum%20Stretcher.png
+		connections: 2
+		path time: 2139352
+		average path time per connection: 1069676
+		average path time per connection [ms]: 1.069676
+	in path: /gud/list/Leyline%20of%20Simplicity.png
+		connections: 2
+		path time: 2057103
+		average path time per connection: 1028551
+		average path time per connection [ms]: 1.028552
+	in path: /gud/list/Mind%20Goblin.png
+		connections: 2
+		path time: 2402106
+		average path time per connection: 1201053
+		average path time per connection [ms]: 1.201053
+	in path: /gud/list/Catch%20the%20Suspect.png
+		connections: 2
+		path time: 1515850
+		average path time per connection: 757925
+		average path time per connection [ms]: 0.757925
+	in path: /gud/list/Dimir%20Spymaster.png
+		connections: 2
+		path time: 2346970
+		average path time per connection: 1173485
+		average path time per connection [ms]: 1.173485
+	in path: /gud/list/Petals%20of%20Thought.png
+		connections: 2
+		path time: 1426756
+		average path time per connection: 713378
+		average path time per connection [ms]: 0.713378
+	in path: /gud/list/Gaea's%20Endorsement.png
+		connections: 2
+		path time: 3323109
+		average path time per connection: 1661554
+		average path time per connection [ms]: 1.661555
+	in path: /gud/list/Adaptive%20Bloodfang.png
+		connections: 2
+		path time: 2774470
+		average path time per connection: 1387235
+		average path time per connection [ms]: 1.387235
+	in path: /gud/list/Blinkmoth%20Hive.png
+		connections: 2
+		path time: 2403691
+		average path time per connection: 1201845
+		average path time per connection [ms]: 1.201845
+	in path: /gud/list/Warden%20of%20Ith.png
+		connections: 2
+		path time: 2036158
+		average path time per connection: 1018079
+		average path time per connection [ms]: 1.018079
+	in path: /gud/list/Merchant's%20Haggling.png
+		connections: 2
+		path time: 1223127
+		average path time per connection: 611563
+		average path time per connection [ms]: 0.611564
+	in path: /gud/list/Flametongue%20Barrage.png
+		connections: 2
+		path time: 1158402
+		average path time per connection: 579201
+		average path time per connection [ms]: 0.579201
+	in path: /gud/list/Measure%20for%20Measure.png
+		connections: 2
+		path time: 1376730
+		average path time per connection: 688365
+		average path time per connection [ms]: 0.688365
+	in path: /gud/list/Freedom%20of%20Choice.png
+		connections: 2
+		path time: 1227761
+		average path time per connection: 613880
+		average path time per connection [ms]: 0.613881
+	in path: /gud/list/Cycle%20of%20Knowledge.png
+		connections: 2
+		path time: 1320648
+		average path time per connection: 660324
+		average path time per connection [ms]: 0.660324
+	in path: /gud/list/Jail%20Overseer.png
+		connections: 3
+		path time: 3857674
+		average path time per connection: 1285891
+		average path time per connection [ms]: 1.285891
+	in path: /gud/list/Unpredictable%20Aura.png
+		connections: 3
+		path time: 2370591
+		average path time per connection: 790197
+		average path time per connection [ms]: 0.790197
+	in path: /gud/list/Human.png
+		connections: 3
+		path time: 1740622
+		average path time per connection: 580207
+		average path time per connection [ms]: 0.580207
+	in path: /gud/list/Cleansed%20Barrens.png
+		connections: 3
+		path time: 2696439
+		average path time per connection: 898813
+		average path time per connection [ms]: 0.898813
+	in path: /gud/list/Seal%20of%20Justice.png
+		connections: 3
+		path time: 2666870
+		average path time per connection: 888956
+		average path time per connection [ms]: 0.888957
+	in path: /gud/list/Elusive%20Kugelblitz.png
+		connections: 3
+		path time: 2031533
+		average path time per connection: 677177
+		average path time per connection [ms]: 0.677178
+	in path: /gud/list/Consult%20the%20Abyss.png
+		connections: 3
+		path time: 1941859
+		average path time per connection: 647286
+		average path time per connection [ms]: 0.647286
+	in path: /gud/list/Mana%20Putrefication.png
+		connections: 3
+		path time: 3463009
+		average path time per connection: 1154336
+		average path time per connection [ms]: 1.154336
+	in path: /gud/list/Merchant's%20Wealth.png
+		connections: 3
+		path time: 2885634
+		average path time per connection: 961878
+		average path time per connection [ms]: 0.961878
+	in path: /gud/list/Nylea,%20Chained%20to%20the%20Hunt.png
+		connections: 3
+		path time: 1893426
+		average path time per connection: 631142
+		average path time per connection [ms]: 0.631142
+	in path: /gud/list/Eclipse.png
+		connections: 3
+		path time: 2304899
+		average path time per connection: 768299
+		average path time per connection [ms]: 0.768300
+	in path: /gud/list/Stolen%20Vitality.png
+		connections: 3
+		path time: 3936828
+		average path time per connection: 1312276
+		average path time per connection [ms]: 1.312276
+	in path: /gud/list/Blue%20Moon.png
+		connections: 3
+		path time: 1999202
+		average path time per connection: 666400
+		average path time per connection [ms]: 0.666401
+	in path: /gud/list/Yorion's%20Wisom.png
+		connections: 3
+		path time: 2777697
+		average path time per connection: 925899
+		average path time per connection [ms]: 0.925899
+	in path: /gud/list/Blackbloom,%20Tainted%20Mire.png
+		connections: 3
+		path time: 4009591
+		average path time per connection: 1336530
+		average path time per connection [ms]: 1.336530
+	in path: /gud/list/Crush%20Dreams.png
+		connections: 3
+		path time: 3434585
+		average path time per connection: 1144861
+		average path time per connection [ms]: 1.144862
+	in path: /gud/list/Dust.png
+		connections: 3
+		path time: 3668430
+		average path time per connection: 1222810
+		average path time per connection [ms]: 1.222810
+	in path: /gud/list/Unstable%20Omenpath.png
+		connections: 3
+		path time: 2180382
+		average path time per connection: 726794
+		average path time per connection [ms]: 0.726794
+	in path: /gud/list/Into%20the%20Abyss.png
+		connections: 3
+		path time: 1919940
+		average path time per connection: 639980
+		average path time per connection [ms]: 0.639980
+	in path: /gud/list/Denial%20Rune.png
+		connections: 3
+		path time: 4727472
+		average path time per connection: 1575824
+		average path time per connection [ms]: 1.575824
+	in path: /gud/list/Cyclic%20Sparkborn.png
+		connections: 3
+		path time: 2917464
+		average path time per connection: 972488
+		average path time per connection [ms]: 0.972488
+	in path: /gud/list/The%20Falling%20Lands.png
+		connections: 3
+		path time: 3110340
+		average path time per connection: 1036780
+		average path time per connection [ms]: 1.036780
+	in path: /gud/list/Mirran%20Tower.png
+		connections: 3
+		path time: 6396214
+		average path time per connection: 2132071
+		average path time per connection [ms]: 2.132071
+	in path: /gud/list/Minister's%20Protection.png
+		connections: 3
+		path time: 2334322
+		average path time per connection: 778107
+		average path time per connection [ms]: 0.778107
+	in path: /gud/list/Silencing%20Roar.png
+		connections: 3
+		path time: 2972666
+		average path time per connection: 990888
+		average path time per connection [ms]: 0.990889
+	in path: /gud/list/Wise%20Elder.png
+		connections: 3
+		path time: 3068850
+		average path time per connection: 1022950
+		average path time per connection [ms]: 1.022950
+	in path: /gud/list/Archenemy.png
+		connections: 3
+		path time: 1500101
+		average path time per connection: 500033
+		average path time per connection [ms]: 0.500034
+	in path: /gud/list/Mend.png
+		connections: 3
+		path time: 1787327
+		average path time per connection: 595775
+		average path time per connection [ms]: 0.595776
+	in path: /gud/list/Change%20Protection.png
+		connections: 3
+		path time: 2555750
+		average path time per connection: 851916
+		average path time per connection [ms]: 0.851917
+	in path: /gud/list/Crab%20Cove.png
+		connections: 3
+		path time: 2000205
+		average path time per connection: 666735
+		average path time per connection [ms]: 0.666735
+	in path: /gud/list/Arcbound%20Sovereign.png
+		connections: 3
+		path time: 3546551
+		average path time per connection: 1182183
+		average path time per connection [ms]: 1.182184
+	in path: /gud/list/Gaze%20into%20the%20Unknown.png
+		connections: 3
+		path time: 2327910
+		average path time per connection: 775970
+		average path time per connection [ms]: 0.775970
+	in path: /gud/list/Nel,%20Cosmic%20Shifter.png
+		connections: 3
+		path time: 1622957
+		average path time per connection: 540985
+		average path time per connection [ms]: 0.540986
+	in path: /gud/list/Wipe%20Out.png
+		connections: 3
+		path time: 1980216
+		average path time per connection: 660072
+		average path time per connection [ms]: 0.660072
+	in path: /gud/list/Seal%20of%20Negation.png
+		connections: 3
+		path time: 2445210
+		average path time per connection: 815070
+		average path time per connection [ms]: 0.815070
+	in path: /gud/list/Minister's%20Influence.png
+		connections: 3
+		path time: 2797016
+		average path time per connection: 932338
+		average path time per connection [ms]: 0.932339
+	in path: /gud/list/Hedron%20Passage.png
+		connections: 3
+		path time: 3539043
+		average path time per connection: 1179681
+		average path time per connection [ms]: 1.179681
+	in path: /gud/list/Blessing%20of%20the%20Omenpaths.png
+		connections: 3
+		path time: 2430865
+		average path time per connection: 810288
+		average path time per connection [ms]: 0.810288
+	in path: /gud/list/Doomskar%20Giant.png
+		connections: 3
+		path time: 5556565
+		average path time per connection: 1852188
+		average path time per connection [ms]: 1.852188
+	in path: /gud/list/Doubling%20Sphere.png
+		connections: 3
+		path time: 3227210
+		average path time per connection: 1075736
+		average path time per connection [ms]: 1.075737
+	in path: /gud/list/Primeval%20Follower.png
+		connections: 3
+		path time: 6145780
+		average path time per connection: 2048593
+		average path time per connection [ms]: 2.048593
+	in path: /gud/list/Earthcraft%20Mastery.png
+		connections: 3
+		path time: 3340824
+		average path time per connection: 1113608
+		average path time per connection [ms]: 1.113608
+	in path: /gud/list/Vesuvian%20Depths.png
+		connections: 3
+		path time: 3204717
+		average path time per connection: 1068239
+		average path time per connection [ms]: 1.068239
+	in path: /gud/list/Chandra%20of%20the%20Gatewatch.png
+		connections: 3
+		path time: 6196865
+		average path time per connection: 2065621
+		average path time per connection [ms]: 2.065622
+	in path: /gud/list/Bringer%20of%20Destruction.png
+		connections: 3
+		path time: 4014698
+		average path time per connection: 1338232
+		average path time per connection [ms]: 1.338233
+	in path: /gud/list/Dark%20Confinance.png
+		connections: 3
+		path time: 4453179
+		average path time per connection: 1484393
+		average path time per connection [ms]: 1.484393
+	in path: /gud/list/Gambler's%20Charm.png
+		connections: 3
+		path time: 2987304
+		average path time per connection: 995768
+		average path time per connection [ms]: 0.995768
+	in path: /gud/list/Band%20against%20Evil.png
+		connections: 3
+		path time: 4564078
+		average path time per connection: 1521359
+		average path time per connection [ms]: 1.521359
+	in path: /gud/list/Cursed%20Tomes.png
+		connections: 3
+		path time: 4465703
+		average path time per connection: 1488567
+		average path time per connection [ms]: 1.488568
+	in path: /gud/list/Clue.png
+		connections: 3
+		path time: 3217834
+		average path time per connection: 1072611
+		average path time per connection [ms]: 1.072611
+	in path: /gud/list/Solar%20Core.png
+		connections: 3
+		path time: 6041233
+		average path time per connection: 2013744
+		average path time per connection [ms]: 2.013744
+	in path: /gud/list/Piece-level%20Machinist.png
+		connections: 3
+		path time: 2834279
+		average path time per connection: 944759
+		average path time per connection [ms]: 0.944760
+	in path: /gud/list/Stars%20Aligned.png
+		connections: 3
+		path time: 3001931
+		average path time per connection: 1000643
+		average path time per connection [ms]: 1.000644
+	in path: /gud/list/Cycle%20of%20Eternity.png
+		connections: 3
+		path time: 4016501
+		average path time per connection: 1338833
+		average path time per connection [ms]: 1.338834
+	in path: /gud/list/Merchant's%20Tricks.png
+		connections: 3
+		path time: 3311230
+		average path time per connection: 1103743
+		average path time per connection [ms]: 1.103743
+	in path: /gud/list/Curse%20of%20Insanity.png
+		connections: 3
+		path time: 2039175
+		average path time per connection: 679725
+		average path time per connection [ms]: 0.679725
+	in path: /gud/list/Slumbering%20Worldcrusher.png
+		connections: 3
+		path time: 2409177
+		average path time per connection: 803059
+		average path time per connection [ms]: 0.803059
+	in path: /gud/list/Thopter%20Fleet%20Admiral.png
+		connections: 3
+		path time: 2363793
+		average path time per connection: 787931
+		average path time per connection [ms]: 0.787931
+	in path: /gud/list/Acquire%20a%20Perspective.png
+		connections: 3
+		path time: 3514170
+		average path time per connection: 1171390
+		average path time per connection [ms]: 1.171390
+	in path: /gud/list/Unspoken%20Aura.png
+		connections: 3
+		path time: 3881006
+		average path time per connection: 1293668
+		average path time per connection [ms]: 1.293669
+	in path: /gud/list/Cast%20Thoughts.png
+		connections: 3
+		path time: 2832782
+		average path time per connection: 944260
+		average path time per connection [ms]: 0.944261
+	in path: /gud/list/Voidborn%20Phoenix.png
+		connections: 3
+		path time: 5824405
+		average path time per connection: 1941468
+		average path time per connection [ms]: 1.941468
+	in path: /gud/list/Invasive%20Scaler.png
+		connections: 3
+		path time: 3044518
+		average path time per connection: 1014839
+		average path time per connection [ms]: 1.014839
+	in path: /gud/list/Forest%20King's%20Call.png
+		connections: 3
+		path time: 3361808
+		average path time per connection: 1120602
+		average path time per connection [ms]: 1.120603
+	in path: /gud/list/Vesuvan%20Mimicry.png
+		connections: 3
+		path time: 3081260
+		average path time per connection: 1027086
+		average path time per connection [ms]: 1.027087
+	in path: /gud/list/Thraben%20Ninja.png
+		connections: 3
+		path time: 2492102
+		average path time per connection: 830700
+		average path time per connection [ms]: 0.830701
+	in path: /gud/list/Dark%20Confidant%20Token.png
+		connections: 3
+		path time: 2681347
+		average path time per connection: 893782
+		average path time per connection [ms]: 0.893782
+	in path: /gud/list/Tutoring%20Vampire.png
+		connections: 3
+		path time: 4884621
+		average path time per connection: 1628207
+		average path time per connection [ms]: 1.628207
+	in path: /gud/list/Blue%20Order's%20Knight.png
+		connections: 3
+		path time: 1877404
+		average path time per connection: 625801
+		average path time per connection [ms]: 0.625801
+	in path: /gud/list/Final%20End.png
+		connections: 3
+		path time: 2391257
+		average path time per connection: 797085
+		average path time per connection [ms]: 0.797086
+	in path: /gud/list/Rift%20Garrison.png
+		connections: 3
+		path time: 3096000
+		average path time per connection: 1032000
+		average path time per connection [ms]: 1.032000
+	in path: /gud/list/Invert%20Reality.png
+		connections: 3
+		path time: 3297221
+		average path time per connection: 1099073
+		average path time per connection [ms]: 1.099074
+	in path: /gud/list/Jungle's%20Center.png
+		connections: 3
+		path time: 2914923
+		average path time per connection: 971641
+		average path time per connection [ms]: 0.971641
+	in path: /gud/list/Dramatic%20Arrival.png
+		connections: 3
+		path time: 4011643
+		average path time per connection: 1337214
+		average path time per connection [ms]: 1.337214
+	in path: /gud/list/Overfarm.png
+		connections: 3
+		path time: 2757510
+		average path time per connection: 919170
+		average path time per connection [ms]: 0.919170
+	in path: /gud/list/Outer%20Space.png
+		connections: 3
+		path time: 4780771
+		average path time per connection: 1593590
+		average path time per connection [ms]: 1.593590
+	in path: /gud/list/Sudden%20Undergrowth.png
+		connections: 3
+		path time: 2472393
+		average path time per connection: 824131
+		average path time per connection [ms]: 0.824131
+	in path: /gud/list/Sage%20of%20Balance.png
+		connections: 3
+		path time: 2954476
+		average path time per connection: 984825
+		average path time per connection [ms]: 0.984825
+	in path: /gud/list/Magus%20of%20the%20Channel.png
+		connections: 3
+		path time: 3219460
+		average path time per connection: 1073153
+		average path time per connection [ms]: 1.073153
+	in path: /gud/list/Merciful%20Donor.png
+		connections: 3
+		path time: 4245708
+		average path time per connection: 1415236
+		average path time per connection [ms]: 1.415236
+	in path: /gud/list/Vial%20of%20Emerald%20Blood.png
+		connections: 3
+		path time: 2351997
+		average path time per connection: 783999
+		average path time per connection [ms]: 0.783999
+	in path: /gud/list/Borrowed%20Vigor.png
+		connections: 3
+		path time: 4182115
+		average path time per connection: 1394038
+		average path time per connection [ms]: 1.394038
+	in path: /gud/list/Two%20as%20One.png
+		connections: 3
+		path time: 4587790
+		average path time per connection: 1529263
+		average path time per connection [ms]: 1.529263
+	in path: /gud/list/Spinning%20Light.png
+		connections: 3
+		path time: 3469650
+		average path time per connection: 1156550
+		average path time per connection [ms]: 1.156550
+	in path: /gud/list/Minister's%20Anger.png
+		connections: 3
+		path time: 3812200
+		average path time per connection: 1270733
+		average path time per connection [ms]: 1.270733
+	in path: /gud/list/Devoted%20Defender.png
+		connections: 3
+		path time: 2706706
+		average path time per connection: 902235
+		average path time per connection [ms]: 0.902235
+	in path: /gud/list/Obsidian%20Monolith.png
+		connections: 3
+		path time: 3445607
+		average path time per connection: 1148535
+		average path time per connection [ms]: 1.148536
+	in path: /gud/list/Abolish%20Tyranny.png
+		connections: 3
+		path time: 4236164
+		average path time per connection: 1412054
+		average path time per connection [ms]: 1.412055
+	in path: /gud/list/Cosmos%20Librarian.png
+		connections: 3
+		path time: 5503609
+		average path time per connection: 1834536
+		average path time per connection [ms]: 1.834536
+	in path: /gud/list/Awakening%20Spellbomb.png
+		connections: 3
+		path time: 2089579
+		average path time per connection: 696526
+		average path time per connection [ms]: 0.696526
+	in path: /gud/list/Fifth%20Horseman.png
+		connections: 3
+		path time: 4338646
+		average path time per connection: 1446215
+		average path time per connection [ms]: 1.446215
+	in path: /gud/list/Karn,%20Urza's%20Shadow.png
+		connections: 3
+		path time: 1604391
+		average path time per connection: 534797
+		average path time per connection [ms]: 0.534797
+	in path: /gud/list/Angrath's%20Orders.png
+		connections: 3
+		path time: 2043095
+		average path time per connection: 681031
+		average path time per connection [ms]: 0.681032
+	in path: /gud/list/Heliod,%20Chained%20to%20the%20Sun.png
+		connections: 3
+		path time: 3347843
+		average path time per connection: 1115947
+		average path time per connection [ms]: 1.115948
+	in path: /gud/list/Unrestricted%20Accelerator.png
+		connections: 3
+		path time: 2857794
+		average path time per connection: 952598
+		average path time per connection [ms]: 0.952598
+	in path: /gud/list/Garden%20of%20the%20Dead.png
+		connections: 3
+		path time: 1846689
+		average path time per connection: 615563
+		average path time per connection [ms]: 0.615563
+	in path: /gud/list/Combustion.png
+		connections: 3
+		path time: 2339783
+		average path time per connection: 779927
+		average path time per connection [ms]: 0.779928
+	in path: /gud/list/Constructive%20Shattering.png
+		connections: 3
+		path time: 2038813
+		average path time per connection: 679604
+		average path time per connection [ms]: 0.679604
+	in path: /gud/list/Influence%20of%20Nyx.png
+		connections: 3
+		path time: 3068530
+		average path time per connection: 1022843
+		average path time per connection [ms]: 1.022843
+	in path: /gud/list/Avatar%20of%20Regression.png
+		connections: 3
+		path time: 6765159
+		average path time per connection: 2255053
+		average path time per connection [ms]: 2.255053
+	in path: /gud/list/Lizard%20Strongman.png
+		connections: 3
+		path time: 4391829
+		average path time per connection: 1463943
+		average path time per connection [ms]: 1.463943
+	in path: /gud/list/Insatiable%20Prowler.png
+		connections: 3
+		path time: 2033949
+		average path time per connection: 677983
+		average path time per connection [ms]: 0.677983
+	in path: /gud/list/Tell%20Tales.png
+		connections: 3
+		path time: 3580723
+		average path time per connection: 1193574
+		average path time per connection [ms]: 1.193574
+	in path: /gud/list/Golden%20Prayer.png
+		connections: 3
+		path time: 1881385
+		average path time per connection: 627128
+		average path time per connection [ms]: 0.627128
+	in path: /gud/list/Nexus%20Vault.png
+		connections: 3
+		path time: 2111705
+		average path time per connection: 703901
+		average path time per connection [ms]: 0.703902
+	in path: /gud/list/Controlled.png
+		connections: 3
+		path time: 4790993
+		average path time per connection: 1596997
+		average path time per connection [ms]: 1.596998
+	in path: /gud/list/Heavenly%20Breach.png
+		connections: 3
+		path time: 6995430
+		average path time per connection: 2331810
+		average path time per connection [ms]: 2.331810
+	in path: /gud/list/Tawnos's%20Bauble.png
+		connections: 3
+		path time: 2683540
+		average path time per connection: 894513
+		average path time per connection [ms]: 0.894513
+	in path: /gud/list/Benalish%20Villan.png
+		connections: 3
+		path time: 4292281
+		average path time per connection: 1430760
+		average path time per connection [ms]: 1.430760
+	in path: /gud/list/Unpredictable%20Winds.png
+		connections: 3
+		path time: 2372004
+		average path time per connection: 790668
+		average path time per connection [ms]: 0.790668
+	in path: /gud/list/Holy%20End.png
+		connections: 3
+		path time: 2218889
+		average path time per connection: 739629
+		average path time per connection [ms]: 0.739630
+	in path: /gud/list/Gaak's%20Attendant.png
+		connections: 3
+		path time: 3579920
+		average path time per connection: 1193306
+		average path time per connection [ms]: 1.193307
+	in path: /gud/list/Overflowing%20Stockpiles.png
+		connections: 3
+		path time: 3074306
+		average path time per connection: 1024768
+		average path time per connection [ms]: 1.024769
+	in path: /gud/list/Collective%20Selection.png
+		connections: 3
+		path time: 3526867
+		average path time per connection: 1175622
+		average path time per connection [ms]: 1.175622
+	in path: /gud/list/Beggar's%20Recall.png
+		connections: 3
+		path time: 5530527
+		average path time per connection: 1843509
+		average path time per connection [ms]: 1.843509
+	in path: /gud/list/Snow-Covered%20Swamp.png
+		connections: 3
+		path time: 4778286
+		average path time per connection: 1592762
+		average path time per connection [ms]: 1.592762
+	in path: /gud/list/Nicol,%20Half-Elder.png
+		connections: 3
+		path time: 2901692
+		average path time per connection: 967230
+		average path time per connection [ms]: 0.967231
+	in path: /gud/list/Probability%20Haze.png
+		connections: 3
+		path time: 4548139
+		average path time per connection: 1516046
+		average path time per connection [ms]: 1.516046
+	in path: /gud/list/Omnitingent%20Vista.png
+		connections: 3
+		path time: 5108504
+		average path time per connection: 1702834
+		average path time per connection [ms]: 1.702835
+	in path: /gud/list/Swiftspear's%20Blessings.png
+		connections: 3
+		path time: 2961217
+		average path time per connection: 987072
+		average path time per connection [ms]: 0.987072
+	in path: /gud/list/Tear%20Reality.png
+		connections: 3
+		path time: 2549654
+		average path time per connection: 849884
+		average path time per connection [ms]: 0.849885
+	in path: /gud/list/Aminatou,%20Self-Sparked.png
+		connections: 3
+		path time: 1958573
+		average path time per connection: 652857
+		average path time per connection [ms]: 0.652858
+	in path: /gud/list/Ephemeral%20Borealis.png
+		connections: 3
+		path time: 4674362
+		average path time per connection: 1558120
+		average path time per connection [ms]: 1.558121
+	in path: /gud/list/First%20Days%20of%20Vintage.png
+		connections: 3
+		path time: 3397467
+		average path time per connection: 1132489
+		average path time per connection [ms]: 1.132489
+	in path: /gud/list/Ravnican%20Arrest.png
+		connections: 3
+		path time: 7077737
+		average path time per connection: 2359245
+		average path time per connection [ms]: 2.359246
+	in path: /gud/list/Aether%20Thief.png
+		connections: 3
+		path time: 1943958
+		average path time per connection: 647986
+		average path time per connection [ms]: 0.647986
+	in path: /gud/list/Hellfire%20Crusader.png
+		connections: 3
+		path time: 4144449
+		average path time per connection: 1381483
+		average path time per connection [ms]: 1.381483
+	in path: /gud/list/The%20Future%20Ablaze.png
+		connections: 3
+		path time: 1557484
+		average path time per connection: 519161
+		average path time per connection [ms]: 0.519161
+	in path: /gud/list/Dazing%20Conundrum.png
+		connections: 3
+		path time: 3143176
+		average path time per connection: 1047725
+		average path time per connection [ms]: 1.047725
+	in path: /gud/list/Lumenblast.png
+		connections: 3
+		path time: 1879794
+		average path time per connection: 626598
+		average path time per connection [ms]: 0.626598
+	in path: /gud/list/Termination%20Flare.png
+		connections: 3
+		path time: 5272682
+		average path time per connection: 1757560
+		average path time per connection [ms]: 1.757561
+	in path: /gud/list/Ritual%20of%20Thought.png
+		connections: 3
+		path time: 2164706
+		average path time per connection: 721568
+		average path time per connection [ms]: 0.721569
+	in path: /gud/list/Avatar%20of%20Monotony.png
+		connections: 3
+		path time: 1608245
+		average path time per connection: 536081
+		average path time per connection [ms]: 0.536082
+	in path: /gud/list/Storm%20of%20Misery.png
+		connections: 3
+		path time: 3654760
+		average path time per connection: 1218253
+		average path time per connection [ms]: 1.218253
+	in path: /gud/list/Collected%20Battlefront.png
+		connections: 3
+		path time: 2145218
+		average path time per connection: 715072
+		average path time per connection [ms]: 0.715073
+	in path: /gud/list/Ancestor's%20Teachings.png
+		connections: 3
+		path time: 2956829
+		average path time per connection: 985609
+		average path time per connection [ms]: 0.985610
+	in path: /gud/list/Bridge%20from%20Above.png
+		connections: 3
+		path time: 2522618
+		average path time per connection: 840872
+		average path time per connection [ms]: 0.840873
+	in path: /gud/list/Lightning.png
+		connections: 3
+		path time: 2224836
+		average path time per connection: 741612
+		average path time per connection [ms]: 0.741612
+	in path: /gud/list/The%20Omniabsent.png
+		connections: 3
+		path time: 3871937
+		average path time per connection: 1290645
+		average path time per connection [ms]: 1.290646
+	in path: /gud/list/Grazing%20Spiral.png
+		connections: 3
+		path time: 2924926
+		average path time per connection: 974975
+		average path time per connection [ms]: 0.974975
+	in path: /gud/list/Freezing%20Glaciers.png
+		connections: 3
+		path time: 3470577
+		average path time per connection: 1156859
+		average path time per connection [ms]: 1.156859
+	in path: /gud/list/Eternal%20Chaparral.png
+		connections: 3
+		path time: 3773365
+		average path time per connection: 1257788
+		average path time per connection [ms]: 1.257788
+	in path: /gud/list/Melt%20Bones.png
+		connections: 3
+		path time: 3017939
+		average path time per connection: 1005979
+		average path time per connection [ms]: 1.005980
+	in path: /gud/list/Merfolk%20Antagonist.png
+		connections: 3
+		path time: 2995769
+		average path time per connection: 998589
+		average path time per connection [ms]: 0.998590
+	in path: /gud/list/Antithesis%20Masticore.png
+		connections: 3
+		path time: 2239181
+		average path time per connection: 746393
+		average path time per connection [ms]: 0.746394
+	in path: /gud/list/Wrath%20of%20Rakdos.png
+		connections: 3
+		path time: 3481165
+		average path time per connection: 1160388
+		average path time per connection [ms]: 1.160388
+	in path: /gud/list/Eternal%20Apertures.png
+		connections: 3
+		path time: 1855404
+		average path time per connection: 618468
+		average path time per connection [ms]: 0.618468
+	in path: /gud/list/Light%20of%20Gas.png
+		connections: 3
+		path time: 3044247
+		average path time per connection: 1014749
+		average path time per connection [ms]: 1.014749
+	in path: /gud/list/Helix%20of%20Proclamation.png
+		connections: 3
+		path time: 4603246
+		average path time per connection: 1534415
+		average path time per connection [ms]: 1.534415
+	in path: /gud/list/Thorough%20Exploration.png
+		connections: 3
+		path time: 4373176
+		average path time per connection: 1457725
+		average path time per connection [ms]: 1.457725
+	in path: /gud/list/Absolute%20Rejection.png
+		connections: 3
+		path time: 3200952
+		average path time per connection: 1066984
+		average path time per connection [ms]: 1.066984
+	in path: /gud/list/Stolen%20Riches.png
+		connections: 3
+		path time: 2640499
+		average path time per connection: 880166
+		average path time per connection [ms]: 0.880166
+	in path: /gud/list/Temporologist%20of%20Eons.png
+		connections: 3
+		path time: 2113293
+		average path time per connection: 704431
+		average path time per connection [ms]: 0.704431
+	in path: /gud/list/Skelemental%20Mastery.png
+		connections: 3
+		path time: 2812730
+		average path time per connection: 937576
+		average path time per connection [ms]: 0.937577
+	in path: /gud/list/Night%20of%20Doom.png
+		connections: 3
+		path time: 2837153
+		average path time per connection: 945717
+		average path time per connection [ms]: 0.945718
+	in path: /gud/list/Liliana%20of%20the%20Gatewatch.png
+		connections: 3
+		path time: 3925294
+		average path time per connection: 1308431
+		average path time per connection [ms]: 1.308431
+	in path: /gud/list/None%20with%20Nothing.png
+		connections: 3
+		path time: 2980165
+		average path time per connection: 993388
+		average path time per connection [ms]: 0.993388
+	in path: /gud/list/Constrain.png
+		connections: 3
+		path time: 4269518
+		average path time per connection: 1423172
+		average path time per connection [ms]: 1.423173
+	in path: /gud/list/Ephemeral%20Desert.png
+		connections: 3
+		path time: 3918381
+		average path time per connection: 1306127
+		average path time per connection [ms]: 1.306127
+	in path: /gud/list/Thirteen-Lives%20Soldier.png
+		connections: 3
+		path time: 1734194
+		average path time per connection: 578064
+		average path time per connection [ms]: 0.578065
+	in path: /gud/list/Cinderflame%20Shaman.png
+		connections: 3
+		path time: 3090186
+		average path time per connection: 1030062
+		average path time per connection [ms]: 1.030062
+	in path: /gud/list/Sheltering%20Pixie.png
+		connections: 3
+		path time: 4132832
+		average path time per connection: 1377610
+		average path time per connection [ms]: 1.377611
+	in path: /gud/list/Minister's%20Reserves.png
+		connections: 3
+		path time: 1709887
+		average path time per connection: 569962
+		average path time per connection [ms]: 0.569962
+	in path: /gud/list/Tainted%20Fire.png
+		connections: 3
+		path time: 3108770
+		average path time per connection: 1036256
+		average path time per connection [ms]: 1.036257
+	in path: /gud/list/Sheltering%20Grove.png
+		connections: 3
+		path time: 3053744
+		average path time per connection: 1017914
+		average path time per connection [ms]: 1.017915
+	in path: /gud/list/Shallow%20Depths.png
+		connections: 3
+		path time: 1638215
+		average path time per connection: 546071
+		average path time per connection [ms]: 0.546072
+	in path: /gud/list/Globe%20of%20the%20Archmagi.png
+		connections: 3
+		path time: 2019821
+		average path time per connection: 673273
+		average path time per connection [ms]: 0.673274
+	in path: /gud/list/Panglacial%20Larva.png
+		connections: 3
+		path time: 3689030
+		average path time per connection: 1229676
+		average path time per connection [ms]: 1.229677
+	in path: /gud/list/Veil%20Elemental.png
+		connections: 3
+		path time: 2921041
+		average path time per connection: 973680
+		average path time per connection [ms]: 0.973680
+	in path: /gud/list/Nicol,%20Bolas.png
+		connections: 3
+		path time: 3451174
+		average path time per connection: 1150391
+		average path time per connection [ms]: 1.150391
+	in path: /gud/list/Dawdle.png
+		connections: 3
+		path time: 2626720
+		average path time per connection: 875573
+		average path time per connection [ms]: 0.875573
+	in path: /gud/list/Monolythic%20Torch-Passer.png
+		connections: 3
+		path time: 2094396
+		average path time per connection: 698132
+		average path time per connection [ms]: 0.698132
+	in path: /gud/list/Raze%20to%20the%20Ground.png
+		connections: 3
+		path time: 2356063
+		average path time per connection: 785354
+		average path time per connection [ms]: 0.785354
+	in path: /gud/list/Wrath's%20Conduit.png
+		connections: 3
+		path time: 2858711
+		average path time per connection: 952903
+		average path time per connection [ms]: 0.952904
+	in path: /gud/list/Assign.png
+		connections: 3
+		path time: 2308362
+		average path time per connection: 769454
+		average path time per connection [ms]: 0.769454
+	in path: /gud/list/Magus%20of%20the%20Chain.png
+		connections: 3
+		path time: 2080636
+		average path time per connection: 693545
+		average path time per connection [ms]: 0.693545
+	in path: /gud/list/Landscape%20Shifter.png
+		connections: 3
+		path time: 3513782
+		average path time per connection: 1171260
+		average path time per connection [ms]: 1.171261
+	in path: /gud/list/Feyden's%20Heist.png
+		connections: 3
+		path time: 2739622
+		average path time per connection: 913207
+		average path time per connection [ms]: 0.913207
+	in path: /gud/list/Monster%20Class.png
+		connections: 3
+		path time: 4604684
+		average path time per connection: 1534894
+		average path time per connection [ms]: 1.534895
+	in path: /gud/list/Sacrifice%20Spell.png
+		connections: 3
+		path time: 5803975
+		average path time per connection: 1934658
+		average path time per connection [ms]: 1.934658
+	in path: /gud/list/Ruins%20of%20the%20Tabernacle.png
+		connections: 3
+		path time: 2056587
+		average path time per connection: 685529
+		average path time per connection [ms]: 0.685529
+	in path: /gud/list/Timeless%20Agony.png
+		connections: 3
+		path time: 3222594
+		average path time per connection: 1074198
+		average path time per connection [ms]: 1.074198
+	in path: /gud/list/Volcanic%20Outburst.png
+		connections: 3
+		path time: 1955514
+		average path time per connection: 651838
+		average path time per connection [ms]: 0.651838
+	in path: /gud/list/Sudden%20Rot.png
+		connections: 3
+		path time: 4267974
+		average path time per connection: 1422658
+		average path time per connection [ms]: 1.422658
+	in path: /gud/list/Selflessness.png
+		connections: 3
+		path time: 1876280
+		average path time per connection: 625426
+		average path time per connection [ms]: 0.625427
+	in path: /gud/list/Minister's%20Desire.png
+		connections: 3
+		path time: 1699291
+		average path time per connection: 566430
+		average path time per connection [ms]: 0.566430
+	in path: /gud/list/Spinning%20Flames.png
+		connections: 3
+		path time: 4088017
+		average path time per connection: 1362672
+		average path time per connection [ms]: 1.362672
+	in path: /gud/list/Frontline%20Trapper.png
+		connections: 3
+		path time: 1845181
+		average path time per connection: 615060
+		average path time per connection [ms]: 0.615060
+	in path: /gud/list/Stolen%20Nightmares.png
+		connections: 3
+		path time: 2610894
+		average path time per connection: 870298
+		average path time per connection [ms]: 0.870298
+	in path: /gud/list/Riot%20Controller.png
+		connections: 3
+		path time: 2849255
+		average path time per connection: 949751
+		average path time per connection [ms]: 0.949752
+	in path: /gud/list/Yavimaya%20West.png
+		connections: 3
+		path time: 5886817
+		average path time per connection: 1962272
+		average path time per connection [ms]: 1.962272
+	in path: /gud/list/The%20Emerald-Blooded.png
+		connections: 3
+		path time: 3214502
+		average path time per connection: 1071500
+		average path time per connection [ms]: 1.071501
+	in path: /gud/list/Ugin's%20Forerunner.png
+		connections: 3
+		path time: 3323626
+		average path time per connection: 1107875
+		average path time per connection [ms]: 1.107875
+	in path: /gud/list/Foggy%20Cliffs.png
+		connections: 3
+		path time: 2626439
+		average path time per connection: 875479
+		average path time per connection [ms]: 0.875480
+	in path: /gud/list/Revenge%20of%20the%20Meek.png
+		connections: 3
+		path time: 1578163
+		average path time per connection: 526054
+		average path time per connection [ms]: 0.526054
+	in path: /gud/list/Unrecognizable%20Triplets.png
+		connections: 3
+		path time: 1808256
+		average path time per connection: 602752
+		average path time per connection [ms]: 0.602752
+	in path: /gud/list/Creeping%20Doom.png
+		connections: 3
+		path time: 2267297
+		average path time per connection: 755765
+		average path time per connection [ms]: 0.755766
+	in path: /gud/list/Zero%20Out.png
+		connections: 3
+		path time: 2569800
+		average path time per connection: 856600
+		average path time per connection [ms]: 0.856600
+	in path: /gud/list/Forgiving%20Mentor.png
+		connections: 3
+		path time: 4717948
+		average path time per connection: 1572649
+		average path time per connection [ms]: 1.572649
+	in path: /gud/list/Lava%20Chicken.png
+		connections: 3
+		path time: 3452904
+		average path time per connection: 1150968
+		average path time per connection [ms]: 1.150968
+	in path: /gud/list/Copy.png
+		connections: 3
+		path time: 2671661
+		average path time per connection: 890553
+		average path time per connection [ms]: 0.890554
+	in path: /gud/list/Malakir%20Bog.png
+		connections: 3
+		path time: 3272306
+		average path time per connection: 1090768
+		average path time per connection [ms]: 1.090769
+	in path: /gud/list/Tree%20Banners%20of%20Argoth.png
+		connections: 3
+		path time: 3546741
+		average path time per connection: 1182247
+		average path time per connection [ms]: 1.182247
+	in path: /gud/list/Restrainer%20of%20Woods.png
+		connections: 3
+		path time: 3896868
+		average path time per connection: 1298956
+		average path time per connection [ms]: 1.298956
+	in path: /gud/list/Greed%20Dragon.png
+		connections: 3
+		path time: 4061757
+		average path time per connection: 1353919
+		average path time per connection [ms]: 1.353919
+	in path: /gud/list/Death%20Prayer.png
+		connections: 3
+		path time: 3513310
+		average path time per connection: 1171103
+		average path time per connection [ms]: 1.171103
+	in path: /gud/list/Burning%20Prayer.png
+		connections: 3
+		path time: 3738324
+		average path time per connection: 1246108
+		average path time per connection [ms]: 1.246108
+	in path: /gud/list/Festivities%20Storyteller.png
+		connections: 3
+		path time: 1808548
+		average path time per connection: 602849
+		average path time per connection [ms]: 0.602849
+	in path: /gud/list/Vial%20of%20Golden%20Blood.png
+		connections: 3
+		path time: 3778391
+		average path time per connection: 1259463
+		average path time per connection [ms]: 1.259464
+	in path: /gud/list/Supreme%20Cleansing.png
+		connections: 3
+		path time: 3328688
+		average path time per connection: 1109562
+		average path time per connection [ms]: 1.109563
+	in path: /gud/list/Penumbra%20Blessing.png
+		connections: 3
+		path time: 3130059
+		average path time per connection: 1043353
+		average path time per connection [ms]: 1.043353
+	in path: /gud/list/Capital%20City.png
+		connections: 3
+		path time: 4889059
+		average path time per connection: 1629686
+		average path time per connection [ms]: 1.629686
+	in path: /gud/list/Resistant%20Groves.png
+		connections: 3
+		path time: 7565838
+		average path time per connection: 2521946
+		average path time per connection [ms]: 2.521946
+	in path: /gud/list/Verdant%20Peaks.png
+		connections: 3
+		path time: 3253057
+		average path time per connection: 1084352
+		average path time per connection [ms]: 1.084352
+	in path: /gud/list/Uncharted%20Steppes.png
+		connections: 3
+		path time: 1888920
+		average path time per connection: 629640
+		average path time per connection [ms]: 0.629640
+	in path: /gud/list/Blightsteel%20Juggernaut.png
+		connections: 3
+		path time: 2425788
+		average path time per connection: 808596
+		average path time per connection [ms]: 0.808596
+	in path: /gud/list/Ancestral%20Ritual.png
+		connections: 3
+		path time: 3432714
+		average path time per connection: 1144238
+		average path time per connection [ms]: 1.144238
+	in path: /gud/list/Merchant's%20Trickery.png
+		connections: 3
+		path time: 1960491
+		average path time per connection: 653497
+		average path time per connection [ms]: 0.653497
+	in path: /gud/list/Minotaur's%20Cave.png
+		connections: 3
+		path time: 2971641
+		average path time per connection: 990547
+		average path time per connection [ms]: 0.990547
+	in path: /gud/list/Army%20In%20A%20Can.png
+		connections: 3
+		path time: 2733553
+		average path time per connection: 911184
+		average path time per connection [ms]: 0.911184
+	in path: /gud/list/Visit%20the%20Academy.png
+		connections: 3
+		path time: 2406553
+		average path time per connection: 802184
+		average path time per connection [ms]: 0.802184
+	in path: /gud/list/Grove%20of%20the%20Souloaks.png
+		connections: 3
+		path time: 2092638
+		average path time per connection: 697546
+		average path time per connection [ms]: 0.697546
+	in path: /gud/list/Unequivocal%20Extraction.png
+		connections: 3
+		path time: 1942278
+		average path time per connection: 647426
+		average path time per connection [ms]: 0.647426
+	in path: /gud/list/Voice%20of%20the%20Ancestors.png
+		connections: 3
+		path time: 3681250
+		average path time per connection: 1227083
+		average path time per connection [ms]: 1.227083
+	in path: /gud/list/Mimicking%20Automata.png
+		connections: 3
+		path time: 2621641
+		average path time per connection: 873880
+		average path time per connection [ms]: 0.873880
+	in path: /gud/list/Empowering%20Moat.png
+		connections: 3
+		path time: 2892809
+		average path time per connection: 964269
+		average path time per connection [ms]: 0.964270
+	in path: /gud/list/Tawnos's%20Toy.png
+		connections: 3
+		path time: 3859865
+		average path time per connection: 1286621
+		average path time per connection [ms]: 1.286622
+	in path: /gud/list/Stage%20of%20Perspectives.png
+		connections: 3
+		path time: 2181219
+		average path time per connection: 727073
+		average path time per connection [ms]: 0.727073
+	in path: /gud/list/Hypergrowth.png
+		connections: 3
+		path time: 1961220
+		average path time per connection: 653740
+		average path time per connection [ms]: 0.653740
+	in path: /gud/list/Artifact%20Grant.png
+		connections: 3
+		path time: 2979245
+		average path time per connection: 993081
+		average path time per connection [ms]: 0.993082
+	in path: /gud/list/Cunning%20Prayer.png
+		connections: 3
+		path time: 5250527
+		average path time per connection: 1750175
+		average path time per connection [ms]: 1.750176
+	in path: /gud/list/Snow-Covered%20Mountain.png
+		connections: 3
+		path time: 1806407
+		average path time per connection: 602135
+		average path time per connection [ms]: 0.602136
+	in path: /gud/list/Nameless%20Vandal.png
+		connections: 3
+		path time: 3647306
+		average path time per connection: 1215768
+		average path time per connection [ms]: 1.215769
+	in path: /gud/list/Student's%20Divining%20Top.png
+		connections: 3
+		path time: 1970571
+		average path time per connection: 656857
+		average path time per connection [ms]: 0.656857
+	in path: /gud/list/Reality%20Mastery.png
+		connections: 3
+		path time: 2689599
+		average path time per connection: 896533
+		average path time per connection [ms]: 0.896533
+	in path: /gud/list/Arcane%20Reservoir.png
+		connections: 3
+		path time: 2544239
+		average path time per connection: 848079
+		average path time per connection [ms]: 0.848080
+	in path: /gud/list/The%20Golden-Blooded.png
+		connections: 3
+		path time: 1725761
+		average path time per connection: 575253
+		average path time per connection [ms]: 0.575254
+	in path: /gud/list/Emerge%20from%20the%20Helvault.png
+		connections: 3
+		path time: 2652588
+		average path time per connection: 884196
+		average path time per connection [ms]: 0.884196
+	in path: /gud/list/Salt.png
+		connections: 3
+		path time: 4431202
+		average path time per connection: 1477067
+		average path time per connection [ms]: 1.477067
+	in path: /gud/list/Deep%20Misinformation.png
+		connections: 3
+		path time: 1835115
+		average path time per connection: 611705
+		average path time per connection [ms]: 0.611705
+	in path: /gud/list/Unholy%20Might.png
+		connections: 3
+		path time: 2768752
+		average path time per connection: 922917
+		average path time per connection [ms]: 0.922917
+	in path: /gud/list/Vial%20of%20Crimson%20Blood.png
+		connections: 3
+		path time: 1679799
+		average path time per connection: 559933
+		average path time per connection [ms]: 0.559933
+	in path: /gud/list/Empowering%20Spears.png
+		connections: 3
+		path time: 5424035
+		average path time per connection: 1808011
+		average path time per connection [ms]: 1.808012
+	in path: /gud/list/Unsatiable%20Behemoth.png
+		connections: 3
+		path time: 1762221
+		average path time per connection: 587407
+		average path time per connection [ms]: 0.587407
+	in path: /gud/list/Black%20Order's%20Knight.png
+		connections: 3
+		path time: 3741323
+		average path time per connection: 1247107
+		average path time per connection [ms]: 1.247108
+	in path: /gud/list/Ancient%20Coliseum.png
+		connections: 3
+		path time: 3504579
+		average path time per connection: 1168193
+		average path time per connection [ms]: 1.168193
+	in path: /gud/list/Poison%20Adept.png
+		connections: 3
+		path time: 3125275
+		average path time per connection: 1041758
+		average path time per connection [ms]: 1.041758
+	in path: /gud/list/Unbound%20Prophet.png
+		connections: 3
+		path time: 2789372
+		average path time per connection: 929790
+		average path time per connection [ms]: 0.929791
+	in path: /gud/list/Expanses%20of%20Nyx.png
+		connections: 3
+		path time: 2240331
+		average path time per connection: 746777
+		average path time per connection [ms]: 0.746777
+	in path: /gud/list/Uro%20of%20the%20First%20Altar.png
+		connections: 3
+		path time: 2503957
+		average path time per connection: 834652
+		average path time per connection [ms]: 0.834652
+	in path: /gud/list/Death.png
+		connections: 4
+		path time: 2390052
+		average path time per connection: 597513
+		average path time per connection [ms]: 0.597513
+	in path: /gud/list/Pyro,%20The%20Rulebreaker.png
+		connections: 3
+		path time: 2914369
+		average path time per connection: 971456
+		average path time per connection [ms]: 0.971456
+	in path: /gud/list/Green%20Order's%20Knight.png
+		connections: 3
+		path time: 3492985
+		average path time per connection: 1164328
+		average path time per connection [ms]: 1.164328
+	in path: /gud/list/Grafdigger's%20Coffin.png
+		connections: 3
+		path time: 2016146
+		average path time per connection: 672048
+		average path time per connection [ms]: 0.672049
+	in path: /gud/list/Invasive%20Probe.png
+		connections: 3
+		path time: 2680043
+		average path time per connection: 893347
+		average path time per connection [ms]: 0.893348
+	in path: /gud/list/Contemplate.png
+		connections: 3
+		path time: 2319873
+		average path time per connection: 773291
+		average path time per connection [ms]: 0.773291
+	in path: /gud/list/Lampborn%20Zu-Hashur.png
+		connections: 3
+		path time: 1950378
+		average path time per connection: 650126
+		average path time per connection [ms]: 0.650126
+	in path: /gud/list/Inhumane%20End.png
+		connections: 3
+		path time: 4104839
+		average path time per connection: 1368279
+		average path time per connection [ms]: 1.368280
+	in path: /gud/list/Discover%20the%20Impossible.png
+		connections: 3
+		path time: 2391321
+		average path time per connection: 797107
+		average path time per connection [ms]: 0.797107
+	in path: /gud/list/Autoengineering%20Prodigy.png
+		connections: 3
+		path time: 1720662
+		average path time per connection: 573554
+		average path time per connection [ms]: 0.573554
+	in path: /gud/list/Outwit.png
+		connections: 3
+		path time: 1862120
+		average path time per connection: 620706
+		average path time per connection [ms]: 0.620707
+	in path: /gud/list/Twin%20Stomp.png
+		connections: 3
+		path time: 7103988
+		average path time per connection: 2367996
+		average path time per connection [ms]: 2.367996
+	in path: /gud/list/Inferno%20Command.png
+		connections: 3
+		path time: 3414458
+		average path time per connection: 1138152
+		average path time per connection [ms]: 1.138153
+	in path: /gud/list/Mastermind%20of%20the%20Reef.png
+		connections: 3
+		path time: 1735775
+		average path time per connection: 578591
+		average path time per connection [ms]: 0.578592
+	in path: /gud/list/Meddling%20Adept.png
+		connections: 3
+		path time: 2085453
+		average path time per connection: 695151
+		average path time per connection [ms]: 0.695151
+	in path: /gud/list/Counterweavering.png
+		connections: 3
+		path time: 2659007
+		average path time per connection: 886335
+		average path time per connection [ms]: 0.886336
+	in path: /gud/list/Tyrannical%20Coronation.png
+		connections: 3
+		path time: 1789971
+		average path time per connection: 596657
+		average path time per connection [ms]: 0.596657
+	in path: /gud/list/Mirror%20Anomaly.png
+		connections: 3
+		path time: 7514365
+		average path time per connection: 2504788
+		average path time per connection [ms]: 2.504788
+	in path: /gud/list/Blood%20Orchestra.png
+		connections: 3
+		path time: 3123159
+		average path time per connection: 1041053
+		average path time per connection [ms]: 1.041053
+	in path: /gud/list/Banding.png
+		connections: 3
+		path time: 1951438
+		average path time per connection: 650479
+		average path time per connection [ms]: 0.650479
+	in path: /gud/list/Invasive%20Burnisher.png
+		connections: 3
+		path time: 3222495
+		average path time per connection: 1074165
+		average path time per connection [ms]: 1.074165
+	in path: /gud/list/Otherworldly%20Landscape.png
+		connections: 3
+		path time: 2995232
+		average path time per connection: 998410
+		average path time per connection [ms]: 0.998411
+	in path: /gud/list/Archmage%20of%20Chronology.png
+		connections: 3
+		path time: 3198780
+		average path time per connection: 1066260
+		average path time per connection [ms]: 1.066260
+	in path: /gud/list/Storm.png
+		connections: 3
+		path time: 2452476
+		average path time per connection: 817492
+		average path time per connection [ms]: 0.817492
+	in path: /gud/list/Matter%20Over%20Mind.png
+		connections: 3
+		path time: 2260271
+		average path time per connection: 753423
+		average path time per connection [ms]: 0.753424
+	in path: /gud/list/Wizard's%20Whim.png
+		connections: 3
+		path time: 2513898
+		average path time per connection: 837966
+		average path time per connection [ms]: 0.837966
+	in path: /gud/list/Gushing%20Knowledge.png
+		connections: 3
+		path time: 1825721
+		average path time per connection: 608573
+		average path time per connection [ms]: 0.608574
+	in path: /gud/list/Perpetual%20Horizons.png
+		connections: 3
+		path time: 2716065
+		average path time per connection: 905355
+		average path time per connection [ms]: 0.905355
+	in path: /gud/list/Dread%20Torrent.png
+		connections: 3
+		path time: 3696751
+		average path time per connection: 1232250
+		average path time per connection [ms]: 1.232250
+	in path: /gud/list/Twisted%20Arcanist.png
+		connections: 3
+		path time: 6084407
+		average path time per connection: 2028135
+		average path time per connection [ms]: 2.028136
+	in path: /gud/list/Grove%20of%20the%20Blackthorns.png
+		connections: 3
+		path time: 2173099
+		average path time per connection: 724366
+		average path time per connection [ms]: 0.724366
+	in path: /gud/list/Immediate%20Regrets.png
+		connections: 3
+		path time: 1855709
+		average path time per connection: 618569
+		average path time per connection [ms]: 0.618570
+	in path: /gud/list/Misdirecting%20Trails.png
+		connections: 3
+		path time: 1701091
+		average path time per connection: 567030
+		average path time per connection [ms]: 0.567030
+	in path: /gud/list/Erith,%20Karametra's%20Chosen.png
+		connections: 3
+		path time: 5001485
+		average path time per connection: 1667161
+		average path time per connection [ms]: 1.667162
+	in path: /gud/list/Empowering%20Towers.png
+		connections: 3
+		path time: 2296172
+		average path time per connection: 765390
+		average path time per connection [ms]: 0.765391
+	in path: /gud/list/Rhystic%20Library.png
+		connections: 3
+		path time: 2383062
+		average path time per connection: 794354
+		average path time per connection [ms]: 0.794354
+	in path: /gud/list/Jace%20of%20the%20Gatewatch.png
+		connections: 3
+		path time: 1451071
+		average path time per connection: 483690
+		average path time per connection [ms]: 0.483690
+	in path: /gud/list/Rob%20in%20Broad%20Daylight.png
+		connections: 3
+		path time: 2731964
+		average path time per connection: 910654
+		average path time per connection [ms]: 0.910655
+	in path: /gud/list/Last%20Days%20of%20Vintage.png
+		connections: 3
+		path time: 4903987
+		average path time per connection: 1634662
+		average path time per connection [ms]: 1.634662
+	in path: /gud/list/Lurking%20Tempest.png
+		connections: 3
+		path time: 3348237
+		average path time per connection: 1116079
+		average path time per connection [ms]: 1.116079
+	in path: /gud/list/Thassa,%20Chained%20to%20the%20Sea.png
+		connections: 3
+		path time: 3236506
+		average path time per connection: 1078835
+		average path time per connection [ms]: 1.078835
+	in path: /gud/list/Mox%20of%20Colors.png
+		connections: 3
+		path time: 2909857
+		average path time per connection: 969952
+		average path time per connection [ms]: 0.969952
+	in path: /gud/list/Barren%20Mines.png
+		connections: 3
+		path time: 3535840
+		average path time per connection: 1178613
+		average path time per connection [ms]: 1.178613
+	in path: /gud/list/Outgrow.png
+		connections: 3
+		path time: 2792903
+		average path time per connection: 930967
+		average path time per connection [ms]: 0.930968
+	in path: /gud/list/Reality%20Juggling.png
+		connections: 3
+		path time: 2179151
+		average path time per connection: 726383
+		average path time per connection [ms]: 0.726384
+	in path: /gud/list/Master%20of%20Denial.png
+		connections: 3
+		path time: 2009682
+		average path time per connection: 669894
+		average path time per connection [ms]: 0.669894
+	in path: /gud/list/Gleeful%20Arson.png
+		connections: 3
+		path time: 6117246
+		average path time per connection: 2039082
+		average path time per connection [ms]: 2.039082
+	in path: /gud/list/Uncharted%20Peaks.png
+		connections: 3
+		path time: 3641583
+		average path time per connection: 1213861
+		average path time per connection [ms]: 1.213861
+	in path: /gud/list/Petal%20Field.png
+		connections: 3
+		path time: 2694487
+		average path time per connection: 898162
+		average path time per connection [ms]: 0.898162
+	in path: /gud/list/Shandalarian%20Ooze.png
+		connections: 3
+		path time: 1801845
+		average path time per connection: 600615
+		average path time per connection [ms]: 0.600615
+	in path: /gud/list/Inventive%20Absorbtion.png
+		connections: 3
+		path time: 2458374
+		average path time per connection: 819458
+		average path time per connection [ms]: 0.819458
+	in path: /gud/list/Unenlightenment.png
+		connections: 3
+		path time: 1837235
+		average path time per connection: 612411
+		average path time per connection [ms]: 0.612412
+	in path: /gud/list/Unwind%20Time.png
+		connections: 3
+		path time: 5166853
+		average path time per connection: 1722284
+		average path time per connection [ms]: 1.722284
+	in path: /gud/list/Archon%20of%20Patience.png
+		connections: 3
+		path time: 3065274
+		average path time per connection: 1021758
+		average path time per connection [ms]: 1.021758
+	in path: /gud/list/Ephemeral%20Prairie.png
+		connections: 3
+		path time: 5851068
+		average path time per connection: 1950356
+		average path time per connection [ms]: 1.950356
+	in path: /gud/list/Spinning%20Mists.png
+		connections: 3
+		path time: 4124536
+		average path time per connection: 1374845
+		average path time per connection [ms]: 1.374845
+	in path: /gud/list/Fortune's%20Reversal.png
+		connections: 3
+		path time: 1906116
+		average path time per connection: 635372
+		average path time per connection [ms]: 0.635372
+	in path: /gud/list/Poem%20of%20Command.png
+		connections: 3
+		path time: 1865316
+		average path time per connection: 621772
+		average path time per connection [ms]: 0.621772
+	in path: /gud/list/Spit%20Out.png
+		connections: 3
+		path time: 2705466
+		average path time per connection: 901822
+		average path time per connection [ms]: 0.901822
+	in path: /gud/list/Swift%20Unmaking.png
+		connections: 3
+		path time: 4572604
+		average path time per connection: 1524201
+		average path time per connection [ms]: 1.524201
+	in path: /gud/list/Lotleth%20Blast.png
+		connections: 3
+		path time: 5913887
+		average path time per connection: 1971295
+		average path time per connection [ms]: 1.971296
+	in path: /gud/list/Percieve%20Future.png
+		connections: 3
+		path time: 3849796
+		average path time per connection: 1283265
+		average path time per connection [ms]: 1.283265
+	in path: /gud/list/Eternal%20Paradise.png
+		connections: 3
+		path time: 1919644
+		average path time per connection: 639881
+		average path time per connection [ms]: 0.639881
+	in path: /gud/list/Timeswirler.png
+		connections: 3
+		path time: 2559040
+		average path time per connection: 853013
+		average path time per connection [ms]: 0.853013
+	in path: /gud/list/Red%20Order's%20Knight.png
+		connections: 3
+		path time: 2117245
+		average path time per connection: 705748
+		average path time per connection [ms]: 0.705748
+	in path: /gud/list/Thunder%20Ritual.png
+		connections: 3
+		path time: 2019406
+		average path time per connection: 673135
+		average path time per connection [ms]: 0.673135
+	in path: /gud/list/Snowstorm.png
+		connections: 3
+		path time: 2194512
+		average path time per connection: 731504
+		average path time per connection [ms]: 0.731504
+	in path: /gud/list/Bottomless%20Cavern.png
+		connections: 3
+		path time: 3525802
+		average path time per connection: 1175267
+		average path time per connection [ms]: 1.175267
+	in path: /gud/list/Stolen%20Knowledge.png
+		connections: 3
+		path time: 1949548
+		average path time per connection: 649849
+		average path time per connection [ms]: 0.649849
+	in path: /gud/list/Torture%20Chamber.png
+		connections: 3
+		path time: 2535155
+		average path time per connection: 845051
+		average path time per connection [ms]: 0.845052
+	in path: /gud/list/Marang%20Retrieval.png
+		connections: 3
+		path time: 2178330
+		average path time per connection: 726110
+		average path time per connection [ms]: 0.726110
+	in path: /gud/list/Chronodaneizomai%20Meddling.png
+		connections: 3
+		path time: 2432220
+		average path time per connection: 810740
+		average path time per connection [ms]: 0.810740
+	in path: /gud/list/Tibalt,%20the%20Cycle%20of%20Loyalty.png
+		connections: 3
+		path time: 3110483
+		average path time per connection: 1036827
+		average path time per connection [ms]: 1.036828
+	in path: /gud/list/Heliod's%20Reinforcements.png
+		connections: 3
+		path time: 3290765
+		average path time per connection: 1096921
+		average path time per connection [ms]: 1.096922
+	in path: /gud/list/Balustrade%20Espionage.png
+		connections: 3
+		path time: 1813972
+		average path time per connection: 604657
+		average path time per connection [ms]: 0.604657
+	in path: /gud/list/Skulldrifter.png
+		connections: 3
+		path time: 1638919
+		average path time per connection: 546306
+		average path time per connection [ms]: 0.546306
+	in path: /gud/list/Mirrored%20Thought.png
+		connections: 3
+		path time: 2040270
+		average path time per connection: 680090
+		average path time per connection [ms]: 0.680090
+	in path: /gud/list/Temporal%20Divination.png
+		connections: 3
+		path time: 2161976
+		average path time per connection: 720658
+		average path time per connection [ms]: 0.720659
+	in path: /gud/list/Arkhosian%20Jewelery.png
+		connections: 3
+		path time: 2569722
+		average path time per connection: 856574
+		average path time per connection [ms]: 0.856574
+	in path: /gud/list/Arbitrage.png
+		connections: 3
+		path time: 2918302
+		average path time per connection: 972767
+		average path time per connection [ms]: 0.972767
+	in path: /gud/list/Prismatic%20Machine%20Architecture.png
+		connections: 3
+		path time: 1872794
+		average path time per connection: 624264
+		average path time per connection [ms]: 0.624265
+	in path: /gud/list/Grove%20of%20the%20Bidereachs.png
+		connections: 3
+		path time: 3373105
+		average path time per connection: 1124368
+		average path time per connection [ms]: 1.124368
+	in path: /gud/list/Reextract.png
+		connections: 3
+		path time: 2568132
+		average path time per connection: 856044
+		average path time per connection [ms]: 0.856044
+	in path: /gud/list/Krark-Clan%20Smelting.png
+		connections: 3
+		path time: 1668106
+		average path time per connection: 556035
+		average path time per connection [ms]: 0.556035
+	in path: /gud/list/Ingenious%20Setback.png
+		connections: 3
+		path time: 2959798
+		average path time per connection: 986599
+		average path time per connection [ms]: 0.986599
+	in path: /gud/list/Compleation%20Artisan.png
+		connections: 3
+		path time: 2351125
+		average path time per connection: 783708
+		average path time per connection [ms]: 0.783708
+	in path: /gud/list/Ravage%20the%20Lands.png
+		connections: 3
+		path time: 1947956
+		average path time per connection: 649318
+		average path time per connection [ms]: 0.649319
+	in path: /gud/list/Holy%20Aura.png
+		connections: 3
+		path time: 2560285
+		average path time per connection: 853428
+		average path time per connection [ms]: 0.853428
+	in path: /gud/list/Epidemic.png
+		connections: 3
+		path time: 1973150
+		average path time per connection: 657716
+		average path time per connection [ms]: 0.657717
+	in path: /gud/list/Avacyn's%20Teachings.png
+		connections: 3
+		path time: 2587732
+		average path time per connection: 862577
+		average path time per connection [ms]: 0.862577
+	in path: /gud/list/Spring%20Bloom.png
+		connections: 3
+		path time: 3940303
+		average path time per connection: 1313434
+		average path time per connection [ms]: 1.313434
+	in path: /gud/list/Mana%20Transfer.png
+		connections: 3
+		path time: 3454620
+		average path time per connection: 1151540
+		average path time per connection [ms]: 1.151540
+	in path: /gud/list/Chaotic%20Banding.png
+		connections: 3
+		path time: 2480240
+		average path time per connection: 826746
+		average path time per connection [ms]: 0.826747
+	in path: /gud/list/Myr%20Enchantress.png
+		connections: 3
+		path time: 5355696
+		average path time per connection: 1785232
+		average path time per connection [ms]: 1.785232
+	in path: /gud/list/Eidolon%20of%20Prosperity.png
+		connections: 3
+		path time: 2297562
+		average path time per connection: 765854
+		average path time per connection [ms]: 0.765854
+	in path: /gud/list/All%20That%20Doesn't%20Glitter.png
+		connections: 3
+		path time: 2431467
+		average path time per connection: 810489
+		average path time per connection [ms]: 0.810489
+	in path: /gud/list/Kin-Tree%20Usurper.png
+		connections: 3
+		path time: 5720804
+		average path time per connection: 1906934
+		average path time per connection [ms]: 1.906935
+	in path: /gud/list/Selesnya%20Enforcer.png
+		connections: 3
+		path time: 3383384
+		average path time per connection: 1127794
+		average path time per connection [ms]: 1.127795
+	in path: /gud/list/Dreaming%20Spirit%20Guide.png
+		connections: 3
+		path time: 1967267
+		average path time per connection: 655755
+		average path time per connection [ms]: 0.655756
+	in path: /gud/list/Viridian%20Mystic.png
+		connections: 3
+		path time: 1377968
+		average path time per connection: 459322
+		average path time per connection [ms]: 0.459323
+	in path: /gud/list/Arbiter%20of%20Serenity.png
+		connections: 3
+		path time: 1891626
+		average path time per connection: 630542
+		average path time per connection [ms]: 0.630542
+	in path: /gud/list/Screechstorm.png
+		connections: 3
+		path time: 3847102
+		average path time per connection: 1282367
+		average path time per connection [ms]: 1.282367
+	in path: /gud/list/Cautious%20Acolyte.png
+		connections: 3
+		path time: 3322744
+		average path time per connection: 1107581
+		average path time per connection [ms]: 1.107581
+	in path: /gud/list/Ichor%20Extractors.png
+		connections: 3
+		path time: 6145438
+		average path time per connection: 2048479
+		average path time per connection [ms]: 2.048479
+	in path: /gud/list/Fiendish%20Tutor.png
+		connections: 3
+		path time: 2828683
+		average path time per connection: 942894
+		average path time per connection [ms]: 0.942894
+	in path: /gud/list/Nemesis%20of%20the%20Cunning.png
+		connections: 3
+		path time: 3771798
+		average path time per connection: 1257266
+		average path time per connection [ms]: 1.257266
+	in path: /gud/list/Conciousness%20Theft.png
+		connections: 3
+		path time: 1756046
+		average path time per connection: 585348
+		average path time per connection [ms]: 0.585349
+	in path: /gud/list/Menacing%20Aura.png
+		connections: 3
+		path time: 3064476
+		average path time per connection: 1021492
+		average path time per connection [ms]: 1.021492
+	in path: /gud/list/Snow-Covered%20Forest.png
+		connections: 3
+		path time: 2595418
+		average path time per connection: 865139
+		average path time per connection [ms]: 0.865139
+	in path: /gud/list/Shadow%20Stalker.png
+		connections: 3
+		path time: 5470410
+		average path time per connection: 1823470
+		average path time per connection [ms]: 1.823470
+	in path: /gud/list/Tawnos's%20Workshop.png
+		connections: 3
+		path time: 2055754
+		average path time per connection: 685251
+		average path time per connection [ms]: 0.685251
+	in path: /gud/list/Century%20Chronologist.png
+		connections: 3
+		path time: 1914697
+		average path time per connection: 638232
+		average path time per connection [ms]: 0.638232
+	in path: /gud/list/Teeth%20of%20Akoum.png
+		connections: 3
+		path time: 3525206
+		average path time per connection: 1175068
+		average path time per connection [ms]: 1.175069
+	in path: /gud/list/Chronomatic%20Recreation.png
+		connections: 3
+		path time: 2200676
+		average path time per connection: 733558
+		average path time per connection [ms]: 0.733559
+	in path: /gud/list/Enchant.png
+		connections: 3
+		path time: 2170760
+		average path time per connection: 723586
+		average path time per connection [ms]: 0.723587
+	in path: /gud/list/Eternal%20Revenant.png
+		connections: 3
+		path time: 2627425
+		average path time per connection: 875808
+		average path time per connection [ms]: 0.875808
+	in path: /gud/list/Kithkin%20Hold.png
+		connections: 3
+		path time: 2457671
+		average path time per connection: 819223
+		average path time per connection [ms]: 0.819224
+	in path: /gud/list/Ruthless%20Pillaging.png
+		connections: 3
+		path time: 3977526
+		average path time per connection: 1325842
+		average path time per connection [ms]: 1.325842
+	in path: /gud/list/Dark%20Traitor.png
+		connections: 3
+		path time: 3288131
+		average path time per connection: 1096043
+		average path time per connection [ms]: 1.096044
+	in path: /gud/list/March%20of%20Sorrowful%20Burials.png
+		connections: 3
+		path time: 1833295
+		average path time per connection: 611098
+		average path time per connection [ms]: 0.611098
+	in path: /gud/list/Homicide%20Squad.png
+		connections: 3
+		path time: 2975610
+		average path time per connection: 991870
+		average path time per connection [ms]: 0.991870
+	in path: /gud/list/Akoum,%20Cradle%20of%20Might.png
+		connections: 3
+		path time: 3849287
+		average path time per connection: 1283095
+		average path time per connection [ms]: 1.283096
+	in path: /gud/list/Unholy%20Demise.png
+		connections: 3
+		path time: 3190525
+		average path time per connection: 1063508
+		average path time per connection [ms]: 1.063508
+	in path: /gud/list/Empowering%20Walls.png
+		connections: 3
+		path time: 2402036
+		average path time per connection: 800678
+		average path time per connection [ms]: 0.800679
+	in path: /gud/list/Poultry%20Rider.png
+		connections: 3
+		path time: 3727269
+		average path time per connection: 1242423
+		average path time per connection [ms]: 1.242423
+	in path: /gud/list/Confounding%20Quagmire.png
+		connections: 3
+		path time: 2253037
+		average path time per connection: 751012
+		average path time per connection [ms]: 0.751012
+	in path: /gud/list/Invasive%20Drill.png
+		connections: 3
+		path time: 2606944
+		average path time per connection: 868981
+		average path time per connection [ms]: 0.868981
+	in path: /gud/list/Living%20Hangar.png
+		connections: 3
+		path time: 3117808
+		average path time per connection: 1039269
+		average path time per connection [ms]: 1.039269
+	in path: /gud/list/Stolen%20Identity.png
+		connections: 3
+		path time: 2343058
+		average path time per connection: 781019
+		average path time per connection [ms]: 0.781019
+	in path: /gud/list/Conspicuous%20Mimic.png
+		connections: 3
+		path time: 2049159
+		average path time per connection: 683053
+		average path time per connection [ms]: 0.683053
+	in path: /gud/list/Stalker%20of%20Eternity.png
+		connections: 3
+		path time: 1431044
+		average path time per connection: 477014
+		average path time per connection [ms]: 0.477015
+	in path: /gud/list/Gideon%20of%20the%20Gatewatch.png
+		connections: 3
+		path time: 1858747
+		average path time per connection: 619582
+		average path time per connection [ms]: 0.619582
+	in path: /gud/list/Aven%20Stormcaller.png
+		connections: 3
+		path time: 3157273
+		average path time per connection: 1052424
+		average path time per connection [ms]: 1.052424
+	in path: /gud/list/Aggression%20Seal.png
+		connections: 3
+		path time: 2203007
+		average path time per connection: 734335
+		average path time per connection [ms]: 0.734336
+	in path: /gud/list/Lava%20Surge.png
+		connections: 3
+		path time: 4614622
+		average path time per connection: 1538207
+		average path time per connection [ms]: 1.538207
+	in path: /gud/list/Celebrating%20Plunderer.png
+		connections: 3
+		path time: 5323110
+		average path time per connection: 1774370
+		average path time per connection [ms]: 1.774370
+	in path: /gud/list/Think%20Ahead.png
+		connections: 3
+		path time: 4119151
+		average path time per connection: 1373050
+		average path time per connection [ms]: 1.373050
+	in path: /gud/list/Killed%20for%20Memory.png
+		connections: 3
+		path time: 3838229
+		average path time per connection: 1279409
+		average path time per connection [ms]: 1.279410
+	in path: /gud/list/Soul%20Grind.png
+		connections: 3
+		path time: 3850197
+		average path time per connection: 1283399
+		average path time per connection [ms]: 1.283399
+	in path: /gud/list/Ritualistic%20Darkness.png
+		connections: 3
+		path time: 1888973
+		average path time per connection: 629657
+		average path time per connection [ms]: 0.629658
+	in path: /gud/list/Case%20of%20the%20Missing%20Stair.png
+		connections: 3
+		path time: 2470943
+		average path time per connection: 823647
+		average path time per connection [ms]: 0.823648
+	in path: /gud/list/Quicksilver%20Adept.png
+		connections: 3
+		path time: 2300838
+		average path time per connection: 766946
+		average path time per connection [ms]: 0.766946
+	in path: /gud/list/Cave%20of%20Tributes.png
+		connections: 3
+		path time: 3790334
+		average path time per connection: 1263444
+		average path time per connection [ms]: 1.263445
+	in path: /gud/list/Polarized%20Paragon.png
+		connections: 3
+		path time: 3233519
+		average path time per connection: 1077839
+		average path time per connection [ms]: 1.077840
+	in path: /gud/list/Offer%20Respite.png
+		connections: 3
+		path time: 1488346
+		average path time per connection: 496115
+		average path time per connection [ms]: 0.496115
+	in path: /gud/list/Omnitog.png
+		connections: 3
+		path time: 1907349
+		average path time per connection: 635783
+		average path time per connection [ms]: 0.635783
+	in path: /gud/list/Unseen%20Shores.png
+		connections: 3
+		path time: 3757962
+		average path time per connection: 1252654
+		average path time per connection [ms]: 1.252654
+	in path: /gud/list/Mind%20Weaver.png
+		connections: 3
+		path time: 4030039
+		average path time per connection: 1343346
+		average path time per connection [ms]: 1.343346
+	in path: /gud/list/Drown.png
+		connections: 3
+		path time: 2268303
+		average path time per connection: 756101
+		average path time per connection [ms]: 0.756101
+	in path: /gud/list/Bloodcrazed%20Shaman.png
+		connections: 3
+		path time: 1845301
+		average path time per connection: 615100
+		average path time per connection [ms]: 0.615100
+	in path: /gud/list/Suppression%20Array.png
+		connections: 3
+		path time: 2640652
+		average path time per connection: 880217
+		average path time per connection [ms]: 0.880217
+	in path: /gud/list/Cycle%20of%20Power.png
+		connections: 3
+		path time: 2008530
+		average path time per connection: 669510
+		average path time per connection [ms]: 0.669510
+	in path: /gud/list/Lair%20of%20Baiting.png
+		connections: 3
+		path time: 3006719
+		average path time per connection: 1002239
+		average path time per connection [ms]: 1.002240
+	in path: /gud/list/Eternal%20Boughs.png
+		connections: 3
+		path time: 2360478
+		average path time per connection: 786826
+		average path time per connection [ms]: 0.786826
+	in path: /gud/list/Arcane%20Wall.png
+		connections: 3
+		path time: 2262709
+		average path time per connection: 754236
+		average path time per connection [ms]: 0.754236
+	in path: /gud/list/Inflagoyf.png
+		connections: 3
+		path time: 2331596
+		average path time per connection: 777198
+		average path time per connection [ms]: 0.777199
+	in path: /gud/list/Touch%20of%20Absence.png
+		connections: 3
+		path time: 3544391
+		average path time per connection: 1181463
+		average path time per connection [ms]: 1.181464
+	in path: /gud/list/Uncontrolled%20Demolition.png
+		connections: 2
+		path time: 2096516
+		average path time per connection: 1048258
+		average path time per connection [ms]: 1.048258
+	in path: /gud/list/Disputed%20Ancestry.png
+		connections: 2
+		path time: 2016159
+		average path time per connection: 1008079
+		average path time per connection [ms]: 1.008080
+	in path: /gud/list/Goblin%20Mob%20Captain.png
+		connections: 3
+		path time: 2272848
+		average path time per connection: 757616
+		average path time per connection [ms]: 0.757616
+	in path: /gud/list/Vault%20of%20Sands.png
+		connections: 3
+		path time: 2528612
+		average path time per connection: 842870
+		average path time per connection [ms]: 0.842871
+	in path: /gud/list/Ugin's%20Grave.png
+		connections: 3
+		path time: 2220317
+		average path time per connection: 740105
+		average path time per connection [ms]: 0.740106
+	in path: /gud/list/Tyrant%20of%20the%20Seven%20Seas.png
+		connections: 3
+		path time: 2907986
+		average path time per connection: 969328
+		average path time per connection [ms]: 0.969329
+	in path: /gud/list/Tribute%20to%20the%20Fish%20God.png
+		connections: 3
+		path time: 2716866
+		average path time per connection: 905622
+		average path time per connection [ms]: 0.905622
+	in path: /gud/list/Persistant%20Dunes.png
+		connections: 3
+		path time: 1904984
+		average path time per connection: 634994
+		average path time per connection [ms]: 0.634995
+	in path: /gud/list/Candelabra%20of%20Insights.png
+		connections: 3
+		path time: 1597287
+		average path time per connection: 532429
+		average path time per connection [ms]: 0.532429
+	in path: /gud/list/Manaweft%20Gambler.png
+		connections: 3
+		path time: 3442953
+		average path time per connection: 1147651
+		average path time per connection [ms]: 1.147651
+	in path: /gud/list/Crawl%20Back.png
+		connections: 3
+		path time: 7103700
+		average path time per connection: 2367900
+		average path time per connection [ms]: 2.367900
+	in path: /gud/list/Oath%20of%20Artificers.png
+		connections: 3
+		path time: 1981953
+		average path time per connection: 660651
+		average path time per connection [ms]: 0.660651
+	in path: /gud/list/Purphyros's%20Edict.png
+		connections: 5
+		path time: 3551770
+		average path time per connection: 710354
+		average path time per connection [ms]: 0.710354
+	in path: /gud/list/Living%20Prayer.png
+		connections: 5
+		path time: 5497364
+		average path time per connection: 1099472
+		average path time per connection [ms]: 1.099473
+	in path: /gud/list/Magus%20of%20the%20Goyf.png
+		connections: 5
+		path time: 2985985
+		average path time per connection: 597197
+		average path time per connection [ms]: 0.597197
+	in path: /gud/list/White%20Order's%20Knight.png
+		connections: 5
+		path time: 4261025
+		average path time per connection: 852205
+		average path time per connection [ms]: 0.852205
+	in path: /gud/list/Virulent%20Symbiote.png
+		connections: 5
+		path time: 3043978
+		average path time per connection: 608795
+		average path time per connection [ms]: 0.608796
+	in path: /gud/list/Uncharted%20Wilds.png
+		connections: 5
+		path time: 3953153
+		average path time per connection: 790630
+		average path time per connection [ms]: 0.790631
+	in path: /gud/list/Snow-Covered%20Island.png
+		connections: 5
+		path time: 3642550
+		average path time per connection: 728510
+		average path time per connection [ms]: 0.728510
+	in path: /gud/list/Merchant's%20Connections.png
+		connections: 5
+		path time: 3157766
+		average path time per connection: 631553
+		average path time per connection [ms]: 0.631553
+	in path: /gud/list/Necrodrain.png
+		connections: 5
+		path time: 3857832
+		average path time per connection: 771566
+		average path time per connection [ms]: 0.771566
+	in path: /gud/list/Bounty%20of%20the%20Forest.png
+		connections: 5
+		path time: 3455595
+		average path time per connection: 691119
+		average path time per connection [ms]: 0.691119
+	in path: /gud/list/Cruel%20Captain.png
+		connections: 5
+		path time: 5157809
+		average path time per connection: 1031561
+		average path time per connection [ms]: 1.031562
+	in path: /gud/list/Prison%20of%20Yixlid.png
+		connections: 5
+		path time: 2478628
+		average path time per connection: 495725
+		average path time per connection [ms]: 0.495726
+	in path: /gud/list/Tawnos's%20Inquiry.png
+		connections: 5
+		path time: 2981710
+		average path time per connection: 596342
+		average path time per connection [ms]: 0.596342
+	in path: /gud/list/Lush%20Aura.png
+		connections: 5
+		path time: 3161210
+		average path time per connection: 632242
+		average path time per connection [ms]: 0.632242
+	in path: /gud/list/Narcozoan%20Insight.png
+		connections: 5
+		path time: 3392592
+		average path time per connection: 678518
+		average path time per connection [ms]: 0.678518
+	in path: /gud/list/Erebos,%20Chained%20to%20the%20Underworld.png
+		connections: 5
+		path time: 3898130
+		average path time per connection: 779626
+		average path time per connection [ms]: 0.779626
+	in path: /gud/list/Purphoros,%20Chained%20to%20the%20Forge.png
+		connections: 5
+		path time: 4573163
+		average path time per connection: 914632
+		average path time per connection [ms]: 0.914633
+	in path: /gud/list/Necromantic%20Mastery.png
+		connections: 5
+		path time: 3480624
+		average path time per connection: 696124
+		average path time per connection [ms]: 0.696125
+	in path: /gud/list/Ephemeral%20Nebula.png
+		connections: 5
+		path time: 5281444
+		average path time per connection: 1056288
+		average path time per connection [ms]: 1.056289
+	in path: /gud/list/Grove%20of%20the%20Shiftpines.png
+		connections: 5
+		path time: 5403125
+		average path time per connection: 1080625
+		average path time per connection [ms]: 1.080625
+	in path: /gud/list/Layering%20Swampborn.png
+		connections: 5
+		path time: 4030453
+		average path time per connection: 806090
+		average path time per connection [ms]: 0.806091
+	in path: /gud/list/Red%20Giant.png
+		connections: 5
+		path time: 3087650
+		average path time per connection: 617530
+		average path time per connection [ms]: 0.617530
+	in path: /gud/list/Magmatic%20Arrows.png
+		connections: 5
+		path time: 4618946
+		average path time per connection: 923789
+		average path time per connection [ms]: 0.923789
+	in path: /gud/list/Hazardous%20Monotony.png
+		connections: 5
+		path time: 4265254
+		average path time per connection: 853050
+		average path time per connection [ms]: 0.853051
+	in path: /gud/list/Snow-Covered%20Wastes.png
+		connections: 5
+		path time: 3615963
+		average path time per connection: 723192
+		average path time per connection [ms]: 0.723193
+	in path: /gud/list/Magus%20of%20the%20Chalice.png
+		connections: 5
+		path time: 5123724
+		average path time per connection: 1024744
+		average path time per connection [ms]: 1.024745
+	in path: /gud/list/Go%20Big%20or%20Go%20Home.png
+		connections: 5
+		path time: 4251126
+		average path time per connection: 850225
+		average path time per connection [ms]: 0.850225
+	in path: /gud/list/Tolaria,%20Cradle%20of%20Knowledge.png
+		connections: 5
+		path time: 3336382
+		average path time per connection: 667276
+		average path time per connection [ms]: 0.667276
+	in path: /gud/list/Meeting%20Chamber.png
+		connections: 5
+		path time: 4157538
+		average path time per connection: 831507
+		average path time per connection [ms]: 0.831508
+	in path: /gud/list/Into%20the%20Underworld.png
+		connections: 5
+		path time: 5134488
+		average path time per connection: 1026897
+		average path time per connection [ms]: 1.026898
+	in path: /gud/list/Ultimate%20Answer.png
+		connections: 5
+		path time: 3833061
+		average path time per connection: 766612
+		average path time per connection [ms]: 0.766612
+	in path: /gud/list/Hell.png
+		connections: 5
+		path time: 4559134
+		average path time per connection: 911826
+		average path time per connection [ms]: 0.911827
+	in path: /gud/list/Discharge.png
+		connections: 5
+		path time: 3530367
+		average path time per connection: 706073
+		average path time per connection [ms]: 0.706073
+	in path: /gud/list/Falkenrath%20Noble.png
+		connections: 5
+		path time: 3982964
+		average path time per connection: 796592
+		average path time per connection [ms]: 0.796593
+	in path: /gud/list/Abrupt%20Halt.png
+		connections: 5
+		path time: 4791467
+		average path time per connection: 958293
+		average path time per connection [ms]: 0.958293
+	in path: /gud/list/Pull%20from%20the%20Abyss.png
+		connections: 5
+		path time: 3727316
+		average path time per connection: 745463
+		average path time per connection [ms]: 0.745463
+	in path: /gud/list/Imperfect%20Copy.png
+		connections: 5
+		path time: 5103041
+		average path time per connection: 1020608
+		average path time per connection [ms]: 1.020608
+	in path: /gud/list/Zuran%20Sphere.png
+		connections: 5
+		path time: 6132060
+		average path time per connection: 1226412
+		average path time per connection [ms]: 1.226412
+	in path: /gud/list/Grim%20Terramancer.png
+		connections: 5
+		path time: 6009718
+		average path time per connection: 1201943
+		average path time per connection [ms]: 1.201944
+	in path: /gud/list/Dissimiliar%20Seas.png
+		connections: 5
+		path time: 3435294
+		average path time per connection: 687058
+		average path time per connection [ms]: 0.687059
+	in path: /gud/list/Acertain%20Memory.png
+		connections: 5
+		path time: 5298363
+		average path time per connection: 1059672
+		average path time per connection [ms]: 1.059673
+	in path: /gud/list/All%20You%20Can%20Eat.png
+		connections: 5
+		path time: 4362731
+		average path time per connection: 872546
+		average path time per connection [ms]: 0.872546
+	in path: /gud/list/Repulse.png
+		connections: 5
+		path time: 3535387
+		average path time per connection: 707077
+		average path time per connection [ms]: 0.707077
+	in path: /gud/list/Segovian%20Behemoth.png
+		connections: 5
+		path time: 4087754
+		average path time per connection: 817550
+		average path time per connection [ms]: 0.817551
+	in path: /gud/list/The%20Maelstrom.png
+		connections: 5
+		path time: 3850121
+		average path time per connection: 770024
+		average path time per connection [ms]: 0.770024
+	in path: /gud/list/Uncharted%20Mires.png
+		connections: 5
+		path time: 3732578
+		average path time per connection: 746515
+		average path time per connection [ms]: 0.746516
+	in path: /gud/list/Accelerated%20Entropy.png
+		connections: 5
+		path time: 4911560
+		average path time per connection: 982312
+		average path time per connection [ms]: 0.982312
+	in path: /gud/list/Weapons%20License.png
+		connections: 5
+		path time: 2953445
+		average path time per connection: 590689
+		average path time per connection [ms]: 0.590689
+	in path: /gud/list/Life%20Essence.png
+		connections: 5
+		path time: 2878846
+		average path time per connection: 575769
+		average path time per connection [ms]: 0.575769
+	in path: /gud/list/Systematic%20Allocation.png
+		connections: 5
+		path time: 4218812
+		average path time per connection: 843762
+		average path time per connection [ms]: 0.843762
+	in path: /gud/list/Unexplainable%20Edge.png
+		connections: 5
+		path time: 7360700
+		average path time per connection: 1472140
+		average path time per connection [ms]: 1.472140
+	in path: /gud/list/Magus%20of%20the%20Humility.png
+		connections: 5
+		path time: 4625345
+		average path time per connection: 925069
+		average path time per connection [ms]: 0.925069
+	in path: /gud/list/Mishra's%20Saga.png
+		connections: 5
+		path time: 5142940
+		average path time per connection: 1028588
+		average path time per connection [ms]: 1.028588
+	in path: /gud/list/Eternal%20Peaks.png
+		connections: 5
+		path time: 4430804
+		average path time per connection: 886160
+		average path time per connection [ms]: 0.886161
+	in path: /gud/list/Capennan%20Revenue%20Service.png
+		connections: 5
+		path time: 5741317
+		average path time per connection: 1148263
+		average path time per connection [ms]: 1.148263
+	in path: /gud/list/Ephemeral%20Mistlands.png
+		connections: 5
+		path time: 4561569
+		average path time per connection: 912313
+		average path time per connection [ms]: 0.912314
+	in path: /gud/list/Evolving%20Landscape.png
+		connections: 5
+		path time: 3981657
+		average path time per connection: 796331
+		average path time per connection [ms]: 0.796331
+	in path: /gud/list/Revive%20the%20Meek.png
+		connections: 5
+		path time: 6783901
+		average path time per connection: 1356780
+		average path time per connection [ms]: 1.356780
+	in path: /gud/list/Chancellor%20of%20the%20Abyss.png
+		connections: 5
+		path time: 6672373
+		average path time per connection: 1334474
+		average path time per connection [ms]: 1.334475
+	in path: /gud/list/Mind%20Reading%20Lesson.png
+		connections: 5
+		path time: 4766388
+		average path time per connection: 953277
+		average path time per connection [ms]: 0.953278
+	in path: /favicon.ico
+		connections: 4
+		path time: 1338551
+		average path time per connection: 334637
+		average path time per connection [ms]: 0.334638
+	in path: /styling.css
+		connections: 9
+		path time: 3708725
+		average path time per connection: 412080
+		average path time per connection [ms]: 0.412081
+	in path: /gud/list
+		connections: 5
+		path time: 29141430
+		average path time per connection: 5828286
+		average path time per connection [ms]: 5.828286

@@ -377,13 +377,13 @@ void serve_directory_content(struct arg arg, struct ResolvCtx *ctx) {
 			if(!file) {
 				fprintf(stderr, "file: %s\n", arg.str);
 				perror("open failed @ serve_file");
-				goto cleanup2;
+				goto cleanup3;
 			}
 
 			if(fstat(file, &st) < 0) {
 				fprintf(stderr, "file: %s\n", arg.str);
 				perror("fstat failed @ serve_file");
-				goto cleanup3;
+				goto cleanup4;
 			}
 
 			offset = 0;
@@ -393,12 +393,15 @@ void serve_directory_content(struct arg arg, struct ResolvCtx *ctx) {
 				if(sent <= 0) {
 					if(errno == EINTR) continue;
 					perror("sendfile failed @ serve_file");
-					goto cleanup2;
+					goto cleanup4;
 				}
 			}
 
-			cleanup3:
+			cleanup4:
 			close(file);
+			cleanup3:
+			close(dirfd);
+			break;
 		}
 	}
 	cleanup2:

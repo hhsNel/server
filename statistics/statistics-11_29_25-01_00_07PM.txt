@@ -1,0 +1,64 @@
+total connections: 213
+service time: 287207294
+average service time per connection: 1348391
+average service time per connection [ms]: 1.348391
+	in path: /gud/list/Accelerated%20Entropy.png
+		connections: 1
+		path time: 666601
+		average path time per connection: 666601
+		average path time per connection [ms]: 0.666601
+	in path: /favicon.ico
+		connections: 1
+		path time: 310422
+		average path time per connection: 310422
+		average path time per connection [ms]: 0.310422
+	in path: /
+		connections: 5
+		path time: 1429187
+		average path time per connection: 285837
+		average path time per connection [ms]: 0.285837
+	in path: /gud/list/Segovian%20Behemoth.png
+		connections: 1
+		path time: 642773
+		average path time per connection: 642773
+		average path time per connection [ms]: 0.642773
+	in path: /gud/list/Omen%20of%20the%20Past.png
+		connections: 1
+		path time: 609197
+		average path time per connection: 609197
+		average path time per connection [ms]: 0.609197
+	in path: /gud/list/Search%20for%20the%20Golden%20City.png
+		connections: 1
+		path time: 2497652
+		average path time per connection: 2497652
+		average path time per connection [ms]: 2.497652
+	in path: /gud/list/Gauntlet%20of%20Rejuvination.png
+		connections: 1
+		path time: 4571962
+		average path time per connection: 4571962
+		average path time per connection [ms]: 4.571962
+	in path: /gud/list/Writable.png
+		connections: 1
+		path time: 1319014
+		average path time per connection: 1319014
+		average path time per connection [ms]: 1.319014
+	in path: /styling.css
+		connections: 130
+		path time: 61768576
+		average path time per connection: 475142
+		average path time per connection [ms]: 0.475143
+	in path: /gud/list
+		connections: 60
+		path time: 204844473
+		average path time per connection: 3414074
+		average path time per connection [ms]: 3.414075
+	in path: /gud/list/
+		connections: 1
+		path time: 487230
+		average path time per connection: 487230
+		average path time per connection [ms]: 0.487230
+	in path: /gud/list/Evolving%20Landscape.png
+		connections: 10
+		path time: 8060207
+		average path time per connection: 806020
+		average path time per connection [ms]: 0.806021

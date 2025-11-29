@@ -93,7 +93,7 @@ int main(int argc, char **argv) {
 	}
 	buff_cap = BUFF_GRAN;
 	buff_len = req.buff_len = 0;
-	req.headers.buff = req.buff = buff;
+	req.cookies.buff = req.query.buff = req.headers.buff = req.buff = buff;
 	STATS_UPDATE_BUFF(buff);
 	LOGS_UPDATE_BUFF(buff);
 
@@ -246,7 +246,7 @@ int handle_request(char **buff, int client_fd, size_t *buff_len, size_t *buff_ca
 				fprintf(stderr, "size: %lu\n", *buff_cap);
 				exit(1);
 			}
-			req->headers.buff = req->buff = *buff;
+			req->cookies.buff = req->query.buff = req->headers.buff = req->buff = *buff;
 			STATS_UPDATE_BUFF(*buff);
 			LOGS_UPDATE_BUFF(*buff);
 		}
