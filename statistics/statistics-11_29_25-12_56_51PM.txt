@@ -1,0 +1,14 @@
+total connections: 8
+service time: 74569721284
+average service time per connection: 9321215160
+average service time per connection [ms]: 9321.215160
+	in path: /favicon.ico
+		connections: 1
+		path time: 185352
+		average path time per connection: 185352
+		average path time per connection [ms]: 0.185352
+	in path: /gud/list/Evolving%20Landscape.png
+		connections: 7
+		path time: 74569535932
+		average path time per connection: 10652790847
+		average path time per connection [ms]: 10652.790847

@@ -356,6 +356,7 @@ void serve_directory_content(struct arg arg, struct ResolvCtx *ctx) {
 		goto cleanup;
 	}
 	strncpy(original_file, ctx->req.buff+ctx->req.path.offset+arg.i, ctx->req.path.length-arg.i);
+	original_file[ctx->req.path.length-arg.i] = '\0';
 	unescape_spaces(unescaped_file, original_file);
 	free(original_file);
 
