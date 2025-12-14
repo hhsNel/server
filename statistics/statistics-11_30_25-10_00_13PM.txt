@@ -1,0 +1,19 @@
+total connections: 4
+service time: 6269066
+average service time per connection: 1567266
+average service time per connection [ms]: 1.567266
+	in path: /gud/list
+		connections: 1
+		path time: 4142362
+		average path time per connection: 4142362
+		average path time per connection [ms]: 4.142362
+	in path: /styling.css
+		connections: 2
+		path time: 1862064
+		average path time per connection: 931032
+		average path time per connection [ms]: 0.931032
+	in path: /
+		connections: 1
+		path time: 264640
+		average path time per connection: 264640
+		average path time per connection [ms]: 0.264640

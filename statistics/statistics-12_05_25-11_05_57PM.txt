@@ -1,0 +1,554 @@
+total connections: 112
+service time: 20146392
+average service time per connection: 179878
+average service time per connection [ms]: 0.179878
+	in path: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+		connections: 1
+		path time: 63957
+		average path time per connection: 63957
+		average path time per connection [ms]: 0.063957
+	in path: /php_version.php
+		connections: 1
+		path time: 201378
+		average path time per connection: 201378
+		average path time per connection [ms]: 0.201378
+	in path: /php_info.php
+		connections: 1
+		path time: 192512
+		average path time per connection: 192512
+		average path time per connection [ms]: 0.192512
+	in path: /info1.php
+		connections: 1
+		path time: 61464
+		average path time per connection: 61464
+		average path time per connection [ms]: 0.061464
+	in path: /info2.php
+		connections: 1
+		path time: 406200
+		average path time per connection: 406200
+		average path time per connection [ms]: 0.406200
+	in path: /info3.php
+		connections: 1
+		path time: 104116
+		average path time per connection: 104116
+		average path time per connection [ms]: 0.104116
+	in path: /phpversion.php
+		connections: 1
+		path time: 96444
+		average path time per connection: 96444
+		average path time per connection [ms]: 0.096444
+	in path: /serverinfo.php
+		connections: 1
+		path time: 58877
+		average path time per connection: 58877
+		average path time per connection [ms]: 0.058877
+	in path: /debug.php
+		connections: 1
+		path time: 67082
+		average path time per connection: 67082
+		average path time per connection [ms]: 0.067082
+	in path: /diagnostic.php
+		connections: 1
+		path time: 76869
+		average path time per connection: 76869
+		average path time per connection [ms]: 0.076869
+	in path: /phptest.php
+		connections: 1
+		path time: 370431
+		average path time per connection: 370431
+		average path time per connection [ms]: 0.370431
+	in path: /check.php
+		connections: 1
+		path time: 366883
+		average path time per connection: 366883
+		average path time per connection [ms]: 0.366883
+	in path: /probe.php
+		connections: 1
+		path time: 233828
+		average path time per connection: 233828
+		average path time per connection [ms]: 0.233828
+	in path: /1.php
+		connections: 1
+		path time: 246629
+		average path time per connection: 246629
+		average path time per connection [ms]: 0.246629
+	in path: /2.php
+		connections: 1
+		path time: 185285
+		average path time per connection: 185285
+		average path time per connection [ms]: 0.185285
+	in path: /3.php
+		connections: 1
+		path time: 343228
+		average path time per connection: 343228
+		average path time per connection [ms]: 0.343228
+	in path: /p.php
+		connections: 1
+		path time: 53734
+		average path time per connection: 53734
+		average path time per connection [ms]: 0.053734
+	in path: /t.php
+		connections: 1
+		path time: 217215
+		average path time per connection: 217215
+		average path time per connection [ms]: 0.217215
+	in path: /info_php.php
+		connections: 1
+		path time: 57851
+		average path time per connection: 57851
+		average path time per connection [ms]: 0.057851
+	in path: /php-info.php
+		connections: 1
+		path time: 66988
+		average path time per connection: 66988
+		average path time per connection [ms]: 0.066988
+	in path: /infophp.php
+		connections: 1
+		path time: 216188
+		average path time per connection: 216188
+		average path time per connection [ms]: 0.216188
+	in path: /testphp.php
+		connections: 1
+		path time: 198486
+		average path time per connection: 198486
+		average path time per connection [ms]: 0.198486
+	in path: /.env.remote
+		connections: 1
+		path time: 256015
+		average path time per connection: 256015
+		average path time per connection [ms]: 0.256015
+	in path: /.env.staging
+		connections: 1
+		path time: 127667
+		average path time per connection: 127667
+		average path time per connection [ms]: 0.127667
+	in path: /.env.2
+		connections: 1
+		path time: 99803
+		average path time per connection: 99803
+		average path time per connection [ms]: 0.099803
+	in path: /.aws/config
+		connections: 1
+		path time: 75898
+		average path time per connection: 75898
+		average path time per connection [ms]: 0.075898
+	in path: /.s3cfg
+		connections: 1
+		path time: 71702
+		average path time per connection: 71702
+		average path time per connection [ms]: 0.071702
+	in path: /s3.yml
+		connections: 1
+		path time: 80522
+		average path time per connection: 80522
+		average path time per connection [ms]: 0.080522
+	in path: /.gcloud/credentials
+		connections: 1
+		path time: 92938
+		average path time per connection: 92938
+		average path time per connection [ms]: 0.092938
+	in path: /gcp-credentials.json
+		connections: 1
+		path time: 334327
+		average path time per connection: 334327
+		average path time per connection [ms]: 0.334327
+	in path: /azure.json
+		connections: 1
+		path time: 56510
+		average path time per connection: 56510
+		average path time per connection [ms]: 0.056510
+	in path: /.azure/credentials
+		connections: 1
+		path time: 106235
+		average path time per connection: 106235
+		average path time per connection [ms]: 0.106235
+	in path: /secrets.json
+		connections: 1
+		path time: 79574
+		average path time per connection: 79574
+		average path time per connection [ms]: 0.079574
+	in path: /secrets.yml
+		connections: 1
+		path time: 278187
+		average path time per connection: 278187
+		average path time per connection [ms]: 0.278187
+	in path: /api_keys.json
+		connections: 1
+		path time: 72714
+		average path time per connection: 72714
+		average path time per connection [ms]: 0.072714
+	in path: /apikeys.json
+		connections: 1
+		path time: 56451
+		average path time per connection: 56451
+		average path time per connection [ms]: 0.056451
+	in path: /.api_keys
+		connections: 1
+		path time: 123235
+		average path time per connection: 123235
+		average path time per connection [ms]: 0.123235
+	in path: /credentials.json
+		connections: 1
+		path time: 270479
+		average path time per connection: 270479
+		average path time per connection [ms]: 0.270479
+	in path: /keys.json
+		connections: 1
+		path time: 115199
+		average path time per connection: 115199
+		average path time per connection [ms]: 0.115199
+	in path: /tokens.json
+		connections: 1
+		path time: 51953
+		average path time per connection: 51953
+		average path time per connection [ms]: 0.051953
+	in path: /oauth.json
+		connections: 1
+		path time: 56215
+		average path time per connection: 56215
+		average path time per connection [ms]: 0.056215
+	in path: /.secrets
+		connections: 1
+		path time: 334192
+		average path time per connection: 334192
+		average path time per connection [ms]: 0.334192
+	in path: /api/v2/config
+		connections: 1
+		path time: 335585
+		average path time per connection: 335585
+		average path time per connection [ms]: 0.335585
+	in path: /.well-known/security.txt
+		connections: 1
+		path time: 297587
+		average path time per connection: 297587
+		average path time per connection [ms]: 0.297587
+	in path: /docker-compose.yaml
+		connections: 1
+		path time: 332979
+		average path time per connection: 332979
+		average path time per connection [ms]: 0.332979
+	in path: /docker-compose.override.yml
+		connections: 1
+		path time: 58494
+		average path time per connection: 58494
+		average path time per connection [ms]: 0.058494
+	in path: /.dockerenv
+		connections: 1
+		path time: 160653
+		average path time per connection: 160653
+		average path time per connection [ms]: 0.160653
+	in path: /.docker/config.json
+		connections: 1
+		path time: 65933
+		average path time per connection: 65933
+		average path time per connection [ms]: 0.065933
+	in path: /.dockerignore
+		connections: 1
+		path time: 88583
+		average path time per connection: 88583
+		average path time per connection [ms]: 0.088583
+	in path: /kubernetes.yml
+		connections: 1
+		path time: 60262
+		average path time per connection: 60262
+		average path time per connection [ms]: 0.060262
+	in path: /k8s-config.yml
+		connections: 1
+		path time: 399679
+		average path time per connection: 399679
+		average path time per connection [ms]: 0.399679
+	in path: /backup.tar.gz
+		connections: 1
+		path time: 348896
+		average path time per connection: 348896
+		average path time per connection [ms]: 0.348896
+	in path: /site-backup.zip
+		connections: 1
+		path time: 230747
+		average path time per connection: 230747
+		average path time per connection [ms]: 0.230747
+	in path: /Thumbs.db
+		connections: 1
+		path time: 169138
+		average path time per connection: 169138
+		average path time per connection [ms]: 0.169138
+	in path: /app/logs/prod.log
+		connections: 1
+		path time: 269181
+		average path time per connection: 269181
+		average path time per connection [ms]: 0.269181
+	in path: /app/logs/dev.log
+		connections: 1
+		path time: 77058
+		average path time per connection: 77058
+		average path time per connection [ms]: 0.077058
+	in path: /logs/application.log
+		connections: 1
+		path time: 331045
+		average path time per connection: 331045
+		average path time per connection [ms]: 0.331045
+	in path: /app/etc/env.php
+		connections: 1
+		path time: 325296
+		average path time per connection: 325296
+		average path time per connection [ms]: 0.325296
+	in path: /errors.log
+		connections: 1
+		path time: 55753
+		average path time per connection: 55753
+		average path time per connection [ms]: 0.055753
+	in path: /php.php
+		connections: 1
+		path time: 319864
+		average path time per connection: 319864
+		average path time per connection [ms]: 0.319864
+	in path: /i.php
+		connections: 1
+		path time: 218804
+		average path time per connection: 218804
+		average path time per connection [ms]: 0.218804
+	in path: /.env.bak
+		connections: 1
+		path time: 245361
+		average path time per connection: 245361
+		average path time per connection [ms]: 0.245361
+	in path: /.aws/credentials
+		connections: 1
+		path time: 91535
+		average path time per connection: 91535
+		average path time per connection [ms]: 0.091535
+	in path: /aws.json
+		connections: 1
+		path time: 55805
+		average path time per connection: 55805
+		average path time per connection [ms]: 0.055805
+	in path: /security.txt
+		connections: 1
+		path time: 51973
+		average path time per connection: 51973
+		average path time per connection [ms]: 0.051973
+	in path: /config.zip
+		connections: 1
+		path time: 54974
+		average path time per connection: 54974
+		average path time per connection [ms]: 0.054974
+	in path: /.DS_Store
+		connections: 1
+		path time: 53750
+		average path time per connection: 53750
+		average path time per connection [ms]: 0.053750
+	in path: /sites/default/settings.php
+		connections: 1
+		path time: 83517
+		average path time per connection: 83517
+		average path time per connection [ms]: 0.083517
+	in path: /configuration.php
+		connections: 1
+		path time: 269722
+		average path time per connection: 269722
+		average path time per connection [ms]: 0.269722
+	in path: /app/etc/local.xml
+		connections: 1
+		path time: 76891
+		average path time per connection: 76891
+		average path time per connection [ms]: 0.076891
+	in path: /php_error.log
+		connections: 1
+		path time: 335721
+		average path time per connection: 335721
+		average path time per connection [ms]: 0.335721
+	in path: /api/v1/config
+		connections: 1
+		path time: 68234
+		average path time per connection: 68234
+		average path time per connection [ms]: 0.068234
+	in path: /server.php
+		connections: 1
+		path time: 57085
+		average path time per connection: 57085
+		average path time per connection [ms]: 0.057085
+	in path: /.env.test
+		connections: 1
+		path time: 78393
+		average path time per connection: 78393
+		average path time per connection [ms]: 0.078393
+	in path: /.env.backup
+		connections: 1
+		path time: 121621
+		average path time per connection: 121621
+		average path time per connection [ms]: 0.121621
+	in path: /.env.1
+		connections: 1
+		path time: 70775
+		average path time per connection: 70775
+		average path time per connection [ms]: 0.070775
+	in path: /.env.prod.local
+		connections: 1
+		path time: 99050
+		average path time per connection: 99050
+		average path time per connection [ms]: 0.099050
+	in path: /.env.dev.local
+		connections: 1
+		path time: 128769
+		average path time per connection: 128769
+		average path time per connection [ms]: 0.128769
+	in path: /aws-config.json
+		connections: 1
+		path time: 58674
+		average path time per connection: 58674
+		average path time per connection [ms]: 0.058674
+	in path: /docker-compose.yml
+		connections: 1
+		path time: 60931
+		average path time per connection: 60931
+		average path time per connection [ms]: 0.060931
+	in path: /_profiler/phpinfo
+		connections: 1
+		path time: 117335
+		average path time per connection: 117335
+		average path time per connection [ms]: 0.117335
+	in path: /pi.php
+		connections: 1
+		path time: 57238
+		average path time per connection: 57238
+		average path time per connection [ms]: 0.057238
+	in path: /.env.development
+		connections: 1
+		path time: 80476
+		average path time per connection: 80476
+		average path time per connection [ms]: 0.080476
+	in path: /api/config
+		connections: 1
+		path time: 56930
+		average path time per connection: 56930
+		average path time per connection [ms]: 0.056930
+	in path: /var/www/html/error_log
+		connections: 1
+		path time: 218462
+		average path time per connection: 218462
+		average path time per connection [ms]: 0.218462
+	in path: /.env.sample
+		connections: 1
+		path time: 379913
+		average path time per connection: 379913
+		average path time per connection [ms]: 0.379913
+	in path: /.env.old
+		connections: 1
+		path time: 369248
+		average path time per connection: 369248
+		average path time per connection [ms]: 0.369248
+	in path: /Dockerfile
+		connections: 1
+		path time: 124494
+		average path time per connection: 124494
+		average path time per connection [ms]: 0.124494
+	in path: /backup.zip
+		connections: 1
+		path time: 78702
+		average path time per connection: 78702
+		average path time per connection [ms]: 0.078702
+	in path: /_debug
+		connections: 1
+		path time: 253744
+		average path time per connection: 253744
+		average path time per connection [ms]: 0.253744
+	in path: /db_backup.sql
+		connections: 1
+		path time: 82100
+		average path time per connection: 82100
+		average path time per connection [ms]: 0.082100
+	in path: /.env.save
+		connections: 1
+		path time: 60991
+		average path time per connection: 60991
+		average path time per connection [ms]: 0.060991
+	in path: /test.php
+		connections: 1
+		path time: 73751
+		average path time per connection: 73751
+		average path time per connection [ms]: 0.073751
+	in path: /.env.local
+		connections: 1
+		path time: 281700
+		average path time per connection: 281700
+		average path time per connection [ms]: 0.281700
+	in path: /info.php
+		connections: 1
+		path time: 111573
+		average path time per connection: 111573
+		average path time per connection [ms]: 0.111573
+	in path: /phpinfo.php
+		connections: 1
+		path time: 144136
+		average path time per connection: 144136
+		average path time per connection [ms]: 0.144136
+	in path: /.env.production
+		connections: 1
+		path time: 102035
+		average path time per connection: 102035
+		average path time per connection [ms]: 0.102035
+	in path: /dump.sql
+		connections: 1
+		path time: 82431
+		average path time per connection: 82431
+		average path time per connection [ms]: 0.082431
+	in path: /auth.json
+		connections: 1
+		path time: 86712
+		average path time per connection: 86712
+		average path time per connection [ms]: 0.086712
+	in path: /debug.log
+		connections: 1
+		path time: 80889
+		average path time per connection: 80889
+		average path time per connection [ms]: 0.080889
+	in path: /backup.sql
+		connections: 1
+		path time: 95447
+		average path time per connection: 95447
+		average path time per connection [ms]: 0.095447
+	in path: /database.sql
+		connections: 1
+		path time: 326977
+		average path time per connection: 326977
+		average path time per connection [ms]: 0.326977
+	in path: /storage/logs/laravel.log
+		connections: 1
+		path time: 80708
+		average path time per connection: 80708
+		average path time per connection [ms]: 0.080708
+	in path: /phpinfo
+		connections: 1
+		path time: 57647
+		average path time per connection: 57647
+		average path time per connection [ms]: 0.057647
+	in path: /error.log
+		connections: 1
+		path time: 95652
+		average path time per connection: 95652
+		average path time per connection [ms]: 0.095652
+	in path: /.env
+		connections: 1
+		path time: 124648
+		average path time per connection: 124648
+		average path time per connection [ms]: 0.124648
+	in path: /.streamlit/secrets.toml
+		connections: 1
+		path time: 86092
+		average path time per connection: 86092
+		average path time per connection [ms]: 0.086092
+	in path: /favicon.ico
+		connections: 1
+		path time: 1559500
+		average path time per connection: 1559500
+		average path time per connection [ms]: 1.559500
+	in path: /styling.css
+		connections: 1
+		path time: 288342
+		average path time per connection: 288342
+		average path time per connection [ms]: 0.288342
+	in path: /
+		connections: 3
+		path time: 1754740
+		average path time per connection: 584913
+		average path time per connection [ms]: 0.584913

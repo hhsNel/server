@@ -1,0 +1,29 @@
+total connections: 8
+service time: 180885644
+average service time per connection: 22610705
+average service time per connection [ms]: 22.610706
+	in path: /set-cookie?name=asd&value=import+numpy+as+np+import+pandas+as+pd+from+sklearn.datasets+import+fetch_california_housing+from+sklearn.linear_model+import+LinearRegression+from+sklearn.model_selection+import+train_test_split+from+sklearn.metrics+import+mean_squared_error%2C+r2_score++%23+1.+Za%26%23322%3Baduj+dane+%28zwraca+DataFrame%29+data+%3D+fetch_california_housing%28as_frame%3DTrue%29+df+%3D+data.frame++%23+zawiera+kolumny+z+cechami+%2B+%27MedHouseVal%27+%28cena+w+setkach+tysi%26%23281%3Bcy+USD%29++print%28f%22Oryginalna+liczba+wierszy%3A+%7Blen%28df%29%7D%22%29++%23+2.+Usu%26%23324%3B+wiersze+z+warto%26%23347%3Bciami+pustymi+%28NaN%29+%96+w+tym+zbiorze+ich+nie+ma%2C+ale+zostawiamy+df_clean+%3D+df.dropna%28%29+print%28f%22Po+usuni%26%23281%3Bciu+NaN%3A+%7Blen%28df_clean%29%7D+wierszy%22%29++%23+3.+Czyszczenie+outlier%F3w+tylko+po+cenie+%28MedHouseVal%29+price+%3D+df_clean%5B%27MedHouseVal%27%5D++mean_price+%3D+price.mean%28%29+%23+%26%23963%3B+%3D+%26%23347%3Brednia+odleg%26%23322%3Bo%26%23347%3B%26%23263%3B+od+%26%23347%3Bredniej+%28Mean+Absolute+Deviation%29+sigma+%3D+np.mean%28np.abs%28price+-+mean_price%29%29++lower_bound+%3D+mean_price+-+3+*+sigma+upper_bound+%3D+mean_price+%2B+3+*+sigma++%23+Usu%26%23324%3B+wiersze%2C+kt%F3rych+cena+jest+poza+przedzia%26%23322%3Bem+df_no_outliers+%3D+df_clean%5B%28price+%3E%3D+lower_bound%29+%26+%28price+%3C%3D+upper_bound%29%5D++print%28f%22Po+usuni%26%23281%3Bciu+outlier%F3w+cenowych%3A+%7Blen%28df_no_outliers%29%7D+wierszy%22%29+print%28f%22Usuni%26%23281%3Bto+%7Blen%28df_clean%29+-+len%28df_no_outliers%29%7D+wierszy+z+odstaj%26%23261%3Bcymi+cenami%22%29+print%28f%22%26%23346%3Brednia+cena%3A+%7Bmean_price%3A.3f%7D%22%29+print%28f%22%26%23963%3B+%28MAD%29%3A+%7Bsigma%3A.3f%7D%22%29+print%28f%22Akceptowalny+przedzia%26%23322%3B+cen%3A+%5B%7Blower_bound%3A.3f%7D%2C+%7Bupper_bound%3A.3f%7D%5D%22%29++%23+4.+Przygotowanie+danych+do+regresji+X+%3D+df_no_outliers.drop%28%27MedHouseVal%27%2C+axis%3D1%29+++%23+cechy+wej%26%23347%3Bciowe+y+%3D+df_no_outliers%5B%27MedHouseVal%27%5D++++++++++++++++%23+zmienna+celu++%23+Podzia%26%23322%3B+na+zbi%F3r+treningowy+i+testowy+%2880%25%2F20%25%29+X_train%2C+X_test%2C+y_train%2C+y_test+%3D+train_test_split%28X%2C+y%2C+test_size%3D0.2%2C+random_state%3D42%29++%23+5.+Model+regresji+liniowej+model+%3D+LinearRegression%28%29+model.fit%28X_train%2C+y_train%29++%23+Predykcja+na+zbiorze+testowym+y_pred+%3D+model.predict%28X_test%29++%23+6.+Ewaluacja+modelu+mse+%3D+mean_squared_error%28y_test%2C+y_pred%29+rmse+%3D+np.sqrt%28mse%29+r2+%3D+r2_score%28y_test%2C+y_pred%29++print%28f%22%5Cn%3D%3D%3D+Wyniki+modelu+%3D%3D%3D%22%29+print%28f%22RMSE%3A+%7Brmse%3A.4f%7D%22%29+print%28f%22R%B2%3A++%7Br2%3A.4f%7D%22%29++%23+7.+Wsp%F3%26%23322%3Bczynniki+modelu+%28analogicznie+do+MATLABowego+wy%26%23347%3Bwietlenia%29+print%28%22%5CnWsp%F3%26%23322%3Bczynniki+regresji%3A%22%29+for+feature%2C+coef+in+zip%28X.columns%2C+model.coef_%29%3A+++++print%28f%22%7Bfeature%3A%3E12%7D%3A+%7Bcoef%3A+.6f%7D%22%29+print%28f%22%7B%27Intercept%27%3A%3E12%7D%3A+%7Bmodel.intercept_%3A+.6f%7D%22%29
+		connections: 1
+		path time: 5712425
+		average path time per connection: 5712425
+		average path time per connection [ms]: 5.712425
+	in path: /set-cookie-graphical
+		connections: 1
+		path time: 4151845
+		average path time per connection: 4151845
+		average path time per connection [ms]: 4.151845
+	in path: /favicon.ico
+		connections: 1
+		path time: 1058077
+		average path time per connection: 1058077
+		average path time per connection [ms]: 1.058077
+	in path: /styling.css
+		connections: 3
+		path time: 114480692
+		average path time per connection: 38160230
+		average path time per connection [ms]: 38.160231
+	in path: /
+		connections: 2
+		path time: 55482605
+		average path time per connection: 27741302
+		average path time per connection [ms]: 27.741302

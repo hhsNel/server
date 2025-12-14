@@ -68,8 +68,8 @@ int main(int argc, char **argv) {
 		perror("socket failed");
 		exit(1);
 	}
-	tv.tv_sec = SLOW_LORIS_TIMEOUT;
-	tv.tv_usec = 0;
+	tv.tv_sec = (time_t)SLOW_LORIS_TIMEOUT;
+	tv.tv_usec = (suseconds_t)(SLOW_LORIS_TIMEOUT * 1000000) % 1000000;
 	opt = 1;
 	setsockopt(server_fd, SOL_SOCKET, SO_REUSEADDR, &opt, sizeof(opt));
 
